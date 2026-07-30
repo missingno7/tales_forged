@@ -16,6 +16,10 @@ artifacts/generated/amiga/*
 !artifacts/generated/amiga/blocks.json
 !artifacts/generated/amiga/ducktales_amiga_gen.hpp
 !artifacts/generated/amiga/verification.json
+!artifacts/generated/semantic/
+!artifacts/generated/semantic/*.json
+!artifacts/generated/pseudocode/
+!artifacts/generated/pseudocode/*.txt
 __pycache__/
 build/
 assets/*

@@ -59,7 +59,29 @@ The command verifies both pinned ADFs and the evidence identity, writes the
 resident M68000 lift plan to `artifacts/generated/amiga/lift-plan.json`, and
 materializes the matching `pf-recovered-blocks-v1` Atlas source at
 `artifacts/generated/amiga/blocks.json`. Overlay generations and unresolved
-indirect transfers remain explicit recovery frontier items.
+indirect transfers remain explicit recovery frontier items. Observed MANX
+overlay loads are recovered independently under profile-and-generation-scoped
+identities; those blocks remain evidence metadata until Atlas and generated
+execution can preserve the same generation coordinate.
+
+Build the machine-function evidence layer and inspect the next recovery
+frontier with:
+
+```powershell
+python port_forge\tools\pf_project.py semantic .
+python port_forge\tools\pf_project.py frontier . --limit 20
+python port_forge\tools\pf_project.py context . amiga:012EAC
+```
+
+The semantic command first runs the complete curated replay through the
+original M68000 oracle, regenerates the exact lift plan, and then derives
+resident function boundaries only from the module entry and static or
+observed calls. It writes provenance-bound function/CFG dossiers, explicitly
+partial M68000 ABI cards, and instruction-cost histograms only for completed
+captured calls under `artifacts/generated/semantic`. Register arguments,
+clobbers, saved registers, stack arguments, and exit flags remain marked
+unknown until the M68000 decoder has a read/write micro-op model; no empty
+field is used to imply that an unknown effect does not exist.
 
 The generated runtime is built and verified through the complete curated
 `cold5` replay with:

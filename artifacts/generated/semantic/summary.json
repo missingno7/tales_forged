@@ -1,0 +1,23 @@
+{
+  "artifacts": {
+    "abi": "semantic/abi.json",
+    "callgraph": "semantic/callgraph.json",
+    "cost": "semantic/cost.json",
+    "frontier": "semantic/function_frontier.json",
+    "functions": "semantic/functions.json",
+    "pseudocode": "pseudocode"
+  },
+  "evidence_replays": [
+    "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+  ],
+  "format": "portforge-amiga-semantic-summary-v1",
+  "machine_model": "pf-amiga-a500-ocs-pal-v1",
+  "metrics": {
+    "cost_profiles": 60,
+    "function_boundaries": 111,
+    "recovered_blocks": 4536,
+    "shared_blocks": 0,
+    "unowned_blocks": 1750
+  },
+  "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968"
+}

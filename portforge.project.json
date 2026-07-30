@@ -11,7 +11,9 @@
     "snapshots": "artifacts/snapshots",
     "atlas": "artifacts/atlas.pfatlas",
     "lift_plan": "artifacts/generated/amiga/lift-plan.json",
-    "blocks": "artifacts/generated/amiga/blocks.json"
+    "blocks": "artifacts/generated/amiga/blocks.json",
+    "semantic": "artifacts/generated/semantic",
+    "pseudocode": "artifacts/generated/pseudocode"
   },
   "corpora": {
     "recovery": [
@@ -42,11 +44,22 @@
     },
     {
       "severity": "risk",
+      "scope": "machine-function-semantics",
+      "summary": "Resident function boundaries and sampled instruction costs are evidence-backed, but M68000 register/stack/flag ABI effects remain explicitly underived and incomplete calls are excluded from cost histograms.",
+      "evidence": "artifacts/generated/semantic/function_frontier.json"
+    },
+    {
+      "severity": "risk",
       "scope": "amiga-overlays",
       "summary": "Observed LoadSeg generations receive exact file, relocation, and relocated-range identities, but Atlas control-flow identities are not yet generation-scoped and unobserved overlay loads remain open.",
       "evidence": "artifacts/amiga/ducktales-evidence.json"
     }
   ],
+  "recovery": {
+    "amiga_profiles": [
+      "artifacts/amiga/ducktales-evidence.json"
+    ]
+  },
   "player": {
     "default_runtime": "oracle",
     "runtimes": {
@@ -110,6 +123,17 @@
       "scope": "dynamic-and-static-execution-evidence",
       "description": "Recollect the full oracle replay, regenerate recovered blocks, and atomically rebuild the evidence-bound Execution Atlas.",
       "gate": true
+    },
+    "semantic": {
+      "command": ["python", "port_forge/tools/pf_project.py", "semantic", "."],
+      "scope": "machine-function-and-measured-cost-evidence",
+      "description": "Regenerate resident Amiga machine-function boundaries, partial ABI cards, sampled instruction-cost profiles, and provenance-bound context dossiers from the curated replay.",
+      "gate": true
+    },
+    "frontier": {
+      "command": ["python", "port_forge/tools/pf_project.py", "frontier", ".", "--limit", "20"],
+      "scope": "machine-function-replacement-planning",
+      "description": "Rank the highest-value unreplaced Amiga machine functions using static CFG, replay calls, measured cost, Atlas occurrence, and risk evidence."
     }
   }
 }

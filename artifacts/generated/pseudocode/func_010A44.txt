@@ -1,0 +1,55 @@
+// PortForge machine-function CFG dossier.
+// This is not decompiled semantics or a source-port implementation.
+// boundary: amiga:010A44
+// evidence: fact: decoded direct call at amiga:014442
+// recovered blocks: 44
+// replay calls: 0
+// derived return form: rts
+// measured completed calls: none
+// ABI unknowns: clobbered_caller_visible, exit_flags, register_arguments, saved_and_restored, stack_arguments, stack_frame
+
+blocks:
+  amiga:010A44
+  amiga:010A84
+  amiga:010A8A
+  amiga:010AB4
+  amiga:010AD0
+  amiga:010AEC
+  amiga:010B0C
+  amiga:010B1E
+  amiga:010B32
+  amiga:010B4A
+  amiga:010B5C
+  amiga:010B70
+  amiga:010B88
+  amiga:010B9A
+  amiga:010BAE
+  amiga:010BC6
+  amiga:010BD8
+  amiga:010BEC
+  amiga:010BF4
+  amiga:010BF8
+  amiga:010BFC
+  amiga:010C04
+  amiga:010C0C
+  amiga:010C14
+  amiga:010C1C
+  amiga:010C24
+  amiga:010C26
+  amiga:010C2A
+  amiga:010C30
+  amiga:010C36
+  amiga:010C3A
+  amiga:010C4A
+  amiga:010C54
+  amiga:010C64
+  amiga:010C6A
+  amiga:010C72
+  amiga:010C76
+  amiga:010CA0
+  amiga:010CA8
+  amiga:010CD2
+  amiga:010CDA
+  amiga:010CEA
+  amiga:010CEC
+  amiga:010CF4
