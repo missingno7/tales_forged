@@ -1,4 +1,8 @@
 artifacts/*
+!artifacts/amiga/
+artifacts/amiga/*
+!artifacts/amiga/ducktales-evidence.json
+!artifacts/amiga/ducktales-run.json
 !artifacts/replays/
 artifacts/replays/*
 !artifacts/replays/cold5.pfreplay.json
