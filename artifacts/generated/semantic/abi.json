@@ -936,6 +936,98 @@
     "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
   },
   {
+    "entry": "amiga:0155D6",
+    "id": "amiga:0155D6",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form": "rts",
+    "return_forms": [
+      "rts"
+    ],
+    "return_sites": [
+      {
+        "at": "amiga:01563A",
+        "form": "rts"
+      }
+    ],
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
+    "entry": "amiga:015646",
+    "id": "amiga:015646",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form": "rts",
+    "return_forms": [
+      "rts"
+    ],
+    "return_sites": [
+      {
+        "at": "amiga:0156AA",
+        "form": "rts"
+      }
+    ],
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
+    "entry": "amiga:0156B6",
+    "id": "amiga:0156B6",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form": "rts",
+    "return_forms": [
+      "rts"
+    ],
+    "return_sites": [
+      {
+        "at": "amiga:01571A",
+        "form": "rts"
+      }
+    ],
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
+    "entry": "amiga:015726",
+    "id": "amiga:015726",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form": "rts",
+    "return_forms": [
+      "rts"
+    ],
+    "return_sites": [
+      {
+        "at": "amiga:01578A",
+        "form": "rts"
+      }
+    ],
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
     "entry": "amiga:015796",
     "id": "amiga:015796",
     "not_derived_on_this_target": [
@@ -1745,6 +1837,89 @@
     "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
   },
   {
+    "entry": "amiga:01850A",
+    "id": "amiga:01850A",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form": "rts",
+    "return_forms": [
+      "rts"
+    ],
+    "return_sites": [
+      {
+        "at": "amiga:01852E",
+        "form": "rts"
+      }
+    ],
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
+    "entry": "amiga:018552",
+    "id": "amiga:018552",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form": "rts",
+    "return_forms": [
+      "rts"
+    ],
+    "return_sites": [
+      {
+        "at": "amiga:018638",
+        "form": "rts"
+      }
+    ],
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
+    "entry": "amiga:018640",
+    "id": "amiga:018640",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form": "rts",
+    "return_forms": [
+      "rts"
+    ],
+    "return_sites": [
+      {
+        "at": "amiga:018674",
+        "form": "rts"
+      }
+    ],
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
+    "entry": "amiga:018690",
+    "id": "amiga:018690",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form_status": "not present in the recovered non-call CFG",
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
     "entry": "amiga:01869C",
     "id": "amiga:01869C",
     "not_derived_on_this_target": [
@@ -1829,6 +2004,20 @@
     "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
   },
   {
+    "entry": "amiga:01871A",
+    "id": "amiga:01871A",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form_status": "not present in the recovered non-call CFG",
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
     "entry": "amiga:018728",
     "id": "amiga:018728",
     "not_derived_on_this_target": [
@@ -1882,6 +2071,20 @@
   {
     "entry": "amiga:01875C",
     "id": "amiga:01875C",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form_status": "not present in the recovered non-call CFG",
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
+    "entry": "amiga:018788",
+    "id": "amiga:018788",
     "not_derived_on_this_target": [
       "clobbered_caller_visible",
       "exit_flags",
@@ -2093,6 +2296,34 @@
     "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
   },
   {
+    "entry": "amiga:018974",
+    "id": "amiga:018974",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form_status": "not present in the recovered non-call CFG",
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
+    "entry": "amiga:018980",
+    "id": "amiga:018980",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form_status": "not present in the recovered non-call CFG",
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
     "entry": "amiga:018990",
     "id": "amiga:018990",
     "not_derived_on_this_target": [
@@ -2202,6 +2433,20 @@
   {
     "entry": "amiga:018A06",
     "id": "amiga:018A06",
+    "not_derived_on_this_target": [
+      "clobbered_caller_visible",
+      "exit_flags",
+      "register_arguments",
+      "saved_and_restored",
+      "stack_arguments",
+      "stack_frame"
+    ],
+    "return_form_status": "not present in the recovered non-call CFG",
+    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
+  },
+  {
+    "entry": "amiga:018A12",
+    "id": "amiga:018A12",
     "not_derived_on_this_target": [
       "clobbered_caller_visible",
       "exit_flags",

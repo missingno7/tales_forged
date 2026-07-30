@@ -50,13 +50,14 @@ class PlayAdapterTests(unittest.TestCase):
         self.assertIn("pf_amiga_view.exe", command)
         self.assertTrue(command.endswith("--mute"), command)
 
-    def test_headless_snapshot_is_rejected_until_runner_supports_it(self) -> None:
+    def test_headless_snapshot_uses_runner_and_legacy_vector_evidence(self) -> None:
         result = dry_run("--headless", "--snapshot", "checkpoint")
-        self.assertNotEqual(result.returncode, 0)
-        self.assertIn(
-            "--snapshot currently requires the interactive player",
-            result.stderr,
-        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        command = result.stdout.splitlines()[-1]
+        self.assertIn("pf_amiga_run.exe", command)
+        self.assertIn("checkpoint.pfamigasnapshot", command)
+        self.assertIn("--recover-int-vector 7:0x240e6:1", command)
+        self.assertIn("--recover-int-vector 10:0x24128:4", command)
 
     def test_generated_runtime_has_distinct_guarded_runners(self) -> None:
         interactive = dry_run("--runtime", "generated")

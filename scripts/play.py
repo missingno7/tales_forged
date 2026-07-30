@@ -310,11 +310,6 @@ def main(argv: list[str] | None = None) -> int:
         )
         runner_options += ["--record-replay", str(replay)]
     if options.snapshot:
-        if not interactive:
-            raise player_runtime.PlayerConfigError(
-                "--snapshot currently requires the interactive player; "
-                "headless snapshot resume is not implemented"
-            )
         snapshot = artifact_path(
             options.snapshot,
             ROOT / "artifacts" / "snapshots",
@@ -323,6 +318,16 @@ def main(argv: list[str] | None = None) -> int:
         if not selection.dry_run:
             player_runtime.require_artifact(snapshot, selection)
         runner_options += ["--snapshot", str(snapshot)]
+        for recovered in cfg["machine"].get(
+            "legacy_snapshot_interrupt_vectors", []
+        ):
+            runner_options += [
+                "--recover-int-vector",
+                (
+                    f"{int(recovered['number'])}:{recovered['node']}:"
+                    f"{int(recovered.get('after_set_vector_call', 0))}"
+                ),
+            ]
     if options.live_atlas:
         atlas = (
             ROOT / "artifacts" / "atlas.pfatlas"

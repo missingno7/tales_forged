@@ -1,9 +1,12 @@
 # DuckTales replay evidence authority
 
 `artifacts/replays/cold5.pfreplay.json` is the initial recovery corpus. It is
-an exact, standard-named copy of the user-recorded `cold5.json` journal and is
-bound to the pinned DT1 image and A500 OCS PAL machine model by the Amiga
-replay loader.
+a standard-named prefix of the user-recorded `cold5.json` journal and is bound
+to the pinned DT1 image and A500 OCS PAL machine model by the Amiga replay
+loader. The prefix ends at event 163, the last input consumed before the
+corrected audio-interrupt runtime exits deterministically. The seven later raw
+events were attempts to advance the formerly frozen build and are deliberately
+outside recovery authority; the original `cold5.json` remains untouched.
 
 The older `cold`, `cold2`, `cold4`, `menu-input`, `smoke`, `title-fire`, and
 `title-space` journals remain useful exploratory recordings, but they are not

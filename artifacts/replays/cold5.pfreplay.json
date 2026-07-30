@@ -819,41 +819,6 @@
       "kind": "joystick1",
       "master_tick": 1383922488,
       "value": 768
-    },
-    {
-      "kind": "fire1",
-      "master_tick": 1737455976,
-      "value": 1
-    },
-    {
-      "kind": "key-raw",
-      "master_tick": 1752814504,
-      "value": 64
-    },
-    {
-      "kind": "key-raw",
-      "master_tick": 1756273336,
-      "value": 192
-    },
-    {
-      "kind": "key-raw",
-      "master_tick": 1758486664,
-      "value": 64
-    },
-    {
-      "kind": "key-raw",
-      "master_tick": 1762083536,
-      "value": 192
-    },
-    {
-      "kind": "key-raw",
-      "master_tick": 1763882104,
-      "value": 64
-    },
-    {
-      "kind": "key-raw",
-      "master_tick": 1790170392,
-      "value": 192
     }
   ],
   "format": "portforge-amiga-replay-v1",

@@ -4,16 +4,16 @@
   "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
   "game_config": {
     "path": "game.json",
-    "sha256": "915ad32db6e75d6fb906a525d9efe6e8b872177d7d22b9faad318cc2e5ac156a"
+    "sha256": "bce79522140409f55c634cb1de7847fcd6e177a2df19cd30ddd3d104d783d4ac"
   },
   "atlas": {
     "hash_scheme": "portforge-tree-sha256-v1",
-    "sha256": "81454a2fd8a4a91fcfa8a23fbfdb22a4b04e97b28cbed7b88bf421d3e97ce9b9"
+    "sha256": "ade52235cb190426ee7f5ed2820323f957adb961d7d08ecacf9a220df7c1296f"
   },
   "replays": [
     {
       "path": "artifacts/replays/cold5.pfreplay.json",
-      "sha256": "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1",
+      "sha256": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
       "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
       "oracle_verified": true,
       "bootstrap": {
@@ -57,14 +57,14 @@
   "imports": [],
   "evidence": [
     {
-      "id": "evidence-amiga-oracle-07a5bdffa4777251",
+      "id": "evidence-amiga-oracle-0551ceab3ac00a8c",
       "kind": "replay-evidence",
       "origin": "portforge",
-      "sha256": "2ac47fb87c00bfb380125b482d53726b1cba374d8e096404d62f5f4a3b47f1d2"
+      "sha256": "19a8b2bdd9e3384358d42525ff6366075098754658777ace8ed853d708d8735d"
     }
   ],
   "portforge": {
-    "revision": "12a83580c90ed9bebcc8fa01540056a49d235719",
+    "revision": "e2edd79800f5a9ad7eceddb7da3acb2f78aa5144",
     "dirty": false
   }
 }

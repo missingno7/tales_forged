@@ -2,10 +2,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 909,
+    "calls_from_graph": 1268,
     "calls_incomplete_samples": 14,
     "calls_measured": 2,
-    "calls_uncaptured": 893,
+    "calls_uncaptured": 1252,
     "cost_self": [
       {
         "calls": 2,
@@ -20,7 +20,7 @@
     ],
     "entry": "amiga:012D66",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:012D66",
     "max": 28,
@@ -33,10 +33,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 54,
+    "calls_from_graph": 62,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 38,
+    "calls_uncaptured": 46,
     "cost_self": [
       {
         "calls": 16,
@@ -51,7 +51,7 @@
     ],
     "entry": "amiga:012EAC",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:012EAC",
     "max": 47,
@@ -64,10 +64,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 54,
+    "calls_from_graph": 62,
     "calls_incomplete_samples": 8,
     "calls_measured": 8,
-    "calls_uncaptured": 38,
+    "calls_uncaptured": 46,
     "cost_self": [
       {
         "calls": 8,
@@ -82,7 +82,7 @@
     ],
     "entry": "amiga:012EE8",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:012EE8",
     "max": 61,
@@ -95,10 +95,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 352,
+    "calls_from_graph": 384,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 336,
+    "calls_uncaptured": 368,
     "cost_self": [
       {
         "calls": 16,
@@ -113,7 +113,7 @@
     ],
     "entry": "amiga:0130F0",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0130F0",
     "max": 535,
@@ -144,7 +144,7 @@
     ],
     "entry": "amiga:0133E6",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0133E6",
     "max": 200,
@@ -157,10 +157,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 28,
+    "calls_from_graph": 100,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 12,
+    "calls_uncaptured": 84,
     "cost_self": [
       {
         "calls": 16,
@@ -175,7 +175,7 @@
     ],
     "entry": "amiga:013870",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:013870",
     "max": 101,
@@ -188,10 +188,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 236,
+    "calls_from_graph": 238,
     "calls_incomplete_samples": 2,
     "calls_measured": 14,
-    "calls_uncaptured": 220,
+    "calls_uncaptured": 222,
     "cost_self": [
       {
         "calls": 13,
@@ -214,7 +214,7 @@
     ],
     "entry": "amiga:013930",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:013930",
     "max": 62,
@@ -297,7 +297,7 @@
     ],
     "entry": "amiga:013C4C",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:013C4C",
     "max": 31224,
@@ -328,7 +328,7 @@
     ],
     "entry": "amiga:013E9C",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:013E9C",
     "max": 55,
@@ -359,7 +359,7 @@
     ],
     "entry": "amiga:014032",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:014032",
     "max": 6,
@@ -372,10 +372,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 33,
+    "calls_from_graph": 87,
     "calls_incomplete_samples": 13,
     "calls_measured": 3,
-    "calls_uncaptured": 17,
+    "calls_uncaptured": 71,
     "cost_self": [
       {
         "calls": 3,
@@ -398,7 +398,7 @@
     ],
     "entry": "amiga:01404A",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01404A",
     "max": 11092,
@@ -411,10 +411,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 166885,
+    "calls_from_graph": 212300,
     "calls_incomplete_samples": 1,
     "calls_measured": 15,
-    "calls_uncaptured": 166869,
+    "calls_uncaptured": 212284,
     "cost_self": [
       {
         "calls": 15,
@@ -429,11 +429,42 @@
     ],
     "entry": "amiga:01411E",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01411E",
     "max": 9,
     "min": 9,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 4,
+    "calls_from_graph": 4,
+    "calls_incomplete_samples": 3,
+    "calls_measured": 1,
+    "calls_uncaptured": 0,
+    "cost_self": [
+      {
+        "calls": 1,
+        "cost": 17
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 1,
+        "cost": 67647
+      }
+    ],
+    "entry": "amiga:014184",
+    "evidence_replays": [
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
+    ],
+    "id": "amiga:014184",
+    "max": 67647,
+    "min": 67647,
     "sample_limited": true,
     "shape": "constant",
     "shape_self": "constant",
@@ -460,7 +491,7 @@
     ],
     "entry": "amiga:014692",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:014692",
     "max": 15,
@@ -535,7 +566,7 @@
     ],
     "entry": "amiga:0146CE",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0146CE",
     "max": 687210,
@@ -566,7 +597,7 @@
     ],
     "entry": "amiga:0148D4",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0148D4",
     "max": 16857,
@@ -579,10 +610,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 4239,
+    "calls_from_graph": 4237,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 4223,
+    "calls_uncaptured": 4221,
     "cost_self": [
       {
         "calls": 16,
@@ -597,7 +628,7 @@
     ],
     "entry": "amiga:014F62",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:014F62",
     "max": 8,
@@ -610,10 +641,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 32,
+    "calls_from_graph": 25,
     "calls_incomplete_samples": 2,
     "calls_measured": 14,
-    "calls_uncaptured": 16,
+    "calls_uncaptured": 9,
     "cost_self": [
       {
         "calls": 9,
@@ -621,19 +652,19 @@
       },
       {
         "calls": 1,
+        "cost": 11
+      },
+      {
+        "calls": 1,
         "cost": 16
       },
       {
         "calls": 1,
-        "cost": 206
+        "cost": 25
       },
       {
         "calls": 1,
-        "cost": 7258
-      },
-      {
-        "calls": 1,
-        "cost": 7680
+        "cost": 240
       },
       {
         "calls": 1,
@@ -651,27 +682,27 @@
       },
       {
         "calls": 1,
-        "cost": 241
+        "cost": 46
+      },
+      {
+        "calls": 1,
+        "cost": 60
+      },
+      {
+        "calls": 1,
+        "cost": 275
       },
       {
         "calls": 1,
         "cost": 13450
-      },
-      {
-        "calls": 1,
-        "cost": 14270
-      },
-      {
-        "calls": 1,
-        "cost": 15082
       }
     ],
     "entry": "amiga:015064",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:015064",
-    "max": 15082,
+    "max": 13450,
     "min": 14,
     "sample_limited": true,
     "shape": "few-valued",
@@ -681,10 +712,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 11988,
+    "calls_from_graph": 8450,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 11972,
+    "calls_uncaptured": 8434,
     "cost_self": [
       {
         "calls": 13,
@@ -715,7 +746,7 @@
     ],
     "entry": "amiga:01544C",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01544C",
     "max": 42,
@@ -754,7 +785,7 @@
     ],
     "entry": "amiga:0154B6",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0154B6",
     "max": 10,
@@ -789,7 +820,7 @@
     ],
     "entry": "amiga:015504",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:015504",
     "max": 16,
@@ -824,7 +855,7 @@
     ],
     "entry": "amiga:015514",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:015514",
     "max": 14,
@@ -863,7 +894,7 @@
     ],
     "entry": "amiga:015520",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:015520",
     "max": 20,
@@ -902,7 +933,7 @@
     ],
     "entry": "amiga:015542",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:015542",
     "max": 25,
@@ -941,7 +972,7 @@
     ],
     "entry": "amiga:01557A",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01557A",
     "max": 14,
@@ -972,7 +1003,7 @@
     ],
     "entry": "amiga:01559E",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01559E",
     "max": 87,
@@ -985,10 +1016,174 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 32,
+    "calls_from_graph": 102,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 16,
+    "calls_uncaptured": 86,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 7
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
+        "cost": 7
+      }
+    ],
+    "entry": "amiga:0155D6",
+    "evidence_replays": [
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
+    ],
+    "id": "amiga:0155D6",
+    "max": 7,
+    "min": 7,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 132,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 116,
+    "cost_self": [
+      {
+        "calls": 8,
+        "cost": 17
+      },
+      {
+        "calls": 6,
+        "cost": 7
+      },
+      {
+        "calls": 2,
+        "cost": 13
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 8,
+        "cost": 17
+      },
+      {
+        "calls": 6,
+        "cost": 7
+      },
+      {
+        "calls": 2,
+        "cost": 13
+      }
+    ],
+    "entry": "amiga:015646",
+    "evidence_replays": [
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
+    ],
+    "id": "amiga:015646",
+    "max": 17,
+    "min": 7,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 171,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 155,
+    "cost_self": [
+      {
+        "calls": 6,
+        "cost": 13
+      },
+      {
+        "calls": 6,
+        "cost": 17
+      },
+      {
+        "calls": 4,
+        "cost": 7
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 6,
+        "cost": 13
+      },
+      {
+        "calls": 6,
+        "cost": 17
+      },
+      {
+        "calls": 4,
+        "cost": 7
+      }
+    ],
+    "entry": "amiga:0156B6",
+    "evidence_replays": [
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
+    ],
+    "id": "amiga:0156B6",
+    "max": 17,
+    "min": 7,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 74,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 58,
+    "cost_self": [
+      {
+        "calls": 10,
+        "cost": 17
+      },
+      {
+        "calls": 6,
+        "cost": 13
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 10,
+        "cost": 17
+      },
+      {
+        "calls": 6,
+        "cost": 13
+      }
+    ],
+    "entry": "amiga:015726",
+    "evidence_replays": [
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
+    ],
+    "id": "amiga:015726",
+    "max": 17,
+    "min": 13,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 25,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 9,
     "cost_self": [
       {
         "calls": 16,
@@ -1003,7 +1198,7 @@
     ],
     "entry": "amiga:015796",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:015796",
     "max": 2,
@@ -1016,10 +1211,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 32,
+    "calls_from_graph": 25,
     "calls_incomplete_samples": 2,
     "calls_measured": 14,
-    "calls_uncaptured": 16,
+    "calls_uncaptured": 9,
     "cost_self": [
       {
         "calls": 10,
@@ -1027,11 +1222,15 @@
       },
       {
         "calls": 2,
-        "cost": 9
+        "cost": 10
       },
       {
-        "calls": 2,
-        "cost": 10
+        "calls": 1,
+        "cost": 7269
+      },
+      {
+        "calls": 1,
+        "cost": 7685
       }
     ],
     "cost_total": [
@@ -1045,7 +1244,7 @@
       },
       {
         "calls": 1,
-        "cost": 253
+        "cost": 287
       },
       {
         "calls": 1,
@@ -1053,19 +1252,19 @@
       },
       {
         "calls": 1,
-        "cost": 14281
+        "cost": 14300
       },
       {
         "calls": 1,
-        "cost": 15093
+        "cost": 15114
       }
     ],
     "entry": "amiga:01579E",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01579E",
-    "max": 15093,
+    "max": 15114,
     "min": 24,
     "sample_limited": true,
     "shape": "few-valued",
@@ -1093,7 +1292,7 @@
     ],
     "entry": "amiga:0157B6",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0157B6",
     "max": 3,
@@ -1106,10 +1305,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 39,
+    "calls_from_graph": 42,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 23,
+    "calls_uncaptured": 26,
     "cost_self": [
       {
         "calls": 16,
@@ -1124,7 +1323,7 @@
     ],
     "entry": "amiga:0157E4",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0157E4",
     "max": 34,
@@ -1155,7 +1354,7 @@
     ],
     "entry": "amiga:015868",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:015868",
     "max": 166,
@@ -1168,10 +1367,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 8774,
+    "calls_from_graph": 5557,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 8758,
+    "calls_uncaptured": 5541,
     "cost_self": [
       {
         "calls": 16,
@@ -1186,7 +1385,7 @@
     ],
     "entry": "amiga:0158BC",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0158BC",
     "max": 34,
@@ -1199,10 +1398,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 8774,
+    "calls_from_graph": 5557,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 8758,
+    "calls_uncaptured": 5541,
     "cost_self": [
       {
         "calls": 16,
@@ -1217,7 +1416,7 @@
     ],
     "entry": "amiga:0158C8",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0158C8",
     "max": 30,
@@ -1230,10 +1429,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 11988,
+    "calls_from_graph": 8450,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 11972,
+    "calls_uncaptured": 8434,
     "cost_self": [
       {
         "calls": 5,
@@ -1300,7 +1499,7 @@
     ],
     "entry": "amiga:0158E6",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0158E6",
     "max": 359,
@@ -1339,7 +1538,7 @@
     ],
     "entry": "amiga:0159A4",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0159A4",
     "max": 46,
@@ -1352,10 +1551,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 4907,
+    "calls_from_graph": 1379,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 4891,
+    "calls_uncaptured": 1363,
     "cost_self": [
       {
         "calls": 6,
@@ -1414,7 +1613,7 @@
     ],
     "entry": "amiga:015A72",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:015A72",
     "max": 302,
@@ -1427,10 +1626,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 8774,
+    "calls_from_graph": 5557,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 8758,
+    "calls_uncaptured": 5541,
     "cost_self": [
       {
         "calls": 16,
@@ -1445,7 +1644,7 @@
     ],
     "entry": "amiga:01615E",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01615E",
     "max": 53,
@@ -1458,10 +1657,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 8774,
+    "calls_from_graph": 5557,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 8758,
+    "calls_uncaptured": 5541,
     "cost_self": [
       {
         "calls": 16,
@@ -1476,7 +1675,7 @@
     ],
     "entry": "amiga:01617C",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01617C",
     "max": 11,
@@ -1489,10 +1688,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 8774,
+    "calls_from_graph": 5557,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 8758,
+    "calls_uncaptured": 5541,
     "cost_self": [
       {
         "calls": 16,
@@ -1507,7 +1706,7 @@
     ],
     "entry": "amiga:01619E",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01619E",
     "max": 1,
@@ -1538,7 +1737,7 @@
     ],
     "entry": "amiga:017074",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:017074",
     "max": 13,
@@ -1629,7 +1828,7 @@
     ],
     "entry": "amiga:0170BE",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0170BE",
     "max": 1055,
@@ -1668,7 +1867,7 @@
     ],
     "entry": "amiga:0173F6",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0173F6",
     "max": 67,
@@ -1705,10 +1904,6 @@
         "cost": 246
       },
       {
-        "calls": 2,
-        "cost": 330
-      },
-      {
         "calls": 1,
         "cost": 234
       },
@@ -1738,6 +1933,10 @@
       },
       {
         "calls": 1,
+        "cost": 330
+      },
+      {
+        "calls": 1,
         "cost": 338
       },
       {
@@ -1747,14 +1946,18 @@
       {
         "calls": 1,
         "cost": 354
+      },
+      {
+        "calls": 1,
+        "cost": 383
       }
     ],
     "entry": "amiga:017430",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:017430",
-    "max": 354,
+    "max": 383,
     "min": 234,
     "sample_limited": true,
     "shape": "variable",
@@ -1782,7 +1985,7 @@
     ],
     "entry": "amiga:017664",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:017664",
     "max": 2,
@@ -1813,7 +2016,7 @@
     ],
     "entry": "amiga:017956",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:017956",
     "max": 8,
@@ -1825,10 +2028,10 @@
   },
   {
     "calls_aborted": 0,
-    "calls_captured": 10,
-    "calls_from_graph": 10,
+    "calls_captured": 12,
+    "calls_from_graph": 12,
     "calls_incomplete_samples": 0,
-    "calls_measured": 10,
+    "calls_measured": 12,
     "calls_uncaptured": 0,
     "cost_self": [
       {
@@ -1836,7 +2039,7 @@
         "cost": 52
       },
       {
-        "calls": 3,
+        "calls": 5,
         "cost": 58
       },
       {
@@ -1850,7 +2053,7 @@
         "cost": 52
       },
       {
-        "calls": 2,
+        "calls": 4,
         "cost": 58
       },
       {
@@ -1864,7 +2067,7 @@
     ],
     "entry": "amiga:017A02",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:017A02",
     "max": 312,
@@ -1877,10 +2080,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 54,
+    "calls_from_graph": 62,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 38,
+    "calls_uncaptured": 46,
     "cost_self": [
       {
         "calls": 16,
@@ -1895,7 +2098,7 @@
     ],
     "entry": "amiga:017A6C",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:017A6C",
     "max": 19,
@@ -1926,7 +2129,7 @@
     ],
     "entry": "amiga:017A9C",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:017A9C",
     "max": 14,
@@ -1939,10 +2142,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 27,
+    "calls_from_graph": 31,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 11,
+    "calls_uncaptured": 15,
     "cost_self": [
       {
         "calls": 16,
@@ -1957,7 +2160,7 @@
     ],
     "entry": "amiga:017AC0",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:017AC0",
     "max": 28,
@@ -1988,7 +2191,7 @@
     ],
     "entry": "amiga:017FF4",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:017FF4",
     "max": 19,
@@ -2001,10 +2204,53 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 2648,
+    "calls_from_graph": 20,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 2632,
+    "calls_uncaptured": 4,
+    "cost_self": [
+      {
+        "calls": 15,
+        "cost": 18
+      },
+      {
+        "calls": 1,
+        "cost": 21
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 14,
+        "cost": 18
+      },
+      {
+        "calls": 1,
+        "cost": 21
+      },
+      {
+        "calls": 1,
+        "cost": 71
+      }
+    ],
+    "entry": "amiga:018640",
+    "evidence_replays": [
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
+    ],
+    "id": "amiga:018640",
+    "max": 71,
+    "min": 18,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 3475,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 3459,
     "cost_self": [
       {
         "calls": 15,
@@ -2027,7 +2273,7 @@
     ],
     "entry": "amiga:0186F6",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0186F6",
     "max": 26,
@@ -2040,10 +2286,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 1236,
+    "calls_from_graph": 1318,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 1220,
+    "calls_uncaptured": 1302,
     "cost_self": [
       {
         "calls": 16,
@@ -2058,7 +2304,7 @@
     ],
     "entry": "amiga:01875C",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01875C",
     "max": 11,
@@ -2089,7 +2335,7 @@
     ],
     "entry": "amiga:0188A6",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0188A6",
     "max": 27,
@@ -2120,7 +2366,7 @@
     ],
     "entry": "amiga:01892A",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01892A",
     "max": 43,
@@ -2133,10 +2379,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 1229,
+    "calls_from_graph": 1231,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 1213,
+    "calls_uncaptured": 1215,
     "cost_self": [
       {
         "calls": 16,
@@ -2151,7 +2397,7 @@
     ],
     "entry": "amiga:018938",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:018938",
     "max": 7,
@@ -2182,7 +2428,7 @@
     ],
     "entry": "amiga:01894A",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:01894A",
     "max": 32,
@@ -2195,10 +2441,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 43,
+    "calls_from_graph": 41,
     "calls_incomplete_samples": 12,
     "calls_measured": 4,
-    "calls_uncaptured": 27,
+    "calls_uncaptured": 25,
     "cost_self": [
       {
         "calls": 4,
@@ -2213,7 +2459,7 @@
     ],
     "entry": "amiga:018970",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:018970",
     "max": 35,
@@ -2225,11 +2471,42 @@
   },
   {
     "calls_aborted": 0,
+    "calls_captured": 3,
+    "calls_from_graph": 3,
+    "calls_incomplete_samples": 2,
+    "calls_measured": 1,
+    "calls_uncaptured": 0,
+    "cost_self": [
+      {
+        "calls": 1,
+        "cost": 9
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 1,
+        "cost": 9
+      }
+    ],
+    "entry": "amiga:018980",
+    "evidence_replays": [
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
+    ],
+    "id": "amiga:018980",
+    "max": 9,
+    "min": 9,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 28,
+    "calls_from_graph": 32,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 12,
+    "calls_uncaptured": 16,
     "cost_self": [
       {
         "calls": 16,
@@ -2244,7 +2521,7 @@
     ],
     "entry": "amiga:0189A8",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0189A8",
     "max": 6,
@@ -2257,10 +2534,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 43,
+    "calls_from_graph": 41,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 27,
+    "calls_uncaptured": 25,
     "cost_self": [
       {
         "calls": 12,
@@ -2283,7 +2560,7 @@
     ],
     "entry": "amiga:0189E4",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:0189E4",
     "max": 9,
@@ -2296,10 +2573,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 81,
+    "calls_from_graph": 93,
     "calls_incomplete_samples": 6,
     "calls_measured": 10,
-    "calls_uncaptured": 65,
+    "calls_uncaptured": 77,
     "cost_self": [
       {
         "calls": 5,
@@ -2322,7 +2599,7 @@
     ],
     "entry": "amiga:018A06",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:018A06",
     "max": 79,
@@ -2353,7 +2630,7 @@
     ],
     "entry": "amiga:018BEA",
     "evidence_replays": [
-      "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1"
+      "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42"
     ],
     "id": "amiga:018BEA",
     "max": 8,

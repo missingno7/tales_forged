@@ -1,26 +1,27 @@
 {
   "active_view": 123210,
-  "active_view_header": "0001e15c00c0555000c055600000000000000000000000c054f000000000000000000000000000000000014000c80000",
+  "active_view_header": "0001e15c00c0556000c055600000000000000000000000c054f000000000000000000000000000000000014000c80000",
   "address_references": [],
   "address_registers": [
-    12604750,
-    465230,
+    104282,
+    12587136,
     28672,
     0,
     134566,
-    523986,
-    36864,
-    523954
+    523838,
+    32768,
+    524032
   ],
   "audio_deterministic": true,
   "audio_frames": 0,
   "audio_nonzero_frames": 0,
   "audio_peak": 0,
   "audio_sha256": "",
-  "canonical_digest": "9ad9f6edc4b6f2a65ec34e2e093b60d6e70894b4269143516da5c9d9cb37b5ba",
+  "base_snapshot": "",
+  "canonical_digest": "31b496a9fa790488e89db269c5469feb75e765ba5ae4c04c597fb348f15cfa4e",
   "chip_allocation_cursor": 465240,
-  "cia_a_port_reads": 3563,
-  "cpu_cycles": 421481378,
+  "cia_a_port_reads": 3562,
+  "cpu_cycles": 188556532,
   "custom_write_counts": [
     {
       "count": 992,
@@ -108,17 +109,17 @@
       "offset": 102
     },
     {
-      "count": 3228,
-      "last_value": 32769,
+      "count": 3237,
+      "last_value": 2,
       "offset": 150
     },
     {
-      "count": 516,
-      "last_value": 32896,
+      "count": 531,
+      "last_value": 128,
       "offset": 154
     },
     {
-      "count": 516,
+      "count": 995,
       "last_value": 128,
       "offset": 156
     },
@@ -128,17 +129,17 @@
       "offset": 158
     },
     {
-      "count": 144,
+      "count": 150,
       "last_value": 4,
       "offset": 160
     },
     {
-      "count": 144,
+      "count": 150,
       "last_value": 22144,
       "offset": 162
     },
     {
-      "count": 144,
+      "count": 150,
       "last_value": 7550,
       "offset": 164
     },
@@ -153,17 +154,17 @@
       "offset": 168
     },
     {
-      "count": 189,
+      "count": 300,
       "last_value": 6,
       "offset": 176
     },
     {
-      "count": 189,
+      "count": 300,
       "last_value": 45806,
       "offset": 178
     },
     {
-      "count": 189,
+      "count": 300,
       "last_value": 1067,
       "offset": 180
     },
@@ -178,17 +179,17 @@
       "offset": 184
     },
     {
-      "count": 80,
+      "count": 155,
       "last_value": 4,
       "offset": 192
     },
     {
-      "count": 80,
+      "count": 155,
       "last_value": 49944,
       "offset": 194
     },
     {
-      "count": 80,
+      "count": 155,
       "last_value": 1694,
       "offset": 196
     },
@@ -203,17 +204,17 @@
       "offset": 200
     },
     {
-      "count": 103,
+      "count": 138,
       "last_value": 6,
       "offset": 208
     },
     {
-      "count": 103,
+      "count": 138,
       "last_value": 39988,
       "offset": 210
     },
     {
-      "count": 103,
+      "count": 138,
       "last_value": 821,
       "offset": 212
     },
@@ -228,259 +229,259 @@
       "offset": 216
     },
     {
-      "count": 442,
-      "last_value": 2,
+      "count": 443,
+      "last_value": 3,
       "offset": 224
     },
     {
-      "count": 442,
-      "last_value": 33168,
+      "count": 443,
+      "last_value": 7632,
       "offset": 226
     },
     {
-      "count": 442,
-      "last_value": 2,
+      "count": 443,
+      "last_value": 3,
       "offset": 228
     },
     {
-      "count": 442,
-      "last_value": 41168,
+      "count": 443,
+      "last_value": 15632,
       "offset": 230
     },
     {
-      "count": 442,
-      "last_value": 2,
+      "count": 443,
+      "last_value": 3,
       "offset": 232
     },
     {
-      "count": 442,
-      "last_value": 49168,
+      "count": 443,
+      "last_value": 23632,
       "offset": 234
     },
     {
-      "count": 442,
-      "last_value": 2,
+      "count": 443,
+      "last_value": 3,
       "offset": 236
     },
     {
-      "count": 442,
-      "last_value": 57168,
+      "count": 443,
+      "last_value": 31632,
       "offset": 238
     },
     {
-      "count": 442,
-      "last_value": 2,
+      "count": 443,
+      "last_value": 3,
       "offset": 240
     },
     {
-      "count": 442,
-      "last_value": 65168,
+      "count": 443,
+      "last_value": 39632,
       "offset": 242
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 20480,
       "offset": 256
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 264
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 266
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 384
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 386
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 388
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 390
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 392
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 394
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 396
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 398
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 400
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 402
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 404
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 406
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 408
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 410
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 412
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 414
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 416
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 418
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 420
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 422
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 424
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 426
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 428
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 430
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 432
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 434
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 436
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 438
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 440
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 442
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 444
     },
     {
-      "count": 442,
+      "count": 443,
       "last_value": 0,
       "offset": 446
     }
   ],
   "data_registers": [
-    119,
-    2,
-    131072,
+    1,
+    1,
+    99632,
     4,
-    0,
+    20,
     0,
     0,
     0
   ],
   "deterministic_rerun": true,
   "diagnostic": "",
-  "dmacon": 513,
+  "dmacon": 512,
   "evidence": "ducktales-evidence.json",
   "execution_mode": "amiga-oracle",
   "fire0_active_reads": 0,
   "fire1_active_reads": 8,
   "format": "pf-amiga-run-v1",
-  "frame": 8812,
+  "frame": 5595,
   "framebuffer_height": 200,
   "framebuffer_width": 320,
-  "host_steps": 50000000,
-  "instructions": 50000000,
-  "intena": 1920,
+  "host_steps": 23528391,
+  "instructions": 23528391,
+  "intena": 18208,
   "interpreter_fallback_steps": 0,
-  "intreq": 224,
+  "intreq": 96,
   "level_1_to_7_vectors": "00000000000000000000000000000000000000000000000000000000",
-  "master_tick": 2501994376,
+  "master_tick": 1588548120,
   "memory_peeks": [],
   "mounted_volumes": [
     "dt1",
@@ -492,14 +493,15 @@
   "overlay_probe_address": 102384,
   "overlay_probe_final": "4ef900c0108c00ce",
   "overlay_probe_initial": "610000ce01000000",
-  "pc": 12589590,
-  "pc_window": "98684eac804a584f3f3c00774eac80ce544f4aacaa18670260f84eac80bc102cc6e2488048c060183b7c0019fff6601c3b7c0032fff660143b7c004bfff6600c",
-  "pc_window_address": 12589568,
-  "presentation_bitmap": 113768,
-  "raster_h": 336,
-  "raster_v": 100,
-  "replay_events_consumed": 171,
-  "replay_events_total": 171,
+  "pc": 524256,
+  "pc_window": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "pc_window_address": 524224,
+  "presentation_bitmap": 113808,
+  "raster_h": 250,
+  "raster_v": 17,
+  "recovered_interrupt_vectors": 0,
+  "replay_events_consumed": 164,
+  "replay_events_total": 164,
   "service_call_counts": [
     {
       "count": 1,
@@ -731,6 +733,38 @@
     },
     {
       "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12675752"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12675776"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12675800"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12675824"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12675848"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12675872"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12675896"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12675920"
+    },
+    {
+      "count": 1,
       "service": "alloc:size=19000,flags=2,result=445856"
     },
     {
@@ -759,11 +793,23 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=1020,header=123346,result=309352"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=10240,header=123346,result=284280"
     },
     {
       "count": 1,
       "service": "allocate:size=10240,header=123346,result=306680"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=10240,header=123346,result=356920"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1034,header=123346,result=376456"
     },
     {
       "count": 1,
@@ -799,6 +845,10 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=1160,header=123346,result=326888"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=117,header=123346,result=284288"
     },
     {
@@ -819,6 +869,10 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=1280,header=123346,result=369984"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=129,header=123346,result=284288"
     },
     {
@@ -828,6 +882,10 @@
     {
       "count": 1,
       "service": "allocate:size=136,header=123346,result=284288"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1360,header=123346,result=368624"
     },
     {
       "count": 2,
@@ -843,6 +901,10 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=1410,header=123346,result=306560"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=142,header=123346,result=284288"
     },
     {
@@ -855,7 +917,15 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=1440,header=123346,result=328048"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=1440,header=123346,result=344936"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1440,header=123346,result=355480"
     },
     {
       "count": 3,
@@ -875,7 +945,15 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=150,header=123346,result=307976"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=150,header=123346,result=350624"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1500,header=123346,result=316424"
     },
     {
       "count": 1,
@@ -895,6 +973,10 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=1550,header=123346,result=329488"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=157,header=123346,result=284288"
     },
     {
@@ -908,6 +990,46 @@
     {
       "count": 1,
       "service": "allocate:size=160,header=123346,result=350456"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1600,header=123346,result=285160"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1600,header=123346,result=286800"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1600,header=123346,result=288440"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1600,header=123346,result=290080"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1600,header=123346,result=291720"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1600,header=123346,result=293360"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1600,header=123346,result=295000"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1600,header=123346,result=296640"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1600,header=123346,result=298280"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1600,header=123346,result=299920"
     },
     {
       "count": 3,
@@ -951,7 +1073,23 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=1920,header=123346,result=322448"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=1920,header=123346,result=345800"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=1920,header=123346,result=369376"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=2000,header=123346,result=314424"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=2000,header=123346,result=353480"
     },
     {
       "count": 1,
@@ -968,6 +1106,10 @@
     {
       "count": 1,
       "service": "allocate:size=2048,header=123346,result=371296"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=2072,header=123346,result=374376"
     },
     {
       "count": 1,
@@ -991,6 +1133,10 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=2276,header=123346,result=372088"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=232,header=123346,result=147856"
     },
     {
@@ -999,7 +1145,19 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=2520,header=123346,result=324368"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=2560,header=123346,result=366816"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=260,header=123346,result=321920"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=260,header=123346,result=322184"
     },
     {
       "count": 1,
@@ -1011,11 +1169,27 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=280,header=123346,result=368344"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=286,header=123346,result=284288"
     },
     {
       "count": 85,
       "service": "allocate:size=288,header=123346,result=350616"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=2880,header=123346,result=347720"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=2880,header=123346,result=350600"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=2900,header=123346,result=334296"
     },
     {
       "count": 1,
@@ -1047,6 +1221,10 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=3250,header=123346,result=331040"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=326,header=123346,result=284288"
     },
     {
@@ -1060,6 +1238,10 @@
     {
       "count": 1,
       "service": "allocate:size=338,header=123346,result=284288"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=340,header=123346,result=308128"
     },
     {
       "count": 1,
@@ -1099,7 +1281,83 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=3950,header=123346,result=317968"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=40,header=123346,result=244240"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=284280"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=285120"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=286760"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=288400"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=290040"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=291680"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=293320"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=294960"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=296600"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=298240"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=299880"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=301520"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=302360"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=303200"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=304040"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=304880"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=305720"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=40,header=123346,result=317928"
     },
     {
       "count": 1,
@@ -1112,6 +1370,10 @@
     {
       "count": 1,
       "service": "allocate:size=400,header=123346,result=348632"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=400,header=123346,result=367160"
     },
     {
       "count": 1,
@@ -1151,6 +1413,14 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=4606,header=123346,result=377504"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=480,header=123346,result=311680"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=480,header=123346,result=341640"
     },
     {
@@ -1172,6 +1442,14 @@
     {
       "count": 1,
       "service": "allocate:size=5292,header=123346,result=333304"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=580,header=123346,result=310376"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=580,header=123346,result=313840"
     },
     {
       "count": 92,
@@ -1231,6 +1509,30 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=6,header=123346,result=372080"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=6,header=123346,result=374368"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=6,header=123346,result=376448"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=6,header=123346,result=377496"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=6,header=123346,result=382112"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=640,header=123346,result=310960"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=6720,header=123346,result=342280"
     },
     {
@@ -1255,6 +1557,10 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=7326,header=123346,result=382120"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=76,header=123346,result=284288"
     },
     {
@@ -1263,11 +1569,19 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=780,header=123346,result=367560"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=79,header=123346,result=284288"
     },
     {
       "count": 1,
       "service": "allocate:size=80,header=123346,result=284288"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=80,header=123346,result=311600"
     },
     {
       "count": 86,
@@ -1279,7 +1593,39 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=800,header=123346,result=284320"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=800,header=123346,result=301560"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=800,header=123346,result=302400"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=800,header=123346,result=303240"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=800,header=123346,result=304080"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=800,header=123346,result=304920"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=800,header=123346,result=305760"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=8093,header=123346,result=284288"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=810,header=123346,result=371264"
     },
     {
       "count": 2,
@@ -1291,11 +1637,23 @@
     },
     {
       "count": 1,
+      "service": "allocate:size=840,header=123346,result=312160"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=840,header=123346,result=313000"
+    },
+    {
+      "count": 1,
       "service": "allocate:size=8400,header=123346,result=326840"
     },
     {
       "count": 2,
       "service": "allocate:size=86,header=123346,result=284288"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=8600,header=123346,result=337200"
     },
     {
       "count": 1,
@@ -1308,6 +1666,10 @@
     {
       "count": 1,
       "service": "allocate:size=88,header=123346,result=350784"
+    },
+    {
+      "count": 1,
+      "service": "allocate:size=880,header=123346,result=308472"
     },
     {
       "count": 3,
@@ -1482,35 +1844,39 @@
       "service": "device-command:9:data=147664"
     },
     {
-      "count": 10,
+      "count": 12,
       "service": "dos:-150"
     },
     {
-      "count": 1295,
+      "count": 1326,
       "service": "dos:-198"
     },
     {
-      "count": 9,
+      "count": 10,
       "service": "dos:-30"
     },
     {
-      "count": 6,
+      "count": 7,
       "service": "dos:-36"
     },
     {
-      "count": 2648,
+      "count": 3475,
       "service": "dos:-42"
+    },
+    {
+      "count": 2,
+      "service": "dos:-48"
     },
     {
       "count": 1,
       "service": "dos:-54"
     },
     {
-      "count": 1,
+      "count": 3,
       "service": "dos:-60"
     },
     {
-      "count": 184,
+      "count": 250,
       "service": "dos:-66"
     },
     {
@@ -1522,11 +1888,11 @@
       "service": "draw-bitmap:113808"
     },
     {
-      "count": 43,
+      "count": 41,
       "service": "exec:-132"
     },
     {
-      "count": 43,
+      "count": 41,
       "service": "exec:-138"
     },
     {
@@ -1538,19 +1904,19 @@
       "service": "exec:-168"
     },
     {
-      "count": 1236,
+      "count": 1318,
       "service": "exec:-186"
     },
     {
-      "count": 1229,
+      "count": 1231,
       "service": "exec:-192"
     },
     {
-      "count": 63,
+      "count": 71,
       "service": "exec:-198"
     },
     {
-      "count": 63,
+      "count": 75,
       "service": "exec:-210"
     },
     {
@@ -1558,11 +1924,11 @@
       "service": "exec:-216"
     },
     {
-      "count": 54,
+      "count": 62,
       "service": "exec:-246"
     },
     {
-      "count": 81,
+      "count": 93,
       "service": "exec:-264"
     },
     {
@@ -1590,7 +1956,7 @@
       "service": "exec:-456"
     },
     {
-      "count": 13,
+      "count": 16,
       "service": "exec:-552"
     },
     {
@@ -1606,11 +1972,11 @@
       "service": "graphics:-216"
     },
     {
-      "count": 442,
+      "count": 443,
       "service": "graphics:-222"
     },
     {
-      "count": 11,
+      "count": 12,
       "service": "graphics:-234"
     },
     {
@@ -1654,7 +2020,7 @@
       "service": "graphics:-390"
     },
     {
-      "count": 441,
+      "count": 442,
       "service": "graphics:-402"
     },
     {
@@ -1691,6 +2057,22 @@
     },
     {
       "count": 1,
+      "service": "interrupt-vector:set:number=10:node=147752:code=87846:data=112910"
+    },
+    {
+      "count": 1,
+      "service": "interrupt-vector:set:number=7:node=147686:code=87510:data=112886"
+    },
+    {
+      "count": 1,
+      "service": "interrupt-vector:set:number=8:node=147708:code=87622:data=112894"
+    },
+    {
+      "count": 1,
+      "service": "interrupt-vector:set:number=9:node=147730:code=87734:data=112902"
+    },
+    {
+      "count": 1,
       "service": "intuition:-132"
     },
     {
@@ -1710,7 +2092,7 @@
       "service": "layers:-36"
     },
     {
-      "count": 442,
+      "count": 443,
       "service": "load-view:123210"
     },
     {
@@ -1718,7 +2100,7 @@
       "service": "open-device:input.device:unit=0"
     },
     {
-      "count": 11,
+      "count": 13,
       "service": "open-library:dos.library:result=36864"
     },
     {
@@ -1732,6 +2114,10 @@
     {
       "count": 1,
       "service": "open-library:layers.library:result=49152"
+    },
+    {
+      "count": 1,
+      "service": "open-library:mathffp.library:result=0"
     },
     {
       "count": 1,
@@ -1762,11 +2148,15 @@
       "service": "open:success:dt1:main.arc"
     },
     {
+      "count": 1,
+      "service": "open:success:dt1:plane.arc"
+    },
+    {
       "count": 2,
       "service": "overlay-byte:181640"
     },
     {
-      "count": 2,
+      "count": 3,
       "service": "overlay-byte:185648"
     },
     {
@@ -1782,11 +2172,15 @@
       "service": "overlay-byte:59584"
     },
     {
+      "count": 1,
+      "service": "overlay-byte:71148"
+    },
+    {
       "count": 2,
       "service": "overlay-byte:99232"
     },
     {
-      "count": 10,
+      "count": 12,
       "service": "overlay-result:loaded"
     },
     {
@@ -1882,11 +2276,19 @@
       "service": "read-short:dt1:loot.arc:requested=1024,actual=918"
     },
     {
+      "count": 1,
+      "service": "read-short:dt1:plane.arc:requested=1024,actual=335"
+    },
+    {
+      "count": 1,
+      "service": "read-short:dt1:plane.arc:requested=1024,actual=591"
+    },
+    {
       "count": 46,
       "service": "read:dt1:chart.arc"
     },
     {
-      "count": 701,
+      "count": 831,
       "service": "read:dt1:dt1.as"
     },
     {
@@ -1902,8 +2304,16 @@
       "service": "read:dt1:loot.arc"
     },
     {
-      "count": 1049,
+      "count": 1092,
       "service": "read:dt1:main.arc"
+    },
+    {
+      "count": 654,
+      "service": "read:dt1:plane.arc"
+    },
+    {
+      "count": 1,
+      "service": "seek:DuckTales:old=107624,offset=185648,mode=-1,new=185648"
     },
     {
       "count": 1,
@@ -1912,6 +2322,10 @@
     {
       "count": 2,
       "service": "seek:DuckTales:old=185648,offset=185648,mode=-1,new=185648"
+    },
+    {
+      "count": 1,
+      "service": "seek:DuckTales:old=187232,offset=71148,mode=-1,new=71148"
     },
     {
       "count": 2,
@@ -1987,7 +2401,27 @@
     },
     {
       "count": 1,
+      "service": "seek:dt1:dt1.as:old=131519,offset=0,mode=-1,new=0"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:dt1.as:old=138429,offset=137922,mode=-1,new=137922"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:dt1.as:old=141010,offset=151098,mode=-1,new=151098"
+    },
+    {
+      "count": 1,
       "service": "seek:dt1:dt1.as:old=1532,offset=1532,mode=-1,new=1532"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:dt1.as:old=177605,offset=177605,mode=-1,new=177605"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:dt1.as:old=179693,offset=137389,mode=-1,new=137389"
     },
     {
       "count": 1,
@@ -2012,6 +2446,10 @@
     {
       "count": 1,
       "service": "seek:dt1:dt1.as:old=338,offset=123311,mode=-1,new=123311"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:dt1.as:old=338,offset=175313,mode=-1,new=175313"
     },
     {
       "count": 2,
@@ -2458,7 +2896,7 @@
       "service": "seek:dt1:main.arc:old=149602,offset=0,mode=-1,new=0"
     },
     {
-      "count": 7,
+      "count": 8,
       "service": "seek:dt1:main.arc:old=170,offset=0,mode=-1,new=0"
     },
     {
@@ -2554,6 +2992,234 @@
       "service": "seek:dt1:main.arc:old=97744,offset=0,mode=-1,new=0"
     },
     {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=0,offset=0,mode=-1,new=0"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=10435,offset=9936,mode=-1,new=9936"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=10976,offset=10527,mode=-1,new=10527"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=11567,offset=11123,mode=-1,new=11123"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=12163,offset=11505,mode=-1,new=11505"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=12545,offset=11839,mode=-1,new=11839"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=12879,offset=12723,mode=-1,new=12723"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=1314,offset=330,mode=-1,new=330"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=1370,offset=1314,mode=-1,new=1314"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=13763,offset=12874,mode=-1,new=12874"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=13914,offset=13059,mode=-1,new=13059"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=14099,offset=13445,mode=-1,new=13445"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=14485,offset=13880,mode=-1,new=13880"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=14920,offset=14063,mode=-1,new=14063"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=15103,offset=14429,mode=-1,new=14429"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=15469,offset=14499,mode=-1,new=14499"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=15539,offset=14757,mode=-1,new=14757"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=15797,offset=15249,mode=-1,new=15249"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=16289,offset=19678,mode=-1,new=19678"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=20718,offset=19951,mode=-1,new=19951"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=20991,offset=20643,mode=-1,new=20643"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=21683,offset=22391,mode=-1,new=22391"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=2354,offset=2238,mode=-1,new=2238"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=24455,offset=46116,mode=-1,new=46116"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=274,offset=0,mode=-1,new=0"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=274,offset=274,mode=-1,new=274"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=3278,offset=3231,mode=-1,new=3231"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=33862,offset=32850,mode=-1,new=32850"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=34914,offset=34117,mode=-1,new=34117"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=35157,offset=34614,mode=-1,new=34614"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=35654,offset=35128,mode=-1,new=35128"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=36168,offset=35591,mode=-1,new=35591"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=37655,offset=37182,mode=-1,new=37182"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=39246,offset=38548,mode=-1,new=38548"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=42660,offset=41750,mode=-1,new=41750"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=4271,offset=3981,mode=-1,new=3981"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=42790,offset=42134,mode=-1,new=42134"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=44198,offset=43764,mode=-1,new=43764"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=45828,offset=44984,mode=-1,new=44984"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=46024,offset=45862,mode=-1,new=45862"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=46902,offset=46558,mode=-1,new=46558"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=47156,offset=46337,mode=-1,new=46337"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=47377,offset=31798,mode=-1,new=31798"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=5021,offset=4994,mode=-1,new=4994"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=51694,offset=51233,mode=-1,new=51233"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=52273,offset=51328,mode=-1,new=51328"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=52368,offset=51658,mode=-1,new=51658"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=52698,offset=51879,mode=-1,new=51879"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=52919,offset=52913,mode=-1,new=52913"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=53520,offset=0,mode=-1,new=0"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=53520,offset=53169,mode=-1,new=53169"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=6034,offset=5832,mode=-1,new=5832"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=6872,offset=6768,mode=-1,new=6768"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=8832,offset=7830,mode=-1,new=7830"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=8870,offset=8281,mode=-1,new=8281"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=9321,offset=8720,mode=-1,new=8720"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:plane.arc:old=9760,offset=9395,mode=-1,new=9395"
+    },
+    {
       "count": 375,
       "service": "set-apen:0"
     },
@@ -2614,7 +3280,7 @@
       "service": "set-rast-bitmap:113768"
     },
     {
-      "count": 5,
+      "count": 6,
       "service": "set-rast-bitmap:113808"
     },
     {
@@ -2846,10 +3512,10 @@
       "service": "write-pixel-bitmap:113808"
     }
   ],
-  "service_calls": 20224,
-  "slow_allocation_cursor": 12650544,
+  "service_calls": 21282,
+  "slow_allocation_cursor": 12675944,
   "snapshot_roundtrip": true,
-  "status": "step-limit",
+  "status": "exited",
   "status_register": 8192,
   "unsupported": "Complete Copper execution, blitter line-mode DMA, and headless live host input remain beyond this bootstrap",
   "visible_output": true

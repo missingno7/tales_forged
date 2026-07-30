@@ -26,16 +26,20 @@ The original M68K game now recognizes both disks and runs past the former
 The runtime implements the AmigaDOS volume list used by the game, multi-ADF
 file access, MANX overlays, the required 68000 instructions, graphics.library
 planar operations, and the block-mode OCS blitter used for moving objects and
-animations. Title and difficulty screens render correctly, and blank back
-buffers are no longer presented during page flips. Copper execution, blitter
-line mode, later palette fidelity, full gameplay, and disk-2 progression have
-not yet been fully verified.
+animations. Paula DMA audio is mixed deterministically, and Exec
+`SetIntVector` audio handlers now advance/finish sample streams instead of
+looping the last buffer and blocking foreground gameplay. Title and difficulty
+screens render correctly, and blank back buffers are no longer presented
+during page flips. Copper execution, blitter line mode, later palette
+fidelity, full gameplay, and disk-2 progression have not yet been fully
+verified.
 
 Deterministic replay and Atlas workflows use the same launcher:
 
 ```powershell
 python scripts\play.py --record-replay session
 python scripts\play.py --snapshot amigasnap_YYYYMMDD_HHMMSS_fFRAME
+python scripts\play.py --headless --steps 3000000 --snapshot amigasnap_YYYYMMDD_HHMMSS_fFRAME
 python scripts\play.py --headless --steps 10000000 --replay-inputs smoke
 python scripts\play.py --headless --steps 10000000 --replay-inputs smoke --update-atlas
 ```
@@ -46,7 +50,10 @@ requires the second run to match the first run's status, diagnostic, and
 canonical state digest. Replays are bound to the pinned disk-1 SHA-256 and the
 `a500-ocs-pal` machine profile. F12 snapshots are stored under
 `artifacts/snapshots` as `.pfamigasnapshot` files and can be resumed with the
-same launcher.
+same launcher. The pinned, call-ordered legacy-vector map in `game.json`
+migrates only snapshot formats created before PortForge persisted exclusive
+`SetIntVector` state; current snapshots carry the exact vector table directly,
+including intentionally removed handlers.
 
 Resident-code recovery uses the curated execution evidence without claiming a
 generated whole-game runtime:

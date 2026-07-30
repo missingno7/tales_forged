@@ -12,10 +12,10 @@ inline constexpr char kProgram[] = "DuckTales";
 inline constexpr char kProgramSha256[] = "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968";
 inline constexpr char kHunkSha256[] = "00ad5a2860110701d5fe2acd6834d0a9c819d6659a8af9bdbc1a9e1a99aea481";
 inline constexpr char kMachineModel[] = "pf-amiga-a500-ocs-pal-v1";
-inline constexpr char kLiftPlanSha256[] = "ab666501ade617159a7b298da45319101c91021f20b2361a7ea0fc812dffbd14";
+inline constexpr char kLiftPlanSha256[] = "5bf03b1473d562aa8fa910d76d0c18b069c3f1b3a009b4ba1f5200f6dfdf86d4";
 inline constexpr uint32_t kLoadBase = 0x010000u;
 inline constexpr uint32_t kModuleEntry = 0x010000u;
-inline constexpr std::size_t kGeneratedInstructionCount = 825u;
+inline constexpr std::size_t kGeneratedInstructionCount = 881u;
 
 inline constexpr uint8_t source_instruction_010000[] = {0x60, 0x00, 0x75, 0xF0};
 inline pf::amiga::NativeResult instruction_010000(pf::amiga::Machine& machine) {
@@ -2272,6 +2272,166 @@ inline pf::amiga::NativeResult instruction_015586(pf::amiga::Machine& machine) {
     return pf::amiga::generated::branch(machine, 0x015586u, 0x6000u, 4u, 0x0154B6u);
 }
 
+inline constexpr uint8_t source_instruction_0155E0[] = {0x66, 0x0A};
+inline pf::amiga::NativeResult instruction_0155E0(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0155E0u, 0x660Au, 2u, 0x0155ECu);
+}
+
+inline constexpr uint8_t source_instruction_0155EA[] = {0x60, 0x46};
+inline pf::amiga::NativeResult instruction_0155EA(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0155EAu, 0x6046u, 2u, 0x015632u);
+}
+
+inline constexpr uint8_t source_instruction_0155F2[] = {0x66, 0x3E};
+inline pf::amiga::NativeResult instruction_0155F2(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0155F2u, 0x663Eu, 2u, 0x015632u);
+}
+
+inline constexpr uint8_t source_instruction_0155FC[] = {0x4A, 0x40};
+inline pf::amiga::NativeResult instruction_0155FC(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::tst_data_register(machine, 0x0155FCu, 0x4A40u);
+}
+
+inline constexpr uint8_t source_instruction_0155FE[] = {0x6B, 0x3C};
+inline pf::amiga::NativeResult instruction_0155FE(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0155FEu, 0x6B3Cu, 2u, 0x01563Cu);
+}
+
+inline constexpr uint8_t source_instruction_015600[] = {0x67, 0x1A};
+inline pf::amiga::NativeResult instruction_015600(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x015600u, 0x671Au, 2u, 0x01561Cu);
+}
+
+inline constexpr uint8_t source_instruction_01561A[] = {0x60, 0x16};
+inline pf::amiga::NativeResult instruction_01561A(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01561Au, 0x6016u, 2u, 0x015632u);
+}
+
+inline constexpr uint8_t source_instruction_015644[] = {0x60, 0xEC};
+inline pf::amiga::NativeResult instruction_015644(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x015644u, 0x60ECu, 2u, 0x015632u);
+}
+
+inline constexpr uint8_t source_instruction_015650[] = {0x66, 0x0A};
+inline pf::amiga::NativeResult instruction_015650(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x015650u, 0x660Au, 2u, 0x01565Cu);
+}
+
+inline constexpr uint8_t source_instruction_01565A[] = {0x60, 0x46};
+inline pf::amiga::NativeResult instruction_01565A(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01565Au, 0x6046u, 2u, 0x0156A2u);
+}
+
+inline constexpr uint8_t source_instruction_015662[] = {0x66, 0x3E};
+inline pf::amiga::NativeResult instruction_015662(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x015662u, 0x663Eu, 2u, 0x0156A2u);
+}
+
+inline constexpr uint8_t source_instruction_01566C[] = {0x4A, 0x40};
+inline pf::amiga::NativeResult instruction_01566C(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::tst_data_register(machine, 0x01566Cu, 0x4A40u);
+}
+
+inline constexpr uint8_t source_instruction_01566E[] = {0x6B, 0x3C};
+inline pf::amiga::NativeResult instruction_01566E(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01566Eu, 0x6B3Cu, 2u, 0x0156ACu);
+}
+
+inline constexpr uint8_t source_instruction_015670[] = {0x67, 0x1A};
+inline pf::amiga::NativeResult instruction_015670(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x015670u, 0x671Au, 2u, 0x01568Cu);
+}
+
+inline constexpr uint8_t source_instruction_01568A[] = {0x60, 0x16};
+inline pf::amiga::NativeResult instruction_01568A(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01568Au, 0x6016u, 2u, 0x0156A2u);
+}
+
+inline constexpr uint8_t source_instruction_0156B4[] = {0x60, 0xEC};
+inline pf::amiga::NativeResult instruction_0156B4(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0156B4u, 0x60ECu, 2u, 0x0156A2u);
+}
+
+inline constexpr uint8_t source_instruction_0156C0[] = {0x66, 0x0A};
+inline pf::amiga::NativeResult instruction_0156C0(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0156C0u, 0x660Au, 2u, 0x0156CCu);
+}
+
+inline constexpr uint8_t source_instruction_0156CA[] = {0x60, 0x46};
+inline pf::amiga::NativeResult instruction_0156CA(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0156CAu, 0x6046u, 2u, 0x015712u);
+}
+
+inline constexpr uint8_t source_instruction_0156D2[] = {0x66, 0x3E};
+inline pf::amiga::NativeResult instruction_0156D2(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0156D2u, 0x663Eu, 2u, 0x015712u);
+}
+
+inline constexpr uint8_t source_instruction_0156DC[] = {0x4A, 0x40};
+inline pf::amiga::NativeResult instruction_0156DC(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::tst_data_register(machine, 0x0156DCu, 0x4A40u);
+}
+
+inline constexpr uint8_t source_instruction_0156DE[] = {0x6B, 0x3C};
+inline pf::amiga::NativeResult instruction_0156DE(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0156DEu, 0x6B3Cu, 2u, 0x01571Cu);
+}
+
+inline constexpr uint8_t source_instruction_0156E0[] = {0x67, 0x1A};
+inline pf::amiga::NativeResult instruction_0156E0(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0156E0u, 0x671Au, 2u, 0x0156FCu);
+}
+
+inline constexpr uint8_t source_instruction_0156FA[] = {0x60, 0x16};
+inline pf::amiga::NativeResult instruction_0156FA(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0156FAu, 0x6016u, 2u, 0x015712u);
+}
+
+inline constexpr uint8_t source_instruction_015724[] = {0x60, 0xEC};
+inline pf::amiga::NativeResult instruction_015724(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x015724u, 0x60ECu, 2u, 0x015712u);
+}
+
+inline constexpr uint8_t source_instruction_015730[] = {0x66, 0x0A};
+inline pf::amiga::NativeResult instruction_015730(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x015730u, 0x660Au, 2u, 0x01573Cu);
+}
+
+inline constexpr uint8_t source_instruction_01573A[] = {0x60, 0x46};
+inline pf::amiga::NativeResult instruction_01573A(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01573Au, 0x6046u, 2u, 0x015782u);
+}
+
+inline constexpr uint8_t source_instruction_015742[] = {0x66, 0x3E};
+inline pf::amiga::NativeResult instruction_015742(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x015742u, 0x663Eu, 2u, 0x015782u);
+}
+
+inline constexpr uint8_t source_instruction_01574C[] = {0x4A, 0x40};
+inline pf::amiga::NativeResult instruction_01574C(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::tst_data_register(machine, 0x01574Cu, 0x4A40u);
+}
+
+inline constexpr uint8_t source_instruction_01574E[] = {0x6B, 0x3C};
+inline pf::amiga::NativeResult instruction_01574E(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01574Eu, 0x6B3Cu, 2u, 0x01578Cu);
+}
+
+inline constexpr uint8_t source_instruction_015750[] = {0x67, 0x1A};
+inline pf::amiga::NativeResult instruction_015750(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x015750u, 0x671Au, 2u, 0x01576Cu);
+}
+
+inline constexpr uint8_t source_instruction_01576A[] = {0x60, 0x16};
+inline pf::amiga::NativeResult instruction_01576A(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01576Au, 0x6016u, 2u, 0x015782u);
+}
+
+inline constexpr uint8_t source_instruction_015794[] = {0x60, 0xEC};
+inline pf::amiga::NativeResult instruction_015794(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x015794u, 0x60ECu, 2u, 0x015782u);
+}
+
 inline constexpr uint8_t source_instruction_0157DA[] = {0x66, 0x08};
 inline pf::amiga::NativeResult instruction_0157DA(pf::amiga::Machine& machine) {
     return pf::amiga::generated::branch(machine, 0x0157DAu, 0x6608u, 2u, 0x0157E4u);
@@ -4052,6 +4212,116 @@ inline pf::amiga::NativeResult instruction_01804C(pf::amiga::Machine& machine) {
     return pf::amiga::generated::branch(machine, 0x01804Cu, 0x66FCu, 2u, 0x01804Au);
 }
 
+inline constexpr uint8_t source_instruction_01853C[] = {0x67, 0x06};
+inline pf::amiga::NativeResult instruction_01853C(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01853Cu, 0x6706u, 2u, 0x018544u);
+}
+
+inline constexpr uint8_t source_instruction_018566[] = {0x67, 0x28};
+inline pf::amiga::NativeResult instruction_018566(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x018566u, 0x6728u, 2u, 0x018590u);
+}
+
+inline constexpr uint8_t source_instruction_018568[] = {0x78, 0x00};
+inline pf::amiga::NativeResult instruction_018568(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::moveq(machine, 0x018568u, 0x7800u);
+}
+
+inline constexpr uint8_t source_instruction_01856A[] = {0x60, 0x0A};
+inline pf::amiga::NativeResult instruction_01856A(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01856Au, 0x600Au, 2u, 0x018576u);
+}
+
+inline constexpr uint8_t source_instruction_01857A[] = {0x6D, 0xF0};
+inline pf::amiga::NativeResult instruction_01857A(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01857Au, 0x6DF0u, 2u, 0x01856Cu);
+}
+
+inline constexpr uint8_t source_instruction_018594[] = {0x67, 0x06};
+inline pf::amiga::NativeResult instruction_018594(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x018594u, 0x6706u, 2u, 0x01859Cu);
+}
+
+inline constexpr uint8_t source_instruction_0185A0[] = {0x67, 0x0A};
+inline pf::amiga::NativeResult instruction_0185A0(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0185A0u, 0x670Au, 2u, 0x0185ACu);
+}
+
+inline constexpr uint8_t source_instruction_0185B0[] = {0x67, 0x0A};
+inline pf::amiga::NativeResult instruction_0185B0(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0185B0u, 0x670Au, 2u, 0x0185BCu);
+}
+
+inline constexpr uint8_t source_instruction_0185C0[] = {0x67, 0x0A};
+inline pf::amiga::NativeResult instruction_0185C0(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0185C0u, 0x670Au, 2u, 0x0185CCu);
+}
+
+inline constexpr uint8_t source_instruction_0185D6[] = {0x67, 0x14};
+inline pf::amiga::NativeResult instruction_0185D6(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0185D6u, 0x6714u, 2u, 0x0185ECu);
+}
+
+inline constexpr uint8_t source_instruction_0185E4[] = {0x60, 0x06};
+inline pf::amiga::NativeResult instruction_0185E4(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0185E4u, 0x6006u, 2u, 0x0185ECu);
+}
+
+inline constexpr uint8_t source_instruction_0185F0[] = {0x66, 0x30};
+inline pf::amiga::NativeResult instruction_0185F0(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0185F0u, 0x6630u, 2u, 0x018622u);
+}
+
+inline constexpr uint8_t source_instruction_0185F6[] = {0x67, 0x28};
+inline pf::amiga::NativeResult instruction_0185F6(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x0185F6u, 0x6728u, 2u, 0x018620u);
+}
+
+inline constexpr uint8_t source_instruction_018620[] = {0x60, 0x0E};
+inline pf::amiga::NativeResult instruction_018620(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x018620u, 0x600Eu, 2u, 0x018630u);
+}
+
+inline constexpr uint8_t source_instruction_018658[] = {0x4A, 0x44};
+inline pf::amiga::NativeResult instruction_018658(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::tst_data_register(machine, 0x018658u, 0x4A44u);
+}
+
+inline constexpr uint8_t source_instruction_01865A[] = {0x6D, 0x0A};
+inline pf::amiga::NativeResult instruction_01865A(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01865Au, 0x6D0Au, 2u, 0x018666u);
+}
+
+inline constexpr uint8_t source_instruction_018660[] = {0x6C, 0x04};
+inline pf::amiga::NativeResult instruction_018660(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x018660u, 0x6C04u, 2u, 0x018666u);
+}
+
+inline constexpr uint8_t source_instruction_018664[] = {0x66, 0x10};
+inline pf::amiga::NativeResult instruction_018664(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x018664u, 0x6610u, 2u, 0x018676u);
+}
+
+inline constexpr uint8_t source_instruction_01866C[] = {0x70, 0xFF};
+inline pf::amiga::NativeResult instruction_01866C(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::moveq(machine, 0x01866Cu, 0x70FFu);
+}
+
+inline constexpr uint8_t source_instruction_01867C[] = {0x66, 0x08};
+inline pf::amiga::NativeResult instruction_01867C(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01867Cu, 0x6608u, 2u, 0x018686u);
+}
+
+inline constexpr uint8_t source_instruction_018688[] = {0x70, 0x00};
+inline pf::amiga::NativeResult instruction_018688(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::moveq(machine, 0x018688u, 0x7000u);
+}
+
+inline constexpr uint8_t source_instruction_01868A[] = {0x60, 0xE2};
+inline pf::amiga::NativeResult instruction_01868A(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x01868Au, 0x60E2u, 2u, 0x01866Eu);
+}
+
 inline constexpr uint8_t source_instruction_0187AE[] = {0x66, 0x0A};
 inline pf::amiga::NativeResult instruction_0187AE(pf::amiga::Machine& machine) {
     return pf::amiga::generated::branch(machine, 0x0187AEu, 0x660Au, 2u, 0x0187BAu);
@@ -4140,6 +4410,16 @@ inline pf::amiga::NativeResult instruction_0188D2(pf::amiga::Machine& machine) {
 inline constexpr uint8_t source_instruction_0188E8[] = {0x60, 0xCA};
 inline pf::amiga::NativeResult instruction_0188E8(pf::amiga::Machine& machine) {
     return pf::amiga::generated::branch(machine, 0x0188E8u, 0x60CAu, 2u, 0x0188B4u);
+}
+
+inline constexpr uint8_t source_instruction_018D36[] = {0x66, 0x32};
+inline pf::amiga::NativeResult instruction_018D36(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x018D36u, 0x6632u, 2u, 0x018D6Au);
+}
+
+inline constexpr uint8_t source_instruction_018D4C[] = {0x66, 0x18};
+inline pf::amiga::NativeResult instruction_018D4C(pf::amiga::Machine& machine) {
+    return pf::amiga::generated::branch(machine, 0x018D4Cu, 0x6618u, 2u, 0x018D66u);
 }
 
 inline void register_all(pf::amiga::NativeExecutor& executor) {
@@ -4594,6 +4874,38 @@ inline void register_all(pf::amiga::NativeExecutor& executor) {
     executor.register_block(0x01555Cu, &instruction_01555C, source_instruction_01555C, sizeof source_instruction_01555C);
     executor.register_block(0x015582u, &instruction_015582, source_instruction_015582, sizeof source_instruction_015582);
     executor.register_block(0x015586u, &instruction_015586, source_instruction_015586, sizeof source_instruction_015586);
+    executor.register_block(0x0155E0u, &instruction_0155E0, source_instruction_0155E0, sizeof source_instruction_0155E0);
+    executor.register_block(0x0155EAu, &instruction_0155EA, source_instruction_0155EA, sizeof source_instruction_0155EA);
+    executor.register_block(0x0155F2u, &instruction_0155F2, source_instruction_0155F2, sizeof source_instruction_0155F2);
+    executor.register_block(0x0155FCu, &instruction_0155FC, source_instruction_0155FC, sizeof source_instruction_0155FC);
+    executor.register_block(0x0155FEu, &instruction_0155FE, source_instruction_0155FE, sizeof source_instruction_0155FE);
+    executor.register_block(0x015600u, &instruction_015600, source_instruction_015600, sizeof source_instruction_015600);
+    executor.register_block(0x01561Au, &instruction_01561A, source_instruction_01561A, sizeof source_instruction_01561A);
+    executor.register_block(0x015644u, &instruction_015644, source_instruction_015644, sizeof source_instruction_015644);
+    executor.register_block(0x015650u, &instruction_015650, source_instruction_015650, sizeof source_instruction_015650);
+    executor.register_block(0x01565Au, &instruction_01565A, source_instruction_01565A, sizeof source_instruction_01565A);
+    executor.register_block(0x015662u, &instruction_015662, source_instruction_015662, sizeof source_instruction_015662);
+    executor.register_block(0x01566Cu, &instruction_01566C, source_instruction_01566C, sizeof source_instruction_01566C);
+    executor.register_block(0x01566Eu, &instruction_01566E, source_instruction_01566E, sizeof source_instruction_01566E);
+    executor.register_block(0x015670u, &instruction_015670, source_instruction_015670, sizeof source_instruction_015670);
+    executor.register_block(0x01568Au, &instruction_01568A, source_instruction_01568A, sizeof source_instruction_01568A);
+    executor.register_block(0x0156B4u, &instruction_0156B4, source_instruction_0156B4, sizeof source_instruction_0156B4);
+    executor.register_block(0x0156C0u, &instruction_0156C0, source_instruction_0156C0, sizeof source_instruction_0156C0);
+    executor.register_block(0x0156CAu, &instruction_0156CA, source_instruction_0156CA, sizeof source_instruction_0156CA);
+    executor.register_block(0x0156D2u, &instruction_0156D2, source_instruction_0156D2, sizeof source_instruction_0156D2);
+    executor.register_block(0x0156DCu, &instruction_0156DC, source_instruction_0156DC, sizeof source_instruction_0156DC);
+    executor.register_block(0x0156DEu, &instruction_0156DE, source_instruction_0156DE, sizeof source_instruction_0156DE);
+    executor.register_block(0x0156E0u, &instruction_0156E0, source_instruction_0156E0, sizeof source_instruction_0156E0);
+    executor.register_block(0x0156FAu, &instruction_0156FA, source_instruction_0156FA, sizeof source_instruction_0156FA);
+    executor.register_block(0x015724u, &instruction_015724, source_instruction_015724, sizeof source_instruction_015724);
+    executor.register_block(0x015730u, &instruction_015730, source_instruction_015730, sizeof source_instruction_015730);
+    executor.register_block(0x01573Au, &instruction_01573A, source_instruction_01573A, sizeof source_instruction_01573A);
+    executor.register_block(0x015742u, &instruction_015742, source_instruction_015742, sizeof source_instruction_015742);
+    executor.register_block(0x01574Cu, &instruction_01574C, source_instruction_01574C, sizeof source_instruction_01574C);
+    executor.register_block(0x01574Eu, &instruction_01574E, source_instruction_01574E, sizeof source_instruction_01574E);
+    executor.register_block(0x015750u, &instruction_015750, source_instruction_015750, sizeof source_instruction_015750);
+    executor.register_block(0x01576Au, &instruction_01576A, source_instruction_01576A, sizeof source_instruction_01576A);
+    executor.register_block(0x015794u, &instruction_015794, source_instruction_015794, sizeof source_instruction_015794);
     executor.register_block(0x0157DAu, &instruction_0157DA, source_instruction_0157DA, sizeof source_instruction_0157DA);
     executor.register_block(0x01581Au, &instruction_01581A, source_instruction_01581A, sizeof source_instruction_01581A);
     executor.register_block(0x015878u, &instruction_015878, source_instruction_015878, sizeof source_instruction_015878);
@@ -4950,6 +5262,28 @@ inline void register_all(pf::amiga::NativeExecutor& executor) {
     executor.register_block(0x01802Cu, &instruction_01802C, source_instruction_01802C, sizeof source_instruction_01802C);
     executor.register_block(0x018034u, &instruction_018034, source_instruction_018034, sizeof source_instruction_018034);
     executor.register_block(0x01804Cu, &instruction_01804C, source_instruction_01804C, sizeof source_instruction_01804C);
+    executor.register_block(0x01853Cu, &instruction_01853C, source_instruction_01853C, sizeof source_instruction_01853C);
+    executor.register_block(0x018566u, &instruction_018566, source_instruction_018566, sizeof source_instruction_018566);
+    executor.register_block(0x018568u, &instruction_018568, source_instruction_018568, sizeof source_instruction_018568);
+    executor.register_block(0x01856Au, &instruction_01856A, source_instruction_01856A, sizeof source_instruction_01856A);
+    executor.register_block(0x01857Au, &instruction_01857A, source_instruction_01857A, sizeof source_instruction_01857A);
+    executor.register_block(0x018594u, &instruction_018594, source_instruction_018594, sizeof source_instruction_018594);
+    executor.register_block(0x0185A0u, &instruction_0185A0, source_instruction_0185A0, sizeof source_instruction_0185A0);
+    executor.register_block(0x0185B0u, &instruction_0185B0, source_instruction_0185B0, sizeof source_instruction_0185B0);
+    executor.register_block(0x0185C0u, &instruction_0185C0, source_instruction_0185C0, sizeof source_instruction_0185C0);
+    executor.register_block(0x0185D6u, &instruction_0185D6, source_instruction_0185D6, sizeof source_instruction_0185D6);
+    executor.register_block(0x0185E4u, &instruction_0185E4, source_instruction_0185E4, sizeof source_instruction_0185E4);
+    executor.register_block(0x0185F0u, &instruction_0185F0, source_instruction_0185F0, sizeof source_instruction_0185F0);
+    executor.register_block(0x0185F6u, &instruction_0185F6, source_instruction_0185F6, sizeof source_instruction_0185F6);
+    executor.register_block(0x018620u, &instruction_018620, source_instruction_018620, sizeof source_instruction_018620);
+    executor.register_block(0x018658u, &instruction_018658, source_instruction_018658, sizeof source_instruction_018658);
+    executor.register_block(0x01865Au, &instruction_01865A, source_instruction_01865A, sizeof source_instruction_01865A);
+    executor.register_block(0x018660u, &instruction_018660, source_instruction_018660, sizeof source_instruction_018660);
+    executor.register_block(0x018664u, &instruction_018664, source_instruction_018664, sizeof source_instruction_018664);
+    executor.register_block(0x01866Cu, &instruction_01866C, source_instruction_01866C, sizeof source_instruction_01866C);
+    executor.register_block(0x01867Cu, &instruction_01867C, source_instruction_01867C, sizeof source_instruction_01867C);
+    executor.register_block(0x018688u, &instruction_018688, source_instruction_018688, sizeof source_instruction_018688);
+    executor.register_block(0x01868Au, &instruction_01868A, source_instruction_01868A, sizeof source_instruction_01868A);
     executor.register_block(0x0187AEu, &instruction_0187AE, source_instruction_0187AE, sizeof source_instruction_0187AE);
     executor.register_block(0x0187B0u, &instruction_0187B0, source_instruction_0187B0, sizeof source_instruction_0187B0);
     executor.register_block(0x0187CAu, &instruction_0187CA, source_instruction_0187CA, sizeof source_instruction_0187CA);
@@ -4968,6 +5302,8 @@ inline void register_all(pf::amiga::NativeExecutor& executor) {
     executor.register_block(0x0188D0u, &instruction_0188D0, source_instruction_0188D0, sizeof source_instruction_0188D0);
     executor.register_block(0x0188D2u, &instruction_0188D2, source_instruction_0188D2, sizeof source_instruction_0188D2);
     executor.register_block(0x0188E8u, &instruction_0188E8, source_instruction_0188E8, sizeof source_instruction_0188E8);
+    executor.register_block(0x018D36u, &instruction_018D36, source_instruction_018D36, sizeof source_instruction_018D36);
+    executor.register_block(0x018D4Cu, &instruction_018D4C, source_instruction_018D4C, sizeof source_instruction_018D4C);
 }
 
 } // namespace pf::amigagen
