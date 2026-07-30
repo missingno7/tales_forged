@@ -54,7 +54,7 @@
       }
     }
   ],
-  "portforge_revision": "9897847f66ca8d13cfed27f0ab751a13f2d18289",
+  "portforge_revision": "12a83580c90ed9bebcc8fa01540056a49d235719",
   "portforge_dirty": false,
   "outputs": {
     "artifacts/generated/pseudocode/func_010000.txt": "63e5bf82295388777397a3caacfbd5926080019c7b194c7dd4fb96bc61667241",
@@ -182,6 +182,6 @@
   },
   "producer_inputs": {
     "artifacts/amiga/ducktales-evidence.json": "2ac47fb87c00bfb380125b482d53726b1cba374d8e096404d62f5f4a3b47f1d2",
-    "artifacts/generated/amiga/lift-plan.json": "24087ba3aa3c7b11bbe15dba6906a6b32cc89b7489dc0a3aaa655631e750c438"
+    "artifacts/generated/amiga/lift-plan.json": "ab666501ade617159a7b298da45319101c91021f20b2361a7ea0fc812dffbd14"
   }
 }

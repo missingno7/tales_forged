@@ -2,30 +2,30 @@
   "claim": "byte-guarded generated subset plus observable interpreter/SMC fallback matches the M68000 oracle over generated-baseline",
   "companion_sha256": "7514f17734463e78ba16b39e454075f83d919bcace431c081570de88faf8259d",
   "equivalent": true,
-  "executed_generated_blocks": 3532400,
+  "executed_generated_blocks": 4027907,
   "format": "portforge-amiga-generated-verification-v1",
-  "generated_instruction_count": 780,
+  "generated_instruction_count": 825,
   "hunk_sha256": "00ad5a2860110701d5fe2acd6834d0a9c819d6659a8af9bdbc1a9e1a99aea481",
   "inputs": {
     "disk1": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
     "disk2": "7514f17734463e78ba16b39e454075f83d919bcace431c081570de88faf8259d",
     "game": "915ad32db6e75d6fb906a525d9efe6e8b872177d7d22b9faad318cc2e5ac156a",
-    "generated_header": "7e60708f4f23a9acc889f2d6ef26cf124dea2b8391c966e0913c6985b65e2e53",
-    "headless_runner": "ae44bbb668e79af99648fb922dd2cae1aa8e4dac5d92dab83fad4a0f25399138",
-    "lift_plan": "24087ba3aa3c7b11bbe15dba6906a6b32cc89b7489dc0a3aaa655631e750c438",
+    "generated_header": "924cc7d3dc10fc621034128c34608d4918b1dd5cee7bf4c5874e83890a278cf8",
+    "headless_runner": "2cef47e41e6a1cdeefe7376041a666b9c0af0fab55429fa54aba63c1b7d19d1c",
+    "lift_plan": "ab666501ade617159a7b298da45319101c91021f20b2361a7ea0fc812dffbd14",
     "profile": "1b94dcae62acfb82e91c819e357be935b2b7c71290cceae4207b74ae00f70509",
     "replay": "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1",
-    "viewer_runner": "2eabc4f73ca32965e37dc24afdda2c62f983ed3d8f452d1abaf0fa8935999e71"
+    "viewer_runner": "d9baf24e9a276765ae503c66da1e460b9b658c960c6446f4025baf865cc69d23"
   },
   "instruction_budget": 50000000,
-  "interpreter_fallback_steps": 46467600,
+  "interpreter_fallback_steps": 45972093,
   "load_base": "010000",
   "machine_model": "pf-amiga-a500-ocs-pal-v1",
   "module_entry": "010000",
   "producer": {
     "compiler": "C:\\msys64\\mingw64\\bin\\g++.EXE",
     "portforge_dirty": false,
-    "portforge_revision": "9897847f66ca8d13cfed27f0ab751a13f2d18289"
+    "portforge_revision": "12a83580c90ed9bebcc8fa01540056a49d235719"
   },
   "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
   "replay": "artifacts/replays/cold5.pfreplay.json",
