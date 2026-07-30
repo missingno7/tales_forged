@@ -1,0 +1,70 @@
+{
+  "format": "portforge-atlas-evidence-v2",
+  "platform": "amiga",
+  "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
+  "game_config": {
+    "path": "game.json",
+    "sha256": "915ad32db6e75d6fb906a525d9efe6e8b872177d7d22b9faad318cc2e5ac156a"
+  },
+  "atlas": {
+    "hash_scheme": "portforge-tree-sha256-v1",
+    "sha256": "81454a2fd8a4a91fcfa8a23fbfdb22a4b04e97b28cbed7b88bf421d3e97ce9b9"
+  },
+  "replays": [
+    {
+      "path": "artifacts/replays/cold5.pfreplay.json",
+      "sha256": "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1",
+      "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
+      "oracle_verified": true,
+      "bootstrap": {
+        "format": "portforge-amiga-direct-hunk-bootstrap-v2",
+        "machine_profile": "a500-ocs-pal",
+        "machine_model": "pf-amiga-a500-ocs-pal-v1",
+        "executable": "DuckTales",
+        "program": {
+          "path": "assets/Duck Tales - The Quest for Gold (1989)(Disney Software)(Disk 1 of 2).adf",
+          "kind": "file",
+          "hash_scheme": "sha256-file-bytes",
+          "sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
+          "size": 901120
+        },
+        "companion_disks": [
+          {
+            "id": "disk2",
+            "role": "AmigaDOS DT2 companion data volume",
+            "asset": {
+              "path": "assets/Duck Tales - The Quest for Gold (1989)(Disney Software)(Disk 2 of 2).adf",
+              "kind": "file",
+              "hash_scheme": "sha256-file-bytes",
+              "sha256": "7514f17734463e78ba16b39e454075f83d919bcace431c081570de88faf8259d",
+              "size": 901120
+            }
+          }
+        ],
+        "extensions": {
+          "org.portforge.amiga.execution-image": {
+            "format": "pf-amiga-execution-image-v1",
+            "identity_model": "adf-sha256+program+hunk-sha256+load-base+module-entry",
+            "program": "DuckTales",
+            "hunk_sha256": "00ad5a2860110701d5fe2acd6834d0a9c819d6659a8af9bdbc1a9e1a99aea481",
+            "load_base": 65536,
+            "module_entry": 65536
+          }
+        }
+      }
+    }
+  ],
+  "imports": [],
+  "evidence": [
+    {
+      "id": "evidence-amiga-oracle-07a5bdffa4777251",
+      "kind": "replay-evidence",
+      "origin": "portforge",
+      "sha256": "2ac47fb87c00bfb380125b482d53726b1cba374d8e096404d62f5f4a3b47f1d2"
+    }
+  ],
+  "portforge": {
+    "revision": "cbcccbd534664ab0f2a001e1e168926b0ea0c6ac",
+    "dirty": false
+  }
+}

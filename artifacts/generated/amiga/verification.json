@@ -1,0 +1,71 @@
+{
+  "claim": "byte-guarded generated subset plus observable interpreter/SMC fallback matches the M68000 oracle over generated-baseline",
+  "companion_sha256": "7514f17734463e78ba16b39e454075f83d919bcace431c081570de88faf8259d",
+  "equivalent": true,
+  "executed_generated_blocks": 3532400,
+  "format": "portforge-amiga-generated-verification-v1",
+  "generated_instruction_count": 780,
+  "hunk_sha256": "00ad5a2860110701d5fe2acd6834d0a9c819d6659a8af9bdbc1a9e1a99aea481",
+  "inputs": {
+    "disk1": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
+    "disk2": "7514f17734463e78ba16b39e454075f83d919bcace431c081570de88faf8259d",
+    "game": "915ad32db6e75d6fb906a525d9efe6e8b872177d7d22b9faad318cc2e5ac156a",
+    "generated_header": "187b5a98383a754516675d2462810a0be27f44171f17462643da662ca5992685",
+    "headless_runner": "dbd67f3048f5cc2c805566e1516a8882b5b34f0077169078cb7d515e6a053cef",
+    "lift_plan": "65767c853912bdb15c3eaafebebfac81831d045f4f9700e098197e1395ea7988",
+    "profile": "1b94dcae62acfb82e91c819e357be935b2b7c71290cceae4207b74ae00f70509",
+    "replay": "07a5bdffa4777251420709986bed8dad2284b25bfb5e8f776cd9ecb00d0355a1",
+    "viewer_runner": "e172b3b30f598a45bed7921c1c00fa6934b2ac8e1a077c8fd504446befe29fc4"
+  },
+  "instruction_budget": 50000000,
+  "interpreter_fallback_steps": 46467600,
+  "load_base": "010000",
+  "machine_model": "pf-amiga-a500-ocs-pal-v1",
+  "module_entry": "010000",
+  "producer": {
+    "compiler": "C:\\msys64\\mingw64\\bin\\g++.EXE",
+    "portforge_dirty": false,
+    "portforge_revision": "cbcccbd534664ab0f2a001e1e168926b0ea0c6ac"
+  },
+  "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
+  "replay": "artifacts/replays/cold5.pfreplay.json",
+  "replay_event_count": 171,
+  "replay_last_master_tick": 1790170392,
+  "state": {
+    "address_registers": [
+      12604750,
+      465230,
+      28672,
+      0,
+      134566,
+      523986,
+      36864,
+      523954
+    ],
+    "canonical_digest": "9ad9f6edc4b6f2a65ec34e2e093b60d6e70894b4269143516da5c9d9cb37b5ba",
+    "cpu_cycles": 421481378,
+    "data_registers": [
+      119,
+      2,
+      131072,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "diagnostic": "",
+    "frame": 8812,
+    "instructions": 50000000,
+    "master_tick": 2501994376,
+    "pc": 12589590,
+    "raster_h": 336,
+    "raster_v": 100,
+    "replay_events_consumed": 171,
+    "replay_events_total": 171,
+    "service_calls": 20224,
+    "status": "step-limit",
+    "status_register": 8192,
+    "visible_output": true
+  }
+}

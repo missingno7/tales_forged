@@ -1,0 +1,47 @@
+{
+  "$schema": "port_forge/schemas/portforge-game-v0.schema.json",
+  "format": "portforge-game-v0",
+  "name": "ducktales_amiga",
+  "title": "DuckTales: The Quest for Gold",
+  "platform": "amiga",
+  "program": {
+    "file": "Duck Tales - The Quest for Gold (1989)(Disney Software)(Disk 1 of 2).adf",
+    "sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
+    "hunk_sha256": "00ad5a2860110701d5fe2acd6834d0a9c819d6659a8af9bdbc1a9e1a99aea481",
+    "size": 901120,
+    "volume": "DT1",
+    "executable": "DuckTales"
+  },
+  "companion_assets": {
+    "disk2": {
+      "file": "Duck Tales - The Quest for Gold (1989)(Disney Software)(Disk 2 of 2).adf",
+      "sha256": "7514f17734463e78ba16b39e454075f83d919bcace431c081570de88faf8259d",
+      "size": 901120,
+      "role": "AmigaDOS DT2 companion data volume"
+    }
+  },
+  "machine": {
+    "profile": "a500-ocs-pal",
+    "direct_hunk_bootstrap": true,
+    "load_base": "0x10000",
+    "module_entry": "0x10000",
+    "companion_disks": [
+      "disk2"
+    ],
+    "vblank_signals": [
+      "0x2413e"
+    ]
+  },
+  "input": {
+    "status": "interactive-and-replayable",
+    "device": "Amiga joystick Port 2 (JOY1DAT)",
+    "bindings": {
+      "directions": "arrow keys",
+      "continue": ["Space", "Enter"],
+      "fire": ["Enter", "Ctrl"]
+    },
+    "journal_clock": "PAL master ticks",
+    "verified_path": "title screen -> difficulty menu -> story sequence -> map selection -> Launchpad travel sequence",
+    "known_limit": "Later minigame screens still need fuller ViewPort/palette fidelity; full-game completion and disk-2 progression have not been verified."
+  }
+}

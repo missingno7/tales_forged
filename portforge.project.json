@@ -1,0 +1,115 @@
+{
+  "$schema": "port_forge/schemas/portforge-project-v1.schema.json",
+  "format": "portforge-project-v1",
+  "game": "game.json",
+  "portforge": "port_forge",
+  "assets": "assets",
+  "default_profile": "ducktales_a500_ocs_pal",
+  "artifacts": {
+    "runs": "artifacts/amiga",
+    "replays": "artifacts/replays",
+    "snapshots": "artifacts/snapshots",
+    "atlas": "artifacts/atlas.pfatlas",
+    "lift_plan": "artifacts/generated/amiga/lift-plan.json",
+    "blocks": "artifacts/generated/amiga/blocks.json"
+  },
+  "corpora": {
+    "recovery": [
+      "cold5.pfreplay.json"
+    ],
+    "generated-baseline": [
+      "cold5.pfreplay.json"
+    ]
+  },
+  "known_gaps": [
+    {
+      "severity": "risk",
+      "scope": "amiga-hardware",
+      "summary": "Copper execution and complete ViewPort/palette synthesis are not yet modeled; later story frames can render incompletely even though title and difficulty screens are correct.",
+      "evidence": "README.md"
+    },
+    {
+      "severity": "risk",
+      "scope": "gameplay",
+      "summary": "Title, difficulty selection, story progression, map selection, and entry into the Launchpad travel sequence are verified with deterministic input journals; later minigames and disk-2 progression remain unverified.",
+      "evidence": "artifacts/amiga/ducktales-run.json"
+    },
+    {
+      "severity": "risk",
+      "scope": "automatic-lifting",
+      "summary": "Generated execution covers only the fail-closed M68000 subset proven by resident recovery; speculative relocation targets, unresolved indirect transfers, and modified code remain explicit fallback/frontier work.",
+      "evidence": "artifacts/generated/amiga/lift-plan.json"
+    },
+    {
+      "severity": "risk",
+      "scope": "amiga-overlays",
+      "summary": "Observed LoadSeg generations receive exact file, relocation, and relocated-range identities, but Atlas control-flow identities are not yet generation-scoped and unobserved overlay loads remain open.",
+      "evidence": "artifacts/amiga/ducktales-evidence.json"
+    }
+  ],
+  "player": {
+    "default_runtime": "oracle",
+    "runtimes": {
+      "oracle": {
+        "supported": true,
+        "adapter": "scripts/play.py:amiga-direct-hunk-oracle",
+        "build_hint": "python port_forge/build.py --no-tests --targets pf_amiga_view,pf_amiga_run"
+      },
+      "generated": {
+        "supported": true,
+        "adapter": "scripts/play.py:amiga-guarded-generated",
+        "build_hint": "python scripts/build_generated.py",
+        "fallback": {
+          "mode": "interpreter-and-smc",
+          "coverage": "partial",
+          "observable": true,
+          "evidence": [
+            "scripts/build_generated.py",
+            "artifacts/generated/amiga/verification.json"
+          ],
+          "notes": "Only the validated conservative M68000 subset executes as generated hooks; all other or modified instructions retain explicit observable interpreter/SMC fallback."
+        }
+      },
+      "port": {
+        "supported": false,
+        "reason": "No complete PortForge-independent source port exists."
+      }
+    }
+  },
+  "workflows": {
+    "play": {
+      "command": ["python", "scripts/play.py"],
+      "scope": "interactive",
+      "description": "Open the default oracle player, or explicitly select the verified generated+fallback runtime; both support deterministic input, snapshots, recording, audio, and Live Atlas."
+    },
+    "replay": {
+      "command": ["python", "scripts/play.py", "--headless", "--replay-inputs"],
+      "scope": "whole-program",
+      "description": "Replay a timestamped, asset-bound Amiga input journal and require matching canonical state across a deterministic rerun and snapshot restore.",
+      "gate": true,
+      "requires": ["replay"]
+    },
+    "analyze": {
+      "command": ["python", "scripts/analyze.py"],
+      "scope": "resident-static-recovery",
+      "description": "Verify the pinned ADF set and curated execution evidence, recover resident M68000 instructions and blocks, and materialize a deterministic pf-recovered-blocks-v1 source for the Execution Atlas."
+    },
+    "build-generated": {
+      "command": ["python", "scripts/build_generated.py"],
+      "scope": "generated-baseline",
+      "description": "Regenerate byte-guarded M68000 hooks, build both generated runners, and require canonical oracle equality through the complete curated replay timeline.",
+      "gate": true
+    },
+    "play-generated": {
+      "command": ["python", "scripts/play.py", "--runtime", "generated"],
+      "scope": "interactive-generated",
+      "description": "Run the verified generated subset with observable interpreter and self-modifying-code fallback."
+    },
+    "atlas": {
+      "command": ["python", "scripts/rebuild_atlas.py"],
+      "scope": "dynamic-and-static-execution-evidence",
+      "description": "Recollect the full oracle replay, regenerate recovered blocks, and atomically rebuild the evidence-bound Execution Atlas.",
+      "gate": true
+    }
+  }
+}

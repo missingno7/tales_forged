@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+*.adf binary
+*.exe binary
+*.png binary
+*.ppm binary
+*.wav binary
