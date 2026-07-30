@@ -2,8 +2,8 @@
 // This is not decompiled semantics or a source-port implementation.
 // boundary: amiga:0155D6
 // evidence: observed: call in 0551ceab3ac00a8c
-// recovered blocks: 23
-// replay calls: 102
+// recovered blocks: 24
+// replay calls: 407
 // derived return form: rts
 // measured completed calls: 16 (constant inclusive cost)
 // ABI unknowns: clobbered_caller_visible, exit_flags, register_arguments, saved_and_restored, stack_arguments, stack_frame
@@ -32,3 +32,4 @@ blocks:
   amiga:015632
   amiga:01563A
   amiga:01563C
+  amiga:015644

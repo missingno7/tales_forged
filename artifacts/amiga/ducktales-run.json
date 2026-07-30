@@ -1,16 +1,16 @@
 {
   "active_view": 123210,
-  "active_view_header": "0001e15c00c0556000c055600000000000000000000000c054f000000000000000000000000000000000014000c80000",
+  "active_view_header": "0001e15c00c0555000c055600000000000000000000000c054f000000000000000000000000000000000014000c80000",
   "address_references": [],
   "address_registers": [
-    104282,
-    12587136,
+    119800,
+    120986,
     28672,
     0,
     134566,
-    523838,
+    523894,
     32768,
-    524032
+    523874
   ],
   "audio_deterministic": true,
   "audio_frames": 0,
@@ -18,109 +18,109 @@
   "audio_peak": 0,
   "audio_sha256": "",
   "base_snapshot": "",
-  "canonical_digest": "31b496a9fa790488e89db269c5469feb75e765ba5ae4c04c597fb348f15cfa4e",
+  "canonical_digest": "fc873efdeb268f134b8156f356bf950650b3e13958929176bb91e3b78f7557dc",
   "chip_allocation_cursor": 465240,
-  "cia_a_port_reads": 3562,
-  "cpu_cycles": 188556532,
+  "cia_a_port_reads": 7739,
+  "cpu_cycles": 425645318,
   "custom_write_counts": [
     {
-      "count": 992,
+      "count": 20037,
       "last_value": 3580,
       "offset": 64
     },
     {
-      "count": 992,
+      "count": 20037,
       "last_value": 0,
       "offset": 66
     },
     {
-      "count": 992,
+      "count": 20037,
       "last_value": 65535,
       "offset": 68
     },
     {
-      "count": 992,
+      "count": 20037,
       "last_value": 65535,
       "offset": 70
     },
     {
-      "count": 4960,
+      "count": 100185,
       "last_value": 0,
       "offset": 72
     },
     {
-      "count": 4960,
+      "count": 100185,
       "last_value": 0,
       "offset": 74
     },
     {
-      "count": 4960,
+      "count": 100185,
       "last_value": 5,
       "offset": 76
     },
     {
-      "count": 4960,
-      "last_value": 23260,
+      "count": 100185,
+      "last_value": 22968,
       "offset": 78
     },
     {
-      "count": 4960,
+      "count": 100185,
       "last_value": 5,
       "offset": 80
     },
     {
-      "count": 4960,
-      "last_value": 22772,
+      "count": 100185,
+      "last_value": 22936,
       "offset": 82
     },
     {
-      "count": 4960,
+      "count": 100185,
       "last_value": 5,
       "offset": 84
     },
     {
-      "count": 4960,
-      "last_value": 23260,
+      "count": 100185,
+      "last_value": 22968,
       "offset": 86
     },
     {
-      "count": 4960,
-      "last_value": 1090,
+      "count": 100185,
+      "last_value": 1025,
       "offset": 88
     },
     {
-      "count": 992,
+      "count": 20037,
       "last_value": 0,
       "offset": 96
     },
     {
-      "count": 992,
+      "count": 20037,
       "last_value": 0,
       "offset": 98
     },
     {
-      "count": 992,
+      "count": 20037,
       "last_value": 0,
       "offset": 100
     },
     {
-      "count": 992,
+      "count": 20037,
       "last_value": 0,
       "offset": 102
     },
     {
-      "count": 3237,
-      "last_value": 2,
+      "count": 45756,
+      "last_value": 1024,
       "offset": 150
     },
     {
-      "count": 531,
-      "last_value": 128,
+      "count": 2764,
+      "last_value": 33024,
       "offset": 154
     },
     {
-      "count": 995,
-      "last_value": 128,
+      "count": 4222,
+      "last_value": 256,
       "offset": 156
     },
     {
@@ -129,359 +129,359 @@
       "offset": 158
     },
     {
-      "count": 150,
+      "count": 513,
       "last_value": 4,
       "offset": 160
     },
     {
-      "count": 150,
-      "last_value": 22144,
+      "count": 513,
+      "last_value": 49944,
       "offset": 162
     },
     {
-      "count": 150,
-      "last_value": 7550,
+      "count": 513,
+      "last_value": 1694,
       "offset": 164
     },
     {
-      "count": 144,
-      "last_value": 508,
+      "count": 808,
+      "last_value": 428,
       "offset": 166
     },
     {
-      "count": 1383,
-      "last_value": 63,
+      "count": 7505,
+      "last_value": 0,
       "offset": 168
     },
     {
-      "count": 300,
+      "count": 1127,
       "last_value": 6,
       "offset": 176
     },
     {
-      "count": 300,
+      "count": 1127,
       "last_value": 45806,
       "offset": 178
     },
     {
-      "count": 300,
+      "count": 1127,
       "last_value": 1067,
       "offset": 180
     },
     {
-      "count": 189,
+      "count": 1451,
       "last_value": 320,
       "offset": 182
     },
     {
-      "count": 1879,
-      "last_value": 51,
+      "count": 11846,
+      "last_value": 19,
       "offset": 184
     },
     {
-      "count": 155,
+      "count": 541,
       "last_value": 4,
       "offset": 192
     },
     {
-      "count": 155,
+      "count": 541,
       "last_value": 49944,
       "offset": 194
     },
     {
-      "count": 155,
+      "count": 541,
       "last_value": 1694,
       "offset": 196
     },
     {
-      "count": 706,
+      "count": 8868,
       "last_value": 253,
       "offset": 198
     },
     {
-      "count": 1388,
-      "last_value": 15,
+      "count": 7596,
+      "last_value": 0,
       "offset": 200
     },
     {
-      "count": 138,
+      "count": 840,
       "last_value": 6,
       "offset": 208
     },
     {
-      "count": 138,
+      "count": 840,
       "last_value": 39988,
       "offset": 210
     },
     {
-      "count": 138,
+      "count": 840,
       "last_value": 821,
       "offset": 212
     },
     {
-      "count": 103,
+      "count": 2005,
       "last_value": 428,
       "offset": 214
     },
     {
-      "count": 1567,
-      "last_value": 55,
+      "count": 11156,
+      "last_value": 10,
       "offset": 216
     },
     {
-      "count": 443,
-      "last_value": 3,
+      "count": 4566,
+      "last_value": 2,
       "offset": 224
     },
     {
-      "count": 443,
-      "last_value": 7632,
+      "count": 4566,
+      "last_value": 33168,
       "offset": 226
     },
     {
-      "count": 443,
-      "last_value": 3,
+      "count": 4566,
+      "last_value": 2,
       "offset": 228
     },
     {
-      "count": 443,
-      "last_value": 15632,
+      "count": 4566,
+      "last_value": 41168,
       "offset": 230
     },
     {
-      "count": 443,
-      "last_value": 3,
+      "count": 4566,
+      "last_value": 2,
       "offset": 232
     },
     {
-      "count": 443,
-      "last_value": 23632,
+      "count": 4566,
+      "last_value": 49168,
       "offset": 234
     },
     {
-      "count": 443,
-      "last_value": 3,
+      "count": 4566,
+      "last_value": 2,
       "offset": 236
     },
     {
-      "count": 443,
-      "last_value": 31632,
+      "count": 4566,
+      "last_value": 57168,
       "offset": 238
     },
     {
-      "count": 443,
-      "last_value": 3,
+      "count": 4566,
+      "last_value": 2,
       "offset": 240
     },
     {
-      "count": 443,
-      "last_value": 39632,
+      "count": 4566,
+      "last_value": 65168,
       "offset": 242
     },
     {
-      "count": 443,
+      "count": 4566,
       "last_value": 20480,
       "offset": 256
     },
     {
-      "count": 443,
+      "count": 4566,
       "last_value": 0,
       "offset": 264
     },
     {
-      "count": 443,
+      "count": 4566,
       "last_value": 0,
       "offset": 266
     },
     {
-      "count": 443,
+      "count": 4566,
       "last_value": 0,
       "offset": 384
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 4095,
       "offset": 386
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 3276,
       "offset": 388
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 2730,
       "offset": 390
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 1911,
       "offset": 392
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 2303,
       "offset": 394
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 651,
       "offset": 396
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 55,
       "offset": 398
     },
     {
-      "count": 443,
+      "count": 4566,
       "last_value": 0,
       "offset": 400
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 2850,
       "offset": 402
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 1826,
       "offset": 404
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 4023,
       "offset": 406
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 3968,
       "offset": 408
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 3185,
       "offset": 410
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 2536,
       "offset": 412
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 931,
       "offset": 414
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 128,
       "offset": 416
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 610,
       "offset": 418
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 321,
       "offset": 420
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 4088,
       "offset": 422
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 3526,
       "offset": 424
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 3236,
       "offset": 426
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 2674,
       "offset": 428
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 2129,
       "offset": 430
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 2406,
       "offset": 432
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 2133,
       "offset": 434
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 1860,
       "offset": 436
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 1587,
       "offset": 438
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 1331,
       "offset": 440
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 1058,
       "offset": 442
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 309,
       "offset": 444
     },
     {
-      "count": 443,
-      "last_value": 0,
+      "count": 4566,
+      "last_value": 1365,
       "offset": 446
     }
   ],
   "data_registers": [
-    1,
-    1,
-    99632,
+    16,
     4,
-    20,
+    24,
+    61,
+    0,
     0,
     0,
     0
   ],
   "deterministic_rerun": true,
   "diagnostic": "",
-  "dmacon": 512,
+  "dmacon": 527,
   "evidence": "ducktales-evidence.json",
   "execution_mode": "amiga-oracle",
   "fire0_active_reads": 0,
   "fire1_active_reads": 8,
   "format": "pf-amiga-run-v1",
-  "frame": 5595,
+  "frame": 17311,
   "framebuffer_height": 200,
   "framebuffer_width": 320,
-  "host_steps": 23528391,
-  "instructions": 23528391,
-  "intena": 18208,
+  "host_steps": 50000000,
+  "instructions": 50000000,
+  "intena": 18336,
   "interpreter_fallback_steps": 0,
   "intreq": 96,
   "level_1_to_7_vectors": "00000000000000000000000000000000000000000000000000000000",
-  "master_tick": 1588548120,
+  "master_tick": 4915107912,
   "memory_peeks": [],
   "mounted_volumes": [
     "dt1",
@@ -493,12 +493,12 @@
   "overlay_probe_address": 102384,
   "overlay_probe_final": "4ef900c0108c00ce",
   "overlay_probe_initial": "610000ce01000000",
-  "pc": 524256,
-  "pc_window": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-  "pc_window_address": 524224,
+  "pc": 97058,
+  "pc_window": "48e770003401c4c026014843c6c048434243d4834840c0c148404240d0824cdf000e4e754e55000048e70e30246d000842a7487a008e4eba0e9c294033c2504f",
+  "pc_window_address": 97024,
   "presentation_bitmap": 113808,
-  "raster_h": 250,
-  "raster_v": 17,
+  "raster_h": 442,
+  "raster_v": 185,
   "recovered_interrupt_vectors": 0,
   "replay_events_consumed": 164,
   "replay_events_total": 164,
@@ -765,6 +765,46 @@
     },
     {
       "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12675944"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12675968"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12675992"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12676016"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12676040"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12676064"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12681824"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12681848"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12681872"
+    },
+    {
+      "count": 1,
+      "service": "alloc:size=18,flags=65537,result=12681896"
+    },
+    {
+      "count": 1,
       "service": "alloc:size=19000,flags=2,result=445856"
     },
     {
@@ -832,11 +872,11 @@
       "service": "allocate:size=1040,header=123346,result=350656"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=1080,header=123346,result=349032"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=1114,header=123346,result=284288"
     },
     {
@@ -920,7 +960,7 @@
       "service": "allocate:size=1440,header=123346,result=328048"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=1440,header=123346,result=344936"
     },
     {
@@ -976,6 +1016,10 @@
       "service": "allocate:size=1550,header=123346,result=329488"
     },
     {
+      "count": 840,
+      "service": "allocate:size=156,header=123346,result=389448"
+    },
+    {
       "count": 1,
       "service": "allocate:size=157,header=123346,result=284288"
     },
@@ -988,7 +1032,7 @@
       "service": "allocate:size=160,header=123346,result=342120"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=160,header=123346,result=350456"
     },
     {
@@ -1044,6 +1088,10 @@
       "service": "allocate:size=165,header=123346,result=284288"
     },
     {
+      "count": 840,
+      "service": "allocate:size=168,header=123346,result=389448"
+    },
+    {
       "count": 2,
       "service": "allocate:size=1792,header=123346,result=293240"
     },
@@ -1064,7 +1112,7 @@
       "service": "allocate:size=1792,header=123346,result=371296"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=19186,header=123346,result=292888"
     },
     {
@@ -1112,7 +1160,7 @@
       "service": "allocate:size=2072,header=123346,result=374376"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=2154,header=123346,result=285416"
     },
     {
@@ -1128,7 +1176,7 @@
       "service": "allocate:size=22400,header=123346,result=284280"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=2250,header=123346,result=346376"
     },
     {
@@ -1140,7 +1188,7 @@
       "service": "allocate:size=232,header=123346,result=147856"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=23800,header=123346,result=321136"
     },
     {
@@ -1160,6 +1208,10 @@
       "service": "allocate:size=260,header=123346,result=322184"
     },
     {
+      "count": 840,
+      "service": "allocate:size=272,header=123346,result=389448"
+    },
+    {
       "count": 1,
       "service": "allocate:size=27245,header=123346,result=331264"
     },
@@ -1176,8 +1228,12 @@
       "service": "allocate:size=286,header=123346,result=284288"
     },
     {
-      "count": 85,
+      "count": 3366,
       "service": "allocate:size=288,header=123346,result=350616"
+    },
+    {
+      "count": 840,
+      "service": "allocate:size=288,header=123346,result=389448"
     },
     {
       "count": 1,
@@ -1200,7 +1256,7 @@
       "service": "allocate:size=317,header=123346,result=284288"
     },
     {
-      "count": 83,
+      "count": 3363,
       "service": "allocate:size=32,header=123346,result=350616"
     },
     {
@@ -1244,7 +1300,7 @@
       "service": "allocate:size=340,header=123346,result=308128"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=340,header=123346,result=350112"
     },
     {
@@ -1360,7 +1416,7 @@
       "service": "allocate:size=40,header=123346,result=317928"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=40,header=123346,result=321096"
     },
     {
@@ -1368,7 +1424,7 @@
       "service": "allocate:size=40,header=123346,result=350616"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=400,header=123346,result=348632"
     },
     {
@@ -1404,7 +1460,7 @@
       "service": "allocate:size=4480,header=123346,result=371296"
     },
     {
-      "count": 86,
+      "count": 3367,
       "service": "allocate:size=450,header=123346,result=350616"
     },
     {
@@ -1428,6 +1484,10 @@
       "service": "allocate:size=512,header=123346,result=371296"
     },
     {
+      "count": 880,
+      "service": "allocate:size=52,header=123346,result=389448"
+    },
+    {
       "count": 1,
       "service": "allocate:size=520,header=123346,result=284280"
     },
@@ -1436,12 +1496,16 @@
       "service": "allocate:size=520,header=123346,result=320520"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=5292,header=123346,result=287584"
     },
     {
       "count": 1,
       "service": "allocate:size=5292,header=123346,result=333304"
+    },
+    {
+      "count": 840,
+      "service": "allocate:size=56,header=123346,result=389448"
     },
     {
       "count": 1,
@@ -1452,15 +1516,15 @@
       "service": "allocate:size=580,header=123346,result=313840"
     },
     {
-      "count": 92,
+      "count": 93,
       "service": "allocate:size=6,header=123346,result=284280"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=6,header=123346,result=285408"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=6,header=123346,result=287576"
     },
     {
@@ -1468,11 +1532,11 @@
       "service": "allocate:size=6,header=123346,result=292384"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=6,header=123346,result=292880"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=6,header=123346,result=312080"
     },
     {
@@ -1576,6 +1640,10 @@
       "service": "allocate:size=79,header=123346,result=284288"
     },
     {
+      "count": 2,
+      "service": "allocate:size=80,header=123346,result=284280"
+    },
+    {
       "count": 1,
       "service": "allocate:size=80,header=123346,result=284288"
     },
@@ -1584,12 +1652,16 @@
       "service": "allocate:size=80,header=123346,result=311600"
     },
     {
-      "count": 86,
+      "count": 3367,
       "service": "allocate:size=80,header=123346,result=350616"
     },
     {
       "count": 69,
       "service": "allocate:size=80,header=123346,result=350872"
+    },
+    {
+      "count": 840,
+      "service": "allocate:size=80,header=123346,result=389448"
     },
     {
       "count": 1,
@@ -1688,7 +1760,7 @@
       "service": "allocate:size=90,header=123346,result=284288"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "allocate:size=9001,header=123346,result=312088"
     },
     {
@@ -1736,23 +1808,55 @@
       "service": "blt-bitmap:113808->244240"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "blt-bitmap:113808->321096"
     },
     {
-      "count": 220,
+      "count": 1861,
       "service": "blt-bitmap:244240->113768"
     },
     {
-      "count": 220,
+      "count": 1861,
       "service": "blt-bitmap:244240->113808"
     },
     {
-      "count": 42,
+      "count": 420,
+      "service": "blt-bitmap:294960->113768"
+    },
+    {
+      "count": 420,
+      "service": "blt-bitmap:294960->113808"
+    },
+    {
+      "count": 420,
+      "service": "blt-bitmap:296600->113768"
+    },
+    {
+      "count": 420,
+      "service": "blt-bitmap:296600->113808"
+    },
+    {
+      "count": 420,
+      "service": "blt-bitmap:304880->113768"
+    },
+    {
+      "count": 420,
+      "service": "blt-bitmap:304880->113808"
+    },
+    {
+      "count": 420,
+      "service": "blt-bitmap:305720->113768"
+    },
+    {
+      "count": 420,
+      "service": "blt-bitmap:305720->113808"
+    },
+    {
+      "count": 1682,
       "service": "blt-bitmap:321096->113768"
     },
     {
-      "count": 44,
+      "count": 1686,
       "service": "blt-bitmap:321096->113808"
     },
     {
@@ -1764,12 +1868,28 @@
       "service": "blt-region:0,0->0,0:176x200:minterm=192,mask=255"
     },
     {
-      "count": 174,
+      "count": 3456,
       "service": "blt-region:0,0->0,0:320x200:minterm=192,mask=255"
     },
     {
-      "count": 86,
+      "count": 840,
+      "service": "blt-region:0,0->0,160:80x16:minterm=192,mask=255"
+    },
+    {
+      "count": 840,
+      "service": "blt-region:0,0->160,144:80x32:minterm=192,mask=255"
+    },
+    {
+      "count": 3368,
       "service": "blt-region:0,0->24,20:272x140:minterm=192,mask=255"
+    },
+    {
+      "count": 840,
+      "service": "blt-region:0,0->240,144:80x32:minterm=192,mask=255"
+    },
+    {
+      "count": 840,
+      "service": "blt-region:0,0->80,160:80x16:minterm=192,mask=255"
     },
     {
       "count": 67,
@@ -1792,7 +1912,7 @@
       "service": "blt-region:184,0->144,72:8x8:minterm=192,mask=255"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "blt-region:24,20->0,0:272x140:minterm=192,mask=255"
     },
     {
@@ -1844,11 +1964,11 @@
       "service": "device-command:9:data=147664"
     },
     {
-      "count": 12,
+      "count": 13,
       "service": "dos:-150"
     },
     {
-      "count": 1326,
+      "count": 4760,
       "service": "dos:-198"
     },
     {
@@ -1860,39 +1980,35 @@
       "service": "dos:-36"
     },
     {
-      "count": 3475,
+      "count": 3869,
       "service": "dos:-42"
-    },
-    {
-      "count": 2,
-      "service": "dos:-48"
     },
     {
       "count": 1,
       "service": "dos:-54"
     },
     {
-      "count": 3,
+      "count": 1,
       "service": "dos:-60"
     },
     {
-      "count": 250,
+      "count": 270,
       "service": "dos:-66"
     },
     {
-      "count": 248,
+      "count": 8488,
       "service": "draw-bitmap:113768"
     },
     {
-      "count": 388,
+      "count": 8764,
       "service": "draw-bitmap:113808"
     },
     {
-      "count": 41,
+      "count": 46,
       "service": "exec:-132"
     },
     {
-      "count": 41,
+      "count": 46,
       "service": "exec:-138"
     },
     {
@@ -1904,19 +2020,19 @@
       "service": "exec:-168"
     },
     {
-      "count": 1318,
+      "count": 20381,
       "service": "exec:-186"
     },
     {
-      "count": 1231,
+      "count": 20358,
       "service": "exec:-192"
     },
     {
-      "count": 71,
+      "count": 81,
       "service": "exec:-198"
     },
     {
-      "count": 75,
+      "count": 84,
       "service": "exec:-210"
     },
     {
@@ -1924,11 +2040,11 @@
       "service": "exec:-216"
     },
     {
-      "count": 62,
+      "count": 72,
       "service": "exec:-246"
     },
     {
-      "count": 93,
+      "count": 108,
       "service": "exec:-264"
     },
     {
@@ -1956,7 +2072,7 @@
       "service": "exec:-456"
     },
     {
-      "count": 16,
+      "count": 17,
       "service": "exec:-552"
     },
     {
@@ -1972,43 +2088,43 @@
       "service": "graphics:-216"
     },
     {
-      "count": 443,
+      "count": 4566,
       "service": "graphics:-222"
     },
     {
-      "count": 12,
+      "count": 855,
       "service": "graphics:-234"
     },
     {
-      "count": 1900,
+      "count": 29201,
       "service": "graphics:-240"
     },
     {
-      "count": 636,
+      "count": 17252,
       "service": "graphics:-246"
     },
     {
-      "count": 533,
+      "count": 10458,
       "service": "graphics:-30"
     },
     {
-      "count": 992,
+      "count": 20037,
       "service": "graphics:-300"
     },
     {
-      "count": 774,
+      "count": 30600,
       "service": "graphics:-324"
     },
     {
-      "count": 2675,
+      "count": 59802,
       "service": "graphics:-342"
     },
     {
-      "count": 1264,
+      "count": 11949,
       "service": "graphics:-348"
     },
     {
-      "count": 1265,
+      "count": 11950,
       "service": "graphics:-354"
     },
     {
@@ -2020,7 +2136,7 @@
       "service": "graphics:-390"
     },
     {
-      "count": 442,
+      "count": 4565,
       "service": "graphics:-402"
     },
     {
@@ -2032,11 +2148,11 @@
       "service": "graphics:-570"
     },
     {
-      "count": 1264,
+      "count": 11949,
       "service": "graphics:-60"
     },
     {
-      "count": 992,
+      "count": 20037,
       "service": "graphics:-636"
     },
     {
@@ -2092,15 +2208,47 @@
       "service": "layers:-36"
     },
     {
-      "count": 443,
+      "count": 4566,
       "service": "load-view:123210"
+    },
+    {
+      "count": 11758,
+      "service": "mathffp:-30"
+    },
+    {
+      "count": 11760,
+      "service": "mathffp:-36"
+    },
+    {
+      "count": 9240,
+      "service": "mathffp:-42"
+    },
+    {
+      "count": 1680,
+      "service": "mathffp:-48"
+    },
+    {
+      "count": 8398,
+      "service": "mathffp:-66"
+    },
+    {
+      "count": 840,
+      "service": "mathffp:-72"
+    },
+    {
+      "count": 1712,
+      "service": "mathffp:-78"
+    },
+    {
+      "count": 1680,
+      "service": "mathffp:-84"
     },
     {
       "count": 1,
       "service": "open-device:input.device:unit=0"
     },
     {
-      "count": 13,
+      "count": 14,
       "service": "open-library:dos.library:result=36864"
     },
     {
@@ -2117,11 +2265,11 @@
     },
     {
       "count": 1,
-      "service": "open-library:mathffp.library:result=0"
+      "service": "open-library:mathffp.library:result=53248"
     },
     {
       "count": 1,
-      "service": "open:failure:*:ADF: no entry '*'"
+      "service": "open:success:console"
     },
     {
       "count": 1,
@@ -2160,7 +2308,7 @@
       "service": "overlay-byte:185648"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "overlay-byte:187232"
     },
     {
@@ -2180,7 +2328,7 @@
       "service": "overlay-byte:99232"
     },
     {
-      "count": 12,
+      "count": 13,
       "service": "overlay-result:loaded"
     },
     {
@@ -2288,7 +2436,7 @@
       "service": "read:dt1:chart.arc"
     },
     {
-      "count": 831,
+      "count": 956,
       "service": "read:dt1:dt1.as"
     },
     {
@@ -2304,7 +2452,7 @@
       "service": "read:dt1:loot.arc"
     },
     {
-      "count": 1092,
+      "count": 1361,
       "service": "read:dt1:main.arc"
     },
     {
@@ -2350,6 +2498,10 @@
     {
       "count": 1,
       "service": "seek:DuckTales:old=71148,offset=59584,mode=-1,new=59584"
+    },
+    {
+      "count": 1,
+      "service": "seek:DuckTales:old=94836,offset=187232,mode=-1,new=187232"
     },
     {
       "count": 1,
@@ -2417,6 +2569,10 @@
     },
     {
       "count": 1,
+      "service": "seek:dt1:dt1.as:old=155210,offset=0,mode=-1,new=0"
+    },
+    {
+      "count": 1,
       "service": "seek:dt1:dt1.as:old=177605,offset=177605,mode=-1,new=177605"
     },
     {
@@ -2432,11 +2588,11 @@
       "service": "seek:dt1:dt1.as:old=28160,offset=0,mode=-1,new=0"
     },
     {
-      "count": 2,
+      "count": 3,
       "service": "seek:dt1:dt1.as:old=29290,offset=29290,mode=-1,new=29290"
     },
     {
-      "count": 2,
+      "count": 3,
       "service": "seek:dt1:dt1.as:old=31460,offset=31460,mode=-1,new=31460"
     },
     {
@@ -2452,7 +2608,7 @@
       "service": "seek:dt1:dt1.as:old=338,offset=175313,mode=-1,new=175313"
     },
     {
-      "count": 2,
+      "count": 3,
       "service": "seek:dt1:dt1.as:old=338,offset=28160,mode=-1,new=28160"
     },
     {
@@ -2464,11 +2620,11 @@
       "service": "seek:dt1:dt1.as:old=338,offset=93012,mode=-1,new=93012"
     },
     {
-      "count": 2,
+      "count": 3,
       "service": "seek:dt1:dt1.as:old=36768,offset=36768,mode=-1,new=36768"
     },
     {
-      "count": 2,
+      "count": 3,
       "service": "seek:dt1:dt1.as:old=55970,offset=24692,mode=-1,new=24692"
     },
     {
@@ -2861,26 +3017,30 @@
     },
     {
       "count": 1,
+      "service": "seek:dt1:main.arc:old=108153,offset=107552,mode=-1,new=107552"
+    },
+    {
+      "count": 2,
       "service": "seek:dt1:main.arc:old=117808,offset=118836,mode=-1,new=118836"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "seek:dt1:main.arc:old=119446,offset=119562,mode=-1,new=119562"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "seek:dt1:main.arc:old=119876,offset=117382,mode=-1,new=117382"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "seek:dt1:main.arc:old=120602,offset=119669,mode=-1,new=119669"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "seek:dt1:main.arc:old=120709,offset=120364,mode=-1,new=120364"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "seek:dt1:main.arc:old=121404,offset=120655,mode=-1,new=120655"
     },
     {
@@ -2896,8 +3056,16 @@
       "service": "seek:dt1:main.arc:old=149602,offset=0,mode=-1,new=0"
     },
     {
-      "count": 8,
+      "count": 1,
+      "service": "seek:dt1:main.arc:old=161429,offset=0,mode=-1,new=0"
+    },
+    {
+      "count": 11,
       "service": "seek:dt1:main.arc:old=170,offset=0,mode=-1,new=0"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:main.arc:old=170,offset=103017,mode=-1,new=103017"
     },
     {
       "count": 1,
@@ -2910,6 +3078,10 @@
     {
       "count": 1,
       "service": "seek:dt1:main.arc:old=170,offset=141394,mode=-1,new=141394"
+    },
+    {
+      "count": 1,
+      "service": "seek:dt1:main.arc:old=170,offset=149125,mode=-1,new=149125"
     },
     {
       "count": 2,
@@ -3220,15 +3392,15 @@
       "service": "seek:dt1:plane.arc:old=9760,offset=9395,mode=-1,new=9395"
     },
     {
-      "count": 375,
+      "count": 13631,
       "service": "set-apen:0"
     },
     {
-      "count": 1149,
+      "count": 7707,
       "service": "set-apen:1"
     },
     {
-      "count": 332,
+      "count": 638,
       "service": "set-apen:12"
     },
     {
@@ -3244,64 +3416,80 @@
       "service": "set-apen:31"
     },
     {
-      "count": 164,
+      "count": 3360,
+      "service": "set-apen:4"
+    },
+    {
+      "count": 4291,
       "service": "set-apen:7"
     },
     {
-      "count": 459,
+      "count": 29970,
       "service": "set-apen:8"
     },
     {
-      "count": 872,
+      "count": 9,
+      "service": "set-apen:9"
+    },
+    {
+      "count": 878,
       "service": "set-bpen:0"
     },
     {
-      "count": 153,
+      "count": 4274,
       "service": "set-bpen:1"
     },
     {
-      "count": 86,
+      "count": 3365,
       "service": "set-bpen:15"
     },
     {
-      "count": 153,
+      "count": 3432,
       "service": "set-bpen:9"
     },
     {
-      "count": 873,
+      "count": 879,
       "service": "set-drmd:0"
     },
     {
-      "count": 392,
+      "count": 11071,
       "service": "set-drmd:1"
     },
     {
-      "count": 6,
+      "count": 428,
       "service": "set-rast-bitmap:113768"
     },
     {
-      "count": 6,
+      "count": 427,
       "service": "set-rast-bitmap:113808"
     },
     {
-      "count": 622,
+      "count": 5969,
       "service": "text-bitmap:113768"
     },
     {
-      "count": 642,
+      "count": 5980,
       "service": "text-bitmap:113808"
     },
     {
-      "count": 153,
+      "count": 1,
+      "service": "text:."
+    },
+    {
+      "count": 3432,
       "service": "text:0"
     },
     {
-      "count": 153,
+      "count": 993,
       "service": "text:1"
     },
     {
       "count": 2,
       "service": "text:2"
+    },
+    {
+      "count": 3281,
+      "service": "text:3"
     },
     {
       "count": 2,
@@ -3320,12 +3508,16 @@
       "service": "text:>Standard Wages"
     },
     {
-      "count": 1,
+      "count": 4,
       "service": "text:Ali Baba's Cave"
     },
     {
       "count": 2,
       "service": "text:Beri Beri Basin"
+    },
+    {
+      "count": 1,
+      "service": "text:Bermuda Triangle"
     },
     {
       "count": 1,
@@ -3336,7 +3528,7 @@
       "service": "text:Bombastium"
     },
     {
-      "count": 1,
+      "count": 2,
       "service": "text:Bu-Gazzi"
     },
     {
@@ -3346,6 +3538,10 @@
     {
       "count": 62,
       "service": "text:CONTROL CENTER"
+    },
+    {
+      "count": 1,
+      "service": "text:Carlsbad Caverns"
     },
     {
       "count": 1,
@@ -3360,8 +3556,16 @@
       "service": "text:Easy Money"
     },
     {
+      "count": 3261,
+      "service": "text:El Capitan"
+    },
+    {
       "count": 1,
       "service": "text:FIWV"
+    },
+    {
+      "count": 1,
+      "service": "text:Give it up,"
     },
     {
       "count": 2,
@@ -3381,7 +3585,19 @@
     },
     {
       "count": 1,
+      "service": "text:I've taken the"
+    },
+    {
+      "count": 1,
       "service": "text:IJMV"
+    },
+    {
+      "count": 2,
+      "service": "text:Labyrinth of Crete"
+    },
+    {
+      "count": 2,
+      "service": "text:Lost City of Atlantis"
     },
     {
       "count": 1,
@@ -3393,11 +3609,19 @@
     },
     {
       "count": 1,
+      "service": "text:Montedumas"
+    },
+    {
+      "count": 1,
       "service": "text:Mr. McD!"
     },
     {
       "count": 32,
       "service": "text:OFFICE"
+    },
+    {
+      "count": 1,
+      "service": "text:Okeefadokie Swamp"
     },
     {
       "count": 1,
@@ -3414,6 +3638,10 @@
     {
       "count": 1,
       "service": "text:SUPER ANTI-SPY SECURITY SYSTEM."
+    },
+    {
+      "count": 1,
+      "service": "text:Scrooge!"
     },
     {
       "count": 1,
@@ -3456,7 +3684,7 @@
       "service": "text:This is Gyro Gearloose's"
     },
     {
-      "count": 11,
+      "count": 18,
       "service": "text:Trala la"
     },
     {
@@ -3501,22 +3729,156 @@
     },
     {
       "count": 1,
+      "service": "text:treasure from"
+    },
+    {
+      "count": 1,
       "service": "text:you are not a Beagle Boy."
     },
     {
-      "count": 234,
+      "count": 14994,
       "service": "write-pixel-bitmap:113768"
     },
     {
-      "count": 540,
+      "count": 15606,
       "service": "write-pixel-bitmap:113808"
     }
   ],
-  "service_calls": 21282,
-  "slow_allocation_cursor": 12675944,
+  "service_calls": 330469,
+  "slow_allocation_cursor": 12681920,
   "snapshot_roundtrip": true,
-  "status": "exited",
+  "status": "step-limit",
   "status_register": 8192,
+  "tail_pc_trace": [
+    67920,
+    67924,
+    102046,
+    97024,
+    97028,
+    97030,
+    97032,
+    97034,
+    97036,
+    97038,
+    97040,
+    97042,
+    97044,
+    97046,
+    97048,
+    97050,
+    97052,
+    97054,
+    97058,
+    67928,
+    67932,
+    67934,
+    67938,
+    102046,
+    97024,
+    97028,
+    97030,
+    97032,
+    97034,
+    97036,
+    97038,
+    97040,
+    97042,
+    97044,
+    97046,
+    97048,
+    97050,
+    97052,
+    97054,
+    97058,
+    67942,
+    67944,
+    67946,
+    67950,
+    67954,
+    67956,
+    12677770,
+    12677772,
+    12677776,
+    12677780,
+    12677784,
+    12677786,
+    12677792,
+    12677798,
+    12677802,
+    12677810,
+    12677816,
+    12677818,
+    12677822,
+    12677824,
+    12677738,
+    12677742,
+    12677744,
+    12677748,
+    12677752,
+    12677756,
+    12677758,
+    12677762,
+    12677766,
+    101812,
+    67836,
+    67840,
+    67844,
+    67848,
+    67850,
+    67864,
+    67868,
+    67872,
+    67874,
+    67878,
+    67882,
+    67886,
+    67888,
+    67902,
+    67906,
+    67910,
+    67912,
+    67916,
+    67920,
+    67924,
+    102046,
+    97024,
+    97028,
+    97030,
+    97032,
+    97034,
+    97036,
+    97038,
+    97040,
+    97042,
+    97044,
+    97046,
+    97048,
+    97050,
+    97052,
+    97054,
+    97058,
+    67928,
+    67932,
+    67934,
+    67938,
+    102046,
+    97024,
+    97028,
+    97030,
+    97032,
+    97034,
+    97036,
+    97038,
+    97040,
+    97042,
+    97044,
+    97046,
+    97048,
+    97050,
+    97052,
+    97054,
+    97058
+  ],
   "unsupported": "Complete Copper execution, blitter line-mode DMA, and headless live host input remain beyond this bootstrap",
   "visible_output": true
 }

@@ -494,6 +494,173 @@
     "executed": "observed",
     "invocations": 0
   },
+  "amiga:01073C": {
+    "block_end": "amiga:010740",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010740": {
+    "block_end": "amiga:010744",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010744": {
+    "block_end": "amiga:010748",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010748": {
+    "block_end": "amiga:01074A",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:01074A": {
+    "block_end": "amiga:01074C",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:01074C": {
+    "block_end": "amiga:010750",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010750": {
+    "block_end": "amiga:010754",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010754": {
+    "block_end": "amiga:010758",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010758": {
+    "block_end": "amiga:01075C",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:01075C": {
+    "block_end": "amiga:01075E",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:01075E": {
+    "block_end": "amiga:010760",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010760": {
+    "block_end": "amiga:010764",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010764": {
+    "block_end": "amiga:010766",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010766": {
+    "block_end": "amiga:010768",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010768": {
+    "block_end": "amiga:01076C",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:01076C": {
+    "block_end": "amiga:010770",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010770": {
+    "block_end": "amiga:010774",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:010774": {
+    "block_end": "amiga:010778",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
   "amiga:0108BE": {
     "block_end": "amiga:0108C2",
     "certainty": "recovered-block",
@@ -620,6 +787,7 @@
     "block_end": "amiga:01090A",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -629,6 +797,7 @@
     "block_end": "amiga:01090C",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -674,6 +843,7 @@
     "block_end": "amiga:01091C",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -683,6 +853,7 @@
     "block_end": "amiga:010920",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -692,6 +863,7 @@
     "block_end": "amiga:010922",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -782,6 +954,7 @@
     "block_end": "amiga:010942",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -800,6 +973,7 @@
     "block_end": "amiga:010948",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -818,6 +992,7 @@
     "block_end": "amiga:010950",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -856,6 +1031,7 @@
     "block_end": "amiga:01095E",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -894,6 +1070,7 @@
     "block_end": "amiga:01096A",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -903,6 +1080,7 @@
     "block_end": "amiga:01096E",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -912,6 +1090,7 @@
     "block_end": "amiga:010972",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -921,6 +1100,7 @@
     "block_end": "amiga:010974",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -2248,7 +2428,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 2
+    "invocations": 3
   },
   "amiga:010FE2": {
     "block_end": "amiga:010FE8",
@@ -3100,7 +3280,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 206
+    "invocations": 220
   },
   "amiga:012880": {
     "block_end": "amiga:012884",
@@ -5534,7 +5714,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 1268
+    "invocations": 1357
   },
   "amiga:012D6A": {
     "block_end": "amiga:012D6E",
@@ -5688,6 +5868,7 @@
     "block_end": "amiga:012DB6",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -5720,7 +5901,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 1834
+    "invocations": 2100
   },
   "amiga:012DBE": {
     "block_end": "amiga:012DC2",
@@ -5971,7 +6152,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 62
+    "invocations": 72
   },
   "amiga:012E34": {
     "block_end": "amiga:012E38",
@@ -6358,7 +6539,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 62
+    "invocations": 72
   },
   "amiga:012EB0": {
     "block_end": "amiga:012EB4",
@@ -6567,7 +6748,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 62
+    "invocations": 72
   },
   "amiga:012EEC": {
     "block_end": "amiga:012EEE",
@@ -6771,7 +6952,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 31
+    "invocations": 36
   },
   "amiga:012F28": {
     "block_end": "amiga:012F2C",
@@ -7313,7 +7494,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 31
+    "invocations": 36
   },
   "amiga:012FE6": {
     "block_end": "amiga:012FE8",
@@ -7453,7 +7634,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 31
+    "invocations": 36
   },
   "amiga:01300C": {
     "block_end": "amiga:013010",
@@ -8018,7 +8199,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 384
+    "invocations": 480
   },
   "amiga:0130F4": {
     "block_end": "amiga:0130FC",
@@ -8632,6 +8813,7 @@
     "block_end": "amiga:0131E8",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -8825,6 +9007,7 @@
     "block_end": "amiga:01322E",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -8946,6 +9129,7 @@
     "block_end": "amiga:01325C",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -8973,6 +9157,7 @@
     "block_end": "amiga:013268",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -9157,6 +9342,7 @@
     "block_end": "amiga:0132AE",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -9204,6 +9390,7 @@
     "block_end": "amiga:0132C2",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -9304,6 +9491,7 @@
     "block_end": "amiga:0132EA",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -9455,6 +9643,7 @@
     "block_end": "amiga:013322",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -9609,6 +9798,7 @@
     "block_end": "amiga:01335E",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -9683,6 +9873,7 @@
     "block_end": "amiga:01337A",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -9793,6 +9984,7 @@
     "block_end": "amiga:01339A",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10015,7 +10207,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 992
+    "invocations": 20037
   },
   "amiga:0133EA": {
     "block_end": "amiga:0133EE",
@@ -10348,6 +10540,7 @@
     "block_end": "amiga:013490",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10384,6 +10577,7 @@
     "block_end": "amiga:0134A2",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10393,6 +10587,7 @@
     "block_end": "amiga:0134A6",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10411,6 +10606,7 @@
     "block_end": "amiga:0134AA",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10429,6 +10625,7 @@
     "block_end": "amiga:0134B6",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10447,6 +10644,7 @@
     "block_end": "amiga:0134C6",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10474,6 +10672,7 @@
     "block_end": "amiga:0134D2",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10548,6 +10747,7 @@
     "block_end": "amiga:0134F0",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10656,6 +10856,7 @@
     "block_end": "amiga:013524",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10739,6 +10940,7 @@
     "block_end": "amiga:013542",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10922,6 +11124,7 @@
     "block_end": "amiga:01357E",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -10994,6 +11197,7 @@
     "block_end": "amiga:013598",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -11077,6 +11281,7 @@
     "block_end": "amiga:0135B4",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -11104,6 +11309,7 @@
     "block_end": "amiga:0135BE",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -11131,6 +11337,7 @@
     "block_end": "amiga:0135C6",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -11427,6 +11634,7 @@
     "block_end": "amiga:013634",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -11872,7 +12080,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 100
+    "invocations": 108
   },
   "amiga:013874": {
     "block_end": "amiga:013878",
@@ -12019,7 +12227,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 238
+    "invocations": 320
   },
   "amiga:013934": {
     "block_end": "amiga:013938",
@@ -12052,6 +12260,7 @@
     "block_end": "amiga:013944",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -12115,6 +12324,7 @@
     "block_end": "amiga:013982",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -12229,7 +12439,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 80
+    "invocations": 87
   },
   "amiga:013A72": {
     "block_end": "amiga:013A76",
@@ -14935,7 +15145,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 87
+    "invocations": 96
   },
   "amiga:01404E": {
     "block_end": "amiga:014052",
@@ -15288,6 +15498,7 @@
     "block_end": "amiga:0140B8",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -15648,7 +15859,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 212300
+    "invocations": 241217
   },
   "amiga:014122": {
     "block_end": "amiga:014128",
@@ -17398,6 +17609,7 @@
     "block_end": "amiga:014394",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -17574,6 +17786,7 @@
     "block_end": "amiga:0143D0",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -17583,6 +17796,7 @@
     "block_end": "amiga:0143D4",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -17628,6 +17842,7 @@
     "block_end": "amiga:0143E4",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -17747,6 +17962,7 @@
     "block_end": "amiga:01440C",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -18482,6 +18698,7 @@
     "block_end": "amiga:0145E8",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -18587,7 +18804,7 @@
     "evidence": [
       "recovery-blocks"
     ],
-    "executed": "not-executed",
+    "executed": "observed",
     "invocations": 0
   },
   "amiga:014610": {
@@ -18901,7 +19118,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 992
+    "invocations": 20037
   },
   "amiga:014696": {
     "block_end": "amiga:01469A",
@@ -19038,7 +19255,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 7
+    "invocations": 8
   },
   "amiga:0146D2": {
     "block_end": "amiga:0146D6",
@@ -24184,7 +24401,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 4237
+    "invocations": 11699
   },
   "amiga:014F66": {
     "block_end": "amiga:014F6E",
@@ -26167,7 +26384,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 8450
+    "invocations": 51505
   },
   "amiga:015450": {
     "block_end": "amiga:015452",
@@ -26477,7 +26694,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 1472
+    "invocations": 8356
   },
   "amiga:0154BA": {
     "block_end": "amiga:0154BC",
@@ -26679,7 +26896,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 853
+    "invocations": 4941
   },
   "amiga:015508": {
     "block_end": "amiga:01550C",
@@ -26736,7 +26953,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 516
+    "invocations": 2698
   },
   "amiga:01551A": {
     "block_end": "amiga:01551C",
@@ -26775,7 +26992,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 136
+    "invocations": 2223
   },
   "amiga:015524": {
     "block_end": "amiga:015528",
@@ -26869,7 +27086,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 2386
+    "invocations": 17090
   },
   "amiga:015546": {
     "block_end": "amiga:015548",
@@ -27036,7 +27253,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 2326
+    "invocations": 11151
   },
   "amiga:01557E": {
     "block_end": "amiga:015582",
@@ -27083,7 +27300,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 3584
+    "invocations": 3793
   },
   "amiga:0155A2": {
     "block_end": "amiga:0155A6",
@@ -27247,7 +27464,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 102
+    "invocations": 407
   },
   "amiga:0155DC": {
     "block_end": "amiga:0155E0",
@@ -27440,12 +27657,21 @@
     "invocations": 0
   },
   "amiga:01563C": {
+    "block_end": "amiga:015644",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015644": {
     "block_end": "amiga:015646",
     "certainty": "recovered-block",
     "evidence": [
       "recovery-blocks"
     ],
-    "executed": "not-executed",
+    "executed": "observed",
     "invocations": 0
   },
   "amiga:015646": {
@@ -27456,7 +27682,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 132
+    "invocations": 187
   },
   "amiga:01564C": {
     "block_end": "amiga:015650",
@@ -27656,7 +27882,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 171
+    "invocations": 632
   },
   "amiga:0156BC": {
     "block_end": "amiga:0156C0",
@@ -27856,7 +28082,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 74
+    "invocations": 298
   },
   "amiga:01572C": {
     "block_end": "amiga:015730",
@@ -28212,12 +28438,22 @@
     "invocations": 0
   },
   "amiga:0157DC": {
-    "block_end": "amiga:0157E4",
+    "block_end": "amiga:0157E2",
     "certainty": "recovered-block",
     "evidence": [
       "recovery-blocks"
     ],
-    "executed": "not-executed",
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:0157E2": {
+    "block_end": "amiga:0157E4",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
     "invocations": 0
   },
   "amiga:0157E4": {
@@ -28228,7 +28464,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 42
+    "invocations": 57
   },
   "amiga:0157E8": {
     "block_end": "amiga:0157EE",
@@ -28682,7 +28918,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 5557
+    "invocations": 17273
   },
   "amiga:0158C0": {
     "block_end": "amiga:0158C2",
@@ -28722,7 +28958,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 5557
+    "invocations": 17273
   },
   "amiga:0158CA": {
     "block_end": "amiga:0158CC",
@@ -28816,7 +29052,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 8450
+    "invocations": 51505
   },
   "amiga:0158EA": {
     "block_end": "amiga:0158EC",
@@ -29211,12 +29447,48 @@
     "invocations": 0
   },
   "amiga:015982": {
+    "block_end": "amiga:015986",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015986": {
+    "block_end": "amiga:015988",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015988": {
+    "block_end": "amiga:01598A",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:01598A": {
+    "block_end": "amiga:01598E",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:01598E": {
     "block_end": "amiga:015990",
     "certainty": "recovered-block",
     "evidence": [
       "recovery-blocks"
     ],
-    "executed": "not-executed",
+    "executed": "observed",
     "invocations": 0
   },
   "amiga:015990": {
@@ -29229,12 +29501,58 @@
     "invocations": 0
   },
   "amiga:015994": {
-    "block_end": "amiga:0159A4",
+    "block_end": "amiga:015996",
     "certainty": "recovered-block",
     "evidence": [
       "recovery-blocks"
     ],
-    "executed": "not-executed",
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015996": {
+    "block_end": "amiga:015998",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015998": {
+    "block_end": "amiga:01599E",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:01599E": {
+    "block_end": "amiga:0159A0",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:0159A0": {
+    "block_end": "amiga:0159A2",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:0159A2": {
+    "block_end": "amiga:0159A4",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
     "invocations": 0
   },
   "amiga:0159A4": {
@@ -29245,7 +29563,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 439
+    "invocations": 2411
   },
   "amiga:0159A8": {
     "block_end": "amiga:0159AC",
@@ -29824,7 +30142,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 1379
+    "invocations": 5487
   },
   "amiga:015A76": {
     "block_end": "amiga:015A78",
@@ -30332,6 +30650,70 @@
   },
   "amiga:015BA6": {
     "block_end": "amiga:015BAA",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015BAA": {
+    "block_end": "amiga:015BAC",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015BAC": {
+    "block_end": "amiga:015BAE",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015BAE": {
+    "block_end": "amiga:015BB0",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015BB0": {
+    "block_end": "amiga:015BB2",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015BB2": {
+    "block_end": "amiga:015BB4",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015BB4": {
+    "block_end": "amiga:015BB8",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015BB8": {
+    "block_end": "amiga:015BBC",
     "certainty": "recovered-block",
     "evidence": [
       "recovery-blocks"
@@ -31095,12 +31477,21 @@
     "invocations": 0
   },
   "amiga:015D02": {
+    "block_end": "amiga:015D04",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015D04": {
     "block_end": "amiga:015D08",
     "certainty": "recovered-block",
     "evidence": [
       "recovery-blocks"
     ],
-    "executed": "not-executed",
+    "executed": "observed",
     "invocations": 0
   },
   "amiga:015D08": {
@@ -31457,6 +31848,262 @@
     "executed": "observed",
     "invocations": 0
   },
+  "amiga:015DFE": {
+    "block_end": "amiga:015E02",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E02": {
+    "block_end": "amiga:015E06",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E06": {
+    "block_end": "amiga:015E0A",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E0A": {
+    "block_end": "amiga:015E10",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E10": {
+    "block_end": "amiga:015E14",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E14": {
+    "block_end": "amiga:015E18",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E18": {
+    "block_end": "amiga:015E1E",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E1E": {
+    "block_end": "amiga:015E22",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E22": {
+    "block_end": "amiga:015E24",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E24": {
+    "block_end": "amiga:015E2A",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E2A": {
+    "block_end": "amiga:015E2E",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E2E": {
+    "block_end": "amiga:015E34",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E34": {
+    "block_end": "amiga:015E38",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E38": {
+    "block_end": "amiga:015E3A",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E3A": {
+    "block_end": "amiga:015E40",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E40": {
+    "block_end": "amiga:015E42",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E42": {
+    "block_end": "amiga:015E46",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E46": {
+    "block_end": "amiga:015E48",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E48": {
+    "block_end": "amiga:015E4C",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E4C": {
+    "block_end": "amiga:015E4E",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E4E": {
+    "block_end": "amiga:015E50",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E50": {
+    "block_end": "amiga:015E52",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E52": {
+    "block_end": "amiga:015E58",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E58": {
+    "block_end": "amiga:015E5A",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E5A": {
+    "block_end": "amiga:015E5E",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E5E": {
+    "block_end": "amiga:015E60",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E60": {
+    "block_end": "amiga:015E62",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:015E62": {
+    "block_end": "amiga:015E64",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
   "amiga:015E64": {
     "block_end": "amiga:015E68",
     "certainty": "recovered-block",
@@ -31484,7 +32131,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 5557
+    "invocations": 17273
   },
   "amiga:016162": {
     "block_end": "amiga:016168",
@@ -31561,7 +32208,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 5557
+    "invocations": 17273
   },
   "amiga:016180": {
     "block_end": "amiga:016184",
@@ -31644,7 +32291,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 5557
+    "invocations": 17273
   },
   "amiga:01701A": {
     "block_end": "amiga:01702A",
@@ -37619,7 +38266,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 12
+    "invocations": 13
   },
   "amiga:017A06": {
     "block_end": "amiga:017A0A",
@@ -37909,7 +38556,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 62
+    "invocations": 72
   },
   "amiga:017A72": {
     "block_end": "amiga:017A74",
@@ -38174,7 +38821,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 31
+    "invocations": 36
   },
   "amiga:017AC4": {
     "block_end": "amiga:017AC6",
@@ -38382,6 +39029,7 @@
     "block_end": "amiga:017B06",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -38400,6 +39048,7 @@
     "block_end": "amiga:017B0A",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -38418,6 +39067,7 @@
     "block_end": "amiga:017B0E",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -38465,6 +39115,7 @@
     "block_end": "amiga:017B18",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -38474,6 +39125,7 @@
     "block_end": "amiga:017B1A",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -38492,6 +39144,7 @@
     "block_end": "amiga:017B1E",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -38501,6 +39154,7 @@
     "block_end": "amiga:017B22",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -39782,7 +40436,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 635
+    "invocations": 15436
   },
   "amiga:017FF8": {
     "block_end": "amiga:017FFA",
@@ -39869,6 +40523,7 @@
     "block_end": "amiga:01800C",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -39905,6 +40560,7 @@
     "block_end": "amiga:018014",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -40067,79 +40723,30 @@
     "invocations": 0
   },
   "amiga:01850A": {
-    "block_end": "amiga:01850E",
-    "certainty": "probable-entry",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 1
-  },
-  "amiga:01850E": {
-    "block_end": "amiga:018512",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018512": {
-    "block_end": "amiga:018516",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018516": {
     "block_end": "amiga:01851A",
     "certainty": "recovered-block",
     "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
-    "executed": "observed",
+    "executed": "not-executed",
     "invocations": 0
   },
   "amiga:01851A": {
-    "block_end": "amiga:01851C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01851C": {
     "block_end": "amiga:018520",
     "certainty": "recovered-block",
     "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
-    "executed": "observed",
+    "executed": "not-executed",
     "invocations": 0
   },
   "amiga:018520": {
-    "block_end": "amiga:018524",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018524": {
     "block_end": "amiga:018528",
     "certainty": "recovered-block",
     "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
-    "executed": "observed",
+    "executed": "not-executed",
     "invocations": 0
   },
   "amiga:018528": {
@@ -40149,872 +40756,6 @@
       "recovery-blocks"
     ],
     "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:018534": {
-    "block_end": "amiga:018538",
-    "certainty": "recovered-block",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018538": {
-    "block_end": "amiga:01853C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01853C": {
-    "block_end": "amiga:01853E",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01853E": {
-    "block_end": "amiga:018544",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:018544": {
-    "block_end": "amiga:018548",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018548": {
-    "block_end": "amiga:01854C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01854C": {
-    "block_end": "amiga:018552",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:018552": {
-    "block_end": "amiga:018556",
-    "certainty": "probable-entry",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 1
-  },
-  "amiga:018556": {
-    "block_end": "amiga:018558",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018558": {
-    "block_end": "amiga:01855C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01855C": {
-    "block_end": "amiga:01855E",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01855E": {
-    "block_end": "amiga:018562",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018562": {
-    "block_end": "amiga:018566",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018566": {
-    "block_end": "amiga:018568",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018568": {
-    "block_end": "amiga:01856A",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01856A": {
-    "block_end": "amiga:01856C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01856C": {
-    "block_end": "amiga:01856E",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01856E": {
-    "block_end": "amiga:018572",
-    "certainty": "recovered-block",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018572": {
-    "block_end": "amiga:018574",
-    "certainty": "recovered-block",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018574": {
-    "block_end": "amiga:018576",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018576": {
-    "block_end": "amiga:01857A",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01857A": {
-    "block_end": "amiga:01857C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01857C": {
-    "block_end": "amiga:018580",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018580": {
-    "block_end": "amiga:018586",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018586": {
-    "block_end": "amiga:01858A",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01858A": {
-    "block_end": "amiga:01858E",
-    "certainty": "recovered-block",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01858E": {
-    "block_end": "amiga:018590",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018590": {
-    "block_end": "amiga:018594",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018594": {
-    "block_end": "amiga:018596",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018596": {
-    "block_end": "amiga:01859C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:01859C": {
-    "block_end": "amiga:0185A0",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185A0": {
-    "block_end": "amiga:0185A2",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185A2": {
-    "block_end": "amiga:0185AA",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:0185AA": {
-    "block_end": "amiga:0185AC",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:0185AC": {
-    "block_end": "amiga:0185B0",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185B0": {
-    "block_end": "amiga:0185B2",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185B2": {
-    "block_end": "amiga:0185BA",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:0185BA": {
-    "block_end": "amiga:0185BC",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:0185BC": {
-    "block_end": "amiga:0185C0",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185C0": {
-    "block_end": "amiga:0185C2",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185C2": {
-    "block_end": "amiga:0185CA",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:0185CA": {
-    "block_end": "amiga:0185CC",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:0185CC": {
-    "block_end": "amiga:0185D0",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185D0": {
-    "block_end": "amiga:0185D6",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185D6": {
-    "block_end": "amiga:0185D8",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185D8": {
-    "block_end": "amiga:0185E2",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:0185E2": {
-    "block_end": "amiga:0185E6",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:0185EC": {
-    "block_end": "amiga:0185F0",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185F0": {
-    "block_end": "amiga:0185F2",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185F2": {
-    "block_end": "amiga:0185F6",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185F6": {
-    "block_end": "amiga:0185F8",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185F8": {
-    "block_end": "amiga:0185FC",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185FC": {
-    "block_end": "amiga:0185FE",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:0185FE": {
-    "block_end": "amiga:018600",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018600": {
-    "block_end": "amiga:018604",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018604": {
-    "block_end": "amiga:018608",
-    "certainty": "recovered-block",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018608": {
-    "block_end": "amiga:01860C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01860C": {
-    "block_end": "amiga:01860E",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01860E": {
-    "block_end": "amiga:018610",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018610": {
-    "block_end": "amiga:018612",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018612": {
-    "block_end": "amiga:018614",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018614": {
-    "block_end": "amiga:018618",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018618": {
-    "block_end": "amiga:01861C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01861C": {
-    "block_end": "amiga:018620",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018620": {
-    "block_end": "amiga:018622",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018622": {
-    "block_end": "amiga:018626",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:018626": {
-    "block_end": "amiga:01862E",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:01862E": {
-    "block_end": "amiga:018630",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:018630": {
-    "block_end": "amiga:018634",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018634": {
-    "block_end": "amiga:018638",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018638": {
-    "block_end": "amiga:01863A",
-    "certainty": "recovered-block",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018640": {
-    "block_end": "amiga:018644",
-    "certainty": "probable-entry",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 20
-  },
-  "amiga:018644": {
-    "block_end": "amiga:018648",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018648": {
-    "block_end": "amiga:01864C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01864C": {
-    "block_end": "amiga:01864E",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01864E": {
-    "block_end": "amiga:018654",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018654": {
-    "block_end": "amiga:018658",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018658": {
-    "block_end": "amiga:01865A",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01865A": {
-    "block_end": "amiga:01865C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01865C": {
-    "block_end": "amiga:018660",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018660": {
-    "block_end": "amiga:018662",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018662": {
-    "block_end": "amiga:018664",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018664": {
-    "block_end": "amiga:018666",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018666": {
-    "block_end": "amiga:01866C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01866C": {
-    "block_end": "amiga:01866E",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01866E": {
-    "block_end": "amiga:018672",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018672": {
-    "block_end": "amiga:018674",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018674": {
-    "block_end": "amiga:018676",
-    "certainty": "recovered-block",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018676": {
-    "block_end": "amiga:01867C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01867C": {
-    "block_end": "amiga:01867E",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01867E": {
-    "block_end": "amiga:018684",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:018684": {
-    "block_end": "amiga:018686",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
-    "invocations": 0
-  },
-  "amiga:018686": {
-    "block_end": "amiga:018688",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018688": {
-    "block_end": "amiga:01868A",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:01868A": {
-    "block_end": "amiga:01868C",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
     "invocations": 0
   },
   "amiga:01868C": {
@@ -41078,6 +40819,7 @@
     "block_end": "amiga:0186B0",
     "certainty": "recovered-block",
     "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
@@ -41157,7 +40899,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 3
+    "invocations": 1
   },
   "amiga:0186F2": {
     "block_end": "amiga:0186F6",
@@ -41176,7 +40918,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 3475
+    "invocations": 3869
   },
   "amiga:0186FA": {
     "block_end": "amiga:018700",
@@ -41215,7 +40957,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 238
+    "invocations": 257
   },
   "amiga:01870C": {
     "block_end": "amiga:018712",
@@ -41246,31 +40988,12 @@
     "invocations": 0
   },
   "amiga:01871A": {
-    "block_end": "amiga:018720",
-    "certainty": "probable-entry",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 2
-  },
-  "amiga:018720": {
-    "block_end": "amiga:018724",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018724": {
     "block_end": "amiga:018728",
     "certainty": "recovered-block",
     "evidence": [
       "recovery-blocks"
     ],
-    "executed": "observed",
+    "executed": "not-executed",
     "invocations": 0
   },
   "amiga:018728": {
@@ -41309,7 +41032,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 62
+    "invocations": 72
   },
   "amiga:01873C": {
     "block_end": "amiga:018740",
@@ -41355,7 +41078,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 1318
+    "invocations": 20381
   },
   "amiga:018760": {
     "block_end": "amiga:018764",
@@ -42204,7 +41927,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 1231
+    "invocations": 20358
   },
   "amiga:01893E": {
     "block_end": "amiga:018942",
@@ -42336,7 +42059,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 41
+    "invocations": 46
   },
   "amiga:018974": {
     "block_end": "amiga:018978",
@@ -42369,13 +42092,13 @@
   },
   "amiga:018980": {
     "block_end": "amiga:018984",
-    "certainty": "probable-entry",
+    "certainty": "recovered-block",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 3
+    "invocations": 0
   },
   "amiga:018984": {
     "block_end": "amiga:018988",
@@ -42430,7 +42153,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 32
+    "invocations": 37
   },
   "amiga:0189AC": {
     "block_end": "amiga:0189AE",
@@ -42579,7 +42302,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 41
+    "invocations": 46
   },
   "amiga:0189E8": {
     "block_end": "amiga:0189EC",
@@ -42607,7 +42330,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 93
+    "invocations": 108
   },
   "amiga:018A0A": {
     "block_end": "amiga:018A0E",
@@ -42625,15 +42348,6 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018A12": {
-    "block_end": "amiga:018A1E",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "not-executed",
     "invocations": 0
   },
   "amiga:018A1E": {
@@ -43164,7 +42878,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 1264
+    "invocations": 11949
   },
   "amiga:018B9C": {
     "block_end": "amiga:018BA0",
@@ -43312,7 +43026,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 1264
+    "invocations": 11949
   },
   "amiga:018BEE": {
     "block_end": "amiga:018BF2",
@@ -43386,7 +43100,7 @@
       "recovery-blocks"
     ],
     "executed": "observed",
-    "invocations": 442
+    "invocations": 4565
   },
   "amiga:018C08": {
     "block_end": "amiga:018C0C",
@@ -43647,6 +43361,146 @@
     "executed": "observed",
     "invocations": 0
   },
+  "amiga:018CD8": {
+    "block_end": "amiga:018CDE",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018CDE": {
+    "block_end": "amiga:018CE2",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018CE2": {
+    "block_end": "amiga:018CE8",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018CE8": {
+    "block_end": "amiga:018CEC",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018CF6": {
+    "block_end": "amiga:018CFC",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018CFC": {
+    "block_end": "amiga:018D00",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D00": {
+    "block_end": "amiga:018D06",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D06": {
+    "block_end": "amiga:018D0A",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D0A": {
+    "block_end": "amiga:018D10",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D10": {
+    "block_end": "amiga:018D14",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D14": {
+    "block_end": "amiga:018D1A",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D1A": {
+    "block_end": "amiga:018D1E",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D1E": {
+    "block_end": "amiga:018D24",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D24": {
+    "block_end": "amiga:018D28",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
   "amiga:018D28": {
     "block_end": "amiga:018D2E",
     "certainty": "recovered-block",
@@ -43751,60 +43605,30 @@
     "invocations": 0
   },
   "amiga:018D4E": {
-    "block_end": "amiga:018D54",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018D54": {
-    "block_end": "amiga:018D58",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018D58": {
     "block_end": "amiga:018D5C",
     "certainty": "recovered-block",
     "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
-    "executed": "observed",
+    "executed": "not-executed",
     "invocations": 0
   },
   "amiga:018D5C": {
-    "block_end": "amiga:018D5E",
-    "certainty": "recovered-block",
-    "evidence": [
-      "recovery-blocks"
-    ],
-    "executed": "observed",
-    "invocations": 0
-  },
-  "amiga:018D5E": {
     "block_end": "amiga:018D62",
     "certainty": "recovered-block",
     "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
-    "executed": "observed",
+    "executed": "not-executed",
     "invocations": 0
   },
   "amiga:018D62": {
     "block_end": "amiga:018D66",
     "certainty": "recovered-block",
     "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c",
       "recovery-blocks"
     ],
-    "executed": "observed",
+    "executed": "not-executed",
     "invocations": 0
   },
   "amiga:018D66": {
@@ -43813,25 +43637,71 @@
     "evidence": [
       "recovery-blocks"
     ],
-    "executed": "not-executed",
+    "executed": "observed",
     "invocations": 0
   },
   "amiga:018D6A": {
+    "block_end": "amiga:018D6C",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D6C": {
+    "block_end": "amiga:018D70",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D70": {
+    "block_end": "amiga:018D74",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D74": {
+    "block_end": "amiga:018D78",
+    "certainty": "recovered-block",
+    "evidence": [
+      "recovery-blocks"
+    ],
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D78": {
     "block_end": "amiga:018D7C",
     "certainty": "recovered-block",
     "evidence": [
       "recovery-blocks"
     ],
-    "executed": "not-executed",
+    "executed": "observed",
     "invocations": 0
   },
   "amiga:018D7C": {
-    "block_end": "amiga:018D82",
+    "block_end": "amiga:018D80",
     "certainty": "recovered-block",
     "evidence": [
       "recovery-blocks"
     ],
-    "executed": "not-executed",
+    "executed": "observed",
+    "invocations": 0
+  },
+  "amiga:018D80": {
+    "block_end": "amiga:018D82",
+    "certainty": "recovered-block",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "recovery-blocks"
+    ],
+    "executed": "observed",
     "invocations": 0
   },
   "amiga:018DAE": {
@@ -43839,14 +43709,14 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 2
+    "invocations": 3
   },
   "amiga:018DB4": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 1848
+    "invocations": 119923
   },
   "amiga:018DBA": {
     "certainty": "probable-entry",
@@ -43860,35 +43730,35 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 310
+    "invocations": 7710
   },
   "amiga:018DC6": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 29
+    "invocations": 33
   },
   "amiga:018DD2": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 32
+    "invocations": 37
   },
   "amiga:018DD8": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 197
+    "invocations": 211
   },
   "amiga:018DDE": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 442
+    "invocations": 4565
   },
   "amiga:018DE4": {
     "certainty": "probable-entry",
@@ -43909,28 +43779,28 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 9
+    "invocations": 11
   },
   "amiga:018DF6": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 15
+    "invocations": 19
   },
   "amiga:018DFC": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 992
+    "invocations": 20037
   },
   "amiga:018E02": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 1264
+    "invocations": 11949
   },
   "amiga:018E0E": {
     "certainty": "probable-entry",
@@ -43944,63 +43814,63 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 1218
+    "invocations": 20273
   },
   "amiga:018E20": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 993
+    "invocations": 20038
   },
   "amiga:018E26": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 24
+    "invocations": 60
   },
   "amiga:018E2C": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 20
+    "invocations": 21
   },
   "amiga:018E32": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 2
+    "invocations": 20
   },
   "amiga:018E3E": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 105
+    "invocations": 110
   },
   "amiga:018E44": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 675
+    "invocations": 3960
   },
   "amiga:018E4A": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 3562
+    "invocations": 7739
   },
   "amiga:018E50": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 495
+    "invocations": 703
   },
   "amiga:018E56": {
     "certainty": "probable-entry",
@@ -44014,14 +43884,14 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 5
+    "invocations": 6
   },
   "amiga:018E62": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 7
+    "invocations": 9
   },
   "amiga:018E68": {
     "certainty": "probable-entry",
@@ -44035,7 +43905,7 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 58
+    "invocations": 906
   },
   "amiga:018E7A": {
     "certainty": "probable-entry",
@@ -44049,7 +43919,7 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 10
+    "invocations": 12
   },
   "amiga:018E86": {
     "certainty": "probable-entry",
@@ -44063,42 +43933,35 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 129
+    "invocations": 144
   },
   "amiga:018E9E": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 4487
+    "invocations": 240679
   },
   "amiga:018EA4": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 319
+    "invocations": 7720
   },
   "amiga:018EAA": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 316
+    "invocations": 7716
   },
   "amiga:018EB0": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 1505
-  },
-  "amiga:018EB6": {
-    "certainty": "probable-entry",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c"
-    ],
-    "invocations": 1
+    "invocations": 15500
   },
   "amiga:018EBC": {
     "certainty": "probable-entry",
@@ -44112,7 +43975,7 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 1326
+    "invocations": 4760
   },
   "amiga:018EC8": {
     "certainty": "probable-entry",
@@ -44140,7 +44003,7 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 68
+    "invocations": 78
   },
   "amiga:018EE0": {
     "certainty": "probable-entry",
@@ -44154,7 +44017,7 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 63
+    "invocations": 73
   },
   "amiga:018EEC": {
     "certainty": "probable-entry",
@@ -44168,21 +44031,21 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 533
+    "invocations": 10458
   },
   "amiga:018EFE": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 992
+    "invocations": 20037
   },
   "amiga:018F0A": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 636
+    "invocations": 17252
   },
   "amiga:018F1C": {
     "certainty": "probable-entry",
@@ -44224,7 +44087,7 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 443
+    "invocations": 4566
   },
   "amiga:018F46": {
     "certainty": "probable-entry",
@@ -44238,7 +44101,7 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 1900
+    "invocations": 29201
   },
   "amiga:018F52": {
     "certainty": "probable-entry",
@@ -44259,14 +44122,14 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 2675
+    "invocations": 59802
   },
   "amiga:018F6A": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 1265
+    "invocations": 11950
   },
   "amiga:018F70": {
     "certainty": "probable-entry",
@@ -44280,14 +44143,14 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 12
+    "invocations": 855
   },
   "amiga:018F7C": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 774
+    "invocations": 30600
   },
   "amiga:018F88": {
     "certainty": "probable-entry",
@@ -44324,12 +44187,61 @@
     ],
     "invocations": 1
   },
+  "amiga:018FB8": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 8398
+  },
+  "amiga:018FBE": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 9240
+  },
+  "amiga:018FCA": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 1680
+  },
+  "amiga:018FD0": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 11758
+  },
+  "amiga:018FD6": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 840
+  },
+  "amiga:018FDC": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 1680
+  },
+  "amiga:018FE2": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 11760
+  },
   "amiga:018FE8": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 1
+    "invocations": 1712
   },
   "amiga:018FF0": {
     "certainty": "probable-entry",
@@ -44343,7 +44255,7 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 1
+    "invocations": 2
   },
   "amiga:019000": {
     "certainty": "probable-entry",
@@ -44413,7 +44325,7 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 2
+    "invocations": 3
   },
   "amiga:0190B0": {
     "certainty": "probable-entry",
@@ -44427,21 +44339,14 @@
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 1
+    "invocations": 2
   },
   "amiga:0190C0": {
     "certainty": "probable-entry",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
     ],
-    "invocations": 12
-  },
-  "amiga:07FFE0": {
-    "certainty": "observed-address",
-    "evidence": [
-      "evidence-amiga-oracle-0551ceab3ac00a8c"
-    ],
-    "invocations": 0
+    "invocations": 13
   },
   "amiga:C0108C": {
     "certainty": "observed-address",
@@ -44647,6 +44552,13 @@
     "invocations": 0
   },
   "amiga:C011EA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C01250": {
     "certainty": "observed-address",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
@@ -45053,6 +44965,69 @@
     "invocations": 0
   },
   "amiga:C01AC2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C01AC6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C01AD0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C01AD4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C01AD6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C01ADA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C01D78": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C01D7C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C01D82": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C01D86": {
     "certainty": "observed-address",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
@@ -51891,6 +51866,370 @@
     ],
     "invocations": 0
   },
+  "amiga:C10834": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10858": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10860": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10920": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10924": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10932": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10936": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10974": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10978": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10996": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1099A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C109AE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C109B2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C109C8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C109CC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C109CE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C109D2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C109F0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C109F4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10A0A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10A0E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10A5A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10A5E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10A74": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10A78": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10A86": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10A8A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10A92": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10A96": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10AB6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10ABA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10AD0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10AD4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10AF0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10AF4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10AFC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B00": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B02": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B06": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B12": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B16": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B18": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B1C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B24": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B26": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B2A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B3A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B3E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B66": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B6A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B6E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C10B72": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
   "amiga:C10BE2": {
     "certainty": "observed-address",
     "evidence": [
@@ -52214,6 +52553,1742 @@
     "invocations": 0
   },
   "amiga:C11010": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11014": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11042": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11046": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1105E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1107A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1107E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11080": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11084": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11088": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11090": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11094": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C110A6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C110AA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C110D6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C110DA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1111E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11122": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11126": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1112A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1112E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1117C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11180": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11BDE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11BE2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11BF8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11BFC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11C3E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11C42": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11C74": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11C78": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11CAA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11CAE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11CE0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11CE4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D3C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D40": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D4E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D52": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D60": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D64": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D72": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D76": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D84": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D88": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D96": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11D9A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11DE0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11DE4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E2E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E32": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E40": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E44": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E52": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E56": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E64": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E68": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E76": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E7A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E88": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E8C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E9A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11E9E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11EAC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11EB0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11EBE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11EC2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11ED0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11ED4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11EE2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11EE6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11EF4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11EF8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F06": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F0A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F18": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F1C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F30": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F34": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F42": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F46": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F54": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F58": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F66": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11F6A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11FC6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11FCA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C11FFC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12000": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12036": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1203A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12054": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12058": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12066": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1206A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12078": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1207C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12080": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12084": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12086": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1208A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1208E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12092": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1211E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12122": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1212E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12132": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1214C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12160": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 840
+  },
+  "amiga:C12170": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12176": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1217A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12274": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12278": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C122B2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C122B6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12446": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1244A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12480": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12484": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1248A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1248E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C124BE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C124C2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12506": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1250A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12518": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1251C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12520": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1252E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12532": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1253E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12542": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12668": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1266C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C126A2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C126A4": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 840
+  },
+  "amiga:C126B2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C126B6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C128D2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C128D6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C128E0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C128E4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C128E8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C128EC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C128F0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1291A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1291E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12964": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12968": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12A70": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12A74": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12A7E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12A82": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12A88": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12A8C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12AA0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12AA4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12AC8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12ACC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12AD2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12AD6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12BDA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12C7E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12C82": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12C8C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12C90": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CAA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CAE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CB2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CB6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CBA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CD0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CD4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CD8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CDC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CE0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CF6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CFA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12CFE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12D02": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12D06": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12D1C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12D20": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12D24": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12D28": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12D2C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C12D40": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 3360
+  },
+  "amiga:C12D5A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C13B18": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 3360
+  },
+  "amiga:C13B32": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C13C4E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C13C52": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C13CE8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C13CEC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C13D04": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C13D08": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C13FD2": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 840
+  },
+  "amiga:C13FF2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1400C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14010": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14014": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14022": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14026": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1402A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1467A": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 840
+  },
+  "amiga:C14684": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14688": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14692": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14696": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C146B2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C146C2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C146D6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C146EE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C146FE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14712": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1472A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1473A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1474C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14764": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14776": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1478A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14796": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1479A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C147E4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C147E8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14822": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14826": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14836": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1483A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14840": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14844": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1484A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1484E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14852": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14860": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14864": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1486C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14870": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14874": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14878": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1487E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14882": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14888": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1488C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C14890": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1489E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C148A2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C148E0": {
     "certainty": "observed-address",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"
@@ -53474,6 +55549,1014 @@
     "invocations": 2
   },
   "amiga:C16AA2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16BFC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C08": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C0C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C10": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C14": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C20": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C24": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C2C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C32": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C36": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C3A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C3E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C44": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C48": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C4E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C52": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C58": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C5C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C7E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C82": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C8C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C90": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16C9E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16CA2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16CB8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16CBC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16CD2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16CD6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16CEC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16CF0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16D06": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16D0A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16D20": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16D24": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16D78": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16D7C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16D9A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16D9E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16EE8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16EEC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16EF2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16EF6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16EFC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16F00": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16F28": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16F2C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16F82": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16F86": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16FCA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16FCE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16FF4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C16FF8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17022": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17026": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1702E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17032": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17038": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1703C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17042": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17046": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1704C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17050": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17052": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17056": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1705A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1705E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1706A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1706E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17092": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17096": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C170C0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C170C4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C170CC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C170D0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C170D6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C170DA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C170E0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C170E4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C170EE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C170F2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1725A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1725E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1726A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17274": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17278": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1727C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1727E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17286": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1728A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17298": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C172AA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C172B2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C172B8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C172BA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C172BE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C172C0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C172DA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C172DE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17316": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1731A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1733C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17340": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17360": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17364": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1737E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17382": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C173AA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C173AE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C173D8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C173DC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C173E0": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C173E4": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C174AC": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 3314
+  },
+  "amiga:C174CC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C174F2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17510": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1753C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17556": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17574": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17580": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1758C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C175A8": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C175C6": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C175DE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C175FC": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1761C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17634": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17650": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C17670": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1767A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C18024": {
+    "certainty": "probable-entry",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 3280
+  },
+  "amiga:C1802C": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C18030": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C18040": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C180DE": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C18140": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C18192": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C18196": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C181BA": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C181D2": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1824A": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C1824E": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C18250": {
+    "certainty": "observed-address",
+    "evidence": [
+      "evidence-amiga-oracle-0551ceab3ac00a8c"
+    ],
+    "invocations": 0
+  },
+  "amiga:C18254": {
     "certainty": "observed-address",
     "evidence": [
       "evidence-amiga-oracle-0551ceab3ac00a8c"

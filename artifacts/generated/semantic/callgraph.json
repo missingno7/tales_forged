@@ -1,6 +1,6 @@
 [
   {
-    "count": 2,
+    "count": 3,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:010658",
@@ -16,6 +16,216 @@
     "kind": "call",
     "status": "fact: decoded direct call",
     "to": "amiga:010FDE"
+  },
+  {
+    "count": 3,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:0108FC",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010908",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010908",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010908",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01090A",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010918",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01091C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010920",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01093E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 3,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010946",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01094C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010954",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01095C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010962",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010962",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010962",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010968",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010968",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01096A",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01096E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:010972",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
   },
   {
     "count": 2,
@@ -118,7 +328,7 @@
     "to": "amiga:013A6E"
   },
   {
-    "count": 31,
+    "count": 36,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:010FDE"
@@ -160,7 +370,7 @@
     "to": "amiga:013008"
   },
   {
-    "count": 32,
+    "count": 37,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:012824",
@@ -178,7 +388,7 @@
     "to": "amiga:018708"
   },
   {
-    "count": 32,
+    "count": 37,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:012834",
@@ -216,7 +426,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1628,
+    "count": 1880,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:012864",
@@ -234,7 +444,7 @@
     "to": "amiga:012DBA"
   },
   {
-    "count": 206,
+    "count": 220,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01287C"
@@ -256,7 +466,7 @@
     "to": "amiga:018708"
   },
   {
-    "count": 206,
+    "count": 220,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01287C"
@@ -278,7 +488,7 @@
     "to": "amiga:012DBA"
   },
   {
-    "count": 206,
+    "count": 220,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01287C"
@@ -300,7 +510,7 @@
     "to": "amiga:012D66"
   },
   {
-    "count": 206,
+    "count": 220,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01287C"
@@ -322,7 +532,7 @@
     "to": "amiga:012D66"
   },
   {
-    "count": 206,
+    "count": 220,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01287C"
@@ -344,7 +554,7 @@
     "to": "amiga:012D66"
   },
   {
-    "count": 206,
+    "count": 220,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01287C"
@@ -366,7 +576,7 @@
     "to": "amiga:012D66"
   },
   {
-    "count": 206,
+    "count": 220,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01287C"
@@ -388,7 +598,7 @@
     "to": "amiga:012D66"
   },
   {
-    "count": 206,
+    "count": 220,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01287C"
@@ -410,7 +620,7 @@
     "to": "amiga:012D66"
   },
   {
-    "count": 197,
+    "count": 211,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:01292C",
@@ -428,7 +638,7 @@
     "to": "amiga:01287C"
   },
   {
-    "count": 27,
+    "count": 30,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:01299A",
@@ -446,7 +656,7 @@
     "to": "amiga:01404A"
   },
   {
-    "count": 60,
+    "count": 66,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:012A60",
@@ -464,7 +674,7 @@
     "to": "amiga:013A6E"
   },
   {
-    "count": 60,
+    "count": 66,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:012A90",
@@ -482,7 +692,7 @@
     "to": "amiga:01404A"
   },
   {
-    "count": 10,
+    "count": 14,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:012B1A",
@@ -536,7 +746,7 @@
     "to": "amiga:014184"
   },
   {
-    "count": 5,
+    "count": 6,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:012CAC",
@@ -562,7 +772,7 @@
     "to": "amiga:017BD8"
   },
   {
-    "count": 1268,
+    "count": 1357,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:012D66"
@@ -623,6 +833,18 @@
     "count": 1,
     "evidence_class": "observed",
     "from_functions": [
+      "amiga:012D66"
+    ],
+    "from_site": "amiga:012DB0",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [
       "amiga:012DBA"
     ],
     "from_site": "amiga:012DC2",
@@ -644,7 +866,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1834,
+    "count": 2100,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:012DBA"
@@ -726,7 +948,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 31,
+    "count": 36,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:012F24"
@@ -748,7 +970,7 @@
     "to": "amiga:018970"
   },
   {
-    "count": 62,
+    "count": 72,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:012F24"
@@ -770,7 +992,7 @@
     "to": "amiga:017A6C"
   },
   {
-    "count": 62,
+    "count": 72,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:012F24"
@@ -792,7 +1014,7 @@
     "to": "amiga:012EAC"
   },
   {
-    "count": 62,
+    "count": 72,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:012F24"
@@ -814,7 +1036,7 @@
     "to": "amiga:012E30"
   },
   {
-    "count": 62,
+    "count": 72,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:012F24"
@@ -836,7 +1058,7 @@
     "to": "amiga:018736"
   },
   {
-    "count": 31,
+    "count": 36,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:012F24"
@@ -858,7 +1080,7 @@
     "to": "amiga:0189E4"
   },
   {
-    "count": 93,
+    "count": 108,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:012FE2"
@@ -880,7 +1102,7 @@
     "to": "amiga:018A06"
   },
   {
-    "count": 62,
+    "count": 72,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:012FE2"
@@ -902,7 +1124,7 @@
     "to": "amiga:012EE8"
   },
   {
-    "count": 31,
+    "count": 36,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:013008"
@@ -924,7 +1146,7 @@
     "to": "amiga:0189A8"
   },
   {
-    "count": 31,
+    "count": 36,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:013008"
@@ -958,7 +1180,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 31,
+    "count": 36,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:013008"
@@ -980,7 +1202,7 @@
     "to": "amiga:017AC0"
   },
   {
-    "count": 31,
+    "count": 36,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:013008"
@@ -1002,7 +1224,7 @@
     "to": "amiga:012FE2"
   },
   {
-    "count": 442,
+    "count": 4565,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0130DA",
@@ -1020,7 +1242,7 @@
     "to": "amiga:018C04"
   },
   {
-    "count": 3,
+    "count": 18,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0130DE",
@@ -1040,7 +1262,7 @@
     "to": "amiga:015646"
   },
   {
-    "count": 4,
+    "count": 38,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0130DE",
@@ -1070,7 +1292,7 @@
     "to": "amiga:01579E"
   },
   {
-    "count": 441,
+    "count": 4564,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0130DE",
@@ -1080,7 +1302,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0130F0"
@@ -1140,7 +1362,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 3,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0130F0"
@@ -1152,7 +1374,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 2,
+    "count": 3,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0130F0"
@@ -1186,6 +1408,18 @@
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
     "to": "amiga:015646"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:0130F0"
+    ],
+    "from_site": "amiga:01315C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
   },
   {
     "count": 4,
@@ -1268,7 +1502,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0131CE",
@@ -1298,6 +1532,16 @@
     "to": "amiga:01615E"
   },
   {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:0131E4",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
     "count": 2,
     "evidence_class": "observed",
     "from_functions": [],
@@ -1318,7 +1562,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013224",
@@ -1338,6 +1582,16 @@
     "to": "amiga:01615E"
   },
   {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01322A",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
     "count": 2,
     "evidence_class": "observed",
     "from_functions": [],
@@ -1348,7 +1602,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 3,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013236",
@@ -1372,6 +1626,26 @@
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013256",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01325A",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:013264",
     "kind": "call",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
@@ -1421,6 +1695,16 @@
     "count": 1,
     "evidence_class": "observed",
     "from_functions": [],
+    "from_site": "amiga:0132AA",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
     "from_site": "amiga:0132AE",
     "kind": "call",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
@@ -1441,6 +1725,16 @@
     "count": 1,
     "evidence_class": "observed",
     "from_functions": [],
+    "from_site": "amiga:0132C0",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
     "from_site": "amiga:0132D0",
     "kind": "call",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
@@ -1448,7 +1742,17 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 144,
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:0132E4",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 176,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0132EE",
@@ -1466,7 +1770,7 @@
     "to": "amiga:0130F0"
   },
   {
-    "count": 1,
+    "count": 16,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0132FA",
@@ -1476,7 +1780,7 @@
     "to": "amiga:0155D6"
   },
   {
-    "count": 1,
+    "count": 12,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0132FA",
@@ -1486,7 +1790,7 @@
     "to": "amiga:015646"
   },
   {
-    "count": 2,
+    "count": 16,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0132FA",
@@ -1496,7 +1800,7 @@
     "to": "amiga:0156B6"
   },
   {
-    "count": 296,
+    "count": 362,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0132FA",
@@ -1517,6 +1821,16 @@
   },
   {
     "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:013320",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:01332E",
@@ -1566,7 +1880,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013346",
@@ -1619,6 +1933,16 @@
     "count": 1,
     "evidence_class": "observed",
     "from_functions": [],
+    "from_site": "amiga:01335C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
     "from_site": "amiga:01335E",
     "kind": "call",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
@@ -1636,7 +1960,17 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:013376",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013382",
@@ -1650,6 +1984,16 @@
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013392",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:013398",
     "kind": "call",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
@@ -1696,7 +2040,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0133B0",
@@ -1706,7 +2050,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0133B2",
@@ -1716,7 +2060,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0133B4",
@@ -1726,7 +2070,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 240,
+    "count": 304,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0133C6",
@@ -1794,7 +2138,7 @@
     "to": "amiga:01579E"
   },
   {
-    "count": 454,
+    "count": 582,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0133D2",
@@ -1828,7 +2172,121 @@
     "to": "amiga:015646"
   },
   {
-    "count": 992,
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:0133E6"
+    ],
+    "from_site": "amiga:01348C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:0133E6"
+    ],
+    "from_site": "amiga:0134A0",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:0133E6"
+    ],
+    "from_site": "amiga:0134A2",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:0133E6"
+    ],
+    "from_site": "amiga:0134A8",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:0133E6"
+    ],
+    "from_site": "amiga:0134AE",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:0133E6"
+    ],
+    "from_site": "amiga:0134BE",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:0133E6"
+    ],
+    "from_site": "amiga:0134CE",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:0134EC",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:013520",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01353E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 20037,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:01354E",
@@ -1844,6 +2302,16 @@
     "kind": "call",
     "status": "fact: decoded direct call",
     "to": "amiga:0133E6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01354E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
   },
   {
     "count": 1,
@@ -1856,7 +2324,27 @@
     "to": "amiga:015646"
   },
   {
-    "count": 992,
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:01357C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:013596",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 20037,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0135A4",
@@ -1874,7 +2362,37 @@
     "to": "amiga:014692"
   },
   {
-    "count": 1264,
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:0135B0",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:0135BC",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:0135C2",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 11949,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013602",
@@ -1892,7 +2410,27 @@
     "to": "amiga:018B98"
   },
   {
-    "count": 1264,
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:013632",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:013654",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 11949,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013668",
@@ -1910,7 +2448,7 @@
     "to": "amiga:018BEA"
   },
   {
-    "count": 1318,
+    "count": 20381,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:013870"
@@ -1962,6 +2500,30 @@
     "to": "amiga:013A06"
   },
   {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:013870"
+    ],
+    "from_site": "amiga:0138DA",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:013930"
+    ],
+    "from_site": "amiga:013940",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
     "evidence_class": "static",
     "from_functions": [
       "amiga:013930"
@@ -1972,7 +2534,19 @@
     "to": "amiga:01701A"
   },
   {
-    "count": 1231,
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:013930"
+    ],
+    "from_site": "amiga:01397E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 20358,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:013930"
@@ -2014,7 +2588,7 @@
     "to": "amiga:01701A"
   },
   {
-    "count": 80,
+    "count": 87,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:013A6E"
@@ -2036,7 +2610,7 @@
     "to": "amiga:013870"
   },
   {
-    "count": 24,
+    "count": 60,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013B0A",
@@ -2054,7 +2628,7 @@
     "to": "amiga:013930"
   },
   {
-    "count": 20,
+    "count": 21,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013B24",
@@ -2072,27 +2646,27 @@
     "to": "amiga:013870"
   },
   {
+    "count": 21,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:013B58",
+    "kind": "call-indirect",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:013A6E"
+  },
+  {
+    "evidence_class": "static",
+    "from_functions": [],
+    "from_site": "amiga:013B58",
+    "kind": "call",
+    "status": "fact: decoded direct call",
+    "to": "amiga:013A6E"
+  },
+  {
     "count": 20,
     "evidence_class": "observed",
     "from_functions": [],
-    "from_site": "amiga:013B58",
-    "kind": "call-indirect",
-    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
-    "status": "observed in replay 0551ceab3ac00a8c",
-    "to": "amiga:013A6E"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [],
-    "from_site": "amiga:013B58",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:013A6E"
-  },
-  {
-    "count": 2,
-    "evidence_class": "observed",
-    "from_functions": [],
     "from_site": "amiga:013BB0",
     "kind": "call-indirect",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
@@ -2108,7 +2682,7 @@
     "to": "amiga:013930"
   },
   {
-    "count": 2,
+    "count": 20,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013BC6",
@@ -2126,7 +2700,7 @@
     "to": "amiga:013930"
   },
   {
-    "count": 105,
+    "count": 110,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013C2A",
@@ -2154,7 +2728,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 105,
+    "count": 110,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:013C40",
@@ -3336,7 +3910,7 @@
     "to": "amiga:01579E"
   },
   {
-    "count": 80,
+    "count": 101,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3384,7 +3958,7 @@
     "to": "amiga:01579E"
   },
   {
-    "count": 33,
+    "count": 41,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3396,7 +3970,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 37669,
+    "count": 43308,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3442,7 +4016,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 3,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3454,7 +4028,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 2,
+    "count": 3,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3490,6 +4064,18 @@
     "to": "amiga:01615E"
   },
   {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:01404A"
+    ],
+    "from_site": "amiga:0140B6",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
     "count": 3,
     "evidence_class": "observed",
     "from_functions": [
@@ -3502,7 +4088,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3514,7 +4100,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 2,
+    "count": 4,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3538,7 +4124,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 3,
+    "count": 4,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3550,7 +4136,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 22063,
+    "count": 25442,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3620,7 +4206,7 @@
     "to": "amiga:01579E"
   },
   {
-    "count": 83,
+    "count": 92,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3632,7 +4218,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 21,
+    "count": 27,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3656,7 +4242,7 @@
     "to": "amiga:0156B6"
   },
   {
-    "count": 53,
+    "count": 61,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3668,7 +4254,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 138535,
+    "count": 158434,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3690,7 +4276,7 @@
     "to": "amiga:01411E"
   },
   {
-    "count": 18,
+    "count": 20,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3702,7 +4288,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 7,
+    "count": 8,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3726,7 +4312,7 @@
     "to": "amiga:01579E"
   },
   {
-    "count": 9,
+    "count": 11,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3798,7 +4384,7 @@
     "to": "amiga:0156B6"
   },
   {
-    "count": 58,
+    "count": 70,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3846,7 +4432,7 @@
     "to": "amiga:01579E"
   },
   {
-    "count": 85,
+    "count": 102,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3870,7 +4456,7 @@
     "to": "amiga:015646"
   },
   {
-    "count": 30,
+    "count": 37,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3906,7 +4492,7 @@
     "to": "amiga:01579E"
   },
   {
-    "count": 53,
+    "count": 71,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3918,7 +4504,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 36,
+    "count": 44,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3954,7 +4540,7 @@
     "to": "amiga:0156B6"
   },
   {
-    "count": 46,
+    "count": 51,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -3990,7 +4576,7 @@
     "to": "amiga:0156B6"
   },
   {
-    "count": 78,
+    "count": 89,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01404A"
@@ -4014,7 +4600,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 53,
+    "count": 62,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01411E"
@@ -4026,7 +4612,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 14,
+    "count": 15,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01411E"
@@ -4038,7 +4624,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 32,
+    "count": 37,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01411E"
@@ -4062,7 +4648,7 @@
     "to": "amiga:0156B6"
   },
   {
-    "count": 23,
+    "count": 27,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01411E"
@@ -4074,7 +4660,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 258,
+    "count": 292,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01411E"
@@ -4108,7 +4694,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 22,
+    "count": 24,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01411E"
@@ -4132,7 +4718,7 @@
     "to": "amiga:015646"
   },
   {
-    "count": 26,
+    "count": 30,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01411E"
@@ -4144,7 +4730,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 31,
+    "count": 35,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01411E"
@@ -4156,7 +4742,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 31,
+    "count": 36,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01411E"
@@ -5150,7 +5736,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 675,
+    "count": 3960,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:014362",
@@ -5196,6 +5782,16 @@
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
     "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:014390",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
   },
   {
     "count": 1,
@@ -5251,11 +5847,51 @@
     "count": 1,
     "evidence_class": "observed",
     "from_functions": [],
+    "from_site": "amiga:0143CE",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:0143D0",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:0143E0",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
     "from_site": "amiga:0143EC",
     "kind": "call",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
     "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:0143FC",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
   },
   {
     "count": 2,
@@ -5268,7 +5904,17 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 3562,
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:014408",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 7739,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:014410",
@@ -5369,6 +6015,16 @@
     "kind": "call",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:014580",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
     "to": "amiga:01615E"
   },
   {
@@ -5455,6 +6111,16 @@
     "count": 1,
     "evidence_class": "observed",
     "from_functions": [],
+    "from_site": "amiga:0145E6",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
     "from_site": "amiga:0145EC",
     "kind": "call",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
@@ -5470,6 +6136,16 @@
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
     "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:0145F2",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
   },
   {
     "count": 1,
@@ -5536,7 +6212,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 4,
+    "count": 5,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5548,7 +6224,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 2,
+    "count": 3,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5596,7 +6272,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 91,
+    "count": 95,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5668,7 +6344,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 49,
+    "count": 53,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5680,7 +6356,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5716,7 +6392,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 3,
+    "count": 4,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5764,7 +6440,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 12,
+    "count": 13,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5776,7 +6452,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 6,
+    "count": 7,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5788,7 +6464,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 5,
+    "count": 7,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5800,7 +6476,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 3,
+    "count": 4,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5812,7 +6488,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 3,
+    "count": 4,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5836,7 +6512,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -5980,7 +6656,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
+    "count": 2,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -6004,7 +6680,7 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 2,
+    "count": 3,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0146CE"
@@ -6410,7 +7086,7 @@
     "to": "amiga:0149A0"
   },
   {
-    "count": 5,
+    "count": 6,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:014DEA",
@@ -6774,7 +7450,7 @@
     "to": "amiga:014AF0"
   },
   {
-    "count": 853,
+    "count": 4941,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01544C"
@@ -6786,7 +7462,7 @@
     "to": "amiga:015504"
   },
   {
-    "count": 516,
+    "count": 2698,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01544C"
@@ -6798,7 +7474,7 @@
     "to": "amiga:015514"
   },
   {
-    "count": 136,
+    "count": 2223,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01544C"
@@ -6810,7 +7486,7 @@
     "to": "amiga:015520"
   },
   {
-    "count": 2386,
+    "count": 17090,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01544C"
@@ -6822,7 +7498,7 @@
     "to": "amiga:015542"
   },
   {
-    "count": 2326,
+    "count": 11151,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01544C"
@@ -6834,7 +7510,7 @@
     "to": "amiga:01557A"
   },
   {
-    "count": 853,
+    "count": 4941,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:015504"
@@ -6856,7 +7532,7 @@
     "to": "amiga:0154B6"
   },
   {
-    "count": 516,
+    "count": 2698,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:015514"
@@ -6878,7 +7554,7 @@
     "to": "amiga:0154B6"
   },
   {
-    "count": 46,
+    "count": 465,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:015520"
@@ -6890,7 +7566,7 @@
     "to": "amiga:0154B6"
   },
   {
-    "count": 46,
+    "count": 465,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:015520"
@@ -6912,7 +7588,7 @@
     "to": "amiga:0154B6"
   },
   {
-    "count": 57,
+    "count": 252,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:015542"
@@ -6924,7 +7600,7 @@
     "to": "amiga:0154B6"
   },
   {
-    "count": 57,
+    "count": 252,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:015542"
@@ -7098,7 +7774,7 @@
     "to": "amiga:015064"
   },
   {
-    "count": 5557,
+    "count": 17273,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0158BC"
@@ -7120,7 +7796,7 @@
     "to": "amiga:0158C8"
   },
   {
-    "count": 8450,
+    "count": 51505,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0158C8"
@@ -7142,7 +7818,7 @@
     "to": "amiga:0158E6"
   },
   {
-    "count": 1379,
+    "count": 5487,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0158E6"
@@ -7164,7 +7840,7 @@
     "to": "amiga:015A72"
   },
   {
-    "count": 8450,
+    "count": 51505,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:0158E6"
@@ -7186,7 +7862,7 @@
     "to": "amiga:01544C"
   },
   {
-    "count": 439,
+    "count": 2411,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:015A72"
@@ -7208,7 +7884,7 @@
     "to": "amiga:0159A4"
   },
   {
-    "count": 42,
+    "count": 57,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:015D12",
@@ -7226,7 +7902,25 @@
     "to": "amiga:0157E4"
   },
   {
-    "count": 5557,
+    "count": 209,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:015E2A",
+    "kind": "call-indirect",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01559E"
+  },
+  {
+    "evidence_class": "static",
+    "from_functions": [],
+    "from_site": "amiga:015E2A",
+    "kind": "call",
+    "status": "fact: decoded direct call",
+    "to": "amiga:01559E"
+  },
+  {
+    "count": 17273,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01615E"
@@ -7248,7 +7942,7 @@
     "to": "amiga:01617C"
   },
   {
-    "count": 5557,
+    "count": 17273,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01615E"
@@ -7270,7 +7964,7 @@
     "to": "amiga:0158BC"
   },
   {
-    "count": 5557,
+    "count": 17273,
     "evidence_class": "observed",
     "from_functions": [
       "amiga:01617C"
@@ -7988,7 +8682,7 @@
     "to": "amiga:01892A"
   },
   {
-    "count": 12,
+    "count": 13,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:0179B2",
@@ -8021,11 +8715,111 @@
     "count": 1,
     "evidence_class": "observed",
     "from_functions": [],
+    "from_site": "amiga:017B04",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 13,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B08",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 4,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B08",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 3,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B08",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B0C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B0C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B0C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 9,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B0E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 4,
+    "evidence_class": "observed",
+    "from_functions": [],
     "from_site": "amiga:017B0E",
     "kind": "call",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
     "to": "amiga:0156B6"
+  },
+  {
+    "count": 6,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B0E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B10",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
   },
   {
     "count": 1,
@@ -8036,6 +8830,86 @@
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
     "to": "amiga:015726"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B16",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 13,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B18",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 8,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B18",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 8,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B18",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B1C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B1E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B22",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017B22",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
   },
   {
     "evidence_class": "static",
@@ -8138,7 +9012,7 @@
     "to": "amiga:017BF4"
   },
   {
-    "count": 319,
+    "count": 7720,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:017FB4",
@@ -8156,7 +9030,17 @@
     "to": "amiga:017FF4"
   },
   {
-    "count": 316,
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:017FC2",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 7716,
     "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:017FD8",
@@ -8196,6 +9080,30 @@
   {
     "count": 1,
     "evidence_class": "observed",
+    "from_functions": [
+      "amiga:017FF4"
+    ],
+    "from_site": "amiga:01800A",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [
+      "amiga:017FF4"
+    ],
+    "from_site": "amiga:018012",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
     "from_functions": [],
     "from_site": "amiga:018044",
     "kind": "call",
@@ -8204,18 +9112,6 @@
     "to": "amiga:01615E"
   },
   {
-    "count": 1,
-    "evidence_class": "observed",
-    "from_functions": [
-      "amiga:01850A"
-    ],
-    "from_site": "amiga:018516",
-    "kind": "call-indirect",
-    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
-    "status": "observed in replay 0551ceab3ac00a8c",
-    "to": "amiga:0186EE"
-  },
-  {
     "evidence_class": "static",
     "from_functions": [
       "amiga:01850A"
@@ -8224,18 +9120,6 @@
     "kind": "call",
     "status": "fact: decoded direct call",
     "to": "amiga:0186EE"
-  },
-  {
-    "count": 1,
-    "evidence_class": "observed",
-    "from_functions": [
-      "amiga:01850A"
-    ],
-    "from_site": "amiga:01851C",
-    "kind": "call-indirect",
-    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
-    "status": "observed in replay 0551ceab3ac00a8c",
-    "to": "amiga:01871A"
   },
   {
     "evidence_class": "static",
@@ -8251,179 +9135,11 @@
     "count": 1,
     "evidence_class": "observed",
     "from_functions": [],
-    "from_site": "amiga:018548",
-    "kind": "call-indirect",
-    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
-    "status": "observed in replay 0551ceab3ac00a8c",
-    "to": "amiga:018552"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [],
-    "from_site": "amiga:018548",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:018552"
-  },
-  {
-    "count": 20,
-    "evidence_class": "observed",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:01856E",
-    "kind": "call-indirect",
-    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
-    "status": "observed in replay 0551ceab3ac00a8c",
-    "to": "amiga:018640"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:01856E",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:018640"
-  },
-  {
-    "count": 1,
-    "evidence_class": "observed",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:01858A",
-    "kind": "call-indirect",
-    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
-    "status": "observed in replay 0551ceab3ac00a8c",
-    "to": "amiga:018980"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:01858A",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:018980"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:0185A6",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:018788"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:0185B6",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:018788"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:0185C6",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:018788"
-  },
-  {
-    "count": 1,
-    "evidence_class": "observed",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:018604",
-    "kind": "call-indirect",
-    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
-    "status": "observed in replay 0551ceab3ac00a8c",
-    "to": "amiga:018980"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:018604",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:018980"
-  },
-  {
-    "count": 1,
-    "evidence_class": "observed",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:018618",
-    "kind": "call-indirect",
-    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
-    "status": "observed in replay 0551ceab3ac00a8c",
-    "to": "amiga:018980"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:018618",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:018980"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:018622",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:018974"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [
-      "amiga:018552"
-    ],
-    "from_site": "amiga:01862A",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:018A12"
-  },
-  {
-    "count": 1,
-    "evidence_class": "observed",
-    "from_functions": [
-      "amiga:018640"
-    ],
-    "from_site": "amiga:018674",
+    "from_site": "amiga:0186AC",
     "kind": "call",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
     "to": "amiga:01615E"
-  },
-  {
-    "evidence_class": "static",
-    "from_functions": [
-      "amiga:018640"
-    ],
-    "from_site": "amiga:018680",
-    "kind": "call",
-    "status": "fact: decoded direct call",
-    "to": "amiga:018690"
   },
   {
     "count": 1,
@@ -8584,16 +9300,6 @@
     "to": "amiga:0189D4"
   },
   {
-    "count": 1,
-    "evidence_class": "observed",
-    "from_functions": [],
-    "from_site": "amiga:018D58",
-    "kind": "call-indirect",
-    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
-    "status": "observed in replay 0551ceab3ac00a8c",
-    "to": "amiga:0186EE"
-  },
-  {
     "evidence_class": "static",
     "from_functions": [],
     "from_site": "amiga:018D58",
@@ -8602,32 +9308,12 @@
     "to": "amiga:0186EE"
   },
   {
-    "count": 1,
-    "evidence_class": "observed",
-    "from_functions": [],
-    "from_site": "amiga:018D5E",
-    "kind": "call-indirect",
-    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
-    "status": "observed in replay 0551ceab3ac00a8c",
-    "to": "amiga:01871A"
-  },
-  {
     "evidence_class": "static",
     "from_functions": [],
     "from_site": "amiga:018D5E",
     "kind": "call",
     "status": "fact: decoded direct call",
     "to": "amiga:01871A"
-  },
-  {
-    "count": 1,
-    "evidence_class": "observed",
-    "from_functions": [],
-    "from_site": "amiga:018D62",
-    "kind": "call-indirect",
-    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
-    "status": "observed in replay 0551ceab3ac00a8c",
-    "to": "amiga:01850A"
   },
   {
     "evidence_class": "static",
@@ -8646,6 +9332,26 @@
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
     "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:018E9E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:018F4C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
   },
   {
     "count": 1,
@@ -9271,6 +9977,76 @@
     "count": 1,
     "evidence_class": "observed",
     "from_functions": [],
+    "from_site": "amiga:C10B24",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 45,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C10B3E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 44,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C10B3E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015646"
+  },
+  {
+    "count": 47,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C10B3E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 43,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C10B3E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 583,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C10B3E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C1105E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
     "from_site": "amiga:C14A26",
     "kind": "call",
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
@@ -9296,5 +10072,315 @@
     "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
     "status": "observed in replay 0551ceab3ac00a8c",
     "to": "amiga:01615E"
+  },
+  {
+    "count": 5,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C16EF6",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 25,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C17050",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C1726A",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C1726A",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C1726A",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C17274",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C17278",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C17278",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C1727C",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C1727E",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C17286",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C17286",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C1728A",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C1728A",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C17298",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 3,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C17298",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C172AA",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C172B2",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C172B8",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C172BA",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C172BE",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C172C0",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 147,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C173E4",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0155D6"
+  },
+  {
+    "count": 294,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C173E4",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 153,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C173E4",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:015726"
+  },
+  {
+    "count": 6558,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C173E4",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C174CC",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C17510",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:01615E"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C17580",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 1,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C181BA",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
+  },
+  {
+    "count": 2,
+    "evidence_class": "observed",
+    "from_functions": [],
+    "from_site": "amiga:C181D2",
+    "kind": "call",
+    "replay": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+    "status": "observed in replay 0551ceab3ac00a8c",
+    "to": "amiga:0156B6"
   }
 ]

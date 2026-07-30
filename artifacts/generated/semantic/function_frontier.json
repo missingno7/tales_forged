@@ -260,13 +260,6 @@
       ]
     },
     {
-      "identity": "amiga:018EB6",
-      "reason": "observed-call-target-not-a-recovered-block",
-      "sources": [
-        "observed: call-indirect in 0551ceab3ac00a8c"
-      ]
-    },
-    {
       "identity": "amiga:018EBC",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
@@ -485,6 +478,55 @@
     },
     {
       "identity": "amiga:018FB2",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:018FB8",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:018FBE",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:018FCA",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:018FD0",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:018FD6",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:018FDC",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:018FE2",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
         "observed: call-indirect in 0551ceab3ac00a8c"
@@ -729,6 +771,48 @@
       ]
     },
     {
+      "identity": "amiga:C12160",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:C126A4",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:C12D40",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:C13B18",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:C13FD2",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:C1467A",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
       "identity": "amiga:C149B0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
@@ -762,10 +846,24 @@
       "sources": [
         "observed: call-indirect in 0551ceab3ac00a8c"
       ]
+    },
+    {
+      "identity": "amiga:C174AC",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
+    },
+    {
+      "identity": "amiga:C18024",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in 0551ceab3ac00a8c"
+      ]
     }
   ],
   "format": "portforge-amiga-function-frontier-v1",
-  "function_boundaries": 124,
+  "function_boundaries": 117,
   "limitations": [
     "boundaries are addresses, not semantic names or types",
     "jump targets and relocations are not function boundaries",
@@ -775,7 +873,7 @@
   ],
   "machine_model": "pf-amiga-a500-ocs-pal-v1",
   "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
-  "recovered_blocks": 4755,
+  "recovered_blocks": 4733,
   "shared_blocks": [],
   "unowned_blocks": [
     "amiga:010640",
@@ -830,6 +928,24 @@
     "amiga:0106E2",
     "amiga:0106E6",
     "amiga:0106EA",
+    "amiga:01073C",
+    "amiga:010740",
+    "amiga:010744",
+    "amiga:010748",
+    "amiga:01074A",
+    "amiga:01074C",
+    "amiga:010750",
+    "amiga:010754",
+    "amiga:010758",
+    "amiga:01075C",
+    "amiga:01075E",
+    "amiga:010760",
+    "amiga:010764",
+    "amiga:010766",
+    "amiga:010768",
+    "amiga:01076C",
+    "amiga:010770",
+    "amiga:010774",
     "amiga:0108BE",
     "amiga:0108C2",
     "amiga:0108E2",
@@ -2091,6 +2207,7 @@
     "amiga:0157D6",
     "amiga:0157DA",
     "amiga:0157DC",
+    "amiga:0157E2",
     "amiga:015B20",
     "amiga:015B22",
     "amiga:015B3A",
@@ -2111,6 +2228,13 @@
     "amiga:015B9E",
     "amiga:015BA0",
     "amiga:015BA6",
+    "amiga:015BAA",
+    "amiga:015BAC",
+    "amiga:015BAE",
+    "amiga:015BB0",
+    "amiga:015BB2",
+    "amiga:015BB4",
+    "amiga:015BB8",
     "amiga:015BE6",
     "amiga:015BE8",
     "amiga:015BEA",
@@ -2195,6 +2319,7 @@
     "amiga:015CFC",
     "amiga:015CFE",
     "amiga:015D02",
+    "amiga:015D04",
     "amiga:015D08",
     "amiga:015D0C",
     "amiga:015D12",
@@ -2233,6 +2358,34 @@
     "amiga:015DCC",
     "amiga:015DD0",
     "amiga:015DD6",
+    "amiga:015DFE",
+    "amiga:015E02",
+    "amiga:015E06",
+    "amiga:015E0A",
+    "amiga:015E10",
+    "amiga:015E14",
+    "amiga:015E18",
+    "amiga:015E1E",
+    "amiga:015E22",
+    "amiga:015E24",
+    "amiga:015E2A",
+    "amiga:015E2E",
+    "amiga:015E34",
+    "amiga:015E38",
+    "amiga:015E3A",
+    "amiga:015E40",
+    "amiga:015E42",
+    "amiga:015E46",
+    "amiga:015E48",
+    "amiga:015E4C",
+    "amiga:015E4E",
+    "amiga:015E50",
+    "amiga:015E52",
+    "amiga:015E58",
+    "amiga:015E5A",
+    "amiga:015E5E",
+    "amiga:015E60",
+    "amiga:015E62",
     "amiga:015E64",
     "amiga:015E68",
     "amiga:01704E",
@@ -2419,14 +2572,10 @@
     "amiga:018050",
     "amiga:018052",
     "amiga:018054",
-    "amiga:018534",
-    "amiga:018538",
-    "amiga:01853C",
-    "amiga:01853E",
-    "amiga:018544",
-    "amiga:018548",
-    "amiga:01854C",
     "amiga:01868C",
+    "amiga:018690",
+    "amiga:018694",
+    "amiga:018698",
     "amiga:0186A8",
     "amiga:0186AC",
     "amiga:0186B0",
@@ -2435,9 +2584,16 @@
     "amiga:018770",
     "amiga:018774",
     "amiga:018784",
+    "amiga:018788",
+    "amiga:01878C",
+    "amiga:018790",
     "amiga:018926",
     "amiga:018960",
     "amiga:01897C",
+    "amiga:018980",
+    "amiga:018984",
+    "amiga:018988",
+    "amiga:01898C",
     "amiga:0189D0",
     "amiga:018A46",
     "amiga:018A4A",
@@ -2526,6 +2682,20 @@
     "amiga:018CB4",
     "amiga:018CD0",
     "amiga:018CD4",
+    "amiga:018CD8",
+    "amiga:018CDE",
+    "amiga:018CE2",
+    "amiga:018CE8",
+    "amiga:018CF6",
+    "amiga:018CFC",
+    "amiga:018D00",
+    "amiga:018D06",
+    "amiga:018D0A",
+    "amiga:018D10",
+    "amiga:018D14",
+    "amiga:018D1A",
+    "amiga:018D1E",
+    "amiga:018D24",
     "amiga:018D28",
     "amiga:018D2E",
     "amiga:018D32",
@@ -2538,14 +2708,16 @@
     "amiga:018D48",
     "amiga:018D4C",
     "amiga:018D4E",
-    "amiga:018D54",
-    "amiga:018D58",
     "amiga:018D5C",
-    "amiga:018D5E",
     "amiga:018D62",
     "amiga:018D66",
     "amiga:018D6A",
-    "amiga:018D7C"
+    "amiga:018D6C",
+    "amiga:018D70",
+    "amiga:018D74",
+    "amiga:018D78",
+    "amiga:018D7C",
+    "amiga:018D80"
   ],
   "unresolved_successors": [],
   "unresolved_transfers": [
@@ -2581,6 +2753,16 @@
     },
     {
       "from": "amiga:0106E2",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010744",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01076C",
       "owners": [],
       "reason": "indirect-call-requires-runtime-evidence"
     },
@@ -3860,29 +4042,8 @@
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
-      "from": "amiga:018542",
-      "owners": [],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:01859A",
-      "owners": [
-        "amiga:018552"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0185DE",
-      "owners": [
-        "amiga:018552"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
       "from": "amiga:018698",
-      "owners": [
-        "amiga:018690"
-      ],
+      "owners": [],
       "reason": "indirect-jump-requires-runtime-evidence"
     },
     {
@@ -3974,9 +4135,7 @@
     },
     {
       "from": "amiga:018790",
-      "owners": [
-        "amiga:018788"
-      ],
+      "owners": [],
       "reason": "indirect-jump-requires-runtime-evidence"
     },
     {
@@ -4052,15 +4211,13 @@
     {
       "from": "amiga:018978",
       "owners": [
-        "amiga:018974"
+        "amiga:018970"
       ],
       "reason": "indirect-jump-requires-runtime-evidence"
     },
     {
       "from": "amiga:01898C",
-      "owners": [
-        "amiga:018980"
-      ],
+      "owners": [],
       "reason": "indirect-jump-requires-runtime-evidence"
     },
     {
@@ -4109,13 +4266,6 @@
       "from": "amiga:018A0E",
       "owners": [
         "amiga:018A06"
-      ],
-      "reason": "indirect-jump-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:018A1A",
-      "owners": [
-        "amiga:018A12"
       ],
       "reason": "indirect-jump-requires-runtime-evidence"
     },

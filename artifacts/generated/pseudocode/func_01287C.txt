@@ -3,7 +3,7 @@
 // boundary: amiga:01287C
 // evidence: fact: decoded direct call at amiga:01292C; fact: decoded direct call at amiga:0149E0; fact: decoded direct call at amiga:014A4A; fact: decoded direct call at amiga:014AAC; observed: call-indirect in 0551ceab3ac00a8c
 // recovered blocks: 42
-// replay calls: 206
+// replay calls: 220
 // derived return form: rts
 // measured completed calls: none
 // ABI unknowns: clobbered_caller_visible, exit_flags, register_arguments, saved_and_restored, stack_arguments, stack_frame

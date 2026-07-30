@@ -248,7 +248,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 2,
+    "replay_calls": 3,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -319,7 +319,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 206,
+    "replay_calls": 220,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -370,7 +370,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 1268,
+    "replay_calls": 1357,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -423,7 +423,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 1834,
+    "replay_calls": 2100,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -487,7 +487,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 62,
+    "replay_calls": 72,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -532,7 +532,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 62,
+    "replay_calls": 72,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -578,7 +578,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 62,
+    "replay_calls": 72,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -666,7 +666,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 31,
+    "replay_calls": 36,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -706,7 +706,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 31,
+    "replay_calls": 36,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -770,7 +770,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 31,
+    "replay_calls": 36,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -832,7 +832,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 384,
+    "replay_calls": 480,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -896,6 +896,7 @@
       "amiga:0134DE"
     ],
     "callees": [
+      "amiga:0155D6",
       "amiga:015646",
       "amiga:0156B6"
     ],
@@ -911,7 +912,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 992,
+    "replay_calls": 20037,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -936,6 +937,7 @@
     ],
     "callees": [
       "amiga:013A06",
+      "amiga:0156B6",
       "amiga:01701A",
       "amiga:01875C"
     ],
@@ -954,7 +956,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 100,
+    "replay_calls": 108,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -979,6 +981,8 @@
       "amiga:013990"
     ],
     "callees": [
+      "amiga:0155D6",
+      "amiga:0156B6",
       "amiga:01701A",
       "amiga:018938"
     ],
@@ -998,7 +1002,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 238,
+    "replay_calls": 320,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -1089,7 +1093,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 80,
+    "replay_calls": 87,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -1445,7 +1449,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 87,
+    "replay_calls": 96,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -1500,7 +1504,7 @@
       "call",
       "call-indirect"
     ],
-    "replay_calls": 212300,
+    "replay_calls": 241217,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -1709,7 +1713,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 992,
+    "replay_calls": 20037,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -1877,7 +1881,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 7,
+    "replay_calls": 8,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2287,7 +2291,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 4237,
+    "replay_calls": 11699,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2411,7 +2415,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 8450,
+    "replay_calls": 51505,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2462,7 +2466,7 @@
       "call",
       "call-indirect"
     ],
-    "replay_calls": 1472,
+    "replay_calls": 8356,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2491,7 +2495,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 853,
+    "replay_calls": 4941,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2518,7 +2522,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 516,
+    "replay_calls": 2698,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2551,7 +2555,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 136,
+    "replay_calls": 2223,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2592,7 +2596,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 2386,
+    "replay_calls": 17090,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2621,7 +2625,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 2326,
+    "replay_calls": 11151,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2655,6 +2659,7 @@
     "entry_evidence": [
       "fact: decoded direct call at amiga:014CA2",
       "fact: decoded direct call at amiga:014CAA",
+      "fact: decoded direct call at amiga:015E2A",
       "observed: call-indirect in 0551ceab3ac00a8c"
     ],
     "has_indirect_calls": false,
@@ -2663,7 +2668,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 3584,
+    "replay_calls": 3793,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2691,11 +2696,15 @@
       "amiga:01562A",
       "amiga:015632",
       "amiga:01563A",
-      "amiga:01563C"
+      "amiga:01563C",
+      "amiga:015644"
     ],
     "callees": [],
     "callers": [
-      "amiga:01404A"
+      "amiga:0133E6",
+      "amiga:013930",
+      "amiga:01404A",
+      "amiga:017FF4"
     ],
     "entry": "amiga:0155D6",
     "entry_evidence": [
@@ -2707,7 +2716,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 102,
+    "replay_calls": 407,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2753,7 +2762,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 132,
+    "replay_calls": 187,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2786,8 +2795,11 @@
     "callers": [
       "amiga:0130F0",
       "amiga:0133E6",
+      "amiga:013870",
+      "amiga:013930",
       "amiga:01404A",
-      "amiga:01411E"
+      "amiga:01411E",
+      "amiga:017FF4"
     ],
     "entry": "amiga:0156B6",
     "entry_evidence": [
@@ -2799,7 +2811,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 171,
+    "replay_calls": 632,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2844,7 +2856,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 74,
+    "replay_calls": 298,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2981,7 +2993,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 42,
+    "replay_calls": 57,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3045,7 +3057,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 5557,
+    "replay_calls": 17273,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3079,7 +3091,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 5557,
+    "replay_calls": 17273,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3130,8 +3142,17 @@
       "amiga:01597E",
       "amiga:015980",
       "amiga:015982",
+      "amiga:015986",
+      "amiga:015988",
+      "amiga:01598A",
+      "amiga:01598E",
       "amiga:015990",
-      "amiga:015994"
+      "amiga:015994",
+      "amiga:015996",
+      "amiga:015998",
+      "amiga:01599E",
+      "amiga:0159A0",
+      "amiga:0159A2"
     ],
     "callees": [
       "amiga:01544C",
@@ -3151,7 +3172,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 8450,
+    "replay_calls": 51505,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3228,7 +3249,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 439,
+    "replay_calls": 2411,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3298,7 +3319,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 1379,
+    "replay_calls": 5487,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3338,7 +3359,6 @@
       "amiga:0170BE",
       "amiga:017430",
       "amiga:017A02",
-      "amiga:018640",
       "amiga:0186F6"
     ],
     "entry": "amiga:01615E",
@@ -3351,7 +3371,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 5557,
+    "replay_calls": 17273,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3387,7 +3407,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 5557,
+    "replay_calls": 17273,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3409,7 +3429,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 5557,
+    "replay_calls": 17273,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -4212,7 +4232,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 12,
+    "replay_calls": 13,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -4250,7 +4270,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 62,
+    "replay_calls": 72,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -4323,7 +4343,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 31,
+    "replay_calls": 36,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -4596,7 +4616,10 @@
       "amiga:01803A",
       "amiga:01803E"
     ],
-    "callees": [],
+    "callees": [
+      "amiga:0155D6",
+      "amiga:0156B6"
+    ],
     "callers": [
       "amiga:017FDE",
       "amiga:017FEA"
@@ -4615,20 +4638,15 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 635,
+    "replay_calls": 15436,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:01850A",
-      "amiga:01850E",
-      "amiga:018512",
-      "amiga:018516",
       "amiga:01851A",
-      "amiga:01851C",
       "amiga:018520",
-      "amiga:018524",
       "amiga:018528"
     ],
     "callees": [
@@ -4638,178 +4656,14 @@
     "callers": [],
     "entry": "amiga:01850A",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:018D62",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:018D62"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
     "id": "amiga:01850A",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 1,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:018552",
-      "amiga:018556",
-      "amiga:018558",
-      "amiga:01855C",
-      "amiga:01855E",
-      "amiga:018562",
-      "amiga:018566",
-      "amiga:018568",
-      "amiga:01856A",
-      "amiga:01856C",
-      "amiga:01856E",
-      "amiga:018572",
-      "amiga:018574",
-      "amiga:018576",
-      "amiga:01857A",
-      "amiga:01857C",
-      "amiga:018580",
-      "amiga:018586",
-      "amiga:01858A",
-      "amiga:01858E",
-      "amiga:018590",
-      "amiga:018594",
-      "amiga:018596",
-      "amiga:01859C",
-      "amiga:0185A0",
-      "amiga:0185A2",
-      "amiga:0185AA",
-      "amiga:0185AC",
-      "amiga:0185B0",
-      "amiga:0185B2",
-      "amiga:0185BA",
-      "amiga:0185BC",
-      "amiga:0185C0",
-      "amiga:0185C2",
-      "amiga:0185CA",
-      "amiga:0185CC",
-      "amiga:0185D0",
-      "amiga:0185D6",
-      "amiga:0185D8",
-      "amiga:0185E2",
-      "amiga:0185EC",
-      "amiga:0185F0",
-      "amiga:0185F2",
-      "amiga:0185F6",
-      "amiga:0185F8",
-      "amiga:0185FC",
-      "amiga:0185FE",
-      "amiga:018600",
-      "amiga:018604",
-      "amiga:018608",
-      "amiga:01860C",
-      "amiga:01860E",
-      "amiga:018610",
-      "amiga:018612",
-      "amiga:018614",
-      "amiga:018618",
-      "amiga:01861C",
-      "amiga:018620",
-      "amiga:018622",
-      "amiga:018626",
-      "amiga:01862E",
-      "amiga:018630",
-      "amiga:018634",
-      "amiga:018638"
-    ],
-    "callees": [
-      "amiga:018640",
-      "amiga:018788",
-      "amiga:018974",
-      "amiga:018980",
-      "amiga:018A12"
-    ],
-    "callers": [],
-    "entry": "amiga:018552",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:018548",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:018552",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 1,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:018640",
-      "amiga:018644",
-      "amiga:018648",
-      "amiga:01864C",
-      "amiga:01864E",
-      "amiga:018654",
-      "amiga:018658",
-      "amiga:01865A",
-      "amiga:01865C",
-      "amiga:018660",
-      "amiga:018662",
-      "amiga:018664",
-      "amiga:018666",
-      "amiga:01866C",
-      "amiga:01866E",
-      "amiga:018672",
-      "amiga:018674",
-      "amiga:018676",
-      "amiga:01867C",
-      "amiga:01867E",
-      "amiga:018684",
-      "amiga:018686",
-      "amiga:018688",
-      "amiga:01868A"
-    ],
-    "callees": [
-      "amiga:01615E",
-      "amiga:018690"
-    ],
-    "callers": [
-      "amiga:018552"
-    ],
-    "entry": "amiga:018640",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:01856E",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:018640",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 20,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:018690",
-      "amiga:018694",
-      "amiga:018698"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:018640"
-    ],
-    "entry": "amiga:018690",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:018680"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": true,
-    "id": "amiga:018690",
     "replay_call_kinds": [],
     "replay_calls": 0,
-    "returns": false,
+    "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
@@ -4907,7 +4761,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 3,
+    "replay_calls": 1,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -4949,7 +4803,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 3475,
+    "replay_calls": 3869,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -4976,15 +4830,13 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 238,
+    "replay_calls": 257,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
-      "amiga:01871A",
-      "amiga:018720",
-      "amiga:018724"
+      "amiga:01871A"
     ],
     "callees": [],
     "callers": [
@@ -4993,16 +4845,13 @@
     "entry": "amiga:01871A",
     "entry_evidence": [
       "fact: decoded direct call at amiga:01851C",
-      "fact: decoded direct call at amiga:018D5E",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:018D5E"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
     "id": "amiga:01871A",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 2,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5050,7 +4899,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 62,
+    "replay_calls": 72,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5097,31 +4946,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 1318,
-    "returns": false,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:018788",
-      "amiga:01878C",
-      "amiga:018790"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:018552"
-    ],
-    "entry": "amiga:018788",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:0185A6",
-      "fact: decoded direct call at amiga:0185B6",
-      "fact: decoded direct call at amiga:0185C6"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": true,
-    "id": "amiga:018788",
-    "replay_call_kinds": [],
-    "replay_calls": 0,
+    "replay_calls": 20381,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5382,7 +5207,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 1231,
+    "replay_calls": 20358,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5441,15 +5266,14 @@
   },
   {
     "blocks": [
-      "amiga:018970"
+      "amiga:018970",
+      "amiga:018974",
+      "amiga:018978"
     ],
     "callees": [],
     "callers": [
       "amiga:012F24",
       "amiga:015064"
-    ],
-    "cross_boundary_non_call_transfers": [
-      "amiga:018974"
     ],
     "entry": "amiga:018970",
     "entry_evidence": [
@@ -5458,61 +5282,12 @@
       "observed: call-indirect in 0551ceab3ac00a8c"
     ],
     "has_indirect_calls": false,
-    "has_indirect_jumps": false,
+    "has_indirect_jumps": true,
     "id": "amiga:018970",
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 41,
-    "returns": false,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:018974",
-      "amiga:018978"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:018552"
-    ],
-    "entry": "amiga:018974",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:018622"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": true,
-    "id": "amiga:018974",
-    "replay_call_kinds": [],
-    "replay_calls": 0,
-    "returns": false,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:018980",
-      "amiga:018984",
-      "amiga:018988",
-      "amiga:01898C"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:018552"
-    ],
-    "entry": "amiga:018980",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:01858A",
-      "fact: decoded direct call at amiga:018604",
-      "fact: decoded direct call at amiga:018618",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": true,
-    "id": "amiga:018980",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 3,
+    "replay_calls": 46,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5584,7 +5359,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 32,
+    "replay_calls": 37,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5662,7 +5437,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 41,
+    "replay_calls": 46,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5707,27 +5482,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 93,
-    "returns": false,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:018A12"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:018552"
-    ],
-    "entry": "amiga:018A12",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:01862A"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": true,
-    "id": "amiga:018A12",
-    "replay_call_kinds": [],
-    "replay_calls": 0,
+    "replay_calls": 108,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5797,7 +5552,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 1264,
+    "replay_calls": 11949,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5825,7 +5580,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 1264,
+    "replay_calls": 11949,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5848,7 +5603,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 442,
+    "replay_calls": 4565,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },

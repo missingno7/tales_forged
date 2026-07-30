@@ -8,7 +8,7 @@
   },
   "atlas": {
     "hash_scheme": "portforge-tree-sha256-v1",
-    "sha256": "ade52235cb190426ee7f5ed2820323f957adb961d7d08ecacf9a220df7c1296f"
+    "sha256": "3288276e37f26574678e98c33c917b66dc91c47803f204676d7d1bee476fb59b"
   },
   "replays": [
     {
@@ -60,11 +60,11 @@
       "id": "evidence-amiga-oracle-0551ceab3ac00a8c",
       "kind": "replay-evidence",
       "origin": "portforge",
-      "sha256": "19a8b2bdd9e3384358d42525ff6366075098754658777ace8ed853d708d8735d"
+      "sha256": "0296ab12f8449a1391a0f331e06fd3bb08e92c4f994cb1e6ae187be2b1e589a5"
     }
   ],
   "portforge": {
-    "revision": "e2edd79800f5a9ad7eceddb7da3acb2f78aa5144",
+    "revision": "8c23f079e79b5a2c9c67c3bd8a257ac6458a3c2a",
     "dirty": false
   }
 }

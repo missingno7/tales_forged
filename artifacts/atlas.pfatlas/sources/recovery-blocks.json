@@ -266,6 +266,96 @@
       "instructions": 1
     },
     {
+      "end": "amiga:010740",
+      "id": "amiga:01073C",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010744",
+      "id": "amiga:010740",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010748",
+      "id": "amiga:010744",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:01074A",
+      "id": "amiga:010748",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:01074C",
+      "id": "amiga:01074A",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010750",
+      "id": "amiga:01074C",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010754",
+      "id": "amiga:010750",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010758",
+      "id": "amiga:010754",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:01075C",
+      "id": "amiga:010758",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:01075E",
+      "id": "amiga:01075C",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010760",
+      "id": "amiga:01075E",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010764",
+      "id": "amiga:010760",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010766",
+      "id": "amiga:010764",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010768",
+      "id": "amiga:010766",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:01076C",
+      "id": "amiga:010768",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010770",
+      "id": "amiga:01076C",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010774",
+      "id": "amiga:010770",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:010778",
+      "id": "amiga:010774",
+      "instructions": 1
+    },
+    {
       "end": "amiga:0108C2",
       "id": "amiga:0108BE",
       "instructions": 1
@@ -14831,9 +14921,14 @@
       "instructions": 1
     },
     {
-      "end": "amiga:015646",
+      "end": "amiga:015644",
       "id": "amiga:01563C",
-      "instructions": 2
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015646",
+      "id": "amiga:015644",
+      "instructions": 1
     },
     {
       "end": "amiga:01564C",
@@ -15251,9 +15346,14 @@
       "instructions": 1
     },
     {
-      "end": "amiga:0157E4",
+      "end": "amiga:0157E2",
       "id": "amiga:0157DC",
-      "instructions": 2
+      "instructions": 1
+    },
+    {
+      "end": "amiga:0157E4",
+      "id": "amiga:0157E2",
+      "instructions": 1
     },
     {
       "end": "amiga:0157E8",
@@ -15796,9 +15896,29 @@
       "instructions": 1
     },
     {
-      "end": "amiga:015990",
+      "end": "amiga:015986",
       "id": "amiga:015982",
-      "instructions": 5
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015988",
+      "id": "amiga:015986",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:01598A",
+      "id": "amiga:015988",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:01598E",
+      "id": "amiga:01598A",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015990",
+      "id": "amiga:01598E",
+      "instructions": 1
     },
     {
       "end": "amiga:015994",
@@ -15806,9 +15926,34 @@
       "instructions": 1
     },
     {
-      "end": "amiga:0159A4",
+      "end": "amiga:015996",
       "id": "amiga:015994",
-      "instructions": 6
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015998",
+      "id": "amiga:015996",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:01599E",
+      "id": "amiga:015998",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:0159A0",
+      "id": "amiga:01599E",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:0159A2",
+      "id": "amiga:0159A0",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:0159A4",
+      "id": "amiga:0159A2",
+      "instructions": 1
     },
     {
       "end": "amiga:0159A8",
@@ -16416,6 +16561,41 @@
       "instructions": 1
     },
     {
+      "end": "amiga:015BAC",
+      "id": "amiga:015BAA",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015BAE",
+      "id": "amiga:015BAC",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015BB0",
+      "id": "amiga:015BAE",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015BB2",
+      "id": "amiga:015BB0",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015BB4",
+      "id": "amiga:015BB2",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015BB8",
+      "id": "amiga:015BB4",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015BBC",
+      "id": "amiga:015BB8",
+      "instructions": 1
+    },
+    {
       "end": "amiga:015BE8",
       "id": "amiga:015BE6",
       "instructions": 1
@@ -16831,9 +17011,14 @@
       "instructions": 1
     },
     {
-      "end": "amiga:015D08",
+      "end": "amiga:015D04",
       "id": "amiga:015D02",
-      "instructions": 2
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015D08",
+      "id": "amiga:015D04",
+      "instructions": 1
     },
     {
       "end": "amiga:015D0C",
@@ -17023,6 +17208,146 @@
     {
       "end": "amiga:015DDA",
       "id": "amiga:015DD6",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E02",
+      "id": "amiga:015DFE",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E06",
+      "id": "amiga:015E02",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E0A",
+      "id": "amiga:015E06",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E10",
+      "id": "amiga:015E0A",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E14",
+      "id": "amiga:015E10",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E18",
+      "id": "amiga:015E14",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E1E",
+      "id": "amiga:015E18",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E22",
+      "id": "amiga:015E1E",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E24",
+      "id": "amiga:015E22",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E2A",
+      "id": "amiga:015E24",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E2E",
+      "id": "amiga:015E2A",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E34",
+      "id": "amiga:015E2E",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E38",
+      "id": "amiga:015E34",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E3A",
+      "id": "amiga:015E38",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E40",
+      "id": "amiga:015E3A",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E42",
+      "id": "amiga:015E40",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E46",
+      "id": "amiga:015E42",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E48",
+      "id": "amiga:015E46",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E4C",
+      "id": "amiga:015E48",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E4E",
+      "id": "amiga:015E4C",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E50",
+      "id": "amiga:015E4E",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E52",
+      "id": "amiga:015E50",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E58",
+      "id": "amiga:015E52",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E5A",
+      "id": "amiga:015E58",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E5E",
+      "id": "amiga:015E5A",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E60",
+      "id": "amiga:015E5E",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E62",
+      "id": "amiga:015E60",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:015E64",
+      "id": "amiga:015E62",
       "instructions": 1
     },
     {
@@ -21741,524 +22066,24 @@
       "instructions": 1
     },
     {
-      "end": "amiga:01850E",
-      "id": "amiga:01850A",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018512",
-      "id": "amiga:01850E",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018516",
-      "id": "amiga:018512",
-      "instructions": 1
-    },
-    {
       "end": "amiga:01851A",
-      "id": "amiga:018516",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01851C",
-      "id": "amiga:01851A",
-      "instructions": 1
+      "id": "amiga:01850A",
+      "instructions": 4
     },
     {
       "end": "amiga:018520",
-      "id": "amiga:01851C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018524",
-      "id": "amiga:018520",
-      "instructions": 1
+      "id": "amiga:01851A",
+      "instructions": 2
     },
     {
       "end": "amiga:018528",
-      "id": "amiga:018524",
-      "instructions": 1
+      "id": "amiga:018520",
+      "instructions": 2
     },
     {
       "end": "amiga:018530",
       "id": "amiga:018528",
       "instructions": 3
-    },
-    {
-      "end": "amiga:018538",
-      "id": "amiga:018534",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01853C",
-      "id": "amiga:018538",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01853E",
-      "id": "amiga:01853C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018544",
-      "id": "amiga:01853E",
-      "instructions": 2
-    },
-    {
-      "end": "amiga:018548",
-      "id": "amiga:018544",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01854C",
-      "id": "amiga:018548",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018552",
-      "id": "amiga:01854C",
-      "instructions": 3
-    },
-    {
-      "end": "amiga:018556",
-      "id": "amiga:018552",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018558",
-      "id": "amiga:018556",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01855C",
-      "id": "amiga:018558",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01855E",
-      "id": "amiga:01855C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018562",
-      "id": "amiga:01855E",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018566",
-      "id": "amiga:018562",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018568",
-      "id": "amiga:018566",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01856A",
-      "id": "amiga:018568",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01856C",
-      "id": "amiga:01856A",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01856E",
-      "id": "amiga:01856C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018572",
-      "id": "amiga:01856E",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018574",
-      "id": "amiga:018572",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018576",
-      "id": "amiga:018574",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01857A",
-      "id": "amiga:018576",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01857C",
-      "id": "amiga:01857A",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018580",
-      "id": "amiga:01857C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018586",
-      "id": "amiga:018580",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01858A",
-      "id": "amiga:018586",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01858E",
-      "id": "amiga:01858A",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018590",
-      "id": "amiga:01858E",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018594",
-      "id": "amiga:018590",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018596",
-      "id": "amiga:018594",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01859C",
-      "id": "amiga:018596",
-      "instructions": 2
-    },
-    {
-      "end": "amiga:0185A0",
-      "id": "amiga:01859C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185A2",
-      "id": "amiga:0185A0",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185AA",
-      "id": "amiga:0185A2",
-      "instructions": 2
-    },
-    {
-      "end": "amiga:0185AC",
-      "id": "amiga:0185AA",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185B0",
-      "id": "amiga:0185AC",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185B2",
-      "id": "amiga:0185B0",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185BA",
-      "id": "amiga:0185B2",
-      "instructions": 2
-    },
-    {
-      "end": "amiga:0185BC",
-      "id": "amiga:0185BA",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185C0",
-      "id": "amiga:0185BC",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185C2",
-      "id": "amiga:0185C0",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185CA",
-      "id": "amiga:0185C2",
-      "instructions": 2
-    },
-    {
-      "end": "amiga:0185CC",
-      "id": "amiga:0185CA",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185D0",
-      "id": "amiga:0185CC",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185D6",
-      "id": "amiga:0185D0",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185D8",
-      "id": "amiga:0185D6",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185E2",
-      "id": "amiga:0185D8",
-      "instructions": 3
-    },
-    {
-      "end": "amiga:0185E6",
-      "id": "amiga:0185E2",
-      "instructions": 2
-    },
-    {
-      "end": "amiga:0185F0",
-      "id": "amiga:0185EC",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185F2",
-      "id": "amiga:0185F0",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185F6",
-      "id": "amiga:0185F2",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185F8",
-      "id": "amiga:0185F6",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185FC",
-      "id": "amiga:0185F8",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:0185FE",
-      "id": "amiga:0185FC",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018600",
-      "id": "amiga:0185FE",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018604",
-      "id": "amiga:018600",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018608",
-      "id": "amiga:018604",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01860C",
-      "id": "amiga:018608",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01860E",
-      "id": "amiga:01860C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018610",
-      "id": "amiga:01860E",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018612",
-      "id": "amiga:018610",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018614",
-      "id": "amiga:018612",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018618",
-      "id": "amiga:018614",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01861C",
-      "id": "amiga:018618",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018620",
-      "id": "amiga:01861C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018622",
-      "id": "amiga:018620",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018626",
-      "id": "amiga:018622",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01862E",
-      "id": "amiga:018626",
-      "instructions": 2
-    },
-    {
-      "end": "amiga:018630",
-      "id": "amiga:01862E",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018634",
-      "id": "amiga:018630",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018638",
-      "id": "amiga:018634",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01863A",
-      "id": "amiga:018638",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018644",
-      "id": "amiga:018640",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018648",
-      "id": "amiga:018644",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01864C",
-      "id": "amiga:018648",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01864E",
-      "id": "amiga:01864C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018654",
-      "id": "amiga:01864E",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018658",
-      "id": "amiga:018654",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01865A",
-      "id": "amiga:018658",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01865C",
-      "id": "amiga:01865A",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018660",
-      "id": "amiga:01865C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018662",
-      "id": "amiga:018660",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018664",
-      "id": "amiga:018662",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018666",
-      "id": "amiga:018664",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01866C",
-      "id": "amiga:018666",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01866E",
-      "id": "amiga:01866C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018672",
-      "id": "amiga:01866E",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018674",
-      "id": "amiga:018672",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018676",
-      "id": "amiga:018674",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01867C",
-      "id": "amiga:018676",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01867E",
-      "id": "amiga:01867C",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018684",
-      "id": "amiga:01867E",
-      "instructions": 2
-    },
-    {
-      "end": "amiga:018686",
-      "id": "amiga:018684",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018688",
-      "id": "amiga:018686",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01868A",
-      "id": "amiga:018688",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:01868C",
-      "id": "amiga:01868A",
-      "instructions": 1
     },
     {
       "end": "amiga:018690",
@@ -22381,19 +22206,9 @@
       "instructions": 1
     },
     {
-      "end": "amiga:018720",
-      "id": "amiga:01871A",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018724",
-      "id": "amiga:018720",
-      "instructions": 1
-    },
-    {
       "end": "amiga:018728",
-      "id": "amiga:018724",
-      "instructions": 1
+      "id": "amiga:01871A",
+      "instructions": 3
     },
     {
       "end": "amiga:01872E",
@@ -23126,11 +22941,6 @@
       "instructions": 1
     },
     {
-      "end": "amiga:018A1E",
-      "id": "amiga:018A12",
-      "instructions": 3
-    },
-    {
       "end": "amiga:018A24",
       "id": "amiga:018A1E",
       "instructions": 1
@@ -23676,6 +23486,76 @@
       "instructions": 1
     },
     {
+      "end": "amiga:018CDE",
+      "id": "amiga:018CD8",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018CE2",
+      "id": "amiga:018CDE",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018CE8",
+      "id": "amiga:018CE2",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018CEC",
+      "id": "amiga:018CE8",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018CFC",
+      "id": "amiga:018CF6",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D00",
+      "id": "amiga:018CFC",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D06",
+      "id": "amiga:018D00",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D0A",
+      "id": "amiga:018D06",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D10",
+      "id": "amiga:018D0A",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D14",
+      "id": "amiga:018D10",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D1A",
+      "id": "amiga:018D14",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D1E",
+      "id": "amiga:018D1A",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D24",
+      "id": "amiga:018D1E",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D28",
+      "id": "amiga:018D24",
+      "instructions": 1
+    },
+    {
       "end": "amiga:018D2E",
       "id": "amiga:018D28",
       "instructions": 1
@@ -23731,29 +23611,14 @@
       "instructions": 1
     },
     {
-      "end": "amiga:018D54",
-      "id": "amiga:018D4E",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018D58",
-      "id": "amiga:018D54",
-      "instructions": 1
-    },
-    {
       "end": "amiga:018D5C",
-      "id": "amiga:018D58",
-      "instructions": 1
-    },
-    {
-      "end": "amiga:018D5E",
-      "id": "amiga:018D5C",
-      "instructions": 1
+      "id": "amiga:018D4E",
+      "instructions": 3
     },
     {
       "end": "amiga:018D62",
-      "id": "amiga:018D5E",
-      "instructions": 1
+      "id": "amiga:018D5C",
+      "instructions": 2
     },
     {
       "end": "amiga:018D66",
@@ -23766,14 +23631,39 @@
       "instructions": 1
     },
     {
-      "end": "amiga:018D7C",
+      "end": "amiga:018D6C",
       "id": "amiga:018D6A",
-      "instructions": 5
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D70",
+      "id": "amiga:018D6C",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D74",
+      "id": "amiga:018D70",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D78",
+      "id": "amiga:018D74",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D7C",
+      "id": "amiga:018D78",
+      "instructions": 1
+    },
+    {
+      "end": "amiga:018D80",
+      "id": "amiga:018D7C",
+      "instructions": 1
     },
     {
       "end": "amiga:018D82",
-      "id": "amiga:018D7C",
-      "instructions": 2
+      "id": "amiga:018D80",
+      "instructions": 1
     }
   ],
   "entry_points": [
@@ -23830,6 +23720,24 @@
     "amiga:0106E2",
     "amiga:0106E6",
     "amiga:0106EA",
+    "amiga:01073C",
+    "amiga:010740",
+    "amiga:010744",
+    "amiga:010748",
+    "amiga:01074A",
+    "amiga:01074C",
+    "amiga:010750",
+    "amiga:010754",
+    "amiga:010758",
+    "amiga:01075C",
+    "amiga:01075E",
+    "amiga:010760",
+    "amiga:010764",
+    "amiga:010766",
+    "amiga:010768",
+    "amiga:01076C",
+    "amiga:010770",
+    "amiga:010774",
     "amiga:0108E2",
     "amiga:0108E8",
     "amiga:0108EA",
@@ -25573,6 +25481,7 @@
     "amiga:0145FE",
     "amiga:014602",
     "amiga:014608",
+    "amiga:01460A",
     "amiga:014610",
     "amiga:014616",
     "amiga:014618",
@@ -26527,6 +26436,8 @@
     "amiga:01562A",
     "amiga:015632",
     "amiga:01563A",
+    "amiga:01563C",
+    "amiga:015644",
     "amiga:015646",
     "amiga:01564C",
     "amiga:015650",
@@ -26607,6 +26518,8 @@
     "amiga:0157D2",
     "amiga:0157D6",
     "amiga:0157DA",
+    "amiga:0157DC",
+    "amiga:0157E2",
     "amiga:0157E4",
     "amiga:0157E8",
     "amiga:0157EE",
@@ -26715,6 +26628,17 @@
     "amiga:01597A",
     "amiga:01597E",
     "amiga:015980",
+    "amiga:015982",
+    "amiga:015986",
+    "amiga:015988",
+    "amiga:01598A",
+    "amiga:01598E",
+    "amiga:015994",
+    "amiga:015996",
+    "amiga:015998",
+    "amiga:01599E",
+    "amiga:0159A0",
+    "amiga:0159A2",
     "amiga:0159A4",
     "amiga:0159A8",
     "amiga:0159AC",
@@ -26833,6 +26757,13 @@
     "amiga:015B9E",
     "amiga:015BA0",
     "amiga:015BA6",
+    "amiga:015BAA",
+    "amiga:015BAC",
+    "amiga:015BAE",
+    "amiga:015BB0",
+    "amiga:015BB2",
+    "amiga:015BB4",
+    "amiga:015BB8",
     "amiga:015BE6",
     "amiga:015BE8",
     "amiga:015BEA",
@@ -26915,6 +26846,8 @@
     "amiga:015CFA",
     "amiga:015CFC",
     "amiga:015CFE",
+    "amiga:015D02",
+    "amiga:015D04",
     "amiga:015D08",
     "amiga:015D0C",
     "amiga:015D12",
@@ -26953,6 +26886,34 @@
     "amiga:015DCC",
     "amiga:015DD0",
     "amiga:015DD6",
+    "amiga:015DFE",
+    "amiga:015E02",
+    "amiga:015E06",
+    "amiga:015E0A",
+    "amiga:015E10",
+    "amiga:015E14",
+    "amiga:015E18",
+    "amiga:015E1E",
+    "amiga:015E22",
+    "amiga:015E24",
+    "amiga:015E2A",
+    "amiga:015E2E",
+    "amiga:015E34",
+    "amiga:015E38",
+    "amiga:015E3A",
+    "amiga:015E40",
+    "amiga:015E42",
+    "amiga:015E46",
+    "amiga:015E48",
+    "amiga:015E4C",
+    "amiga:015E4E",
+    "amiga:015E50",
+    "amiga:015E52",
+    "amiga:015E58",
+    "amiga:015E5A",
+    "amiga:015E5E",
+    "amiga:015E60",
+    "amiga:015E62",
     "amiga:015E64",
     "amiga:015E68",
     "amiga:01615E",
@@ -27642,93 +27603,6 @@
     "amiga:018050",
     "amiga:018052",
     "amiga:018054",
-    "amiga:01850A",
-    "amiga:01850E",
-    "amiga:018512",
-    "amiga:018516",
-    "amiga:01851A",
-    "amiga:01851C",
-    "amiga:018520",
-    "amiga:018524",
-    "amiga:018534",
-    "amiga:018538",
-    "amiga:01853C",
-    "amiga:018544",
-    "amiga:018548",
-    "amiga:018552",
-    "amiga:018556",
-    "amiga:018558",
-    "amiga:01855C",
-    "amiga:01855E",
-    "amiga:018562",
-    "amiga:018566",
-    "amiga:018568",
-    "amiga:01856A",
-    "amiga:01856C",
-    "amiga:01856E",
-    "amiga:018572",
-    "amiga:018574",
-    "amiga:018576",
-    "amiga:01857A",
-    "amiga:01857C",
-    "amiga:018580",
-    "amiga:018586",
-    "amiga:01858A",
-    "amiga:01858E",
-    "amiga:018590",
-    "amiga:018594",
-    "amiga:01859C",
-    "amiga:0185A0",
-    "amiga:0185AC",
-    "amiga:0185B0",
-    "amiga:0185BC",
-    "amiga:0185C0",
-    "amiga:0185CC",
-    "amiga:0185D0",
-    "amiga:0185D6",
-    "amiga:0185EC",
-    "amiga:0185F0",
-    "amiga:0185F2",
-    "amiga:0185F6",
-    "amiga:0185F8",
-    "amiga:0185FC",
-    "amiga:0185FE",
-    "amiga:018600",
-    "amiga:018604",
-    "amiga:018608",
-    "amiga:01860C",
-    "amiga:01860E",
-    "amiga:018610",
-    "amiga:018612",
-    "amiga:018614",
-    "amiga:018618",
-    "amiga:01861C",
-    "amiga:018620",
-    "amiga:018630",
-    "amiga:018634",
-    "amiga:018638",
-    "amiga:018640",
-    "amiga:018644",
-    "amiga:018648",
-    "amiga:01864C",
-    "amiga:01864E",
-    "amiga:018654",
-    "amiga:018658",
-    "amiga:01865A",
-    "amiga:01865C",
-    "amiga:018660",
-    "amiga:018662",
-    "amiga:018664",
-    "amiga:018666",
-    "amiga:01866C",
-    "amiga:01866E",
-    "amiga:018672",
-    "amiga:018674",
-    "amiga:018676",
-    "amiga:01867C",
-    "amiga:018686",
-    "amiga:018688",
-    "amiga:01868A",
     "amiga:01868C",
     "amiga:018690",
     "amiga:018694",
@@ -27752,9 +27626,6 @@
     "amiga:01870C",
     "amiga:018712",
     "amiga:018716",
-    "amiga:01871A",
-    "amiga:018720",
-    "amiga:018724",
     "amiga:018728",
     "amiga:01872E",
     "amiga:018732",
@@ -27987,6 +27858,20 @@
     "amiga:018CB4",
     "amiga:018CD0",
     "amiga:018CD4",
+    "amiga:018CD8",
+    "amiga:018CDE",
+    "amiga:018CE2",
+    "amiga:018CE8",
+    "amiga:018CF6",
+    "amiga:018CFC",
+    "amiga:018D00",
+    "amiga:018D06",
+    "amiga:018D0A",
+    "amiga:018D10",
+    "amiga:018D14",
+    "amiga:018D1A",
+    "amiga:018D1E",
+    "amiga:018D24",
     "amiga:018D28",
     "amiga:018D2E",
     "amiga:018D32",
@@ -27998,15 +27883,17 @@
     "amiga:018D46",
     "amiga:018D48",
     "amiga:018D4C",
-    "amiga:018D4E",
-    "amiga:018D54",
-    "amiga:018D58",
-    "amiga:018D5C",
-    "amiga:018D5E",
-    "amiga:018D62"
+    "amiga:018D66",
+    "amiga:018D6A",
+    "amiga:018D6C",
+    "amiga:018D70",
+    "amiga:018D74",
+    "amiga:018D78",
+    "amiga:018D7C",
+    "amiga:018D80"
   ],
   "format": "pf-recovered-blocks-v1",
   "identity_model": "amiga-24-bit-linear",
-  "program_entries": 4227,
+  "program_entries": 4224,
   "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968"
 }

@@ -2,11 +2,13 @@
 // This is not decompiled semantics or a source-port implementation.
 // boundary: amiga:018970
 // evidence: fact: decoded direct call at amiga:012F46; fact: decoded direct call at amiga:01507A; observed: call-indirect in 0551ceab3ac00a8c
-// recovered blocks: 1
-// replay calls: 41
+// recovered blocks: 3
+// replay calls: 46
 // derived return form: unknown in recovered CFG
 // measured completed calls: 4 (constant inclusive cost)
 // ABI unknowns: clobbered_caller_visible, exit_flags, register_arguments, saved_and_restored, stack_arguments, stack_frame
 
 blocks:
   amiga:018970
+  amiga:018974
+  amiga:018978
