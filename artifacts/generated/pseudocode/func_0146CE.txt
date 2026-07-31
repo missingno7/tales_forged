@@ -1,22 +1,153 @@
 // PortForge machine-function CFG dossier.
 // This is not decompiled semantics or a source-port implementation.
 // boundary: amiga:0146CE
-// evidence: fact: decoded direct call at amiga:014A8A; fact: decoded direct call at amiga:014AE4
-// recovered blocks: 11
-// replay calls: 0
+// evidence: fact: decoded direct call at amiga:014A8A; fact: decoded direct call at amiga:014AE4; fact: decoded direct call at amiga:014DEA; observed: call-indirect in fe7e1b7456cb7865
+// recovered blocks: 142
+// replay calls: 7
 // derived return form: rts
-// measured completed calls: none
+// measured completed calls: 6 (few-valued inclusive cost)
 // ABI unknowns: clobbered_caller_visible, exit_flags, register_arguments, saved_and_restored, stack_arguments, stack_frame
 
 blocks:
   amiga:0146CE
+  amiga:0146D2
+  amiga:0146D6
+  amiga:0146DA
+  amiga:0146DE
+  amiga:0146E0
+  amiga:0146E4
+  amiga:0146E6
+  amiga:0146EC
+  amiga:0146F2
+  amiga:0146F4
+  amiga:0146F8
+  amiga:0146FA
+  amiga:014700
+  amiga:014704
+  amiga:014706
+  amiga:01470A
+  amiga:01470C
+  amiga:014712
+  amiga:014716
+  amiga:01471A
+  amiga:014720
+  amiga:014726
+  amiga:014728
+  amiga:01472C
+  amiga:01472E
+  amiga:014734
+  amiga:014738
+  amiga:01473C
+  amiga:014740
+  amiga:014742
+  amiga:014746
+  amiga:01474A
+  amiga:014750
+  amiga:014752
+  amiga:014756
+  amiga:01475A
+  amiga:014760
   amiga:014764
+  amiga:014768
+  amiga:01476C
+  amiga:01476E
+  amiga:014770
+  amiga:014772
+  amiga:014778
+  amiga:01477C
+  amiga:01477E
+  amiga:014782
+  amiga:014786
+  amiga:01478A
+  amiga:01478C
+  amiga:014790
+  amiga:014794
+  amiga:014798
+  amiga:01479C
+  amiga:0147A0
+  amiga:0147A4
+  amiga:0147A8
   amiga:0147AA
+  amiga:0147AE
+  amiga:0147B2
+  amiga:0147B4
+  amiga:0147B6
+  amiga:0147B8
+  amiga:0147BA
+  amiga:0147C0
+  amiga:0147C2
+  amiga:0147C4
+  amiga:0147C6
+  amiga:0147CA
+  amiga:0147CE
+  amiga:0147D2
+  amiga:0147D4
+  amiga:0147D6
+  amiga:0147D8
+  amiga:0147DC
+  amiga:0147DE
+  amiga:0147E2
+  amiga:0147E8
   amiga:0147EC
+  amiga:0147F0
+  amiga:0147F4
   amiga:0147F6
+  amiga:0147FA
+  amiga:014800
   amiga:014804
+  amiga:014806
+  amiga:01480C
+  amiga:014810
+  amiga:014814
+  amiga:01481A
+  amiga:01481C
+  amiga:014822
+  amiga:014824
+  amiga:014826
+  amiga:01482A
+  amiga:01482E
   amiga:014834
+  amiga:014838
+  amiga:01483C
+  amiga:01483E
+  amiga:014840
+  amiga:014842
+  amiga:014848
+  amiga:01484E
+  amiga:014852
+  amiga:014856
+  amiga:014858
+  amiga:01485E
+  amiga:014860
+  amiga:014864
+  amiga:014866
+  amiga:01486A
+  amiga:01486C
+  amiga:014870
+  amiga:014874
+  amiga:01487A
+  amiga:01487E
   amiga:014880
+  amiga:014884
+  amiga:014888
+  amiga:01488A
+  amiga:01488C
+  amiga:01488E
+  amiga:014892
+  amiga:014896
+  amiga:014898
+  amiga:01489C
+  amiga:0148A0
+  amiga:0148A4
+  amiga:0148AA
   amiga:0148AE
+  amiga:0148B4
+  amiga:0148B8
+  amiga:0148BA
+  amiga:0148BE
+  amiga:0148C0
   amiga:0148C2
+  amiga:0148C6
+  amiga:0148CC
   amiga:0148D0
+  amiga:0148D2

@@ -1,34 +1,140 @@
 // PortForge machine-function CFG dossier.
 // This is not decompiled semantics or a source-port implementation.
 // boundary: amiga:014AF0
-// evidence: fact: decoded direct call at amiga:01533A
-// recovered blocks: 23
-// replay calls: 0
+// evidence: fact: decoded direct call at amiga:01533A; observed: call-indirect in fe7e1b7456cb7865
+// recovered blocks: 129
+// replay calls: 1
 // derived return form: rts
 // measured completed calls: none
 // ABI unknowns: clobbered_caller_visible, exit_flags, register_arguments, saved_and_restored, stack_arguments, stack_frame
 
 blocks:
   amiga:014AF0
+  amiga:014AF4
+  amiga:014AFE
   amiga:014B02
+  amiga:014B06
+  amiga:014B0C
+  amiga:014B12
+  amiga:014B16
+  amiga:014B1C
   amiga:014B1E
   amiga:014B22
+  amiga:014B26
+  amiga:014B2C
+  amiga:014B32
+  amiga:014B36
+  amiga:014B3C
   amiga:014B3E
   amiga:014B44
+  amiga:014B48
+  amiga:014B4E
+  amiga:014B54
+  amiga:014B58
+  amiga:014B5E
   amiga:014B60
+  amiga:014B62
   amiga:014B66
+  amiga:014B68
+  amiga:014B6E
+  amiga:014B72
+  amiga:014B78
+  amiga:014B7C
   amiga:014B80
+  amiga:014B84
+  amiga:014B86
+  amiga:014B8A
+  amiga:014B8C
+  amiga:014B8E
+  amiga:014B94
+  amiga:014B98
+  amiga:014B9C
+  amiga:014BA0
+  amiga:014BA4
+  amiga:014BA6
+  amiga:014BAA
+  amiga:014BAC
+  amiga:014BAE
+  amiga:014BB0
+  amiga:014BB6
+  amiga:014BBA
+  amiga:014BBE
+  amiga:014BC2
+  amiga:014BC8
   amiga:014BCA
   amiga:014BCE
+  amiga:014BD2
+  amiga:014BD4
+  amiga:014BD8
+  amiga:014BDA
+  amiga:014BDC
+  amiga:014BDE
+  amiga:014BE4
+  amiga:014BE8
+  amiga:014BEC
+  amiga:014BF0
+  amiga:014BF4
+  amiga:014BF6
+  amiga:014BFA
+  amiga:014BFC
+  amiga:014BFE
+  amiga:014C00
+  amiga:014C06
+  amiga:014C0A
+  amiga:014C0E
+  amiga:014C12
+  amiga:014C18
   amiga:014C1A
   amiga:014C1E
+  amiga:014C22
+  amiga:014C24
+  amiga:014C2A
+  amiga:014C2E
+  amiga:014C32
+  amiga:014C34
+  amiga:014C38
   amiga:014C3A
+  amiga:014C3E
+  amiga:014C40
+  amiga:014C46
+  amiga:014C4A
+  amiga:014C4C
+  amiga:014C50
+  amiga:014C52
+  amiga:014C56
   amiga:014C58
   amiga:014C74
+  amiga:014C78
+  amiga:014C7A
+  amiga:014C80
+  amiga:014C84
+  amiga:014C88
+  amiga:014C8C
+  amiga:014C92
   amiga:014C94
+  amiga:014C98
   amiga:014C9C
+  amiga:014C9E
   amiga:014CA2
   amiga:014CA6
+  amiga:014CAA
   amiga:014CAE
+  amiga:014CB2
+  amiga:014CB6
+  amiga:014CBA
+  amiga:014CBC
+  amiga:014CBE
+  amiga:014CC4
+  amiga:014CCA
+  amiga:014CCE
+  amiga:014CD4
   amiga:014CD6
+  amiga:014CDE
+  amiga:014CE2
+  amiga:014CE8
+  amiga:014CEE
+  amiga:014CF2
+  amiga:014CF6
+  amiga:014CFC
   amiga:014D00
+  amiga:014D02

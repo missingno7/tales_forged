@@ -13,11 +13,11 @@
   "format": "portforge-amiga-semantic-summary-v1",
   "machine_model": "pf-amiga-a500-ocs-pal-v3",
   "metrics": {
-    "cost_profiles": 27,
-    "function_boundaries": 82,
-    "recovered_blocks": 1548,
+    "cost_profiles": 68,
+    "function_boundaries": 121,
+    "recovered_blocks": 5011,
     "shared_blocks": 0,
-    "unowned_blocks": 637
+    "unowned_blocks": 1875
   },
   "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968"
 }

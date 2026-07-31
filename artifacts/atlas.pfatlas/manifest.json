@@ -5,12 +5,12 @@
     "evidence-amiga-oracle-fe7e1b7456cb7865": {
       "kind": "replay-evidence",
       "origin": "portforge",
-      "sha256": "27481a8b5a032217ca7e9783e9c1cbd31ca8a149c02b293cb85c9514c6651f2c"
+      "sha256": "1993e9dc7d5666d1705a1916de0c2247a8e55491f84b0197cd44002547b7d8e9"
     },
     "recovery-blocks": {
       "kind": "recovered-blocks",
       "origin": "recovery",
-      "sha256": "24b0d9596925ffb8d78c11223eb985a78016d7af848b6893bfb7e5490499ee0b"
+      "sha256": "fc2b35c3191de7a07c636d518aa31902517f0b22d822759cef395f15d2a19948"
     }
   }
 }

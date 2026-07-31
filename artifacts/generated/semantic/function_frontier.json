@@ -1,7 +1,63 @@
 {
   "excluded_boundary_candidates": [
     {
+      "identity": "amiga:018DA8",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018DAE",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018DB4",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018DBA",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018DC0",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
       "identity": "amiga:018DC6",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018DCC",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018DD2",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018DD8",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
         "observed: call-indirect in fe7e1b7456cb7865"
@@ -29,7 +85,21 @@
       ]
     },
     {
+      "identity": "amiga:018DF0",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
       "identity": "amiga:018DF6",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018DFC",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
         "observed: call-indirect in fe7e1b7456cb7865"
@@ -64,7 +134,49 @@
       ]
     },
     {
+      "identity": "amiga:018E26",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018E2C",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018E32",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018E3E",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
       "identity": "amiga:018E44",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018E4A",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018E50",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
         "observed: call-indirect in fe7e1b7456cb7865"
@@ -78,7 +190,49 @@
       ]
     },
     {
+      "identity": "amiga:018E5C",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018E62",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
       "identity": "amiga:018E68",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018E74",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018E7A",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018E80",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018E86",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
         "observed: call-indirect in fe7e1b7456cb7865"
@@ -92,6 +246,27 @@
       ]
     },
     {
+      "identity": "amiga:018E9E",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018EA4",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018EAA",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
       "identity": "amiga:018EB0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
@@ -99,7 +274,21 @@
       ]
     },
     {
+      "identity": "amiga:018EBC",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
       "identity": "amiga:018EC2",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018EC8",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
         "observed: call-indirect in fe7e1b7456cb7865"
@@ -149,6 +338,13 @@
     },
     {
       "identity": "amiga:018EF2",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018EFE",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
         "observed: call-indirect in fe7e1b7456cb7865"
@@ -260,6 +456,13 @@
       ]
     },
     {
+      "identity": "amiga:018F7C",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
       "identity": "amiga:018F88",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
@@ -295,7 +498,98 @@
       ]
     },
     {
+      "identity": "amiga:018FB8",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018FBE",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018FCA",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018FD0",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018FD6",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018FDC",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018FE2",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018FE8",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
       "identity": "amiga:018FF0",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:018FF8",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:019000",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:019008",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:019010",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:019018",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
         "observed: call-indirect in fe7e1b7456cb7865"
@@ -309,15 +603,302 @@
       ]
     },
     {
+      "identity": "amiga:019050",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:019068",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:019080",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:019098",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0190A0",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0190A8",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0190B8",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
       "identity": "amiga:0190C0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
         "observed: call in fe7e1b7456cb7865"
       ]
+    },
+    {
+      "identity": "amiga:0241B4",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0256E6",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0258E0",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0258EC",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:025968",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0259A4",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0259C6",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0259E4",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:025A0E",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:025C5E",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0260AA",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:026190",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:026360",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0264F2",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:026724",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:026D08",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:027102",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:027696",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0723A4",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0728E8",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:072F84",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:073066",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0731E8",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:073C52",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:073D5C",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:074176",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:074216",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:0748BE",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:074B26",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:074BF4",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:07536E",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:075706",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:076C44",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call,call-indirect in fe7e1b7456cb7865"
+      ]
+    },
+    {
+      "identity": "amiga:076C90",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in fe7e1b7456cb7865"
+      ]
     }
   ],
   "format": "portforge-amiga-function-frontier-v1",
-  "function_boundaries": 82,
+  "function_boundaries": 121,
   "limitations": [
     "boundaries are addresses, not semantic names or types",
     "jump targets and relocations are not function boundaries",
@@ -327,179 +908,513 @@
   ],
   "machine_model": "pf-amiga-a500-ocs-pal-v3",
   "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
-  "recovered_blocks": 1548,
+  "recovered_blocks": 5011,
   "shared_blocks": [],
   "unowned_blocks": [
-    "amiga:010FDE",
-    "amiga:010FE2",
-    "amiga:010FE8",
-    "amiga:010FEA",
-    "amiga:010FEE",
-    "amiga:010FF2",
-    "amiga:010FF6",
-    "amiga:010FF8",
-    "amiga:010FFA",
-    "amiga:011006",
-    "amiga:011008",
-    "amiga:01100C",
-    "amiga:011010",
-    "amiga:011012",
-    "amiga:011014",
-    "amiga:011018",
-    "amiga:01101C",
-    "amiga:011020",
-    "amiga:011026",
-    "amiga:01102C",
-    "amiga:011032",
-    "amiga:011036",
-    "amiga:01103A",
-    "amiga:01103E",
-    "amiga:011042",
-    "amiga:011046",
-    "amiga:011048",
-    "amiga:01104C",
-    "amiga:011050",
-    "amiga:011052",
-    "amiga:011056",
-    "amiga:01105A",
-    "amiga:01105E",
-    "amiga:011062",
-    "amiga:011064",
-    "amiga:011066",
-    "amiga:01106A",
-    "amiga:01106E",
-    "amiga:011072",
-    "amiga:011076",
-    "amiga:01107A",
-    "amiga:01107E",
-    "amiga:011082",
-    "amiga:011086",
-    "amiga:01108A",
-    "amiga:01108E",
-    "amiga:011092",
-    "amiga:011096",
-    "amiga:01109A",
-    "amiga:0110A0",
-    "amiga:0110A2",
-    "amiga:0110A6",
-    "amiga:0110AA",
-    "amiga:0110AE",
-    "amiga:0110B2",
-    "amiga:0110B6",
-    "amiga:0110BA",
-    "amiga:0110BE",
-    "amiga:0110C0",
-    "amiga:0110D8",
-    "amiga:0110DC",
-    "amiga:0110E0",
-    "amiga:0110E4",
-    "amiga:0110E8",
-    "amiga:0110EC",
-    "amiga:0110F0",
-    "amiga:0110F4",
-    "amiga:0110F8",
-    "amiga:0110FC",
-    "amiga:011100",
-    "amiga:011104",
-    "amiga:011106",
-    "amiga:011108",
-    "amiga:01110A",
-    "amiga:01110C",
-    "amiga:011110",
-    "amiga:011114",
-    "amiga:011116",
-    "amiga:01111A",
-    "amiga:01111E",
-    "amiga:011122",
-    "amiga:011126",
-    "amiga:01112A",
-    "amiga:01112E",
-    "amiga:011132",
-    "amiga:011136",
-    "amiga:01113A",
-    "amiga:01113E",
-    "amiga:011142",
-    "amiga:011144",
-    "amiga:011146",
-    "amiga:011148",
-    "amiga:01114A",
-    "amiga:01114E",
-    "amiga:011152",
-    "amiga:011154",
-    "amiga:011158",
-    "amiga:01115C",
-    "amiga:011160",
-    "amiga:011164",
-    "amiga:011168",
-    "amiga:01116C",
-    "amiga:011170",
-    "amiga:011174",
-    "amiga:011178",
-    "amiga:01117C",
-    "amiga:011180",
-    "amiga:011182",
-    "amiga:011184",
-    "amiga:011186",
-    "amiga:011188",
-    "amiga:01118C",
-    "amiga:011190",
-    "amiga:011192",
-    "amiga:011196",
-    "amiga:01119A",
-    "amiga:01119E",
-    "amiga:0111A2",
-    "amiga:0111A6",
-    "amiga:0111AA",
-    "amiga:0111AE",
-    "amiga:0111B2",
-    "amiga:0111B6",
-    "amiga:0111BA",
-    "amiga:0111BE",
-    "amiga:0111C0",
-    "amiga:0111C2",
-    "amiga:0111C4",
-    "amiga:0111C6",
-    "amiga:0111CA",
-    "amiga:0111CE",
-    "amiga:0111D0",
-    "amiga:0111D4",
-    "amiga:0111D8",
-    "amiga:0111DC",
-    "amiga:0111E0",
-    "amiga:0111E4",
-    "amiga:0111E8",
-    "amiga:0111EC",
-    "amiga:0111F0",
-    "amiga:0111F4",
-    "amiga:0111F8",
-    "amiga:0111FC",
-    "amiga:011200",
-    "amiga:011202",
-    "amiga:011206",
-    "amiga:01120A",
-    "amiga:01120E",
-    "amiga:011212",
-    "amiga:011214",
-    "amiga:011218",
-    "amiga:01121C",
-    "amiga:011220",
-    "amiga:011222",
-    "amiga:011224",
-    "amiga:011226",
-    "amiga:01122A",
-    "amiga:01122E",
-    "amiga:011230",
-    "amiga:011232",
-    "amiga:011236",
-    "amiga:011260",
-    "amiga:011268",
-    "amiga:011278",
-    "amiga:011282",
-    "amiga:011288",
-    "amiga:01128E",
-    "amiga:011296",
-    "amiga:0112A2",
-    "amiga:0112AE",
+    "amiga:0101BA",
+    "amiga:0101BE",
+    "amiga:0101C2",
+    "amiga:0101C6",
+    "amiga:0101CA",
+    "amiga:0101CC",
+    "amiga:0101D0",
+    "amiga:0101D8",
+    "amiga:0101DC",
+    "amiga:0101E0",
+    "amiga:0101E4",
+    "amiga:0101E6",
+    "amiga:0101E8",
+    "amiga:0101EA",
+    "amiga:010282",
+    "amiga:010286",
+    "amiga:01028A",
+    "amiga:01028C",
+    "amiga:010290",
+    "amiga:010294",
+    "amiga:010296",
+    "amiga:01029C",
+    "amiga:0102A0",
+    "amiga:0102A8",
+    "amiga:0102AC",
+    "amiga:0102B0",
+    "amiga:0102B2",
+    "amiga:0102B4",
+    "amiga:0102B8",
+    "amiga:0102C6",
+    "amiga:010310",
+    "amiga:010324",
+    "amiga:01032A",
+    "amiga:01032C",
+    "amiga:01032E",
+    "amiga:010332",
+    "amiga:010336",
+    "amiga:01044C",
+    "amiga:01044E",
+    "amiga:010450",
+    "amiga:010454",
+    "amiga:010458",
+    "amiga:01045C",
+    "amiga:010460",
+    "amiga:010464",
+    "amiga:010468",
+    "amiga:01046C",
+    "amiga:01046E",
+    "amiga:010640",
+    "amiga:010644",
+    "amiga:010648",
+    "amiga:01064A",
+    "amiga:01064E",
+    "amiga:010652",
+    "amiga:010654",
+    "amiga:010658",
+    "amiga:01065C",
+    "amiga:01065E",
+    "amiga:010662",
+    "amiga:010666",
+    "amiga:010668",
+    "amiga:01066C",
+    "amiga:010670",
+    "amiga:010672",
+    "amiga:010676",
+    "amiga:01067A",
+    "amiga:01067E",
+    "amiga:010682",
+    "amiga:010684",
+    "amiga:010686",
+    "amiga:01068A",
+    "amiga:01068E",
+    "amiga:010692",
+    "amiga:010696",
+    "amiga:010698",
+    "amiga:01069A",
+    "amiga:01069E",
+    "amiga:0106A0",
+    "amiga:0106A2",
+    "amiga:0106A6",
+    "amiga:0106AA",
+    "amiga:0106AE",
+    "amiga:0106B2",
+    "amiga:0106B6",
+    "amiga:0106BA",
+    "amiga:0106BE",
+    "amiga:0106C0",
+    "amiga:0106C2",
+    "amiga:0106C6",
+    "amiga:0106CA",
+    "amiga:0106CE",
+    "amiga:0106D2",
+    "amiga:0106D4",
+    "amiga:0106D6",
+    "amiga:0106DA",
+    "amiga:0106DC",
+    "amiga:0106DE",
+    "amiga:0106E2",
+    "amiga:0106E6",
+    "amiga:0106EA",
+    "amiga:0106EE",
+    "amiga:0106F2",
+    "amiga:0106F6",
+    "amiga:0106FA",
+    "amiga:0106FC",
+    "amiga:0106FE",
+    "amiga:010702",
+    "amiga:010706",
+    "amiga:01070A",
+    "amiga:01070E",
+    "amiga:010710",
+    "amiga:010712",
+    "amiga:010716",
+    "amiga:010718",
+    "amiga:01071A",
+    "amiga:01071E",
+    "amiga:010722",
+    "amiga:010726",
+    "amiga:0108BE",
+    "amiga:0108C2",
+    "amiga:0108E2",
+    "amiga:0108E8",
+    "amiga:0108EA",
+    "amiga:0108EC",
+    "amiga:0108F0",
+    "amiga:0108F4",
+    "amiga:0108F8",
+    "amiga:0108FA",
+    "amiga:0108FC",
+    "amiga:010900",
+    "amiga:010904",
+    "amiga:010908",
+    "amiga:01090A",
+    "amiga:01090C",
+    "amiga:010910",
+    "amiga:010914",
+    "amiga:010916",
+    "amiga:010918",
+    "amiga:01091C",
+    "amiga:010920",
+    "amiga:010922",
+    "amiga:010926",
+    "amiga:01092A",
+    "amiga:01092E",
+    "amiga:010930",
+    "amiga:010932",
+    "amiga:010936",
+    "amiga:01093A",
+    "amiga:01093C",
+    "amiga:01093E",
+    "amiga:010942",
+    "amiga:010946",
+    "amiga:010948",
+    "amiga:01094C",
+    "amiga:010950",
+    "amiga:010954",
+    "amiga:010958",
+    "amiga:01095C",
+    "amiga:01095E",
+    "amiga:010962",
+    "amiga:010966",
+    "amiga:010968",
+    "amiga:01096A",
+    "amiga:01096E",
+    "amiga:010972",
+    "amiga:010974",
+    "amiga:010976",
+    "amiga:01097A",
+    "amiga:01097E",
+    "amiga:010982",
+    "amiga:010984",
+    "amiga:010988",
+    "amiga:01098A",
+    "amiga:01098C",
+    "amiga:010990",
+    "amiga:010994",
+    "amiga:010996",
+    "amiga:01099A",
+    "amiga:01099E",
+    "amiga:0109A0",
+    "amiga:0109A4",
+    "amiga:0109A8",
+    "amiga:0109AA",
+    "amiga:0109AE",
+    "amiga:0109B2",
+    "amiga:0109B4",
+    "amiga:0109B8",
+    "amiga:0109BC",
+    "amiga:0109BE",
+    "amiga:0109C0",
+    "amiga:0109C4",
+    "amiga:0109C8",
+    "amiga:0109CE",
+    "amiga:0109D0",
+    "amiga:0109D4",
+    "amiga:0109D8",
+    "amiga:0109DE",
+    "amiga:0109E2",
+    "amiga:0109E6",
+    "amiga:0109EA",
+    "amiga:0109EE",
+    "amiga:0109F0",
+    "amiga:0109F4",
+    "amiga:0109F8",
+    "amiga:0109FC",
+    "amiga:0109FE",
+    "amiga:010A00",
+    "amiga:010A04",
+    "amiga:010A06",
+    "amiga:010A08",
+    "amiga:010A0C",
+    "amiga:010A0E",
+    "amiga:010A12",
+    "amiga:010A16",
+    "amiga:010A18",
+    "amiga:010A1A",
+    "amiga:010A1E",
+    "amiga:010A20",
+    "amiga:010A22",
+    "amiga:010A26",
+    "amiga:010A28",
+    "amiga:010A2C",
+    "amiga:010A2E",
+    "amiga:010A30",
+    "amiga:010A34",
+    "amiga:010A38",
+    "amiga:010A3C",
+    "amiga:010A40",
+    "amiga:010A42",
+    "amiga:01134C",
+    "amiga:011350",
+    "amiga:011354",
+    "amiga:011358",
+    "amiga:01135C",
+    "amiga:01135E",
+    "amiga:011362",
+    "amiga:011366",
+    "amiga:011368",
+    "amiga:01136C",
+    "amiga:011370",
+    "amiga:011372",
+    "amiga:011378",
+    "amiga:01137A",
+    "amiga:011382",
+    "amiga:011388",
+    "amiga:01138C",
+    "amiga:011390",
+    "amiga:011392",
+    "amiga:011396",
+    "amiga:011398",
+    "amiga:012816",
+    "amiga:01281A",
+    "amiga:01281E",
+    "amiga:012820",
+    "amiga:012824",
+    "amiga:012828",
+    "amiga:01282C",
+    "amiga:012830",
+    "amiga:012834",
+    "amiga:012838",
+    "amiga:01283A",
+    "amiga:012840",
+    "amiga:012842",
+    "amiga:012844",
+    "amiga:012846",
+    "amiga:012848",
+    "amiga:01284C",
+    "amiga:01284E",
+    "amiga:012850",
+    "amiga:012854",
+    "amiga:012856",
+    "amiga:01285C",
+    "amiga:01285E",
+    "amiga:012860",
+    "amiga:012864",
+    "amiga:012868",
+    "amiga:01286A",
+    "amiga:01286E",
+    "amiga:012872",
+    "amiga:012876",
+    "amiga:012878",
+    "amiga:01287A",
+    "amiga:01291E",
+    "amiga:012922",
+    "amiga:012928",
+    "amiga:01292C",
+    "amiga:012930",
+    "amiga:012932",
+    "amiga:012934",
+    "amiga:012936",
+    "amiga:012944",
+    "amiga:012946",
+    "amiga:012948",
+    "amiga:01294E",
+    "amiga:012952",
+    "amiga:012958",
+    "amiga:012960",
+    "amiga:012968",
+    "amiga:01296C",
+    "amiga:01296E",
+    "amiga:012972",
+    "amiga:012976",
+    "amiga:01297A",
+    "amiga:01297C",
+    "amiga:012980",
+    "amiga:012984",
+    "amiga:012986",
+    "amiga:012994",
+    "amiga:012996",
+    "amiga:01299A",
+    "amiga:01299E",
+    "amiga:0129A0",
+    "amiga:0129A6",
+    "amiga:0129AA",
+    "amiga:0129B0",
+    "amiga:0129B8",
+    "amiga:0129C0",
+    "amiga:0129C8",
+    "amiga:0129CC",
+    "amiga:0129CE",
+    "amiga:0129DC",
+    "amiga:0129E8",
+    "amiga:0129F6",
+    "amiga:0129F8",
+    "amiga:0129FC",
+    "amiga:0129FE",
+    "amiga:012A02",
+    "amiga:012A06",
+    "amiga:012A08",
+    "amiga:012A0C",
+    "amiga:012A10",
+    "amiga:012A14",
+    "amiga:012A1A",
+    "amiga:012A1E",
+    "amiga:012A24",
+    "amiga:012A28",
+    "amiga:012A2C",
+    "amiga:012A30",
+    "amiga:012A34",
+    "amiga:012A38",
+    "amiga:012A3E",
+    "amiga:012A42",
+    "amiga:012A4A",
+    "amiga:012A4E",
+    "amiga:012A52",
+    "amiga:012A56",
+    "amiga:012A58",
+    "amiga:012A5C",
+    "amiga:012A60",
+    "amiga:012A64",
+    "amiga:012A66",
+    "amiga:012A6A",
+    "amiga:012A6E",
+    "amiga:012A70",
+    "amiga:012A7E",
+    "amiga:012A80",
+    "amiga:012A84",
+    "amiga:012A88",
+    "amiga:012A8C",
+    "amiga:012A8E",
+    "amiga:012A90",
+    "amiga:012A94",
+    "amiga:012A96",
+    "amiga:012A9C",
+    "amiga:012AA0",
+    "amiga:012AA4",
+    "amiga:012AAA",
+    "amiga:012AAE",
+    "amiga:012AB0",
+    "amiga:012AB4",
+    "amiga:012ABA",
+    "amiga:012ABE",
+    "amiga:012AC0",
+    "amiga:012AC4",
+    "amiga:012AC8",
+    "amiga:012ACA",
+    "amiga:012AD2",
+    "amiga:012AD4",
+    "amiga:012ADA",
+    "amiga:012AE2",
+    "amiga:012AE6",
+    "amiga:012AEA",
+    "amiga:012AEC",
+    "amiga:012AF0",
+    "amiga:012AF2",
+    "amiga:012AF8",
+    "amiga:012AFC",
+    "amiga:012AFE",
+    "amiga:012B02",
+    "amiga:012B06",
+    "amiga:012B0C",
+    "amiga:012B10",
+    "amiga:012B14",
+    "amiga:012B1A",
+    "amiga:012B1E",
+    "amiga:012B22",
+    "amiga:012B26",
+    "amiga:012B2A",
+    "amiga:012B30",
+    "amiga:012B34",
+    "amiga:012B36",
+    "amiga:012B3A",
+    "amiga:012B40",
+    "amiga:012B44",
+    "amiga:012B46",
+    "amiga:012B4A",
+    "amiga:012B4E",
+    "amiga:012B50",
+    "amiga:012B58",
+    "amiga:012B5A",
+    "amiga:012B60",
+    "amiga:012B68",
+    "amiga:012B6C",
+    "amiga:012B70",
+    "amiga:012B72",
+    "amiga:012B76",
+    "amiga:012B78",
+    "amiga:012B7E",
+    "amiga:012B82",
+    "amiga:012B84",
+    "amiga:012B88",
+    "amiga:012B8C",
+    "amiga:012B92",
+    "amiga:012B96",
+    "amiga:012B9A",
+    "amiga:012B9E",
+    "amiga:012BA4",
+    "amiga:012BA8",
+    "amiga:012BAC",
+    "amiga:012BB0",
+    "amiga:012BB4",
+    "amiga:012BB8",
+    "amiga:012BBE",
+    "amiga:012BC2",
+    "amiga:012BC4",
+    "amiga:012BC8",
+    "amiga:012BCE",
+    "amiga:012BD2",
+    "amiga:012BD4",
+    "amiga:012BD8",
+    "amiga:012BDC",
+    "amiga:012BDE",
+    "amiga:012BE6",
+    "amiga:012BE8",
+    "amiga:012BEE",
+    "amiga:012BF6",
+    "amiga:012BFA",
+    "amiga:012BFE",
+    "amiga:012C00",
+    "amiga:012C04",
+    "amiga:012C06",
+    "amiga:012C0C",
+    "amiga:012C10",
+    "amiga:012C12",
+    "amiga:012C16",
+    "amiga:012C1A",
+    "amiga:012C1E",
+    "amiga:012C22",
+    "amiga:012C28",
+    "amiga:012C2C",
+    "amiga:012C2E",
+    "amiga:012C32",
+    "amiga:012C36",
+    "amiga:012C3C",
+    "amiga:012C40",
+    "amiga:012C42",
+    "amiga:012C46",
+    "amiga:012C4C",
+    "amiga:012C50",
+    "amiga:012C52",
+    "amiga:012C56",
+    "amiga:012C5A",
+    "amiga:012C5C",
+    "amiga:012C64",
+    "amiga:012C66",
+    "amiga:012C6C",
+    "amiga:012C74",
+    "amiga:012C78",
+    "amiga:012C7C",
+    "amiga:012C7E",
+    "amiga:012C82",
+    "amiga:012C84",
+    "amiga:012C8A",
+    "amiga:012C8E",
+    "amiga:012C90",
+    "amiga:012C94",
+    "amiga:012C98",
+    "amiga:012C9E",
+    "amiga:012CA2",
+    "amiga:012CA6",
+    "amiga:012CAC",
+    "amiga:012CB0",
+    "amiga:012CB4",
+    "amiga:012CB6",
+    "amiga:012CC2",
+    "amiga:012CD4",
+    "amiga:012CE6",
+    "amiga:012CEC",
+    "amiga:012CEE",
+    "amiga:012CF0",
+    "amiga:012CF4",
+    "amiga:012CF8",
+    "amiga:012CFC",
+    "amiga:012CFE",
     "amiga:01307C",
     "amiga:013080",
     "amiga:013082",
@@ -539,6 +1454,106 @@
     "amiga:0131A4",
     "amiga:0131A6",
     "amiga:0131A8",
+    "amiga:0131AA",
+    "amiga:0131AE",
+    "amiga:0131B2",
+    "amiga:0131B6",
+    "amiga:0131BA",
+    "amiga:0131BC",
+    "amiga:0131BE",
+    "amiga:0131C4",
+    "amiga:0131CA",
+    "amiga:0131CE",
+    "amiga:0131D0",
+    "amiga:0131D2",
+    "amiga:0131D6",
+    "amiga:0131DA",
+    "amiga:0131DC",
+    "amiga:0131E0",
+    "amiga:0131E4",
+    "amiga:0131E8",
+    "amiga:0131EA",
+    "amiga:0131EC",
+    "amiga:0131F0",
+    "amiga:0131F4",
+    "amiga:0131F6",
+    "amiga:0131FA",
+    "amiga:0131FE",
+    "amiga:013202",
+    "amiga:013204",
+    "amiga:013206",
+    "amiga:01320A",
+    "amiga:01320E",
+    "amiga:013212",
+    "amiga:013216",
+    "amiga:01321A",
+    "amiga:01321C",
+    "amiga:013220",
+    "amiga:013224",
+    "amiga:013228",
+    "amiga:01322A",
+    "amiga:01322E",
+    "amiga:013232",
+    "amiga:013236",
+    "amiga:01323A",
+    "amiga:01323E",
+    "amiga:013242",
+    "amiga:013246",
+    "amiga:013248",
+    "amiga:01324C",
+    "amiga:013250",
+    "amiga:013252",
+    "amiga:013256",
+    "amiga:01325A",
+    "amiga:01325C",
+    "amiga:013260",
+    "amiga:013264",
+    "amiga:013268",
+    "amiga:01326C",
+    "amiga:013270",
+    "amiga:013272",
+    "amiga:013276",
+    "amiga:01327A",
+    "amiga:01327C",
+    "amiga:013280",
+    "amiga:013284",
+    "amiga:013286",
+    "amiga:01328A",
+    "amiga:01328E",
+    "amiga:013292",
+    "amiga:013296",
+    "amiga:01329A",
+    "amiga:01329C",
+    "amiga:0132A0",
+    "amiga:0132A4",
+    "amiga:0132A6",
+    "amiga:0132AA",
+    "amiga:0132AE",
+    "amiga:0132B0",
+    "amiga:0132B8",
+    "amiga:0132BC",
+    "amiga:0132C0",
+    "amiga:0132C2",
+    "amiga:0132C4",
+    "amiga:0132CA",
+    "amiga:0132CE",
+    "amiga:0132D0",
+    "amiga:0132D4",
+    "amiga:0132D6",
+    "amiga:0132D8",
+    "amiga:0132DC",
+    "amiga:0132E0",
+    "amiga:0132E4",
+    "amiga:0132EA",
+    "amiga:0132EE",
+    "amiga:0132F2",
+    "amiga:0132F6",
+    "amiga:0132FA",
+    "amiga:0132FC",
+    "amiga:013300",
+    "amiga:013306",
+    "amiga:01330A",
+    "amiga:01330C",
     "amiga:01330E",
     "amiga:013312",
     "amiga:013316",
@@ -566,12 +1581,16 @@
     "amiga:013366",
     "amiga:01336A",
     "amiga:01336C",
+    "amiga:013370",
+    "amiga:013374",
     "amiga:013376",
     "amiga:01337A",
     "amiga:01337C",
     "amiga:01337E",
     "amiga:013382",
     "amiga:013384",
+    "amiga:013388",
+    "amiga:01338C",
     "amiga:01338E",
     "amiga:013392",
     "amiga:013394",
@@ -581,6 +1600,8 @@
     "amiga:01339C",
     "amiga:0133A0",
     "amiga:0133A2",
+    "amiga:0133A6",
+    "amiga:0133AA",
     "amiga:0133AC",
     "amiga:0133B0",
     "amiga:0133B2",
@@ -597,6 +1618,80 @@
     "amiga:0133DE",
     "amiga:0133E2",
     "amiga:0133E4",
+    "amiga:0134E0",
+    "amiga:0134E4",
+    "amiga:0134E8",
+    "amiga:0134EC",
+    "amiga:0134F0",
+    "amiga:0134F6",
+    "amiga:0134FA",
+    "amiga:0134FE",
+    "amiga:013500",
+    "amiga:013504",
+    "amiga:01350A",
+    "amiga:01350E",
+    "amiga:013514",
+    "amiga:013518",
+    "amiga:01351C",
+    "amiga:013520",
+    "amiga:013524",
+    "amiga:013526",
+    "amiga:013528",
+    "amiga:01352A",
+    "amiga:013530",
+    "amiga:013534",
+    "amiga:013536",
+    "amiga:01353A",
+    "amiga:01353E",
+    "amiga:013542",
+    "amiga:013546",
+    "amiga:01354A",
+    "amiga:01354C",
+    "amiga:01354E",
+    "amiga:013552",
+    "amiga:013554",
+    "amiga:013558",
+    "amiga:01355C",
+    "amiga:013560",
+    "amiga:013564",
+    "amiga:013566",
+    "amiga:013568",
+    "amiga:01356C",
+    "amiga:01356E",
+    "amiga:013570",
+    "amiga:013574",
+    "amiga:013576",
+    "amiga:013578",
+    "amiga:01357C",
+    "amiga:01357E",
+    "amiga:013580",
+    "amiga:013586",
+    "amiga:013588",
+    "amiga:01358C",
+    "amiga:01358E",
+    "amiga:013592",
+    "amiga:013596",
+    "amiga:013598",
+    "amiga:01359A",
+    "amiga:01359C",
+    "amiga:0135A0",
+    "amiga:0135A2",
+    "amiga:0135A4",
+    "amiga:0135A8",
+    "amiga:0135AC",
+    "amiga:0135B0",
+    "amiga:0135B4",
+    "amiga:0135B8",
+    "amiga:0135BC",
+    "amiga:0135BE",
+    "amiga:0135C0",
+    "amiga:0135C2",
+    "amiga:0135C6",
+    "amiga:0135CA",
+    "amiga:0135D0",
+    "amiga:0135D4",
+    "amiga:0135D8",
+    "amiga:0135DA",
     "amiga:0135DC",
     "amiga:0135E0",
     "amiga:0135E2",
@@ -613,7 +1708,10 @@
     "amiga:013608",
     "amiga:01360C",
     "amiga:01360E",
+    "amiga:013610",
+    "amiga:013616",
     "amiga:01361A",
+    "amiga:01361C",
     "amiga:01361E",
     "amiga:013622",
     "amiga:013628",
@@ -667,29 +1765,254 @@
     "amiga:013848",
     "amiga:01384C",
     "amiga:01384E",
-    "amiga:013930",
-    "amiga:013934",
-    "amiga:013938",
-    "amiga:01393E",
-    "amiga:013940",
-    "amiga:013944",
-    "amiga:01394A",
-    "amiga:01394C",
-    "amiga:01396A",
-    "amiga:013976",
-    "amiga:01397A",
-    "amiga:01397E",
-    "amiga:013982",
-    "amiga:013986",
-    "amiga:01398A",
-    "amiga:01398E",
-    "amiga:013990",
+    "amiga:013AE4",
+    "amiga:013AE8",
+    "amiga:013AEC",
+    "amiga:013AF0",
+    "amiga:013AF6",
+    "amiga:013AF8",
+    "amiga:013AFC",
+    "amiga:013AFE",
+    "amiga:013B02",
+    "amiga:013B04",
+    "amiga:013B0A",
+    "amiga:013B0E",
+    "amiga:013B12",
+    "amiga:013B14",
+    "amiga:013B16",
+    "amiga:013B1A",
+    "amiga:013B1E",
+    "amiga:013B24",
+    "amiga:013B28",
+    "amiga:013B2A",
+    "amiga:013B2E",
+    "amiga:013B32",
+    "amiga:013B34",
+    "amiga:013B3C",
+    "amiga:013B3E",
+    "amiga:013B42",
+    "amiga:013B44",
+    "amiga:013B48",
+    "amiga:013B4C",
+    "amiga:013B50",
+    "amiga:013B54",
+    "amiga:013B56",
+    "amiga:013B58",
+    "amiga:013B5C",
+    "amiga:013B5E",
+    "amiga:013B62",
+    "amiga:013B66",
+    "amiga:013B6A",
+    "amiga:013B70",
+    "amiga:013B74",
+    "amiga:013B7C",
+    "amiga:013B80",
+    "amiga:013B82",
+    "amiga:013B84",
+    "amiga:013B88",
+    "amiga:013B8C",
+    "amiga:013B90",
+    "amiga:013B94",
+    "amiga:013B96",
+    "amiga:013B9C",
+    "amiga:013B9E",
+    "amiga:013BA0",
+    "amiga:013BA2",
+    "amiga:013BA6",
+    "amiga:013BAA",
+    "amiga:013BB0",
+    "amiga:013BB4",
+    "amiga:013BB8",
+    "amiga:013BBC",
+    "amiga:013BC0",
+    "amiga:013BC6",
+    "amiga:013BCA",
+    "amiga:013BCE",
+    "amiga:013BD0",
+    "amiga:013C0E",
+    "amiga:013C12",
+    "amiga:013C16",
+    "amiga:013C18",
+    "amiga:013C1A",
+    "amiga:013C1C",
+    "amiga:013C20",
+    "amiga:013C24",
+    "amiga:013C2A",
+    "amiga:013C2E",
+    "amiga:013C32",
+    "amiga:013C36",
+    "amiga:013C3A",
+    "amiga:013C40",
+    "amiga:013C44",
+    "amiga:013C48",
+    "amiga:013C4A",
     "amiga:01435E",
     "amiga:014362",
     "amiga:014366",
     "amiga:01436C",
     "amiga:014372",
     "amiga:014374",
+    "amiga:014376",
+    "amiga:01437A",
+    "amiga:014382",
+    "amiga:01438A",
+    "amiga:01438E",
+    "amiga:014390",
+    "amiga:014394",
+    "amiga:014398",
+    "amiga:01439A",
+    "amiga:01439E",
+    "amiga:0143A2",
+    "amiga:0143A4",
+    "amiga:0143A8",
+    "amiga:0143AA",
+    "amiga:0143AE",
+    "amiga:0143B2",
+    "amiga:0143B4",
+    "amiga:0143B8",
+    "amiga:0143BA",
+    "amiga:0143BE",
+    "amiga:0143C2",
+    "amiga:0143C4",
+    "amiga:0143C8",
+    "amiga:0143CA",
+    "amiga:0143CE",
+    "amiga:0143D0",
+    "amiga:0143D4",
+    "amiga:0143D6",
+    "amiga:0143DA",
+    "amiga:0143DE",
+    "amiga:0143E0",
+    "amiga:0143E4",
+    "amiga:0143E6",
+    "amiga:0143E8",
+    "amiga:0143EC",
+    "amiga:0143EE",
+    "amiga:0143F2",
+    "amiga:0143F4",
+    "amiga:0143F6",
+    "amiga:0143FA",
+    "amiga:0143FC",
+    "amiga:014400",
+    "amiga:014406",
+    "amiga:014408",
+    "amiga:01440C",
+    "amiga:014410",
+    "amiga:014414",
+    "amiga:014418",
+    "amiga:01441C",
+    "amiga:014420",
+    "amiga:014422",
+    "amiga:014424",
+    "amiga:014426",
+    "amiga:01442A",
+    "amiga:01443A",
+    "amiga:014442",
+    "amiga:014446",
+    "amiga:01444C",
+    "amiga:014452",
+    "amiga:014456",
+    "amiga:01445E",
+    "amiga:014462",
+    "amiga:014474",
+    "amiga:014486",
+    "amiga:014498",
+    "amiga:0144AA",
+    "amiga:0144B8",
+    "amiga:0144CA",
+    "amiga:0144DC",
+    "amiga:0144EE",
+    "amiga:014500",
+    "amiga:014508",
+    "amiga:014510",
+    "amiga:014514",
+    "amiga:01451A",
+    "amiga:014520",
+    "amiga:014524",
+    "amiga:01452C",
+    "amiga:01453C",
+    "amiga:014540",
+    "amiga:01454E",
+    "amiga:014550",
+    "amiga:014554",
+    "amiga:01455E",
+    "amiga:014564",
+    "amiga:014568",
+    "amiga:01456A",
+    "amiga:01456E",
+    "amiga:014570",
+    "amiga:014574",
+    "amiga:014576",
+    "amiga:01457A",
+    "amiga:01457C",
+    "amiga:014580",
+    "amiga:014582",
+    "amiga:014586",
+    "amiga:014588",
+    "amiga:01458C",
+    "amiga:01458E",
+    "amiga:014592",
+    "amiga:014594",
+    "amiga:014598",
+    "amiga:01459A",
+    "amiga:01459E",
+    "amiga:0145A0",
+    "amiga:0145A4",
+    "amiga:0145AA",
+    "amiga:0145AE",
+    "amiga:0145B0",
+    "amiga:0145B4",
+    "amiga:0145BA",
+    "amiga:0145BC",
+    "amiga:0145C2",
+    "amiga:0145C4",
+    "amiga:0145CA",
+    "amiga:0145CE",
+    "amiga:0145D0",
+    "amiga:0145D4",
+    "amiga:0145D6",
+    "amiga:0145DA",
+    "amiga:0145DC",
+    "amiga:0145E0",
+    "amiga:0145E2",
+    "amiga:0145E6",
+    "amiga:0145E8",
+    "amiga:0145EC",
+    "amiga:0145EE",
+    "amiga:0145F2",
+    "amiga:0145F4",
+    "amiga:0145F8",
+    "amiga:0145FA",
+    "amiga:0145FE",
+    "amiga:014602",
+    "amiga:014608",
+    "amiga:01460A",
+    "amiga:014610",
+    "amiga:014616",
+    "amiga:014618",
+    "amiga:01461E",
+    "amiga:014624",
+    "amiga:014626",
+    "amiga:01462C",
+    "amiga:01462E",
+    "amiga:014636",
+    "amiga:01463A",
+    "amiga:01463C",
+    "amiga:01463E",
+    "amiga:014642",
+    "amiga:014648",
+    "amiga:01464E",
+    "amiga:014652",
+    "amiga:014656",
+    "amiga:014658",
+    "amiga:01465C",
+    "amiga:01465E",
+    "amiga:014660",
+    "amiga:014662",
+    "amiga:014666",
+    "amiga:01466E",
+    "amiga:014672",
+    "amiga:014674",
     "amiga:014676",
     "amiga:01467A",
     "amiga:01467C",
@@ -697,6 +2020,164 @@
     "amiga:014688",
     "amiga:01468E",
     "amiga:014690",
+    "amiga:014D04",
+    "amiga:014D08",
+    "amiga:014D0C",
+    "amiga:014D0E",
+    "amiga:014D12",
+    "amiga:014D14",
+    "amiga:014D1A",
+    "amiga:014D22",
+    "amiga:014D24",
+    "amiga:014D28",
+    "amiga:014D2E",
+    "amiga:014D30",
+    "amiga:014D34",
+    "amiga:014D36",
+    "amiga:014D3C",
+    "amiga:014D44",
+    "amiga:014D4A",
+    "amiga:014D4E",
+    "amiga:014D50",
+    "amiga:014D54",
+    "amiga:014D58",
+    "amiga:014D5A",
+    "amiga:014D5E",
+    "amiga:014D60",
+    "amiga:014D66",
+    "amiga:014D6A",
+    "amiga:014D6E",
+    "amiga:014D70",
+    "amiga:014D72",
+    "amiga:014D74",
+    "amiga:014D78",
+    "amiga:014D7C",
+    "amiga:014D80",
+    "amiga:014D82",
+    "amiga:014D84",
+    "amiga:014D8A",
+    "amiga:014D8E",
+    "amiga:014D90",
+    "amiga:014D94",
+    "amiga:014D98",
+    "amiga:014D9A",
+    "amiga:014D9E",
+    "amiga:014DA0",
+    "amiga:014DA2",
+    "amiga:014DA8",
+    "amiga:014DAC",
+    "amiga:014DAE",
+    "amiga:014DB8",
+    "amiga:014DBA",
+    "amiga:014DBC",
+    "amiga:014DC4",
+    "amiga:014DC6",
+    "amiga:014DCA",
+    "amiga:014DCC",
+    "amiga:014DCE",
+    "amiga:014DD4",
+    "amiga:014DD8",
+    "amiga:014DDC",
+    "amiga:014DE0",
+    "amiga:014DE4",
+    "amiga:014DE8",
+    "amiga:014DEA",
+    "amiga:014DEE",
+    "amiga:014DF0",
+    "amiga:014DF2",
+    "amiga:014DF6",
+    "amiga:014DFA",
+    "amiga:014DFC",
+    "amiga:014DFE",
+    "amiga:014E04",
+    "amiga:014E0A",
+    "amiga:014E0E",
+    "amiga:014E12",
+    "amiga:014E14",
+    "amiga:014E16",
+    "amiga:014E1C",
+    "amiga:014E20",
+    "amiga:014E22",
+    "amiga:014E24",
+    "amiga:014E28",
+    "amiga:014E2C",
+    "amiga:014E2E",
+    "amiga:014E30",
+    "amiga:014E36",
+    "amiga:014E3A",
+    "amiga:014E3E",
+    "amiga:014E44",
+    "amiga:014E48",
+    "amiga:014E4A",
+    "amiga:014E4C",
+    "amiga:014E52",
+    "amiga:014E56",
+    "amiga:014E58",
+    "amiga:014E5A",
+    "amiga:014E60",
+    "amiga:014E64",
+    "amiga:014E66",
+    "amiga:014E6A",
+    "amiga:014E6C",
+    "amiga:014E72",
+    "amiga:014E76",
+    "amiga:014E7A",
+    "amiga:014E7C",
+    "amiga:014E7E",
+    "amiga:014E80",
+    "amiga:014E84",
+    "amiga:014E88",
+    "amiga:014E8C",
+    "amiga:014E94",
+    "amiga:014E96",
+    "amiga:014E9A",
+    "amiga:014E9C",
+    "amiga:014E9E",
+    "amiga:014EA0",
+    "amiga:014EA2",
+    "amiga:014EA4",
+    "amiga:014EA6",
+    "amiga:014EAE",
+    "amiga:014EB4",
+    "amiga:014EB6",
+    "amiga:014EBC",
+    "amiga:014EC0",
+    "amiga:014EC2",
+    "amiga:014EC6",
+    "amiga:014ECA",
+    "amiga:014ED2",
+    "amiga:014ED4",
+    "amiga:014ED8",
+    "amiga:014EDA",
+    "amiga:014EDE",
+    "amiga:014EE0",
+    "amiga:014EE2",
+    "amiga:014EE8",
+    "amiga:014EEC",
+    "amiga:014EEE",
+    "amiga:014EF2",
+    "amiga:014EF4",
+    "amiga:014EF6",
+    "amiga:014EFC",
+    "amiga:014F00",
+    "amiga:014F04",
+    "amiga:014F06",
+    "amiga:014F0A",
+    "amiga:014F10",
+    "amiga:014F12",
+    "amiga:014F14",
+    "amiga:014F16",
+    "amiga:014F1C",
+    "amiga:014F20",
+    "amiga:014F24",
+    "amiga:014F26",
+    "amiga:014F28",
+    "amiga:014F2A",
+    "amiga:014F2E",
+    "amiga:014F32",
+    "amiga:014F34",
+    "amiga:014F3C",
+    "amiga:014F3E",
     "amiga:0150E8",
     "amiga:0150EC",
     "amiga:0150F0",
@@ -708,6 +2189,7 @@
     "amiga:015108",
     "amiga:01510A",
     "amiga:01510C",
+    "amiga:01510E",
     "amiga:015110",
     "amiga:015116",
     "amiga:01511A",
@@ -809,59 +2291,347 @@
     "amiga:0152FC",
     "amiga:015300",
     "amiga:015304",
+    "amiga:015306",
+    "amiga:01530A",
+    "amiga:01530E",
     "amiga:015312",
+    "amiga:015314",
+    "amiga:01531A",
+    "amiga:01531E",
     "amiga:015322",
+    "amiga:015324",
+    "amiga:01532E",
+    "amiga:015334",
     "amiga:015338",
+    "amiga:01533A",
     "amiga:01533E",
+    "amiga:015344",
+    "amiga:01534A",
+    "amiga:0157D2",
+    "amiga:0157D6",
+    "amiga:0157DA",
+    "amiga:0157DC",
+    "amiga:0157E2",
+    "amiga:015B20",
+    "amiga:015B22",
+    "amiga:015B3A",
+    "amiga:015B3E",
+    "amiga:015B42",
+    "amiga:015B44",
+    "amiga:015B4A",
+    "amiga:015B4E",
+    "amiga:015B52",
+    "amiga:015B54",
+    "amiga:015B56",
+    "amiga:015B5C",
+    "amiga:015B60",
+    "amiga:015B8C",
+    "amiga:015B90",
+    "amiga:015B92",
+    "amiga:015B98",
+    "amiga:015B9E",
+    "amiga:015BA0",
+    "amiga:015BA6",
+    "amiga:015BAA",
+    "amiga:015BAC",
+    "amiga:015BAE",
+    "amiga:015BB0",
+    "amiga:015BB2",
+    "amiga:015BB4",
+    "amiga:015BB8",
+    "amiga:015BBC",
+    "amiga:015BC0",
+    "amiga:015BC2",
+    "amiga:015BE6",
+    "amiga:015BE8",
+    "amiga:015BEA",
+    "amiga:015BF0",
+    "amiga:015BF4",
+    "amiga:015BF8",
+    "amiga:015BFA",
+    "amiga:015C00",
+    "amiga:015C02",
+    "amiga:015C04",
+    "amiga:015C0A",
+    "amiga:015C0C",
+    "amiga:015C10",
+    "amiga:015C12",
+    "amiga:015C16",
+    "amiga:015C1A",
+    "amiga:015C1E",
+    "amiga:015C22",
+    "amiga:015C24",
+    "amiga:015C28",
+    "amiga:015C2E",
+    "amiga:015C32",
+    "amiga:015C36",
+    "amiga:015C3C",
+    "amiga:015C40",
+    "amiga:015C42",
+    "amiga:015C46",
+    "amiga:015C48",
+    "amiga:015C4A",
+    "amiga:015C4C",
+    "amiga:015C50",
+    "amiga:015C52",
+    "amiga:015C54",
+    "amiga:015C58",
+    "amiga:015C5A",
+    "amiga:015C5E",
+    "amiga:015C60",
+    "amiga:015C64",
+    "amiga:015C68",
+    "amiga:015C6A",
+    "amiga:015C6C",
+    "amiga:015C6E",
+    "amiga:015C74",
+    "amiga:015C76",
+    "amiga:015C78",
+    "amiga:015C7A",
+    "amiga:015C7C",
+    "amiga:015C7E",
+    "amiga:015C84",
+    "amiga:015C88",
+    "amiga:015C8A",
+    "amiga:015C8C",
+    "amiga:015C90",
+    "amiga:015C94",
+    "amiga:015C96",
+    "amiga:015C98",
+    "amiga:015C9C",
+    "amiga:015CA0",
+    "amiga:015CA6",
+    "amiga:015CA8",
+    "amiga:015CAC",
+    "amiga:015CB2",
+    "amiga:015CC6",
+    "amiga:015CC8",
+    "amiga:015CCC",
+    "amiga:015CCE",
+    "amiga:015CD0",
+    "amiga:015CD2",
+    "amiga:015CD6",
+    "amiga:015CDA",
+    "amiga:015CDE",
+    "amiga:015CE2",
+    "amiga:015CE4",
+    "amiga:015CE6",
+    "amiga:015CEA",
+    "amiga:015CEC",
+    "amiga:015CEE",
+    "amiga:015CF0",
+    "amiga:015CF4",
+    "amiga:015CF6",
+    "amiga:015CFA",
+    "amiga:015CFC",
+    "amiga:015CFE",
+    "amiga:015D02",
+    "amiga:015D08",
+    "amiga:015D0C",
+    "amiga:015D12",
+    "amiga:015D16",
+    "amiga:015D1A",
+    "amiga:015D1E",
+    "amiga:015D20",
+    "amiga:015D24",
+    "amiga:015D26",
+    "amiga:015D28",
+    "amiga:015D2A",
+    "amiga:015D2C",
+    "amiga:015D30",
+    "amiga:015D32",
+    "amiga:015D36",
+    "amiga:015D3A",
+    "amiga:015D3E",
+    "amiga:015D40",
+    "amiga:015D44",
+    "amiga:015D46",
+    "amiga:015D4A",
+    "amiga:015D4E",
+    "amiga:015D52",
+    "amiga:015D56",
+    "amiga:015D5A",
+    "amiga:015D5E",
+    "amiga:015D78",
+    "amiga:015D7C",
+    "amiga:015D98",
+    "amiga:015D9C",
+    "amiga:015DA4",
+    "amiga:015DA8",
+    "amiga:015DAC",
+    "amiga:015DB0",
+    "amiga:015DC6",
+    "amiga:015DCC",
+    "amiga:015DD0",
+    "amiga:015DD6",
+    "amiga:015DFE",
+    "amiga:015E02",
+    "amiga:015E06",
+    "amiga:015E0A",
+    "amiga:015E10",
+    "amiga:015E14",
+    "amiga:015E18",
+    "amiga:015E1E",
+    "amiga:015E22",
+    "amiga:015E24",
+    "amiga:015E2A",
+    "amiga:015E2E",
+    "amiga:015E34",
+    "amiga:015E38",
+    "amiga:015E3A",
+    "amiga:015E40",
+    "amiga:015E42",
+    "amiga:015E46",
+    "amiga:015E48",
+    "amiga:015E4C",
+    "amiga:015E4E",
+    "amiga:015E50",
+    "amiga:015E52",
+    "amiga:015E58",
+    "amiga:015E5A",
+    "amiga:015E5E",
+    "amiga:015E60",
+    "amiga:015E62",
+    "amiga:015E64",
+    "amiga:015E68",
+    "amiga:01704E",
+    "amiga:017052",
+    "amiga:017058",
+    "amiga:01705C",
+    "amiga:017060",
+    "amiga:017064",
+    "amiga:017068",
+    "amiga:01706C",
+    "amiga:017070",
+    "amiga:017072",
+    "amiga:017522",
+    "amiga:017526",
+    "amiga:01752A",
+    "amiga:01752E",
+    "amiga:017532",
+    "amiga:017538",
+    "amiga:01753E",
+    "amiga:017540",
+    "amiga:017542",
+    "amiga:017544",
+    "amiga:017546",
+    "amiga:017548",
+    "amiga:01754A",
+    "amiga:01754C",
+    "amiga:017550",
+    "amiga:017552",
+    "amiga:017554",
+    "amiga:017558",
+    "amiga:01755A",
+    "amiga:01755C",
+    "amiga:01755E",
+    "amiga:017560",
+    "amiga:017562",
+    "amiga:017568",
+    "amiga:01756C",
+    "amiga:017570",
+    "amiga:017572",
+    "amiga:017574",
+    "amiga:01757A",
+    "amiga:01757C",
+    "amiga:01757E",
+    "amiga:017580",
+    "amiga:017582",
+    "amiga:017586",
+    "amiga:01758A",
+    "amiga:01758C",
+    "amiga:01758E",
+    "amiga:017590",
+    "amiga:017592",
+    "amiga:017594",
+    "amiga:017596",
+    "amiga:017598",
+    "amiga:01759C",
+    "amiga:01759E",
+    "amiga:0175A0",
+    "amiga:0175A2",
+    "amiga:0175A4",
+    "amiga:0175A8",
+    "amiga:0175AC",
+    "amiga:0175B0",
+    "amiga:0175B2",
+    "amiga:0175B4",
+    "amiga:0175B6",
+    "amiga:0175BA",
+    "amiga:0175BE",
+    "amiga:0175C0",
+    "amiga:0175C4",
+    "amiga:0175C6",
+    "amiga:0175C8",
+    "amiga:0175CC",
+    "amiga:0175CE",
+    "amiga:0175D0",
+    "amiga:0175D2",
+    "amiga:0175D6",
+    "amiga:0175D8",
+    "amiga:0175DC",
+    "amiga:0175E0",
+    "amiga:0175E2",
+    "amiga:0175E4",
+    "amiga:0175E6",
+    "amiga:0175E8",
+    "amiga:0175EA",
+    "amiga:0175EC",
+    "amiga:0175EE",
+    "amiga:0175F0",
     "amiga:01798A",
     "amiga:01798E",
     "amiga:017992",
     "amiga:017994",
     "amiga:017996",
-    "amiga:01799A",
-    "amiga:01799C",
-    "amiga:01799E",
-    "amiga:0179A4",
-    "amiga:0179A8",
-    "amiga:0179AA",
-    "amiga:0179AC",
-    "amiga:0179AE",
-    "amiga:0179B0",
-    "amiga:0179B2",
-    "amiga:0179B4",
-    "amiga:0179BA",
-    "amiga:0179BE",
-    "amiga:0179C2",
-    "amiga:0179C4",
-    "amiga:0179C6",
-    "amiga:0179C8",
-    "amiga:0179CA",
-    "amiga:0179CE",
-    "amiga:0179D0",
-    "amiga:0179D2",
-    "amiga:0179D4",
-    "amiga:0179D6",
-    "amiga:0179DA",
-    "amiga:0179DC",
-    "amiga:0179DE",
-    "amiga:0179E0",
-    "amiga:0179E4",
-    "amiga:0179E8",
-    "amiga:0179EC",
-    "amiga:0179EE",
-    "amiga:0179F2",
-    "amiga:0179F4",
-    "amiga:0179F6",
-    "amiga:0179F8",
-    "amiga:0179FA",
-    "amiga:0179FC",
-    "amiga:017A00",
     "amiga:017AF0",
     "amiga:017AF4",
     "amiga:017AF6",
     "amiga:017AFA",
     "amiga:017AFC",
     "amiga:017AFE",
+    "amiga:017B00",
+    "amiga:017B04",
+    "amiga:017B06",
+    "amiga:017B08",
+    "amiga:017B0A",
+    "amiga:017B0C",
+    "amiga:017B0E",
+    "amiga:017B10",
+    "amiga:017B12",
+    "amiga:017B14",
+    "amiga:017B16",
+    "amiga:017B18",
+    "amiga:017B1A",
+    "amiga:017B1C",
+    "amiga:017B1E",
+    "amiga:017B22",
+    "amiga:017F9C",
+    "amiga:017FA0",
+    "amiga:017FA2",
+    "amiga:017FA4",
+    "amiga:017FA6",
+    "amiga:017FAA",
+    "amiga:017FAC",
+    "amiga:017FAE",
+    "amiga:017FB4",
+    "amiga:017FB6",
+    "amiga:017FB8",
+    "amiga:017FBA",
+    "amiga:017FBC",
+    "amiga:017FC0",
+    "amiga:017FC2",
+    "amiga:017FC4",
+    "amiga:017FC8",
+    "amiga:017FCA",
+    "amiga:017FCC",
+    "amiga:017FCE",
+    "amiga:017FD2",
+    "amiga:017FD4",
+    "amiga:017FD6",
+    "amiga:017FD8",
+    "amiga:017FDA",
+    "amiga:017FDC",
     "amiga:018044",
     "amiga:018048",
     "amiga:01804A",
@@ -870,9 +2640,14 @@
     "amiga:018050",
     "amiga:018052",
     "amiga:018054",
+    "amiga:01868C",
+    "amiga:018690",
+    "amiga:018694",
+    "amiga:018698",
     "amiga:0186A8",
     "amiga:0186AC",
     "amiga:0186B0",
+    "amiga:0186DC",
     "amiga:01876C",
     "amiga:018770",
     "amiga:018774",
@@ -896,6 +2671,10 @@
     "amiga:018A5E",
     "amiga:018A62",
     "amiga:018A66",
+    "amiga:018A8A",
+    "amiga:018A8E",
+    "amiga:018A94",
+    "amiga:018A98",
     "amiga:018AA8",
     "amiga:018AAC",
     "amiga:018AB2",
@@ -948,6 +2727,10 @@
     "amiga:018BCC",
     "amiga:018BD0",
     "amiga:018BD4",
+    "amiga:018C10",
+    "amiga:018C14",
+    "amiga:018C1A",
+    "amiga:018C1E",
     "amiga:018C66",
     "amiga:018C6A",
     "amiga:018C6E",
@@ -966,179 +2749,1159 @@
     "amiga:018CB0",
     "amiga:018CB4",
     "amiga:018CD0",
-    "amiga:018CD4"
+    "amiga:018CD4",
+    "amiga:018CD8",
+    "amiga:018CDE",
+    "amiga:018CE2",
+    "amiga:018CE8",
+    "amiga:018CF6",
+    "amiga:018CFC",
+    "amiga:018D00",
+    "amiga:018D06",
+    "amiga:018D0A",
+    "amiga:018D10",
+    "amiga:018D14",
+    "amiga:018D1A",
+    "amiga:018D1E",
+    "amiga:018D24",
+    "amiga:018D28",
+    "amiga:018D2E",
+    "amiga:018D32",
+    "amiga:018D36",
+    "amiga:018D38",
+    "amiga:018D3C",
+    "amiga:018D3E",
+    "amiga:018D42",
+    "amiga:018D46",
+    "amiga:018D48",
+    "amiga:018D4C",
+    "amiga:018D4E",
+    "amiga:018D5C",
+    "amiga:018D62",
+    "amiga:018D66",
+    "amiga:018D6A",
+    "amiga:018D6C",
+    "amiga:018D70",
+    "amiga:018D74",
+    "amiga:018D78",
+    "amiga:018D7C",
+    "amiga:018D80"
   ],
   "unresolved_successors": [],
   "unresolved_transfers": [
     {
-      "from": "amiga:010FF2",
+      "from": "amiga:0101C6",
       "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0102B4",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0102C2",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010332",
+      "owners": [],
+      "reason": "indirect-jump-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01034A",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010354",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01035A",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010364",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01036E",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01037C",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010386",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010394",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01039C",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0103A6",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0103AE",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0103B4",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0103DA",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0103F2",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01045C",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0104B2",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-jump-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0104B6",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0104C6",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0104DE",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0104EC",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0104F4",
+      "owners": [
+        "amiga:01033E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010502",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010526",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010534",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010542",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010554",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01058E",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0105AA",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0105BA",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0105D6",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0105E6",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010602",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01060E",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010618",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010628",
+      "owners": [
+        "amiga:0104FE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01064E",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010662",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010668",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01067E",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0106A6",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0106BA",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0106E2",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0106F6",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01071E",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0108BE",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0108F0",
+      "owners": [],
+      "reason": "indirect-jump-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0108F4",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010954",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010962",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0109D4",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0109F4",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010A38",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010A86",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010AB0",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010ACC",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010AE8",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010B08",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010B1A",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010B2E",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010B46",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010B58",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010B6C",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010B84",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010B96",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010BAA",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010BC2",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010BD4",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010BE8",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010BF0",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010BF4",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010C26",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010C36",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010C46",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010C60",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010C66",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010C6E",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010C9C",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010CA4",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010CCE",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010CD6",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010CE6",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010CF0",
+      "owners": [
+        "amiga:010A44"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010D6C",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010D96",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010DB2",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010DCE",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010DEA",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010E0A",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010E1C",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010E30",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010E48",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010E5A",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010E6E",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010E86",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010E98",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010EAC",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010EC4",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010ED6",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010EEA",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010EF2",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010EFA",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010F00",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010F04",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010F1E",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010F4E",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010F56",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010F80",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010F88",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010F98",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010FA6",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010FAC",
+      "owners": [
+        "amiga:010D36"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:010FF2",
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011002",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011048",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:01104C",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011076",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011092",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:0110B6",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:0110D4",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:0110F0",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011110",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011122",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011136",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:01114E",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011160",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011174",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:01118C",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:01119E",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:0111B2",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:0111CA",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:0111DC",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:0111F0",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:0111FC",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011202",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011206",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:01120E",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011214",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:01122A",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011232",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:01125C",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011264",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011274",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:01127E",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:011284",
-      "owners": [],
+      "owners": [
+        "amiga:010FDE"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
       "from": "amiga:01129E",
+      "owners": [
+        "amiga:010FDE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:011354",
       "owners": [],
       "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01135E",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01137E",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012940",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012976",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012990",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0129D8",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0129F2",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012A7A",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012ABA",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012ACE",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012AF8",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012B40",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012B54",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012B7E",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012BCE",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012BE2",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012C0C",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012C4C",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012C60",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012C8A",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012CD0",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:012CF4",
+      "owners": [],
+      "reason": "indirect-jump-requires-runtime-evidence"
     },
     {
       "from": "amiga:012E3C",
@@ -1188,7 +3951,29 @@
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
+      "from": "amiga:0132F6",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
       "from": "amiga:0133CE",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:013438",
+      "owners": [
+        "amiga:0133E6"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:013530",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0135D0",
       "owners": [],
       "reason": "indirect-call-requires-runtime-evidence"
     },
@@ -1231,7 +4016,9 @@
     },
     {
       "from": "amiga:013972",
-      "owners": [],
+      "owners": [
+        "amiga:013930"
+      ],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
@@ -1242,10 +4029,64 @@
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
+      "from": "amiga:013AF8",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:013B38",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:014158",
+      "owners": [
+        "amiga:01411E"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:014538",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01454A",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0146C4",
+      "owners": [
+        "amiga:014692"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
       "from": "amiga:0149AE",
       "owners": [
         "amiga:0149A0"
       ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:014D4A",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:014D94",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:014EBC",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:014F00",
+      "owners": [],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
@@ -1294,6 +4135,123 @@
       "owners": [
         "amiga:01702E"
       ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01729E",
+      "owners": [
+        "amiga:0170BE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0172B6",
+      "owners": [
+        "amiga:0170BE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0172CE",
+      "owners": [
+        "amiga:0170BE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0172E8",
+      "owners": [
+        "amiga:0170BE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0173AE",
+      "owners": [
+        "amiga:0170BE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0173BE",
+      "owners": [
+        "amiga:0170BE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0173D2",
+      "owners": [
+        "amiga:0170BE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0173EE",
+      "owners": [
+        "amiga:0170BE"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:017400",
+      "owners": [
+        "amiga:0173F6"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01741C",
+      "owners": [
+        "amiga:0173F6"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01745C",
+      "owners": [
+        "amiga:017430"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:017484",
+      "owners": [
+        "amiga:017430"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:017490",
+      "owners": [
+        "amiga:017430"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:01749C",
+      "owners": [
+        "amiga:017430"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0174CA",
+      "owners": [
+        "amiga:017430"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0174DA",
+      "owners": [
+        "amiga:017430"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:0175A8",
+      "owners": [],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
@@ -1381,6 +4339,60 @@
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
+      "from": "amiga:017E36",
+      "owners": [
+        "amiga:017C82"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:017ED0",
+      "owners": [
+        "amiga:017C82"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:017EEA",
+      "owners": [
+        "amiga:017C82"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:017F1E",
+      "owners": [
+        "amiga:017C82"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:017F56",
+      "owners": [
+        "amiga:017C82"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:017F7C",
+      "owners": [
+        "amiga:017C82"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:018524",
+      "owners": [
+        "amiga:01850A"
+      ],
+      "reason": "indirect-call-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:018698",
+      "owners": [],
+      "reason": "indirect-jump-requires-runtime-evidence"
+    },
+    {
       "from": "amiga:0186A4",
       "owners": [
         "amiga:01869C"
@@ -1424,6 +4436,13 @@
       "from": "amiga:018716",
       "owners": [
         "amiga:018708"
+      ],
+      "reason": "indirect-jump-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:018724",
+      "owners": [
+        "amiga:01871A"
       ],
       "reason": "indirect-jump-requires-runtime-evidence"
     },
@@ -1616,6 +4635,11 @@
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
+      "from": "amiga:018A98",
+      "owners": [],
+      "reason": "indirect-jump-requires-runtime-evidence"
+    },
+    {
       "from": "amiga:018AB6",
       "owners": [],
       "reason": "indirect-jump-requires-runtime-evidence"
@@ -1712,6 +4736,11 @@
       "reason": "indirect-jump-requires-runtime-evidence"
     },
     {
+      "from": "amiga:018C1E",
+      "owners": [],
+      "reason": "indirect-jump-requires-runtime-evidence"
+    },
+    {
       "from": "amiga:018C2C",
       "owners": [
         "amiga:018C22"
@@ -1756,6 +4785,11 @@
       "from": "amiga:018CD4",
       "owners": [],
       "reason": "indirect-jump-requires-runtime-evidence"
+    },
+    {
+      "from": "amiga:018D78",
+      "owners": [],
+      "reason": "indirect-call-requires-runtime-evidence"
     }
   ]
 }

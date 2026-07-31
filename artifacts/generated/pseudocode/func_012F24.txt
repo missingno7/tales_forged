@@ -2,8 +2,8 @@
 // This is not decompiled semantics or a source-port implementation.
 // boundary: amiga:012F24
 // evidence: fact: decoded direct call at amiga:01301E; observed: call-indirect in fe7e1b7456cb7865
-// recovered blocks: 36
-// replay calls: 330659
+// recovered blocks: 59
+// replay calls: 43
 // derived return form: rts
 // measured completed calls: none
 // ABI unknowns: clobbered_caller_visible, exit_flags, register_arguments, saved_and_restored, stack_arguments, stack_frame
@@ -29,11 +29,34 @@ blocks:
   amiga:012F6C
   amiga:012F70
   amiga:012F72
+  amiga:012F76
+  amiga:012F78
   amiga:012F7A
+  amiga:012F7E
+  amiga:012F80
+  amiga:012F84
+  amiga:012F88
+  amiga:012F8A
+  amiga:012F8C
+  amiga:012F8E
+  amiga:012F90
+  amiga:012F94
+  amiga:012F98
   amiga:012F9C
+  amiga:012FA0
+  amiga:012FA4
   amiga:012FA8
+  amiga:012FAA
+  amiga:012FAC
+  amiga:012FAE
+  amiga:012FB2
   amiga:012FB6
+  amiga:012FB8
+  amiga:012FBA
+  amiga:012FBC
   amiga:012FBE
+  amiga:012FC0
+  amiga:012FC4
   amiga:012FC8
   amiga:012FCA
   amiga:012FCC

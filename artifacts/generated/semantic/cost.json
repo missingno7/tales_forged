@@ -2,29 +2,29 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 330659,
-    "calls_incomplete_samples": 0,
-    "calls_measured": 16,
-    "calls_uncaptured": 330643,
+    "calls_from_graph": 1449,
+    "calls_incomplete_samples": 14,
+    "calls_measured": 2,
+    "calls_uncaptured": 1433,
     "cost_self": [
       {
-        "calls": 16,
+        "calls": 2,
         "cost": 9
       }
     ],
     "cost_total": [
       {
-        "calls": 16,
-        "cost": 19
+        "calls": 2,
+        "cost": 28
       }
     ],
-    "entry": "amiga:012FE2",
+    "entry": "amiga:012D66",
     "evidence_replays": [
       "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
     ],
-    "id": "amiga:012FE2",
-    "max": 19,
-    "min": 19,
+    "id": "amiga:012D66",
+    "max": 28,
+    "min": 28,
     "sample_limited": true,
     "shape": "constant",
     "shape_self": "constant",
@@ -33,10 +33,72 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 32,
+    "calls_from_graph": 86,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 16,
+    "calls_uncaptured": 70,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 47
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
+        "cost": 47
+      }
+    ],
+    "entry": "amiga:012EAC",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:012EAC",
+    "max": 47,
+    "min": 47,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 86,
+    "calls_incomplete_samples": 8,
+    "calls_measured": 8,
+    "calls_uncaptured": 70,
+    "cost_self": [
+      {
+        "calls": 8,
+        "cost": 26
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 8,
+        "cost": 61
+      }
+    ],
+    "entry": "amiga:012EE8",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:012EE8",
+    "max": 61,
+    "min": 61,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 544,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 528,
     "cost_self": [
       {
         "calls": 16,
@@ -63,20 +125,51 @@
   },
   {
     "calls_aborted": 0,
-    "calls_captured": 1,
-    "calls_from_graph": 1,
-    "calls_incomplete_samples": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 11560,
+    "calls_incomplete_samples": 15,
     "calls_measured": 1,
-    "calls_uncaptured": 0,
+    "calls_uncaptured": 11544,
     "cost_self": [
       {
         "calls": 1,
-        "cost": 90
+        "cost": 65
       }
     ],
     "cost_total": [
       {
         "calls": 1,
+        "cost": 200
+      }
+    ],
+    "entry": "amiga:0133E6",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0133E6",
+    "max": 200,
+    "min": 200,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 120,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 104,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 90
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
         "cost": 101
       }
     ],
@@ -87,6 +180,432 @@
     "id": "amiga:013870",
     "max": 101,
     "min": 101,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 330,
+    "calls_incomplete_samples": 2,
+    "calls_measured": 14,
+    "calls_uncaptured": 314,
+    "cost_self": [
+      {
+        "calls": 13,
+        "cost": 14
+      },
+      {
+        "calls": 1,
+        "cost": 34
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 13,
+        "cost": 21
+      },
+      {
+        "calls": 1,
+        "cost": 62
+      }
+    ],
+    "entry": "amiga:013930",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:013930",
+    "max": 62,
+    "min": 21,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 93,
+    "calls_incomplete_samples": 1,
+    "calls_measured": 15,
+    "calls_uncaptured": 77,
+    "cost_self": [
+      {
+        "calls": 15,
+        "cost": 21
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 1,
+        "cost": 9688
+      },
+      {
+        "calls": 1,
+        "cost": 25054
+      },
+      {
+        "calls": 1,
+        "cost": 25973
+      },
+      {
+        "calls": 1,
+        "cost": 28190
+      },
+      {
+        "calls": 1,
+        "cost": 28428
+      },
+      {
+        "calls": 1,
+        "cost": 29057
+      },
+      {
+        "calls": 1,
+        "cost": 29154
+      },
+      {
+        "calls": 1,
+        "cost": 29329
+      },
+      {
+        "calls": 1,
+        "cost": 29383
+      },
+      {
+        "calls": 1,
+        "cost": 29629
+      },
+      {
+        "calls": 1,
+        "cost": 30507
+      },
+      {
+        "calls": 1,
+        "cost": 30742
+      },
+      {
+        "calls": 1,
+        "cost": 30873
+      },
+      {
+        "calls": 1,
+        "cost": 31032
+      },
+      {
+        "calls": 1,
+        "cost": 31060
+      }
+    ],
+    "entry": "amiga:013C4C",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:013C4C",
+    "max": 31060,
+    "min": 9688,
+    "sample_limited": true,
+    "shape": "variable",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 10967,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 10951,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 55
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
+        "cost": 55
+      }
+    ],
+    "entry": "amiga:013E9C",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:013E9C",
+    "max": 55,
+    "min": 55,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 14138,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 14122,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 6
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
+        "cost": 6
+      }
+    ],
+    "entry": "amiga:014032",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:014032",
+    "max": 6,
+    "min": 6,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 109,
+    "calls_incomplete_samples": 13,
+    "calls_measured": 3,
+    "calls_uncaptured": 93,
+    "cost_self": [
+      {
+        "calls": 3,
+        "cost": 50
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 1,
+        "cost": 3860
+      },
+      {
+        "calls": 1,
+        "cost": 10413
+      },
+      {
+        "calls": 1,
+        "cost": 11015
+      }
+    ],
+    "entry": "amiga:01404A",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:01404A",
+    "max": 11015,
+    "min": 3860,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 281455,
+    "calls_incomplete_samples": 1,
+    "calls_measured": 15,
+    "calls_uncaptured": 281439,
+    "cost_self": [
+      {
+        "calls": 15,
+        "cost": 9
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 15,
+        "cost": 9
+      }
+    ],
+    "entry": "amiga:01411E",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:01411E",
+    "max": 9,
+    "min": 9,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 8,
+    "calls_from_graph": 8,
+    "calls_incomplete_samples": 6,
+    "calls_measured": 2,
+    "calls_uncaptured": 0,
+    "cost_self": [
+      {
+        "calls": 2,
+        "cost": 17
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 1,
+        "cost": 67350
+      },
+      {
+        "calls": 1,
+        "cost": 80677
+      }
+    ],
+    "entry": "amiga:014184",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:014184",
+    "max": 80677,
+    "min": 67350,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 11560,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 11544,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 15
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
+        "cost": 15
+      }
+    ],
+    "entry": "amiga:014692",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:014692",
+    "max": 15,
+    "min": 15,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 7,
+    "calls_from_graph": 7,
+    "calls_incomplete_samples": 1,
+    "calls_measured": 6,
+    "calls_uncaptured": 0,
+    "cost_self": [
+      {
+        "calls": 1,
+        "cost": 91151
+      },
+      {
+        "calls": 1,
+        "cost": 104318
+      },
+      {
+        "calls": 1,
+        "cost": 122197
+      },
+      {
+        "calls": 1,
+        "cost": 163511
+      },
+      {
+        "calls": 1,
+        "cost": 319463
+      },
+      {
+        "calls": 1,
+        "cost": 680426
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 1,
+        "cost": 91575
+      },
+      {
+        "calls": 1,
+        "cost": 104795
+      },
+      {
+        "calls": 1,
+        "cost": 122727
+      },
+      {
+        "calls": 1,
+        "cost": 164412
+      },
+      {
+        "calls": 1,
+        "cost": 320788
+      },
+      {
+        "calls": 1,
+        "cost": 683765
+      }
+    ],
+    "entry": "amiga:0146CE",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0146CE",
+    "max": 683765,
+    "min": 91575,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 2,
+    "calls_from_graph": 2,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 2,
+    "calls_uncaptured": 0,
+    "cost_self": [
+      {
+        "calls": 2,
+        "cost": 16751
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 2,
+        "cost": 16804
+      }
+    ],
+    "entry": "amiga:0148D4",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0148D4",
+    "max": 16804,
+    "min": 16804,
     "sample_limited": false,
     "shape": "constant",
     "shape_self": "constant",
@@ -94,20 +613,20 @@
   },
   {
     "calls_aborted": 0,
-    "calls_captured": 1,
-    "calls_from_graph": 1,
+    "calls_captured": 16,
+    "calls_from_graph": 41236,
     "calls_incomplete_samples": 0,
-    "calls_measured": 1,
-    "calls_uncaptured": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 41220,
     "cost_self": [
       {
-        "calls": 1,
+        "calls": 16,
         "cost": 8
       }
     ],
     "cost_total": [
       {
-        "calls": 1,
+        "calls": 16,
         "cost": 8
       }
     ],
@@ -118,7 +637,7 @@
     "id": "amiga:014F62",
     "max": 8,
     "min": 8,
-    "sample_limited": false,
+    "sample_limited": true,
     "shape": "constant",
     "shape_self": "constant",
     "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
@@ -127,8 +646,8 @@
     "calls_aborted": 0,
     "calls_captured": 16,
     "calls_from_graph": 32,
-    "calls_incomplete_samples": 6,
-    "calls_measured": 10,
+    "calls_incomplete_samples": 3,
+    "calls_measured": 13,
     "calls_uncaptured": 16,
     "cost_self": [
       {
@@ -138,6 +657,18 @@
       {
         "calls": 1,
         "cost": 16
+      },
+      {
+        "calls": 1,
+        "cost": 695
+      },
+      {
+        "calls": 1,
+        "cost": 719
+      },
+      {
+        "calls": 1,
+        "cost": 96655
       }
     ],
     "cost_total": [
@@ -148,6 +679,18 @@
       {
         "calls": 1,
         "cost": 16
+      },
+      {
+        "calls": 1,
+        "cost": 1327
+      },
+      {
+        "calls": 1,
+        "cost": 1406
+      },
+      {
+        "calls": 1,
+        "cost": 97199
       }
     ],
     "entry": "amiga:015064",
@@ -155,8 +698,500 @@
       "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
     ],
     "id": "amiga:015064",
-    "max": 16,
+    "max": 97199,
     "min": 14,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 7405,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 7389,
+    "cost_self": [
+      {
+        "calls": 13,
+        "cost": 3
+      },
+      {
+        "calls": 3,
+        "cost": 28
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 13,
+        "cost": 3
+      },
+      {
+        "calls": 1,
+        "cost": 32
+      },
+      {
+        "calls": 1,
+        "cost": 39
+      },
+      {
+        "calls": 1,
+        "cost": 42
+      }
+    ],
+    "entry": "amiga:01544C",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:01544C",
+    "max": 42,
+    "min": 3,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 1773,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 1757,
+    "cost_self": [
+      {
+        "calls": 9,
+        "cost": 10
+      },
+      {
+        "calls": 7,
+        "cost": 7
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 9,
+        "cost": 10
+      },
+      {
+        "calls": 7,
+        "cost": 7
+      }
+    ],
+    "entry": "amiga:0154B6",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0154B6",
+    "max": 10,
+    "min": 7,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 935,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 919,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 6
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 8,
+        "cost": 13
+      },
+      {
+        "calls": 8,
+        "cost": 16
+      }
+    ],
+    "entry": "amiga:015504",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:015504",
+    "max": 16,
+    "min": 13,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 747,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 731,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 4
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 8,
+        "cost": 11
+      },
+      {
+        "calls": 8,
+        "cost": 14
+      }
+    ],
+    "entry": "amiga:015514",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:015514",
+    "max": 14,
+    "min": 11,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 990,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 974,
+    "cost_self": [
+      {
+        "calls": 8,
+        "cost": 7
+      },
+      {
+        "calls": 7,
+        "cost": 8
+      },
+      {
+        "calls": 1,
+        "cost": 10
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 8,
+        "cost": 7
+      },
+      {
+        "calls": 7,
+        "cost": 18
+      },
+      {
+        "calls": 1,
+        "cost": 20
+      }
+    ],
+    "entry": "amiga:015520",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:015520",
+    "max": 20,
+    "min": 7,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 1164,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 1148,
+    "cost_self": [
+      {
+        "calls": 12,
+        "cost": 10
+      },
+      {
+        "calls": 4,
+        "cost": 15
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 12,
+        "cost": 10
+      },
+      {
+        "calls": 4,
+        "cost": 25
+      }
+    ],
+    "entry": "amiga:015542",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:015542",
+    "max": 25,
+    "min": 10,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 1234,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 1218,
+    "cost_self": [
+      {
+        "calls": 15,
+        "cost": 4
+      },
+      {
+        "calls": 1,
+        "cost": 14
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 15,
+        "cost": 4
+      },
+      {
+        "calls": 1,
+        "cost": 14
+      }
+    ],
+    "entry": "amiga:01557A",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:01557A",
+    "max": 14,
+    "min": 4,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 4042,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 4026,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 87
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
+        "cost": 87
+      }
+    ],
+    "entry": "amiga:01559E",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:01559E",
+    "max": 87,
+    "min": 87,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 203,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 187,
+    "cost_self": [
+      {
+        "calls": 10,
+        "cost": 7
+      },
+      {
+        "calls": 6,
+        "cost": 15
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 10,
+        "cost": 7
+      },
+      {
+        "calls": 6,
+        "cost": 15
+      }
+    ],
+    "entry": "amiga:0155D6",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0155D6",
+    "max": 15,
+    "min": 7,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 337,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 321,
+    "cost_self": [
+      {
+        "calls": 7,
+        "cost": 7
+      },
+      {
+        "calls": 5,
+        "cost": 17
+      },
+      {
+        "calls": 4,
+        "cost": 13
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 7,
+        "cost": 7
+      },
+      {
+        "calls": 5,
+        "cost": 17
+      },
+      {
+        "calls": 4,
+        "cost": 13
+      }
+    ],
+    "entry": "amiga:015646",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:015646",
+    "max": 17,
+    "min": 7,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 272,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 256,
+    "cost_self": [
+      {
+        "calls": 12,
+        "cost": 7
+      },
+      {
+        "calls": 2,
+        "cost": 13
+      },
+      {
+        "calls": 2,
+        "cost": 17
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 12,
+        "cost": 7
+      },
+      {
+        "calls": 2,
+        "cost": 13
+      },
+      {
+        "calls": 2,
+        "cost": 17
+      }
+    ],
+    "entry": "amiga:0156B6",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0156B6",
+    "max": 17,
+    "min": 7,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 151,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 135,
+    "cost_self": [
+      {
+        "calls": 8,
+        "cost": 7
+      },
+      {
+        "calls": 5,
+        "cost": 17
+      },
+      {
+        "calls": 3,
+        "cost": 13
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 8,
+        "cost": 7
+      },
+      {
+        "calls": 5,
+        "cost": 17
+      },
+      {
+        "calls": 3,
+        "cost": 13
+      }
+    ],
+    "entry": "amiga:015726",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:015726",
+    "max": 17,
+    "min": 7,
     "sample_limited": true,
     "shape": "few-valued",
     "shape_self": "few-valued",
@@ -197,13 +1232,17 @@
     "calls_aborted": 0,
     "calls_captured": 16,
     "calls_from_graph": 32,
-    "calls_incomplete_samples": 6,
-    "calls_measured": 10,
+    "calls_incomplete_samples": 4,
+    "calls_measured": 12,
     "calls_uncaptured": 16,
     "cost_self": [
       {
         "calls": 10,
         "cost": 8
+      },
+      {
+        "calls": 2,
+        "cost": 9
       }
     ],
     "cost_total": [
@@ -214,6 +1253,14 @@
       {
         "calls": 1,
         "cost": 26
+      },
+      {
+        "calls": 1,
+        "cost": 1338
+      },
+      {
+        "calls": 1,
+        "cost": 1417
       }
     ],
     "entry": "amiga:01579E",
@@ -221,11 +1268,11 @@
       "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
     ],
     "id": "amiga:01579E",
-    "max": 26,
+    "max": 1417,
     "min": 24,
     "sample_limited": true,
     "shape": "few-valued",
-    "shape_self": "constant",
+    "shape_self": "few-valued",
     "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
   },
   {
@@ -255,6 +1302,37 @@
     "max": 3,
     "min": 3,
     "sample_limited": false,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 51,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 35,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 34
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
+        "cost": 34
+      }
+    ],
+    "entry": "amiga:0157E4",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0157E4",
+    "max": 34,
+    "min": 34,
+    "sample_limited": true,
     "shape": "constant",
     "shape_self": "constant",
     "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
@@ -293,10 +1371,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 331005,
+    "calls_from_graph": 5847,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 330989,
+    "calls_uncaptured": 5831,
     "cost_self": [
       {
         "calls": 16,
@@ -324,10 +1402,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 331005,
+    "calls_from_graph": 5847,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 330989,
+    "calls_uncaptured": 5831,
     "cost_self": [
       {
         "calls": 16,
@@ -355,10 +1433,207 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 331005,
+    "calls_from_graph": 7405,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 330989,
+    "calls_uncaptured": 7389,
+    "cost_self": [
+      {
+        "calls": 5,
+        "cost": 12
+      },
+      {
+        "calls": 3,
+        "cost": 17
+      },
+      {
+        "calls": 3,
+        "cost": 18
+      },
+      {
+        "calls": 2,
+        "cost": 21
+      },
+      {
+        "calls": 2,
+        "cost": 26
+      },
+      {
+        "calls": 1,
+        "cost": 22
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 5,
+        "cost": 15
+      },
+      {
+        "calls": 3,
+        "cost": 20
+      },
+      {
+        "calls": 2,
+        "cost": 24
+      },
+      {
+        "calls": 1,
+        "cost": 29
+      },
+      {
+        "calls": 1,
+        "cost": 58
+      },
+      {
+        "calls": 1,
+        "cost": 144
+      },
+      {
+        "calls": 1,
+        "cost": 146
+      },
+      {
+        "calls": 1,
+        "cost": 237
+      },
+      {
+        "calls": 1,
+        "cost": 359
+      }
+    ],
+    "entry": "amiga:0158E6",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0158E6",
+    "max": 359,
+    "min": 15,
+    "sample_limited": true,
+    "shape": "variable",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 232,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 216,
+    "cost_self": [
+      {
+        "calls": 13,
+        "cost": 44
+      },
+      {
+        "calls": 3,
+        "cost": 46
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 13,
+        "cost": 44
+      },
+      {
+        "calls": 3,
+        "cost": 46
+      }
+    ],
+    "entry": "amiga:0159A4",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0159A4",
+    "max": 46,
+    "min": 44,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 1874,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 1858,
+    "cost_self": [
+      {
+        "calls": 6,
+        "cost": 20
+      },
+      {
+        "calls": 6,
+        "cost": 34
+      },
+      {
+        "calls": 1,
+        "cost": 121
+      },
+      {
+        "calls": 1,
+        "cost": 123
+      },
+      {
+        "calls": 1,
+        "cost": 133
+      },
+      {
+        "calls": 1,
+        "cost": 156
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 6,
+        "cost": 64
+      },
+      {
+        "calls": 3,
+        "cost": 78
+      },
+      {
+        "calls": 3,
+        "cost": 80
+      },
+      {
+        "calls": 1,
+        "cost": 121
+      },
+      {
+        "calls": 1,
+        "cost": 123
+      },
+      {
+        "calls": 1,
+        "cost": 177
+      },
+      {
+        "calls": 1,
+        "cost": 302
+      }
+    ],
+    "entry": "amiga:015A72",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:015A72",
+    "max": 302,
+    "min": 64,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 5847,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 5831,
     "cost_self": [
       {
         "calls": 16,
@@ -386,10 +1661,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 331005,
+    "calls_from_graph": 5847,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 330989,
+    "calls_uncaptured": 5831,
     "cost_self": [
       {
         "calls": 16,
@@ -417,10 +1692,10 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 331005,
+    "calls_from_graph": 5607,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 330989,
+    "calls_uncaptured": 5591,
     "cost_self": [
       {
         "calls": 16,
@@ -443,6 +1718,289 @@
     "sample_limited": true,
     "shape": "constant",
     "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 240,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 224,
+    "cost_self": [
+      {
+        "calls": 14,
+        "cost": 4
+      },
+      {
+        "calls": 1,
+        "cost": 34
+      },
+      {
+        "calls": 1,
+        "cost": 35
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 14,
+        "cost": 4
+      },
+      {
+        "calls": 1,
+        "cost": 34
+      },
+      {
+        "calls": 1,
+        "cost": 35
+      }
+    ],
+    "entry": "amiga:0161A0",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0161A0",
+    "max": 35,
+    "min": 4,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 3920,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 3904,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 13
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
+        "cost": 13
+      }
+    ],
+    "entry": "amiga:017074",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:017074",
+    "max": 13,
+    "min": 13,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 242,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 226,
+    "cost_self": [
+      {
+        "calls": 15,
+        "cost": 195
+      },
+      {
+        "calls": 1,
+        "cost": 98
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 2,
+        "cost": 924
+      },
+      {
+        "calls": 2,
+        "cost": 928
+      },
+      {
+        "calls": 1,
+        "cost": 472
+      },
+      {
+        "calls": 1,
+        "cost": 884
+      },
+      {
+        "calls": 1,
+        "cost": 903
+      },
+      {
+        "calls": 1,
+        "cost": 908
+      },
+      {
+        "calls": 1,
+        "cost": 912
+      },
+      {
+        "calls": 1,
+        "cost": 920
+      },
+      {
+        "calls": 1,
+        "cost": 922
+      },
+      {
+        "calls": 1,
+        "cost": 944
+      },
+      {
+        "calls": 1,
+        "cost": 952
+      },
+      {
+        "calls": 1,
+        "cost": 987
+      },
+      {
+        "calls": 1,
+        "cost": 1031
+      },
+      {
+        "calls": 1,
+        "cost": 1055
+      }
+    ],
+    "entry": "amiga:0170BE",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0170BE",
+    "max": 1055,
+    "min": 472,
+    "sample_limited": true,
+    "shape": "variable",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 594,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 578,
+    "cost_self": [
+      {
+        "calls": 11,
+        "cost": 19
+      },
+      {
+        "calls": 5,
+        "cost": 28
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 11,
+        "cost": 45
+      },
+      {
+        "calls": 5,
+        "cost": 67
+      }
+    ],
+    "entry": "amiga:0173F6",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0173F6",
+    "max": 67,
+    "min": 45,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 418,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 402,
+    "cost_self": [
+      {
+        "calls": 8,
+        "cost": 80
+      },
+      {
+        "calls": 8,
+        "cost": 107
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 2,
+        "cost": 238
+      },
+      {
+        "calls": 2,
+        "cost": 242
+      },
+      {
+        "calls": 2,
+        "cost": 246
+      },
+      {
+        "calls": 2,
+        "cost": 330
+      },
+      {
+        "calls": 1,
+        "cost": 234
+      },
+      {
+        "calls": 1,
+        "cost": 250
+      },
+      {
+        "calls": 1,
+        "cost": 313
+      },
+      {
+        "calls": 1,
+        "cost": 322
+      },
+      {
+        "calls": 1,
+        "cost": 326
+      },
+      {
+        "calls": 1,
+        "cost": 338
+      },
+      {
+        "calls": 1,
+        "cost": 350
+      },
+      {
+        "calls": 1,
+        "cost": 354
+      }
+    ],
+    "entry": "amiga:017430",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:017430",
+    "max": 354,
+    "min": 234,
+    "sample_limited": true,
+    "shape": "variable",
+    "shape_self": "few-valued",
     "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
   },
   {
@@ -509,29 +2067,68 @@
   },
   {
     "calls_aborted": 0,
-    "calls_captured": 2,
-    "calls_from_graph": 2,
+    "calls_captured": 1,
+    "calls_from_graph": 1,
     "calls_incomplete_samples": 0,
-    "calls_measured": 2,
+    "calls_measured": 1,
     "calls_uncaptured": 0,
     "cost_self": [
       {
         "calls": 1,
         "cost": 46
-      },
-      {
-        "calls": 1,
-        "cost": 52
       }
     ],
     "cost_total": [
       {
         "calls": 1,
-        "cost": 46
+        "cost": 98
+      }
+    ],
+    "entry": "amiga:017978",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:017978",
+    "max": 98,
+    "min": 98,
+    "sample_limited": false,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 12,
+    "calls_from_graph": 12,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 12,
+    "calls_uncaptured": 0,
+    "cost_self": [
+      {
+        "calls": 8,
+        "cost": 52
+      },
+      {
+        "calls": 3,
+        "cost": 58
       },
       {
         "calls": 1,
+        "cost": 46
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 8,
         "cost": 52
+      },
+      {
+        "calls": 3,
+        "cost": 58
+      },
+      {
+        "calls": 1,
+        "cost": 46
       }
     ],
     "entry": "amiga:017A02",
@@ -539,11 +2136,42 @@
       "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
     ],
     "id": "amiga:017A02",
-    "max": 52,
+    "max": 58,
     "min": 46,
     "sample_limited": false,
     "shape": "few-valued",
     "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 86,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 70,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 19
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
+        "cost": 19
+      }
+    ],
+    "entry": "amiga:017A6C",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:017A6C",
+    "max": 19,
+    "min": 19,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
     "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
   },
   {
@@ -579,20 +2207,121 @@
   },
   {
     "calls_aborted": 0,
-    "calls_captured": 7,
-    "calls_from_graph": 7,
+    "calls_captured": 16,
+    "calls_from_graph": 50,
     "calls_incomplete_samples": 0,
-    "calls_measured": 7,
-    "calls_uncaptured": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 34,
     "cost_self": [
       {
-        "calls": 7,
+        "calls": 16,
+        "cost": 28
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
+        "cost": 28
+      }
+    ],
+    "entry": "amiga:017AC0",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:017AC0",
+    "max": 28,
+    "min": 28,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 4467,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 4451,
+    "cost_self": [
+      {
+        "calls": 16,
+        "cost": 19
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 16,
+        "cost": 19
+      }
+    ],
+    "entry": "amiga:017FF4",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:017FF4",
+    "max": 19,
+    "min": 19,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 4398,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 4382,
+    "cost_self": [
+      {
+        "calls": 15,
+        "cost": 26
+      },
+      {
+        "calls": 1,
+        "cost": 19
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 15,
+        "cost": 26
+      },
+      {
+        "calls": 1,
+        "cost": 19
+      }
+    ],
+    "entry": "amiga:0186F6",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0186F6",
+    "max": 26,
+    "min": 19,
+    "sample_limited": true,
+    "shape": "few-valued",
+    "shape_self": "few-valued",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 11918,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 11902,
+    "cost_self": [
+      {
+        "calls": 16,
         "cost": 11
       }
     ],
     "cost_total": [
       {
-        "calls": 7,
+        "calls": 16,
         "cost": 11
       }
     ],
@@ -603,7 +2332,7 @@
     "id": "amiga:01875C",
     "max": 11,
     "min": 11,
-    "sample_limited": false,
+    "sample_limited": true,
     "shape": "constant",
     "shape_self": "constant",
     "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
@@ -672,20 +2401,20 @@
   },
   {
     "calls_aborted": 0,
-    "calls_captured": 1,
-    "calls_from_graph": 1,
+    "calls_captured": 16,
+    "calls_from_graph": 11891,
     "calls_incomplete_samples": 0,
-    "calls_measured": 1,
-    "calls_uncaptured": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 11875,
     "cost_self": [
       {
-        "calls": 1,
+        "calls": 16,
         "cost": 7
       }
     ],
     "cost_total": [
       {
-        "calls": 1,
+        "calls": 16,
         "cost": 7
       }
     ],
@@ -696,7 +2425,7 @@
     "id": "amiga:018938",
     "max": 7,
     "min": 7,
-    "sample_limited": false,
+    "sample_limited": true,
     "shape": "constant",
     "shape_self": "constant",
     "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
@@ -735,10 +2464,41 @@
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 330660,
+    "calls_from_graph": 59,
+    "calls_incomplete_samples": 13,
+    "calls_measured": 3,
+    "calls_uncaptured": 43,
+    "cost_self": [
+      {
+        "calls": 3,
+        "cost": 26
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 3,
+        "cost": 35
+      }
+    ],
+    "entry": "amiga:018970",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:018970",
+    "max": 35,
+    "min": 35,
+    "sample_limited": true,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 44,
     "calls_incomplete_samples": 0,
     "calls_measured": 16,
-    "calls_uncaptured": 330644,
+    "calls_uncaptured": 28,
     "cost_self": [
       {
         "calls": 16,
@@ -765,21 +2525,60 @@
   },
   {
     "calls_aborted": 0,
-    "calls_captured": 16,
-    "calls_from_graph": 330675,
+    "calls_captured": 1,
+    "calls_from_graph": 1,
     "calls_incomplete_samples": 0,
-    "calls_measured": 16,
-    "calls_uncaptured": 330659,
+    "calls_measured": 1,
+    "calls_uncaptured": 0,
     "cost_self": [
       {
-        "calls": 16,
-        "cost": 5
+        "calls": 1,
+        "cost": 15
       }
     ],
     "cost_total": [
       {
-        "calls": 16,
+        "calls": 1,
+        "cost": 15
+      }
+    ],
+    "entry": "amiga:0189D4",
+    "evidence_replays": [
+      "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+    ],
+    "id": "amiga:0189D4",
+    "max": 15,
+    "min": 15,
+    "sample_limited": false,
+    "shape": "constant",
+    "shape_self": "constant",
+    "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
+  },
+  {
+    "calls_aborted": 0,
+    "calls_captured": 16,
+    "calls_from_graph": 59,
+    "calls_incomplete_samples": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 43,
+    "cost_self": [
+      {
+        "calls": 13,
         "cost": 5
+      },
+      {
+        "calls": 3,
+        "cost": 9
+      }
+    ],
+    "cost_total": [
+      {
+        "calls": 13,
+        "cost": 5
+      },
+      {
+        "calls": 3,
+        "cost": 9
       }
     ],
     "entry": "amiga:0189E4",
@@ -787,30 +2586,38 @@
       "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
     ],
     "id": "amiga:0189E4",
-    "max": 5,
+    "max": 9,
     "min": 5,
     "sample_limited": true,
-    "shape": "constant",
-    "shape_self": "constant",
+    "shape": "few-valued",
+    "shape_self": "few-valued",
     "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
   },
   {
     "calls_aborted": 0,
     "calls_captured": 16,
-    "calls_from_graph": 330659,
-    "calls_incomplete_samples": 0,
-    "calls_measured": 16,
-    "calls_uncaptured": 330643,
+    "calls_from_graph": 129,
+    "calls_incomplete_samples": 6,
+    "calls_measured": 10,
+    "calls_uncaptured": 113,
     "cost_self": [
       {
-        "calls": 16,
+        "calls": 5,
         "cost": 10
+      },
+      {
+        "calls": 5,
+        "cost": 18
       }
     ],
     "cost_total": [
       {
-        "calls": 16,
+        "calls": 5,
         "cost": 10
+      },
+      {
+        "calls": 5,
+        "cost": 79
       }
     ],
     "entry": "amiga:018A06",
@@ -818,29 +2625,29 @@
       "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
     ],
     "id": "amiga:018A06",
-    "max": 10,
+    "max": 79,
     "min": 10,
     "sample_limited": true,
-    "shape": "constant",
-    "shape_self": "constant",
+    "shape": "few-valued",
+    "shape_self": "few-valued",
     "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
   },
   {
     "calls_aborted": 0,
-    "calls_captured": 3,
-    "calls_from_graph": 3,
+    "calls_captured": 16,
+    "calls_from_graph": 3315,
     "calls_incomplete_samples": 0,
-    "calls_measured": 3,
-    "calls_uncaptured": 0,
+    "calls_measured": 16,
+    "calls_uncaptured": 3299,
     "cost_self": [
       {
-        "calls": 3,
+        "calls": 16,
         "cost": 8
       }
     ],
     "cost_total": [
       {
-        "calls": 3,
+        "calls": 16,
         "cost": 8
       }
     ],
@@ -851,7 +2658,7 @@
     "id": "amiga:018BEA",
     "max": 8,
     "min": 8,
-    "sample_limited": false,
+    "sample_limited": true,
     "shape": "constant",
     "shape_self": "constant",
     "status": "fact: measured completed captured occurrences only; incomplete and uncaptured calls are reported separately"
