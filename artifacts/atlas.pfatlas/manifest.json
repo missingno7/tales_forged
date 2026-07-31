@@ -2,15 +2,15 @@
   "format": "pf-atlas-v1",
   "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
   "sources": {
-    "evidence-amiga-oracle-0551ceab3ac00a8c": {
+    "evidence-amiga-oracle-fe7e1b7456cb7865": {
       "kind": "replay-evidence",
       "origin": "portforge",
-      "sha256": "0296ab12f8449a1391a0f331e06fd3bb08e92c4f994cb1e6ae187be2b1e589a5"
+      "sha256": "27481a8b5a032217ca7e9783e9c1cbd31ca8a149c02b293cb85c9514c6651f2c"
     },
     "recovery-blocks": {
       "kind": "recovered-blocks",
       "origin": "recovery",
-      "sha256": "72423cc73206f764ee6e2441e509003d651a79795c0ef9032f1147fae4604c77"
+      "sha256": "24b0d9596925ffb8d78c11223eb985a78016d7af848b6893bfb7e5490499ee0b"
     }
   }
 }

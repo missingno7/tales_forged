@@ -86,7 +86,7 @@ def project_inputs() -> tuple[dict[str, Any], Path, Path, Path, int]:
         )
     disk1 = ROOT / "assets" / game["program"]["file"]
     disk2 = ROOT / "assets" / game["companion_assets"]["disk2"]["file"]
-    replay = ROOT / "artifacts" / "replays" / "cold5.pfreplay.json"
+    replay = ROOT / "artifacts" / "replays" / "cold5-v3.pfreplay.json"
     verification = profile.get("verification", {})
     steps = verification.get("generated_replay_instruction_budget", 50_000_000)
     if not isinstance(steps, int) or steps < 1:
@@ -168,7 +168,7 @@ def generate_sources() -> None:
             "--expect-hunk-sha256",
             game["program"]["hunk_sha256"],
             "--expect-machine-model",
-            "pf-amiga-a500-ocs-pal-v1",
+            "pf-amiga-a500-ocs-pal-v3",
         ],
         cwd=ROOT,
     )

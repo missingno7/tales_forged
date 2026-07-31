@@ -17,17 +17,17 @@
   },
   "corpora": {
     "recovery": [
-      "cold5.pfreplay.json"
+      "cold5-v3.pfreplay.json"
     ],
     "generated-baseline": [
-      "cold5.pfreplay.json"
+      "cold5-v3.pfreplay.json"
     ]
   },
   "known_gaps": [
     {
       "severity": "risk",
       "scope": "amiga-hardware",
-      "summary": "Copper execution and complete ViewPort/palette synthesis are not yet modeled; later story frames can render incompletely even though title and difficulty screens are correct.",
+      "summary": "Merged Copper lists execute, but mid-scanline palette/bitplane changes, sprite composition, and blitter line-mode DMA remain incomplete and can affect later frames.",
       "evidence": "README.md"
     },
     {

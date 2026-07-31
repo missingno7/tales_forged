@@ -35,13 +35,13 @@ class PlayAdapterTests(unittest.TestCase):
             "--steps",
             "100",
             "--replay-inputs",
-            "cold5",
+            "cold5-v3",
         )
         self.assertEqual(result.returncode, 0, result.stderr)
         command = result.stdout.splitlines()[-1]
         self.assertIn("pf_amiga_run.exe", command)
         self.assertIn(" --oracle ", command)
-        self.assertIn("cold5.pfreplay.json", command)
+        self.assertIn("cold5-v3.pfreplay.json", command)
 
     def test_forwarded_viewer_option_does_not_force_headless(self) -> None:
         result = dry_run("--runtime", "oracle", "--", "--mute")
@@ -79,7 +79,7 @@ class PlayAdapterTests(unittest.TestCase):
             "--steps",
             "100",
             "--replay-inputs",
-            "cold5",
+            "cold5-v3",
         )
         self.assertEqual(headless.returncode, 0, headless.stderr)
         command = headless.stdout.splitlines()[-1]

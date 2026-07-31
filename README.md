@@ -29,9 +29,10 @@ planar operations, and the block-mode OCS blitter used for moving objects and
 animations. Paula DMA audio is mixed deterministically, and Exec
 `SetIntVector` audio handlers now advance/finish sample streams instead of
 looping the last buffer and blocking foreground gameplay. Title and difficulty
-screens render correctly, and blank back buffers are no longer presented
-during page flips. Copper execution, blitter line mode, later palette
-fidelity, full gameplay, and disk-2 progression have not yet been fully
+screens render correctly, blank back buffers are no longer presented during
+page flips, and graphics.library merged Copper lists execute from their real
+instruction stream. Mid-scanline palette changes, sprite composition, blitter
+line mode, full gameplay, and disk-2 progression have not yet been fully
 verified.
 
 Deterministic replay and Atlas workflows use the same launcher:
@@ -48,7 +49,12 @@ Headless execution writes the run report, rendered PPM frame, and execution
 evidence under `artifacts/amiga`. It restores a complete continuation and
 requires the second run to match the first run's status, diagnostic, and
 canonical state digest. Replays are bound to the pinned disk-1 SHA-256 and the
-`a500-ocs-pal` machine profile. F12 snapshots are stored under
+`pf-amiga-a500-ocs-pal-v3` machine profile. Recordings and snapshots from the
+older cold-reset profile are intentionally rejected rather than relabeled,
+because v3 models the display DMA and system-Copper state inherited from
+AmigaDOS. The curated `cold5-v3` journal is an explicitly retimed migration
+of the legacy PAL-v1 input timeline and is accepted as recovery authority only
+after full oracle replay and canonical-rerun equality. F12 snapshots are stored under
 `artifacts/snapshots` as `.pfamigasnapshot` files and can be resumed with the
 same launcher. The pinned, call-ordered legacy-vector map in `game.json`
 migrates only snapshot formats created before PortForge persisted exclusive
@@ -91,7 +97,7 @@ unknown until the M68000 decoder has a read/write micro-op model; no empty
 field is used to imply that an unknown effect does not exist.
 
 The generated runtime is built and verified through the complete curated
-`cold5` replay with:
+`cold5-v3` replay with:
 
 ```powershell
 python scripts\build_generated.py

@@ -48,254 +48,15 @@
   },
   {
     "blocks": [
-      "amiga:010A44",
-      "amiga:010A84",
-      "amiga:010A8A",
-      "amiga:010AB4",
-      "amiga:010AD0",
-      "amiga:010AEC",
-      "amiga:010B0C",
-      "amiga:010B1E",
-      "amiga:010B32",
-      "amiga:010B4A",
-      "amiga:010B5C",
-      "amiga:010B70",
-      "amiga:010B88",
-      "amiga:010B9A",
-      "amiga:010BAE",
-      "amiga:010BC6",
-      "amiga:010BD8",
-      "amiga:010BEC",
-      "amiga:010BF4",
-      "amiga:010BF8",
-      "amiga:010BFC",
-      "amiga:010C04",
-      "amiga:010C0C",
-      "amiga:010C14",
-      "amiga:010C1C",
-      "amiga:010C24",
-      "amiga:010C26",
-      "amiga:010C2A",
-      "amiga:010C30",
-      "amiga:010C36",
-      "amiga:010C3A",
-      "amiga:010C4A",
-      "amiga:010C54",
-      "amiga:010C64",
-      "amiga:010C6A",
-      "amiga:010C72",
-      "amiga:010C76",
-      "amiga:010CA0",
-      "amiga:010CA8",
-      "amiga:010CD2",
-      "amiga:010CDA",
-      "amiga:010CEA",
-      "amiga:010CEC",
-      "amiga:010CF4"
-    ],
-    "callees": [
-      "amiga:010FDE",
-      "amiga:013A6E"
-    ],
-    "callers": [],
-    "entry": "amiga:010A44",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:014442"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:010A44",
-    "replay_call_kinds": [],
-    "replay_calls": 0,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:010D36",
-      "amiga:010D6A",
-      "amiga:010D70",
-      "amiga:010D9A",
-      "amiga:010DB6",
-      "amiga:010DD2",
-      "amiga:010DEE",
-      "amiga:010E0E",
-      "amiga:010E20",
-      "amiga:010E34",
-      "amiga:010E4C",
-      "amiga:010E5E",
-      "amiga:010E72",
-      "amiga:010E8A",
-      "amiga:010E9C",
-      "amiga:010EB0",
-      "amiga:010EC8",
-      "amiga:010EDA",
-      "amiga:010EEE",
-      "amiga:010EF6",
-      "amiga:010EFE",
-      "amiga:010F04",
-      "amiga:010F08",
-      "amiga:010F0C",
-      "amiga:010F14",
-      "amiga:010F1C",
-      "amiga:010F1E",
-      "amiga:010F22",
-      "amiga:010F28",
-      "amiga:010F52",
-      "amiga:010F5A",
-      "amiga:010F84",
-      "amiga:010F8C",
-      "amiga:010F9C",
-      "amiga:010FAA",
-      "amiga:010FB0"
-    ],
-    "callees": [
-      "amiga:013A6E"
-    ],
-    "callers": [],
-    "entry": "amiga:010D36",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:014510"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:010D36",
-    "replay_call_kinds": [],
-    "replay_calls": 0,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:010FDE",
-      "amiga:010FE2",
-      "amiga:010FE8",
-      "amiga:010FEA",
-      "amiga:010FEE",
-      "amiga:010FF2",
-      "amiga:010FF6",
-      "amiga:010FF8",
-      "amiga:010FFA",
-      "amiga:011006",
-      "amiga:011008",
-      "amiga:01100C",
-      "amiga:011010",
-      "amiga:011012",
-      "amiga:011014",
-      "amiga:011018",
-      "amiga:011046",
-      "amiga:01104C",
-      "amiga:011050",
-      "amiga:01107A",
-      "amiga:011096",
-      "amiga:0110A2",
-      "amiga:0110BA",
-      "amiga:0110C0",
-      "amiga:0110D8",
-      "amiga:0110DC",
-      "amiga:0110F4",
-      "amiga:011114",
-      "amiga:011126",
-      "amiga:01113A",
-      "amiga:011152",
-      "amiga:011164",
-      "amiga:011178",
-      "amiga:011190",
-      "amiga:0111A2",
-      "amiga:0111B6",
-      "amiga:0111CE",
-      "amiga:0111E0",
-      "amiga:0111F4",
-      "amiga:011200",
-      "amiga:011206",
-      "amiga:01120A",
-      "amiga:011212",
-      "amiga:011218",
-      "amiga:011220",
-      "amiga:011226",
-      "amiga:01122E",
-      "amiga:011232",
-      "amiga:011236",
-      "amiga:011260",
-      "amiga:011268",
-      "amiga:011278",
-      "amiga:011282",
-      "amiga:011288",
-      "amiga:01128C",
-      "amiga:01128E",
-      "amiga:011294",
-      "amiga:011296",
-      "amiga:0112A2",
-      "amiga:0112AE",
-      "amiga:0112B0"
-    ],
-    "callees": [
-      "amiga:013008",
-      "amiga:013A6E"
-    ],
-    "callers": [
-      "amiga:010A44"
-    ],
-    "entry": "amiga:010FDE",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:010658",
-      "fact: decoded direct call at amiga:010C50",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:010FDE",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 3,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
       "amiga:01287C",
-      "amiga:012880",
-      "amiga:012884",
-      "amiga:012886",
-      "amiga:012888",
-      "amiga:01288E",
-      "amiga:012894",
-      "amiga:012898",
-      "amiga:01289C",
-      "amiga:0128A0",
       "amiga:0128A4",
-      "amiga:0128A8",
-      "amiga:0128AE",
-      "amiga:0128B2",
       "amiga:0128B6",
-      "amiga:0128B8",
-      "amiga:0128BE",
-      "amiga:0128C2",
       "amiga:0128C6",
-      "amiga:0128C8",
-      "amiga:0128CE",
-      "amiga:0128D2",
       "amiga:0128D6",
-      "amiga:0128D8",
-      "amiga:0128DE",
-      "amiga:0128E2",
       "amiga:0128E6",
-      "amiga:0128E8",
-      "amiga:0128EE",
-      "amiga:0128F2",
       "amiga:0128F6",
-      "amiga:0128F8",
-      "amiga:0128FE",
-      "amiga:012902",
       "amiga:012906",
-      "amiga:012908",
-      "amiga:01290E",
-      "amiga:012912",
-      "amiga:012916",
-      "amiga:012918",
-      "amiga:01291A",
-      "amiga:01291C"
+      "amiga:012916"
     ],
     "callees": [
       "amiga:012D66",
@@ -307,47 +68,24 @@
     ],
     "entry": "amiga:01287C",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:01292C",
       "fact: decoded direct call at amiga:0149E0",
       "fact: decoded direct call at amiga:014A4A",
-      "fact: decoded direct call at amiga:014AAC",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:014AAC"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:01287C",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 220,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:012D66",
-      "amiga:012D6A",
-      "amiga:012D6E",
-      "amiga:012D72",
-      "amiga:012D76",
-      "amiga:012D7A",
-      "amiga:012D7E",
-      "amiga:012D82",
-      "amiga:012D88",
-      "amiga:012D8E",
-      "amiga:012D92",
-      "amiga:012D96",
-      "amiga:012D9A",
-      "amiga:012D9E",
-      "amiga:012DA2",
-      "amiga:012DA6",
-      "amiga:012DAC",
-      "amiga:012DB0",
-      "amiga:012DB6",
-      "amiga:012DB8"
+      "amiga:012D7A"
     ],
     "callees": [
-      "amiga:01615E",
       "amiga:0186F6"
     ],
     "callers": [
@@ -355,57 +93,27 @@
     ],
     "entry": "amiga:012D66",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:012834",
       "fact: decoded direct call at amiga:0128C2",
       "fact: decoded direct call at amiga:0128D2",
       "fact: decoded direct call at amiga:0128E2",
       "fact: decoded direct call at amiga:0128F2",
       "fact: decoded direct call at amiga:012902",
-      "fact: decoded direct call at amiga:012912",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:012912"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:012D66",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 1357,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:012DBA",
-      "amiga:012DBE",
-      "amiga:012DC2",
-      "amiga:012DC6",
-      "amiga:012DCA",
-      "amiga:012DCE",
-      "amiga:012DD2",
-      "amiga:012DD6",
-      "amiga:012DDC",
-      "amiga:012DE2",
-      "amiga:012DE6",
-      "amiga:012DEA",
-      "amiga:012DEE",
-      "amiga:012DF2",
-      "amiga:012DF6",
-      "amiga:012DFA",
-      "amiga:012E00",
-      "amiga:012E04",
-      "amiga:012E0A",
-      "amiga:012E0E",
-      "amiga:012E12",
-      "amiga:012E18",
-      "amiga:012E1C",
-      "amiga:012E22",
-      "amiga:012E26",
-      "amiga:012E2C",
-      "amiga:012E2E"
+      "amiga:012DCE"
     ],
     "callees": [
-      "amiga:01615E",
       "amiga:0186F6"
     ],
     "callers": [
@@ -413,64 +121,31 @@
     ],
     "entry": "amiga:012DBA",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:012864",
-      "fact: decoded direct call at amiga:0128B2",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:0128B2"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:012DBA",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 2100,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:012E30",
-      "amiga:012E34",
-      "amiga:012E38",
-      "amiga:012E3C",
       "amiga:012E40",
-      "amiga:012E42",
-      "amiga:012E44",
       "amiga:012E46",
-      "amiga:012E4A",
       "amiga:012E4E",
-      "amiga:012E50",
-      "amiga:012E52",
-      "amiga:012E54",
       "amiga:012E56",
       "amiga:012E58",
-      "amiga:012E5A",
-      "amiga:012E5C",
-      "amiga:012E62",
-      "amiga:012E64",
-      "amiga:012E68",
       "amiga:012E6C",
-      "amiga:012E6E",
-      "amiga:012E70",
-      "amiga:012E72",
       "amiga:012E74",
       "amiga:012E76",
-      "amiga:012E7A",
-      "amiga:012E7C",
       "amiga:012E7E",
-      "amiga:012E80",
-      "amiga:012E82",
       "amiga:012E84",
-      "amiga:012E86",
-      "amiga:012E8C",
-      "amiga:012E90",
-      "amiga:012E92",
       "amiga:012E96",
-      "amiga:012E98",
-      "amiga:012E9C",
-      "amiga:012EA2",
-      "amiga:012EA8",
-      "amiga:012EAA"
+      "amiga:012E9C"
     ],
     "callees": [],
     "callers": [
@@ -478,44 +153,22 @@
     ],
     "entry": "amiga:012E30",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:012FB2",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:012FB2"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
     "id": "amiga:012E30",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 72,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:012EAC",
-      "amiga:012EB0",
-      "amiga:012EB4",
-      "amiga:012EB8",
-      "amiga:012EBA",
-      "amiga:012EBC",
       "amiga:012EBE",
-      "amiga:012EC0",
-      "amiga:012EC2",
-      "amiga:012EC4",
-      "amiga:012EC6",
-      "amiga:012EC8",
-      "amiga:012ECA",
-      "amiga:012ECC",
-      "amiga:012ED2",
       "amiga:012ED4",
-      "amiga:012ED6",
-      "amiga:012ED8",
-      "amiga:012EDA",
-      "amiga:012EDC",
-      "amiga:012EE0",
-      "amiga:012EE4",
-      "amiga:012EE6"
+      "amiga:012ED8"
     ],
     "callees": [],
     "callers": [
@@ -523,62 +176,38 @@
     ],
     "entry": "amiga:012EAC",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:012FA4",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:012FA4"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:012EAC",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 72,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:012EE8",
-      "amiga:012EEC",
-      "amiga:012EEE",
-      "amiga:012EF0",
-      "amiga:012EF4",
-      "amiga:012EF8",
       "amiga:012EFA",
-      "amiga:012EFE",
-      "amiga:012F02",
       "amiga:012F06",
-      "amiga:012F08",
-      "amiga:012F0A",
-      "amiga:012F0C",
       "amiga:012F0E",
       "amiga:012F10",
-      "amiga:012F12",
-      "amiga:012F14",
-      "amiga:012F18",
-      "amiga:012F1C",
-      "amiga:012F1E",
-      "amiga:012F20",
-      "amiga:012F22"
+      "amiga:012F1C"
     ],
-    "callees": [
-      "amiga:01615E"
-    ],
+    "callees": [],
     "callers": [
       "amiga:012FE2"
     ],
     "entry": "amiga:012EE8",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:012FFA",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:012FFA"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
     "id": "amiga:012EE8",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 72,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -604,34 +233,11 @@
       "amiga:012F6C",
       "amiga:012F70",
       "amiga:012F72",
-      "amiga:012F76",
-      "amiga:012F78",
       "amiga:012F7A",
-      "amiga:012F7E",
-      "amiga:012F80",
-      "amiga:012F84",
-      "amiga:012F88",
-      "amiga:012F8A",
-      "amiga:012F8C",
-      "amiga:012F8E",
-      "amiga:012F90",
-      "amiga:012F94",
-      "amiga:012F98",
       "amiga:012F9C",
-      "amiga:012FA0",
-      "amiga:012FA4",
       "amiga:012FA8",
-      "amiga:012FAA",
-      "amiga:012FAC",
-      "amiga:012FAE",
-      "amiga:012FB2",
       "amiga:012FB6",
-      "amiga:012FB8",
-      "amiga:012FBA",
-      "amiga:012FBC",
       "amiga:012FBE",
-      "amiga:012FC0",
-      "amiga:012FC4",
       "amiga:012FC8",
       "amiga:012FCA",
       "amiga:012FCC",
@@ -647,6 +253,7 @@
     "callees": [
       "amiga:012E30",
       "amiga:012EAC",
+      "amiga:01615E",
       "amiga:017A6C",
       "amiga:018736",
       "amiga:018970",
@@ -658,7 +265,7 @@
     "entry": "amiga:012F24",
     "entry_evidence": [
       "fact: decoded direct call at amiga:01301E",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -666,7 +273,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 36,
+    "replay_calls": 330659,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -681,9 +288,7 @@
       "amiga:012FF4",
       "amiga:012FF6",
       "amiga:012FF8",
-      "amiga:012FFA",
       "amiga:012FFE",
-      "amiga:013000",
       "amiga:013002",
       "amiga:013004",
       "amiga:013006"
@@ -698,7 +303,7 @@
     "entry": "amiga:012FE2",
     "entry_evidence": [
       "fact: decoded direct call at amiga:01306C",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -706,7 +311,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 36,
+    "replay_calls": 330659,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -724,22 +329,12 @@
       "amiga:013028",
       "amiga:01302C",
       "amiga:01302E",
-      "amiga:013034",
       "amiga:013036",
-      "amiga:01303A",
-      "amiga:01303E",
-      "amiga:013042",
       "amiga:013046",
-      "amiga:013048",
-      "amiga:01304A",
       "amiga:01304C",
       "amiga:013052",
-      "amiga:013056",
       "amiga:01305A",
-      "amiga:01305E",
-      "amiga:013060",
       "amiga:013062",
-      "amiga:013066",
       "amiga:013068",
       "amiga:01306C",
       "amiga:013070",
@@ -755,14 +350,12 @@
       "amiga:017AC0",
       "amiga:0189A8"
     ],
-    "callers": [
-      "amiga:010FDE"
-    ],
+    "callers": [],
     "entry": "amiga:013008",
     "entry_evidence": [
       "fact: decoded direct call at amiga:01100C",
       "fact: decoded direct call at amiga:01121C",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -770,7 +363,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 36,
+    "replay_calls": 330659,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -814,17 +407,12 @@
       "amiga:013174",
       "amiga:013176"
     ],
-    "callees": [
-      "amiga:015646",
-      "amiga:0156B6",
-      "amiga:01615E"
-    ],
+    "callees": [],
     "callers": [],
     "entry": "amiga:0130F0",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:0132EE",
       "fact: decoded direct call at amiga:0133C6",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -832,87 +420,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 480,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:0133E6",
-      "amiga:0133EA",
-      "amiga:0133EE",
-      "amiga:0133F2",
-      "amiga:0133F6",
-      "amiga:0133FC",
-      "amiga:013400",
-      "amiga:013402",
-      "amiga:013406",
-      "amiga:01340A",
-      "amiga:01340E",
-      "amiga:013416",
-      "amiga:01341E",
-      "amiga:013420",
-      "amiga:013422",
-      "amiga:013426",
-      "amiga:01342A",
-      "amiga:01342E",
-      "amiga:013430",
-      "amiga:013432",
-      "amiga:013434",
-      "amiga:013438",
-      "amiga:01343C",
-      "amiga:013440",
-      "amiga:013444",
-      "amiga:013446",
-      "amiga:01344A",
-      "amiga:01344C",
-      "amiga:01344E",
-      "amiga:013452",
-      "amiga:01345A",
-      "amiga:013460",
-      "amiga:013468",
-      "amiga:013470",
-      "amiga:013476",
-      "amiga:01347E",
-      "amiga:013484",
-      "amiga:01348C",
-      "amiga:013490",
-      "amiga:013492",
-      "amiga:013498",
-      "amiga:0134A0",
-      "amiga:0134A2",
-      "amiga:0134A6",
-      "amiga:0134A8",
-      "amiga:0134AA",
-      "amiga:0134AE",
-      "amiga:0134B6",
-      "amiga:0134BE",
-      "amiga:0134C6",
-      "amiga:0134CA",
-      "amiga:0134CE",
-      "amiga:0134D2",
-      "amiga:0134D4",
-      "amiga:0134DC",
-      "amiga:0134DE"
-    ],
-    "callees": [
-      "amiga:0155D6",
-      "amiga:015646",
-      "amiga:0156B6"
-    ],
-    "callers": [],
-    "entry": "amiga:0133E6",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:01354E",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:0133E6",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 20037,
+    "replay_calls": 32,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -937,7 +445,6 @@
     ],
     "callees": [
       "amiga:013A06",
-      "amiga:0156B6",
       "amiga:01701A",
       "amiga:01875C"
     ],
@@ -947,8 +454,7 @@
     "entry": "amiga:013870",
     "entry_evidence": [
       "fact: decoded direct call at amiga:013A8C",
-      "fact: decoded direct call at amiga:013B24",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
@@ -956,53 +462,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 108,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:013930",
-      "amiga:013934",
-      "amiga:013938",
-      "amiga:01393E",
-      "amiga:013940",
-      "amiga:013944",
-      "amiga:01394A",
-      "amiga:01394C",
-      "amiga:01396A",
-      "amiga:013976",
-      "amiga:01397A",
-      "amiga:01397E",
-      "amiga:013982",
-      "amiga:013986",
-      "amiga:01398A",
-      "amiga:01398E",
-      "amiga:013990"
-    ],
-    "callees": [
-      "amiga:0155D6",
-      "amiga:0156B6",
-      "amiga:01701A",
-      "amiga:018938"
-    ],
-    "callers": [],
-    "entry": "amiga:013930",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:013B0A",
-      "fact: decoded direct call at amiga:013BB0",
-      "fact: decoded direct call at amiga:013BC6",
-      "fact: decoded direct call at amiga:013C2A",
-      "fact: decoded direct call at amiga:013C40",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:013930",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 320,
+    "replay_calls": 1,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -1073,19 +533,11 @@
     "callees": [
       "amiga:013870"
     ],
-    "callers": [
-      "amiga:010A44",
-      "amiga:010D36",
-      "amiga:010FDE"
-    ],
+    "callers": [],
     "entry": "amiga:013A6E",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:010A80",
-      "fact: decoded direct call at amiga:010D66",
       "fact: decoded direct call at amiga:011042",
-      "fact: decoded direct call at amiga:012A60",
-      "fact: decoded direct call at amiga:013B58",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
@@ -1093,957 +545,80 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 87,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:013C4C",
-      "amiga:013C50",
-      "amiga:013C58",
-      "amiga:013C60",
-      "amiga:013C68",
-      "amiga:013C70",
-      "amiga:013C78",
-      "amiga:013C7E",
-      "amiga:013C86",
-      "amiga:013C8C",
-      "amiga:013C94",
-      "amiga:013C9C",
-      "amiga:013CA2",
-      "amiga:013CA6",
-      "amiga:013CAC",
-      "amiga:013CB2",
-      "amiga:013CB6",
-      "amiga:013CBA",
-      "amiga:013CBE",
-      "amiga:013CC4",
-      "amiga:013CC8",
-      "amiga:013CCC",
-      "amiga:013CD4",
-      "amiga:013CD6",
-      "amiga:013CDE",
-      "amiga:013CE6",
-      "amiga:013CEE",
-      "amiga:013CF2",
-      "amiga:013CF8",
-      "amiga:013D02",
-      "amiga:013D0C",
-      "amiga:013D16",
-      "amiga:013D18",
-      "amiga:013D1E",
-      "amiga:013D20",
-      "amiga:013D24",
-      "amiga:013D26",
-      "amiga:013D28",
-      "amiga:013D32",
-      "amiga:013D3C",
-      "amiga:013D42",
-      "amiga:013D48",
-      "amiga:013D4A",
-      "amiga:013D54",
-      "amiga:013D5A",
-      "amiga:013D60",
-      "amiga:013D62",
-      "amiga:013D64",
-      "amiga:013D6A",
-      "amiga:013D72",
-      "amiga:013D7A",
-      "amiga:013D7C",
-      "amiga:013D7E",
-      "amiga:013D84",
-      "amiga:013D86",
-      "amiga:013D88",
-      "amiga:013D8E",
-      "amiga:013D94",
-      "amiga:013D9A",
-      "amiga:013D9C",
-      "amiga:013D9E",
-      "amiga:013DA4",
-      "amiga:013DAA",
-      "amiga:013DAC",
-      "amiga:013DB2",
-      "amiga:013DB4",
-      "amiga:013DBA",
-      "amiga:013DC2",
-      "amiga:013DC4",
-      "amiga:013DCE",
-      "amiga:013DD4",
-      "amiga:013DDA",
-      "amiga:013DDC",
-      "amiga:013DDE",
-      "amiga:013DE4",
-      "amiga:013DEC",
-      "amiga:013DF2",
-      "amiga:013DF4",
-      "amiga:013DFA",
-      "amiga:013DFC",
-      "amiga:013E02",
-      "amiga:013E08",
-      "amiga:013E0A",
-      "amiga:013E0E",
-      "amiga:013E10",
-      "amiga:013E14",
-      "amiga:013E16",
-      "amiga:013E18",
-      "amiga:013E1A",
-      "amiga:013E20",
-      "amiga:013E22",
-      "amiga:013E24",
-      "amiga:013E2A",
-      "amiga:013E32",
-      "amiga:013E34",
-      "amiga:013E3A",
-      "amiga:013E3C",
-      "amiga:013E42",
-      "amiga:013E4A",
-      "amiga:013E50",
-      "amiga:013E5A",
-      "amiga:013E60",
-      "amiga:013E66",
-      "amiga:013E68",
-      "amiga:013E72",
-      "amiga:013E88",
-      "amiga:013E8C",
-      "amiga:013E92",
-      "amiga:013E98",
-      "amiga:013E9A"
-    ],
-    "callees": [
-      "amiga:013E9C",
-      "amiga:014032",
-      "amiga:01615E",
-      "amiga:0186F6"
-    ],
-    "callers": [],
-    "entry": "amiga:013C4C",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:012BA8",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:013C4C",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 91,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:013E9C",
-      "amiga:013EA0",
-      "amiga:013EA6",
-      "amiga:013EA8",
-      "amiga:013EAE",
-      "amiga:013EB4",
-      "amiga:013EB8",
-      "amiga:013EBE",
-      "amiga:013EC4",
-      "amiga:013ECA",
-      "amiga:013ED2",
-      "amiga:013ED6",
-      "amiga:013F82",
-      "amiga:013F8C",
-      "amiga:013F92",
-      "amiga:013F94",
-      "amiga:013F96",
-      "amiga:013F98",
-      "amiga:013F9E",
-      "amiga:013FA0",
-      "amiga:013FA4",
-      "amiga:013FAA",
-      "amiga:013FB0",
-      "amiga:013FB2",
-      "amiga:013FB8",
-      "amiga:013FBA",
-      "amiga:013FC0",
-      "amiga:013FC6",
-      "amiga:013FC8",
-      "amiga:013FCC",
-      "amiga:013FD2",
-      "amiga:013FD4",
-      "amiga:013FDA",
-      "amiga:013FE0",
-      "amiga:013FE2",
-      "amiga:013FE6",
-      "amiga:013FEC",
-      "amiga:013FEE",
-      "amiga:013FF4",
-      "amiga:013FF6",
-      "amiga:013FF8",
-      "amiga:013FFA",
-      "amiga:014000",
-      "amiga:014002",
-      "amiga:014004",
-      "amiga:01400A",
-      "amiga:01400C",
-      "amiga:014010",
-      "amiga:014016",
-      "amiga:01401A",
-      "amiga:01401C",
-      "amiga:01401E",
-      "amiga:014020",
-      "amiga:014026",
-      "amiga:01402A",
-      "amiga:01402E",
-      "amiga:014030"
-    ],
-    "callees": [
-      "amiga:015726",
-      "amiga:01579E",
-      "amiga:01615E",
-      "amiga:0186F6"
-    ],
-    "callers": [
-      "amiga:013C4C"
-    ],
-    "entry": "amiga:013E9C",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:013CBA",
-      "fact: decoded direct call at amiga:013CEE",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:013E9C",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 10794,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:014032",
-      "amiga:014036",
-      "amiga:01403C",
-      "amiga:014042",
-      "amiga:014046",
-      "amiga:014048"
-    ],
-    "callees": [
-      "amiga:01579E",
-      "amiga:01615E"
-    ],
-    "callers": [
-      "amiga:013C4C"
-    ],
-    "entry": "amiga:014032",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:013D20",
-      "fact: decoded direct call at amiga:013E10",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:014032",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 13862,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:01404A",
-      "amiga:01404E",
-      "amiga:014052",
-      "amiga:014056",
-      "amiga:01405E",
-      "amiga:014064",
-      "amiga:014066",
-      "amiga:01406A",
-      "amiga:01406C",
-      "amiga:01406E",
-      "amiga:014072",
-      "amiga:014074",
-      "amiga:014076",
-      "amiga:014078",
-      "amiga:01407A",
-      "amiga:01407E",
-      "amiga:014082",
-      "amiga:014086",
-      "amiga:014088",
-      "amiga:01408A",
-      "amiga:01408C",
-      "amiga:01408E",
-      "amiga:014090",
-      "amiga:014092",
-      "amiga:014094",
-      "amiga:014096",
-      "amiga:01409A",
-      "amiga:01409E",
-      "amiga:0140A0",
-      "amiga:0140A2",
-      "amiga:0140A4",
-      "amiga:0140A6",
-      "amiga:0140A8",
-      "amiga:0140AA",
-      "amiga:0140AC",
-      "amiga:0140AE",
-      "amiga:0140B0",
-      "amiga:0140B2",
-      "amiga:0140B6",
-      "amiga:0140B8",
-      "amiga:0140BA",
-      "amiga:0140BE",
-      "amiga:0140C0",
-      "amiga:0140C6",
-      "amiga:0140C8",
-      "amiga:0140CC",
-      "amiga:0140CE",
-      "amiga:0140D2",
-      "amiga:0140D4",
-      "amiga:0140D8",
-      "amiga:0140DA",
-      "amiga:0140DC",
-      "amiga:0140DE",
-      "amiga:0140E0",
-      "amiga:0140E2",
-      "amiga:0140E6",
-      "amiga:0140E8",
-      "amiga:0140EC",
-      "amiga:0140EE",
-      "amiga:0140F0",
-      "amiga:0140F4",
-      "amiga:0140F6",
-      "amiga:0140F8",
-      "amiga:0140FA",
-      "amiga:0140FE",
-      "amiga:014100",
-      "amiga:014102",
-      "amiga:014106",
-      "amiga:014108",
-      "amiga:01410C",
-      "amiga:014110",
-      "amiga:014112",
-      "amiga:014116",
-      "amiga:01411A",
-      "amiga:01411C"
-    ],
-    "callees": [
-      "amiga:01411E",
-      "amiga:0155D6",
-      "amiga:015646",
-      "amiga:0156B6",
-      "amiga:015726",
-      "amiga:01579E",
-      "amiga:01615E"
-    ],
-    "callers": [],
-    "entry": "amiga:01404A",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:01299A",
-      "fact: decoded direct call at amiga:012A90",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:01404A",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 96,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:01411E",
-      "amiga:014122",
-      "amiga:014128",
-      "amiga:014130",
-      "amiga:014132",
-      "amiga:014136",
-      "amiga:01413C",
-      "amiga:014142",
-      "amiga:014146",
-      "amiga:01414A",
-      "amiga:01414E",
-      "amiga:014152",
-      "amiga:014154",
-      "amiga:01415C",
-      "amiga:01415E",
-      "amiga:014164",
-      "amiga:01416A",
-      "amiga:014170",
-      "amiga:014172",
-      "amiga:014178",
-      "amiga:01417E",
-      "amiga:014180",
-      "amiga:014182"
-    ],
-    "callees": [
-      "amiga:015646",
-      "amiga:0156B6",
-      "amiga:01615E",
-      "amiga:0186F6"
-    ],
-    "callers": [
-      "amiga:01404A",
-      "amiga:014184"
-    ],
-    "entry": "amiga:01411E",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:0140A8",
-      "fact: decoded direct call at amiga:0140CC",
-      "fact: decoded direct call at amiga:0140DA",
-      "fact: decoded direct call at amiga:0141A6",
-      "observed: call,call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:01411E",
-    "replay_call_kinds": [
-      "call",
-      "call-indirect"
-    ],
-    "replay_calls": 241217,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:014184",
-      "amiga:014188",
-      "amiga:01418C",
-      "amiga:014190",
-      "amiga:014196",
-      "amiga:01419E",
-      "amiga:0141A2",
-      "amiga:0141A6",
-      "amiga:0141AA",
-      "amiga:0141AE",
-      "amiga:0141B0",
-      "amiga:0141B4",
-      "amiga:0141B6",
-      "amiga:0141B8",
-      "amiga:0141BC",
-      "amiga:0141BE",
-      "amiga:0141C2",
-      "amiga:0141C4",
-      "amiga:0141C6",
-      "amiga:0141CA",
-      "amiga:0141CC",
-      "amiga:0141CE",
-      "amiga:0141D2",
-      "amiga:0141D4",
-      "amiga:0141D8",
-      "amiga:0141DC",
-      "amiga:0141DE",
-      "amiga:0141E0",
-      "amiga:0141E2",
-      "amiga:0141E8",
-      "amiga:0141EE",
-      "amiga:0141F2",
-      "amiga:0141F4",
-      "amiga:0141F8",
-      "amiga:0141FC",
-      "amiga:0141FE",
-      "amiga:014202",
-      "amiga:014206",
-      "amiga:014208",
-      "amiga:01420C",
-      "amiga:01420E",
-      "amiga:014210",
-      "amiga:014216",
-      "amiga:01421A",
-      "amiga:01421E",
-      "amiga:014222",
-      "amiga:014224",
-      "amiga:01422A",
-      "amiga:01422C",
-      "amiga:01422E",
-      "amiga:014234",
-      "amiga:014236",
-      "amiga:014238",
-      "amiga:01423A",
-      "amiga:01423C",
-      "amiga:014240",
-      "amiga:014242",
-      "amiga:014244",
-      "amiga:014248",
-      "amiga:01424A",
-      "amiga:01424C",
-      "amiga:014250",
-      "amiga:014252",
-      "amiga:014254",
-      "amiga:014258",
-      "amiga:01425C",
-      "amiga:01425E",
-      "amiga:014260",
-      "amiga:014262",
-      "amiga:014264",
-      "amiga:014266",
-      "amiga:01426A",
-      "amiga:01426E",
-      "amiga:014270",
-      "amiga:014274",
-      "amiga:014276",
-      "amiga:01427A",
-      "amiga:01427C",
-      "amiga:014280",
-      "amiga:014282",
-      "amiga:014286",
-      "amiga:014288",
-      "amiga:01428C",
-      "amiga:01428E",
-      "amiga:014290",
-      "amiga:014294",
-      "amiga:014296",
-      "amiga:014298",
-      "amiga:01429C",
-      "amiga:01429E",
-      "amiga:0142A2",
-      "amiga:0142A6",
-      "amiga:0142A8",
-      "amiga:0142AA",
-      "amiga:0142AC",
-      "amiga:0142B2",
-      "amiga:0142B8",
-      "amiga:0142BC",
-      "amiga:0142BE",
-      "amiga:0142C2",
-      "amiga:0142C6",
-      "amiga:0142C8",
-      "amiga:0142CC",
-      "amiga:0142D0",
-      "amiga:0142D2",
-      "amiga:0142D6",
-      "amiga:0142D8",
-      "amiga:0142DA",
-      "amiga:0142E0",
-      "amiga:0142E4",
-      "amiga:0142E8",
-      "amiga:0142EC",
-      "amiga:0142EE",
-      "amiga:0142F4",
-      "amiga:0142F6",
-      "amiga:0142F8",
-      "amiga:0142FE",
-      "amiga:014300",
-      "amiga:014302",
-      "amiga:014304",
-      "amiga:014306",
-      "amiga:01430A",
-      "amiga:01430C",
-      "amiga:01430E",
-      "amiga:014312",
-      "amiga:014314",
-      "amiga:014316",
-      "amiga:01431A",
-      "amiga:01431C",
-      "amiga:01431E",
-      "amiga:014322",
-      "amiga:014326",
-      "amiga:014328",
-      "amiga:01432A",
-      "amiga:01432C",
-      "amiga:01432E",
-      "amiga:014330",
-      "amiga:014334",
-      "amiga:014338",
-      "amiga:01433A",
-      "amiga:01433E",
-      "amiga:014340",
-      "amiga:014344",
-      "amiga:014348",
-      "amiga:01434C",
-      "amiga:01434E",
-      "amiga:014352",
-      "amiga:014356",
-      "amiga:01435A",
-      "amiga:01435C"
-    ],
-    "callees": [
-      "amiga:01411E",
-      "amiga:01579E",
-      "amiga:01615E"
-    ],
-    "callers": [],
-    "entry": "amiga:014184",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:012C28",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:014184",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 4,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:014692",
-      "amiga:014696",
-      "amiga:01469A",
-      "amiga:01469E",
-      "amiga:0146A2",
-      "amiga:0146A6",
-      "amiga:0146AA",
-      "amiga:0146AE",
-      "amiga:0146B2",
-      "amiga:0146B6",
-      "amiga:0146BA",
-      "amiga:0146BE",
-      "amiga:0146C4",
-      "amiga:0146C8",
-      "amiga:0146CC"
-    ],
-    "callees": [],
-    "callers": [],
-    "entry": "amiga:014692",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:0135A4",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:014692",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 20037,
+    "replay_calls": 1,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:0146CE",
-      "amiga:0146D2",
-      "amiga:0146D6",
-      "amiga:0146DA",
-      "amiga:0146DE",
-      "amiga:0146E0",
-      "amiga:0146E4",
-      "amiga:0146E6",
-      "amiga:0146EC",
-      "amiga:0146F2",
-      "amiga:0146F4",
-      "amiga:0146F8",
-      "amiga:0146FA",
-      "amiga:014700",
-      "amiga:014704",
-      "amiga:014706",
-      "amiga:01470A",
-      "amiga:01470C",
-      "amiga:014712",
-      "amiga:014716",
-      "amiga:01471A",
-      "amiga:014720",
-      "amiga:014726",
-      "amiga:014728",
-      "amiga:01472C",
-      "amiga:01472E",
-      "amiga:014734",
-      "amiga:014738",
-      "amiga:01473C",
-      "amiga:014740",
-      "amiga:014742",
-      "amiga:014746",
-      "amiga:01474A",
-      "amiga:014750",
-      "amiga:014752",
-      "amiga:014756",
-      "amiga:01475A",
-      "amiga:014760",
       "amiga:014764",
-      "amiga:014768",
-      "amiga:01476C",
-      "amiga:01476E",
-      "amiga:014770",
-      "amiga:014772",
-      "amiga:014778",
-      "amiga:01477C",
-      "amiga:01477E",
-      "amiga:014782",
-      "amiga:014786",
-      "amiga:01478A",
-      "amiga:01478C",
-      "amiga:014790",
-      "amiga:014794",
-      "amiga:014798",
-      "amiga:01479C",
-      "amiga:0147A0",
-      "amiga:0147A4",
-      "amiga:0147A8",
       "amiga:0147AA",
-      "amiga:0147AE",
-      "amiga:0147B2",
-      "amiga:0147B4",
-      "amiga:0147B6",
-      "amiga:0147B8",
-      "amiga:0147BA",
-      "amiga:0147C0",
-      "amiga:0147C2",
-      "amiga:0147C4",
-      "amiga:0147C6",
-      "amiga:0147CA",
-      "amiga:0147CE",
-      "amiga:0147D2",
-      "amiga:0147D4",
-      "amiga:0147D6",
-      "amiga:0147D8",
-      "amiga:0147DC",
-      "amiga:0147DE",
-      "amiga:0147E2",
-      "amiga:0147E8",
       "amiga:0147EC",
-      "amiga:0147F0",
-      "amiga:0147F4",
       "amiga:0147F6",
-      "amiga:0147FA",
-      "amiga:014800",
       "amiga:014804",
-      "amiga:014806",
-      "amiga:01480C",
-      "amiga:014810",
-      "amiga:014814",
-      "amiga:01481A",
-      "amiga:01481C",
-      "amiga:014822",
-      "amiga:014824",
-      "amiga:014826",
-      "amiga:01482A",
-      "amiga:01482E",
       "amiga:014834",
-      "amiga:014838",
-      "amiga:01483C",
-      "amiga:01483E",
-      "amiga:014840",
-      "amiga:014842",
-      "amiga:014848",
-      "amiga:01484E",
-      "amiga:014852",
-      "amiga:014856",
-      "amiga:014858",
-      "amiga:01485E",
-      "amiga:014860",
-      "amiga:014864",
-      "amiga:014866",
-      "amiga:01486A",
-      "amiga:01486C",
-      "amiga:014870",
-      "amiga:014874",
-      "amiga:01487A",
-      "amiga:01487E",
       "amiga:014880",
-      "amiga:014884",
-      "amiga:014888",
-      "amiga:01488A",
-      "amiga:01488C",
-      "amiga:01488E",
-      "amiga:014892",
-      "amiga:014896",
-      "amiga:014898",
-      "amiga:01489C",
-      "amiga:0148A0",
-      "amiga:0148A4",
-      "amiga:0148AA",
       "amiga:0148AE",
-      "amiga:0148B4",
-      "amiga:0148B8",
-      "amiga:0148BA",
-      "amiga:0148BE",
-      "amiga:0148C0",
       "amiga:0148C2",
-      "amiga:0148C6",
-      "amiga:0148CC",
-      "amiga:0148D0",
-      "amiga:0148D2"
+      "amiga:0148D0"
     ],
-    "callees": [
-      "amiga:01615E"
-    ],
+    "callees": [],
     "callers": [
       "amiga:0149A0"
     ],
     "entry": "amiga:0146CE",
     "entry_evidence": [
       "fact: decoded direct call at amiga:014A8A",
-      "fact: decoded direct call at amiga:014AE4",
-      "fact: decoded direct call at amiga:014DEA",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:014AE4"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:0146CE",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 8,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:0148D4",
-      "amiga:0148D8",
-      "amiga:0148DC",
-      "amiga:0148EA",
-      "amiga:0148EC",
-      "amiga:0148F2",
-      "amiga:0148F8",
-      "amiga:0148FC",
-      "amiga:014902",
-      "amiga:014906",
-      "amiga:014908",
-      "amiga:01490A",
-      "amiga:014910",
-      "amiga:014914",
-      "amiga:014918",
-      "amiga:01491E",
       "amiga:014924",
       "amiga:014928",
-      "amiga:01492C",
-      "amiga:014930",
-      "amiga:014932",
-      "amiga:014936",
-      "amiga:01493A",
-      "amiga:01493E",
-      "amiga:014940",
-      "amiga:014944",
-      "amiga:014948",
-      "amiga:01494E",
-      "amiga:014952",
-      "amiga:014958",
       "amiga:01495A",
-      "amiga:01495E",
-      "amiga:014962",
-      "amiga:014964",
-      "amiga:014966",
-      "amiga:01496C",
-      "amiga:014972",
-      "amiga:014976",
-      "amiga:01497A",
-      "amiga:01497C",
-      "amiga:01497E",
-      "amiga:014982",
-      "amiga:014986",
-      "amiga:01498A",
-      "amiga:014990",
-      "amiga:014994",
-      "amiga:01499A",
-      "amiga:01499C",
-      "amiga:01499E"
+      "amiga:01499C"
     ],
-    "callees": [
-      "amiga:01615E"
-    ],
+    "callees": [],
     "callers": [
       "amiga:014AF0"
     ],
     "entry": "amiga:0148D4",
     "entry_evidence": [
       "fact: decoded direct call at amiga:014B62",
-      "fact: decoded direct call at amiga:014C98",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:014C98"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:0148D4",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 2,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:0149A0",
-      "amiga:0149A4",
-      "amiga:0149A8",
-      "amiga:0149AE",
       "amiga:0149B2",
-      "amiga:0149B4",
       "amiga:0149B8",
-      "amiga:0149BC",
-      "amiga:0149C0",
-      "amiga:0149C2",
-      "amiga:0149C4",
-      "amiga:0149CA",
-      "amiga:0149D0",
-      "amiga:0149D6",
-      "amiga:0149DA",
-      "amiga:0149DE",
-      "amiga:0149E0",
       "amiga:0149E4",
-      "amiga:0149E6",
-      "amiga:0149E8",
-      "amiga:0149EE",
-      "amiga:0149F0",
-      "amiga:0149F4",
-      "amiga:0149F8",
-      "amiga:0149FC",
-      "amiga:014A00",
-      "amiga:014A02",
-      "amiga:014A08",
-      "amiga:014A0C",
-      "amiga:014A12",
-      "amiga:014A16",
-      "amiga:014A1C",
-      "amiga:014A20",
-      "amiga:014A24",
-      "amiga:014A2A",
       "amiga:014A2E",
-      "amiga:014A32",
-      "amiga:014A36",
-      "amiga:014A3C",
       "amiga:014A40",
-      "amiga:014A46",
-      "amiga:014A4A",
       "amiga:014A4E",
-      "amiga:014A50",
-      "amiga:014A52",
-      "amiga:014A58",
-      "amiga:014A5C",
-      "amiga:014A5E",
-      "amiga:014A64",
-      "amiga:014A66",
-      "amiga:014A6C",
       "amiga:014A70",
-      "amiga:014A74",
-      "amiga:014A78",
-      "amiga:014A7C",
-      "amiga:014A7E",
-      "amiga:014A84",
-      "amiga:014A86",
-      "amiga:014A8A",
       "amiga:014A8E",
-      "amiga:014A90",
-      "amiga:014A96",
-      "amiga:014A9A",
-      "amiga:014AA2",
-      "amiga:014AA8",
-      "amiga:014AAC",
       "amiga:014AB0",
-      "amiga:014AB2",
-      "amiga:014AB4",
-      "amiga:014ABA",
-      "amiga:014AC0",
-      "amiga:014AC4",
-      "amiga:014ACA",
       "amiga:014ACE",
-      "amiga:014AD2",
-      "amiga:014AD6",
-      "amiga:014ADC",
-      "amiga:014AE0",
-      "amiga:014AE4",
-      "amiga:014AE8",
-      "amiga:014AEA",
-      "amiga:014AEC",
-      "amiga:014AEE"
+      "amiga:014AE8"
     ],
     "callees": [
       "amiga:01287C",
@@ -2055,170 +630,57 @@
     ],
     "entry": "amiga:0149A0",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:014CFC",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:014CFC"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
     "id": "amiga:0149A0",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 1,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:014AF0",
-      "amiga:014AF4",
-      "amiga:014AFE",
       "amiga:014B02",
-      "amiga:014B06",
-      "amiga:014B0C",
-      "amiga:014B12",
-      "amiga:014B16",
-      "amiga:014B1C",
       "amiga:014B1E",
       "amiga:014B22",
-      "amiga:014B26",
-      "amiga:014B2C",
-      "amiga:014B32",
-      "amiga:014B36",
-      "amiga:014B3C",
       "amiga:014B3E",
       "amiga:014B44",
-      "amiga:014B48",
-      "amiga:014B4E",
-      "amiga:014B54",
-      "amiga:014B58",
-      "amiga:014B5E",
       "amiga:014B60",
-      "amiga:014B62",
       "amiga:014B66",
-      "amiga:014B68",
-      "amiga:014B6E",
-      "amiga:014B72",
-      "amiga:014B78",
-      "amiga:014B7C",
       "amiga:014B80",
-      "amiga:014B84",
-      "amiga:014B86",
-      "amiga:014B8A",
-      "amiga:014B8C",
-      "amiga:014B8E",
-      "amiga:014B94",
-      "amiga:014B98",
-      "amiga:014B9C",
-      "amiga:014BA0",
-      "amiga:014BA4",
-      "amiga:014BA6",
-      "amiga:014BAA",
-      "amiga:014BAC",
-      "amiga:014BAE",
-      "amiga:014BB0",
-      "amiga:014BB6",
-      "amiga:014BBA",
-      "amiga:014BBE",
-      "amiga:014BC2",
-      "amiga:014BC8",
       "amiga:014BCA",
       "amiga:014BCE",
-      "amiga:014BD2",
-      "amiga:014BD4",
-      "amiga:014BD8",
-      "amiga:014BDA",
-      "amiga:014BDC",
-      "amiga:014BDE",
-      "amiga:014BE4",
-      "amiga:014BE8",
-      "amiga:014BEC",
-      "amiga:014BF0",
-      "amiga:014BF4",
-      "amiga:014BF6",
-      "amiga:014BFA",
-      "amiga:014BFC",
-      "amiga:014BFE",
-      "amiga:014C00",
-      "amiga:014C06",
-      "amiga:014C0A",
-      "amiga:014C0E",
-      "amiga:014C12",
-      "amiga:014C18",
       "amiga:014C1A",
       "amiga:014C1E",
-      "amiga:014C22",
-      "amiga:014C24",
-      "amiga:014C2A",
-      "amiga:014C2E",
-      "amiga:014C32",
-      "amiga:014C34",
-      "amiga:014C38",
       "amiga:014C3A",
-      "amiga:014C3E",
-      "amiga:014C40",
-      "amiga:014C46",
-      "amiga:014C4A",
-      "amiga:014C4C",
-      "amiga:014C50",
-      "amiga:014C52",
-      "amiga:014C56",
       "amiga:014C58",
       "amiga:014C74",
-      "amiga:014C78",
-      "amiga:014C7A",
-      "amiga:014C80",
-      "amiga:014C84",
-      "amiga:014C88",
-      "amiga:014C8C",
-      "amiga:014C92",
       "amiga:014C94",
-      "amiga:014C98",
       "amiga:014C9C",
-      "amiga:014C9E",
       "amiga:014CA2",
       "amiga:014CA6",
-      "amiga:014CAA",
       "amiga:014CAE",
-      "amiga:014CB2",
-      "amiga:014CB6",
-      "amiga:014CBA",
-      "amiga:014CBC",
-      "amiga:014CBE",
-      "amiga:014CC4",
-      "amiga:014CCA",
-      "amiga:014CCE",
-      "amiga:014CD4",
       "amiga:014CD6",
-      "amiga:014CDE",
-      "amiga:014CE2",
-      "amiga:014CE8",
-      "amiga:014CEE",
-      "amiga:014CF2",
-      "amiga:014CF6",
-      "amiga:014CFC",
-      "amiga:014D00",
-      "amiga:014D02"
+      "amiga:014D00"
     ],
     "callees": [
       "amiga:0148D4",
       "amiga:0149A0",
-      "amiga:01559E",
-      "amiga:01615E"
+      "amiga:01559E"
     ],
     "callers": [],
     "entry": "amiga:014AF0",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:01533A",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:01533A"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:014AF0",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 1,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2233,57 +695,27 @@
       "amiga:014F7E",
       "amiga:014F80",
       "amiga:014F82",
-      "amiga:014F88",
-      "amiga:014F8E",
       "amiga:014F90",
-      "amiga:014F96",
-      "amiga:014F9C",
-      "amiga:014FA2",
-      "amiga:014FA8",
-      "amiga:014FAE",
       "amiga:014FB0",
-      "amiga:014FB6",
       "amiga:014FB8",
-      "amiga:014FBE",
       "amiga:014FC0",
-      "amiga:014FC8",
       "amiga:014FCA",
-      "amiga:014FD0",
       "amiga:014FD2",
-      "amiga:014FD8",
       "amiga:014FDA",
       "amiga:014FE2",
       "amiga:014FE8",
-      "amiga:014FF0",
       "amiga:014FF2",
-      "amiga:014FF8",
-      "amiga:014FFE",
       "amiga:015000",
-      "amiga:015004",
       "amiga:015006",
-      "amiga:01500A",
-      "amiga:01500C",
-      "amiga:01500E",
-      "amiga:015014",
-      "amiga:015016",
-      "amiga:01501A",
-      "amiga:01501C",
       "amiga:01501E",
-      "amiga:015020",
-      "amiga:015024",
-      "amiga:015028",
-      "amiga:01502A",
-      "amiga:01502C"
+      "amiga:015020"
     ],
-    "callees": [
-      "amiga:01615E"
-    ],
+    "callees": [],
     "callers": [],
     "entry": "amiga:014F62",
     "entry_evidence": [
       "fact: decoded direct call at amiga:014362",
-      "fact: decoded direct call at amiga:014410",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -2291,7 +723,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 11699,
+    "replay_calls": 1,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2345,7 +777,7 @@
     "entry": "amiga:015064",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0157A8",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -2353,510 +785,62 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 25,
+    "replay_calls": 32,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:01544C",
-      "amiga:015450",
       "amiga:015452",
-      "amiga:015454",
-      "amiga:015458",
-      "amiga:01545C",
-      "amiga:01545E",
-      "amiga:015462",
-      "amiga:015464",
-      "amiga:01546A",
-      "amiga:01546E",
       "amiga:015470",
-      "amiga:015472",
-      "amiga:015476",
-      "amiga:01547A",
       "amiga:01547C",
       "amiga:015480",
-      "amiga:015484",
       "amiga:015486",
-      "amiga:015488",
       "amiga:01548A",
-      "amiga:015490",
       "amiga:015492",
-      "amiga:015494",
       "amiga:015496",
       "amiga:015498",
-      "amiga:01549A",
-      "amiga:01549C",
-      "amiga:0154A2",
-      "amiga:0154A4",
-      "amiga:0154AA",
       "amiga:0154AC",
       "amiga:0154AE",
       "amiga:0154B0"
     ],
-    "callees": [
-      "amiga:015504",
-      "amiga:015514",
-      "amiga:015520",
-      "amiga:015542",
-      "amiga:01557A"
-    ],
+    "callees": [],
     "callers": [
       "amiga:0158E6"
     ],
     "entry": "amiga:01544C",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:015936",
-      "observed: call in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:015936"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
     "id": "amiga:01544C",
-    "replay_call_kinds": [
-      "call"
-    ],
-    "replay_calls": 51505,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:0154B6",
-      "amiga:0154BA",
-      "amiga:0154BC",
-      "amiga:0154BE",
-      "amiga:0154C2",
-      "amiga:0154C4",
-      "amiga:0154C8",
-      "amiga:0154CA",
-      "amiga:0154D0",
-      "amiga:0154D6",
-      "amiga:0154D8",
-      "amiga:0154DC",
-      "amiga:0154DE",
-      "amiga:0154E0",
-      "amiga:0154E6",
-      "amiga:0154E8",
-      "amiga:0154EE",
-      "amiga:0154F4",
-      "amiga:0154F6",
-      "amiga:0154FC",
-      "amiga:0154FE",
-      "amiga:015502"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:015504",
-      "amiga:015514",
-      "amiga:015520",
-      "amiga:015542"
-    ],
-    "entry": "amiga:0154B6",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:015510",
-      "fact: decoded direct call at amiga:01551C",
-      "fact: decoded direct call at amiga:015538",
-      "fact: decoded direct call at amiga:015570",
-      "observed: call,call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:0154B6",
-    "replay_call_kinds": [
-      "call",
-      "call-indirect"
-    ],
-    "replay_calls": 8356,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:015504",
-      "amiga:015508",
-      "amiga:01550C",
-      "amiga:01550E",
-      "amiga:015510",
-      "amiga:015512"
-    ],
-    "callees": [
-      "amiga:0154B6"
-    ],
-    "callers": [
-      "amiga:01544C"
-    ],
-    "entry": "amiga:015504",
-    "entry_evidence": [
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:015504",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 4941,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:015514",
-      "amiga:01551A",
-      "amiga:01551C",
-      "amiga:01551E"
-    ],
-    "callees": [
-      "amiga:0154B6"
-    ],
-    "callers": [
-      "amiga:01544C"
-    ],
-    "entry": "amiga:015514",
-    "entry_evidence": [
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:015514",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 2698,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:015520",
-      "amiga:015524",
-      "amiga:015528",
-      "amiga:01552A",
-      "amiga:01552E",
-      "amiga:015530",
-      "amiga:015534",
-      "amiga:015538",
-      "amiga:01553C",
-      "amiga:015540"
-    ],
-    "callees": [
-      "amiga:0154B6"
-    ],
-    "callers": [
-      "amiga:01544C"
-    ],
-    "entry": "amiga:015520",
-    "entry_evidence": [
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:015520",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 2223,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:015542",
-      "amiga:015546",
-      "amiga:015548",
-      "amiga:01554C",
-      "amiga:01554E",
-      "amiga:015550",
-      "amiga:015552",
-      "amiga:015556",
-      "amiga:015558",
-      "amiga:01555C",
-      "amiga:01555E",
-      "amiga:015562",
-      "amiga:015566",
-      "amiga:015568",
-      "amiga:01556C",
-      "amiga:015570",
-      "amiga:015574",
-      "amiga:015578"
-    ],
-    "callees": [
-      "amiga:0154B6"
-    ],
-    "callers": [
-      "amiga:01544C"
-    ],
-    "entry": "amiga:015542",
-    "entry_evidence": [
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:015542",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 17090,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:01557A",
-      "amiga:01557E",
-      "amiga:015582",
-      "amiga:015584",
-      "amiga:015586"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:01544C"
-    ],
-    "cross_boundary_non_call_transfers": [
-      "amiga:0154B6"
-    ],
-    "entry": "amiga:01557A",
-    "entry_evidence": [
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:01557A",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 11151,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:01559E",
-      "amiga:0155A2",
-      "amiga:0155A6",
-      "amiga:0155AC",
       "amiga:0155B2",
-      "amiga:0155B6",
-      "amiga:0155B8",
-      "amiga:0155BC",
-      "amiga:0155C0",
-      "amiga:0155C2",
-      "amiga:0155C4",
-      "amiga:0155C6",
-      "amiga:0155C8",
-      "amiga:0155CA",
-      "amiga:0155CE",
-      "amiga:0155D0",
-      "amiga:0155D4"
+      "amiga:0155CE"
     ],
-    "callees": [
-      "amiga:01615E"
-    ],
+    "callees": [],
     "callers": [
       "amiga:014AF0"
     ],
     "entry": "amiga:01559E",
     "entry_evidence": [
       "fact: decoded direct call at amiga:014CA2",
-      "fact: decoded direct call at amiga:014CAA",
-      "fact: decoded direct call at amiga:015E2A",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:014CAA"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:01559E",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 3793,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:0155D6",
-      "amiga:0155DC",
-      "amiga:0155E0",
-      "amiga:0155E2",
-      "amiga:0155EA",
-      "amiga:0155EC",
-      "amiga:0155F2",
-      "amiga:0155F4",
-      "amiga:0155FA",
-      "amiga:0155FC",
-      "amiga:0155FE",
-      "amiga:015600",
-      "amiga:015602",
-      "amiga:015608",
-      "amiga:01560E",
-      "amiga:015614",
-      "amiga:01561A",
-      "amiga:01561C",
-      "amiga:015622",
-      "amiga:01562A",
-      "amiga:015632",
-      "amiga:01563A",
-      "amiga:01563C",
-      "amiga:015644"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:0133E6",
-      "amiga:013930",
-      "amiga:01404A",
-      "amiga:017FF4"
-    ],
-    "entry": "amiga:0155D6",
-    "entry_evidence": [
-      "observed: call in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:0155D6",
-    "replay_call_kinds": [
-      "call"
-    ],
-    "replay_calls": 407,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:015646",
-      "amiga:01564C",
-      "amiga:015650",
-      "amiga:015652",
-      "amiga:01565A",
-      "amiga:01565C",
-      "amiga:015662",
-      "amiga:015664",
-      "amiga:01566A",
-      "amiga:01566C",
-      "amiga:01566E",
-      "amiga:015670",
-      "amiga:015672",
-      "amiga:015678",
-      "amiga:01567E",
-      "amiga:015684",
-      "amiga:01568A",
-      "amiga:01568C",
-      "amiga:0156A2",
-      "amiga:0156AA",
-      "amiga:0156AC",
-      "amiga:0156B4"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:0130F0",
-      "amiga:0133E6",
-      "amiga:01404A",
-      "amiga:01411E"
-    ],
-    "entry": "amiga:015646",
-    "entry_evidence": [
-      "observed: call in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:015646",
-    "replay_call_kinds": [
-      "call"
-    ],
-    "replay_calls": 187,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:0156B6",
-      "amiga:0156BC",
-      "amiga:0156C0",
-      "amiga:0156C2",
-      "amiga:0156CA",
-      "amiga:0156CC",
-      "amiga:0156D2",
-      "amiga:0156D4",
-      "amiga:0156DA",
-      "amiga:0156DC",
-      "amiga:0156DE",
-      "amiga:0156E0",
-      "amiga:0156E2",
-      "amiga:0156E8",
-      "amiga:0156EE",
-      "amiga:0156F4",
-      "amiga:0156FA",
-      "amiga:0156FC",
-      "amiga:015712",
-      "amiga:01571A",
-      "amiga:01571C",
-      "amiga:015724"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:0130F0",
-      "amiga:0133E6",
-      "amiga:013870",
-      "amiga:013930",
-      "amiga:01404A",
-      "amiga:01411E",
-      "amiga:017FF4"
-    ],
-    "entry": "amiga:0156B6",
-    "entry_evidence": [
-      "observed: call in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:0156B6",
-    "replay_call_kinds": [
-      "call"
-    ],
-    "replay_calls": 632,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:015726",
-      "amiga:01572C",
-      "amiga:015730",
-      "amiga:015732",
-      "amiga:01573C",
-      "amiga:015742",
-      "amiga:015744",
-      "amiga:01574A",
-      "amiga:01574C",
-      "amiga:01574E",
-      "amiga:015750",
-      "amiga:015752",
-      "amiga:015758",
-      "amiga:01575E",
-      "amiga:015764",
-      "amiga:01576A",
-      "amiga:01576C",
-      "amiga:015772",
-      "amiga:01577A",
-      "amiga:015782",
-      "amiga:01578A",
-      "amiga:01578C",
-      "amiga:015794"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:013E9C",
-      "amiga:01404A"
-    ],
-    "entry": "amiga:015726",
-    "entry_evidence": [
-      "observed: call in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:015726",
-    "replay_call_kinds": [
-      "call"
-    ],
-    "replay_calls": 298,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2872,7 +856,7 @@
     "entry": "amiga:015796",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0157A6",
-      "observed: call in 0551ceab3ac00a8c"
+      "observed: call in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -2880,7 +864,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 25,
+    "replay_calls": 32,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2900,15 +884,11 @@
       "amiga:015796"
     ],
     "callers": [
-      "amiga:013E9C",
-      "amiga:014032",
-      "amiga:01404A",
-      "amiga:014184",
       "amiga:01894A"
     ],
     "entry": "amiga:01579E",
     "entry_evidence": [
-      "observed: call in 0551ceab3ac00a8c"
+      "observed: call in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -2916,7 +896,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 25,
+    "replay_calls": 32,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -2931,7 +911,7 @@
     "entry": "amiga:0157B6",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0150EC",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -2940,60 +920,6 @@
       "call-indirect"
     ],
     "replay_calls": 1,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:0157E4",
-      "amiga:0157E8",
-      "amiga:0157EE",
-      "amiga:0157F0",
-      "amiga:0157F6",
-      "amiga:0157FA",
-      "amiga:0157FC",
-      "amiga:0157FE",
-      "amiga:015800",
-      "amiga:015804",
-      "amiga:015806",
-      "amiga:01580C",
-      "amiga:015810",
-      "amiga:015814",
-      "amiga:015818",
-      "amiga:01581A",
-      "amiga:01581C",
-      "amiga:015820",
-      "amiga:015822",
-      "amiga:015828",
-      "amiga:01582C",
-      "amiga:015830",
-      "amiga:015834",
-      "amiga:015838",
-      "amiga:01583C",
-      "amiga:015840",
-      "amiga:015844",
-      "amiga:015848",
-      "amiga:01584C",
-      "amiga:015850",
-      "amiga:015856",
-      "amiga:01585C",
-      "amiga:015862",
-      "amiga:015866"
-    ],
-    "callees": [],
-    "callers": [],
-    "entry": "amiga:0157E4",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:015D12",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:0157E4",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 57,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3021,7 +947,7 @@
     "entry": "amiga:015868",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0152A8",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -3049,7 +975,7 @@
     "entry": "amiga:0158BC",
     "entry_evidence": [
       "fact: decoded direct call at amiga:016170",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -3057,7 +983,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 17273,
+    "replay_calls": 331005,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3083,7 +1009,7 @@
     "entry": "amiga:0158C8",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0158C0",
-      "observed: call in 0551ceab3ac00a8c"
+      "observed: call in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -3091,68 +1017,31 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 17273,
+    "replay_calls": 331005,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:0158E6",
-      "amiga:0158EA",
       "amiga:0158EC",
-      "amiga:0158F0",
-      "amiga:0158F4",
-      "amiga:0158F6",
-      "amiga:0158FA",
-      "amiga:015900",
-      "amiga:015902",
-      "amiga:015908",
-      "amiga:01590C",
       "amiga:015912",
-      "amiga:015916",
-      "amiga:01591A",
       "amiga:01591C",
-      "amiga:015920",
       "amiga:015922",
       "amiga:015926",
-      "amiga:01592A",
-      "amiga:01592E",
       "amiga:015930",
       "amiga:015936",
       "amiga:01593A",
-      "amiga:01593C",
-      "amiga:015942",
       "amiga:015944",
-      "amiga:015948",
       "amiga:01594A",
-      "amiga:01594E",
       "amiga:015950",
-      "amiga:015954",
       "amiga:015956",
-      "amiga:01595C",
       "amiga:015964",
-      "amiga:015968",
-      "amiga:01596A",
-      "amiga:01596C",
-      "amiga:01596E",
-      "amiga:015970",
-      "amiga:015976",
-      "amiga:015978",
       "amiga:01597A",
-      "amiga:01597E",
       "amiga:015980",
       "amiga:015982",
-      "amiga:015986",
-      "amiga:015988",
-      "amiga:01598A",
-      "amiga:01598E",
       "amiga:015990",
-      "amiga:015994",
-      "amiga:015996",
-      "amiga:015998",
-      "amiga:01599E",
-      "amiga:0159A0",
-      "amiga:0159A2"
+      "amiga:015994"
     ],
     "callees": [
       "amiga:01544C",
@@ -3163,76 +1052,28 @@
     ],
     "entry": "amiga:0158E6",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:0158DE",
-      "observed: call in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:0158DE"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:0158E6",
-    "replay_call_kinds": [
-      "call"
-    ],
-    "replay_calls": 51505,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:0159A4",
-      "amiga:0159A8",
-      "amiga:0159AC",
-      "amiga:0159AE",
-      "amiga:0159B0",
-      "amiga:0159B4",
-      "amiga:0159B8",
-      "amiga:0159BC",
       "amiga:0159BE",
       "amiga:0159C6",
-      "amiga:0159CA",
       "amiga:0159CC",
       "amiga:0159CE",
-      "amiga:0159D0",
-      "amiga:0159D2",
-      "amiga:0159D4",
-      "amiga:0159DA",
-      "amiga:0159DC",
-      "amiga:0159DE",
-      "amiga:0159E0",
-      "amiga:0159E6",
-      "amiga:0159E8",
-      "amiga:0159EC",
       "amiga:0159EE",
-      "amiga:0159F0",
-      "amiga:0159F2",
-      "amiga:0159F4",
       "amiga:0159F6",
-      "amiga:0159F8",
       "amiga:0159FA",
-      "amiga:0159FE",
-      "amiga:015A00",
-      "amiga:015A04",
-      "amiga:015A08",
-      "amiga:015A0A",
-      "amiga:015A0E",
-      "amiga:015A10",
-      "amiga:015A14",
-      "amiga:015A1A",
-      "amiga:015A1C",
-      "amiga:015A22",
-      "amiga:015A26",
-      "amiga:015A2A",
-      "amiga:015A2C",
-      "amiga:015A30",
-      "amiga:015A36",
       "amiga:015A38",
-      "amiga:015A3A",
-      "amiga:015A3C",
-      "amiga:015A40",
-      "amiga:015A42",
-      "amiga:015A46",
-      "amiga:015A48",
-      "amiga:015A4A",
-      "amiga:015A4E"
+      "amiga:015A46"
     ],
     "callees": [],
     "callers": [
@@ -3240,67 +1081,28 @@
     ],
     "entry": "amiga:0159A4",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:015AAC",
-      "observed: call in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:015AAC"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:0159A4",
-    "replay_call_kinds": [
-      "call"
-    ],
-    "replay_calls": 2411,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:015A50",
-      "amiga:015A56",
       "amiga:015A58",
-      "amiga:015A5C",
-      "amiga:015A5E",
-      "amiga:015A62",
       "amiga:015A68",
-      "amiga:015A6C",
-      "amiga:015A70",
       "amiga:015A72",
-      "amiga:015A76",
-      "amiga:015A78",
       "amiga:015A7A",
-      "amiga:015A7C",
-      "amiga:015A80",
-      "amiga:015A84",
       "amiga:015A86",
       "amiga:015A8A",
-      "amiga:015A8C",
-      "amiga:015A92",
-      "amiga:015A96",
-      "amiga:015A98",
-      "amiga:015A9A",
       "amiga:015A9C",
-      "amiga:015AA0",
-      "amiga:015AA2",
-      "amiga:015AA8",
-      "amiga:015AAA",
-      "amiga:015AAC",
       "amiga:015AB0",
-      "amiga:015AB6",
-      "amiga:015ABA",
-      "amiga:015ABE",
-      "amiga:015AC2",
-      "amiga:015AC8",
-      "amiga:015B62",
-      "amiga:015B66",
-      "amiga:015B6A",
-      "amiga:015B6C",
-      "amiga:015B72",
-      "amiga:015B76",
-      "amiga:015B78",
-      "amiga:015B7A",
-      "amiga:015B80",
-      "amiga:015B84",
-      "amiga:015B8A"
+      "amiga:015B62"
     ],
     "callees": [
       "amiga:0159A4"
@@ -3310,16 +1112,13 @@
     ],
     "entry": "amiga:015A72",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:015922",
-      "observed: call in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:015922"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
     "id": "amiga:015A72",
-    "replay_call_kinds": [
-      "call"
-    ],
-    "replay_calls": 5487,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3339,31 +1138,13 @@
       "amiga:01617C"
     ],
     "callers": [
-      "amiga:012D66",
-      "amiga:012DBA",
-      "amiga:012EE8",
+      "amiga:012F24",
       "amiga:013008",
-      "amiga:0130F0",
-      "amiga:013C4C",
-      "amiga:013E9C",
-      "amiga:014032",
-      "amiga:01404A",
-      "amiga:01411E",
-      "amiga:014184",
-      "amiga:0146CE",
-      "amiga:0148D4",
-      "amiga:014AF0",
-      "amiga:014F62",
-      "amiga:01559E",
-      "amiga:017074",
-      "amiga:0170BE",
-      "amiga:017430",
-      "amiga:017A02",
-      "amiga:0186F6"
+      "amiga:0189A8"
     ],
     "entry": "amiga:01615E",
     "entry_evidence": [
-      "observed: call in 0551ceab3ac00a8c"
+      "observed: call in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -3371,7 +1152,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 17273,
+    "replay_calls": 331005,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3399,7 +1180,7 @@
     "entry": "amiga:01617C",
     "entry_evidence": [
       "fact: decoded direct call at amiga:01616E",
-      "observed: call in 0551ceab3ac00a8c"
+      "observed: call in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
@@ -3407,7 +1188,7 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 17273,
+    "replay_calls": 331005,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3421,7 +1202,7 @@
     ],
     "entry": "amiga:01619E",
     "entry_evidence": [
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -3429,7 +1210,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 17273,
+    "replay_calls": 331005,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -3443,7 +1224,6 @@
     ],
     "callers": [
       "amiga:013870",
-      "amiga:013930",
       "amiga:013A06"
     ],
     "entry": "amiga:01701A",
@@ -3485,394 +1265,6 @@
   },
   {
     "blocks": [
-      "amiga:017074",
-      "amiga:017078",
-      "amiga:01707C",
-      "amiga:01707E",
-      "amiga:017082",
-      "amiga:017084",
-      "amiga:017086",
-      "amiga:01708A",
-      "amiga:01708E",
-      "amiga:017090",
-      "amiga:017092",
-      "amiga:017096",
-      "amiga:017098",
-      "amiga:01709A",
-      "amiga:0170A0",
-      "amiga:0170A2",
-      "amiga:0170A6",
-      "amiga:0170A8",
-      "amiga:0170AC",
-      "amiga:0170B0",
-      "amiga:0170B2",
-      "amiga:0170B4",
-      "amiga:0170B8",
-      "amiga:0170BA",
-      "amiga:0170BC"
-    ],
-    "callees": [
-      "amiga:01615E"
-    ],
-    "callers": [
-      "amiga:0173F6",
-      "amiga:017430"
-    ],
-    "entry": "amiga:017074",
-    "entry_evidence": [
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:017074",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 3250,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:0170BE",
-      "amiga:0170C2",
-      "amiga:0170C6",
-      "amiga:0170CA",
-      "amiga:0170CE",
-      "amiga:0170D0",
-      "amiga:0170D6",
-      "amiga:0170D8",
-      "amiga:0170DA",
-      "amiga:0170DC",
-      "amiga:0170DE",
-      "amiga:0170E0",
-      "amiga:0170E4",
-      "amiga:0170E8",
-      "amiga:0170EC",
-      "amiga:0170F0",
-      "amiga:0170F4",
-      "amiga:0170F8",
-      "amiga:0170FE",
-      "amiga:017102",
-      "amiga:017104",
-      "amiga:01710C",
-      "amiga:01710E",
-      "amiga:017110",
-      "amiga:017112",
-      "amiga:017116",
-      "amiga:01711C",
-      "amiga:01711E",
-      "amiga:017122",
-      "amiga:01714C",
-      "amiga:017152",
-      "amiga:017156",
-      "amiga:017158",
-      "amiga:017160",
-      "amiga:017162",
-      "amiga:017164",
-      "amiga:017166",
-      "amiga:017168",
-      "amiga:01716A",
-      "amiga:01716C",
-      "amiga:017170",
-      "amiga:017176",
-      "amiga:01717E",
-      "amiga:017184",
-      "amiga:017186",
-      "amiga:017188",
-      "amiga:01718A",
-      "amiga:017190",
-      "amiga:017196",
-      "amiga:01719C",
-      "amiga:0171A0",
-      "amiga:0171A4",
-      "amiga:0171A6",
-      "amiga:0171AA",
-      "amiga:0171AE",
-      "amiga:0171B0",
-      "amiga:0171B2",
-      "amiga:0171B4",
-      "amiga:0171B8",
-      "amiga:0171BA",
-      "amiga:0171BC",
-      "amiga:0171BE",
-      "amiga:0171C0",
-      "amiga:0171C4",
-      "amiga:0171C6",
-      "amiga:0171C8",
-      "amiga:0171CC",
-      "amiga:0171CE",
-      "amiga:0171D2",
-      "amiga:0171D6",
-      "amiga:0171DA",
-      "amiga:0171DC",
-      "amiga:0171E0",
-      "amiga:0171E2",
-      "amiga:0171EE",
-      "amiga:0171F2",
-      "amiga:0171F4",
-      "amiga:017200",
-      "amiga:017202",
-      "amiga:017204",
-      "amiga:017206",
-      "amiga:01720A",
-      "amiga:01720C",
-      "amiga:017210",
-      "amiga:01721A",
-      "amiga:017220",
-      "amiga:017228",
-      "amiga:017232",
-      "amiga:01723C",
-      "amiga:01724C",
-      "amiga:017254",
-      "amiga:017270",
-      "amiga:017274",
-      "amiga:01727A",
-      "amiga:017280",
-      "amiga:017288",
-      "amiga:01728C",
-      "amiga:017298",
-      "amiga:0172A0",
-      "amiga:0172AA",
-      "amiga:0172B0",
-      "amiga:0172BA",
-      "amiga:0172C0",
-      "amiga:0172C4",
-      "amiga:0172C6",
-      "amiga:0172C8",
-      "amiga:0172D2",
-      "amiga:0172D8",
-      "amiga:0172DC",
-      "amiga:0172DE",
-      "amiga:0172E0",
-      "amiga:0172EA",
-      "amiga:0172EE",
-      "amiga:0172F4",
-      "amiga:0172FE",
-      "amiga:017306",
-      "amiga:01730E",
-      "amiga:017314",
-      "amiga:01731A",
-      "amiga:017320",
-      "amiga:017322",
-      "amiga:017324",
-      "amiga:01732A",
-      "amiga:017330",
-      "amiga:01733E",
-      "amiga:017344",
-      "amiga:017348",
-      "amiga:01734E",
-      "amiga:017352",
-      "amiga:017358",
-      "amiga:01735C",
-      "amiga:017362",
-      "amiga:017366",
-      "amiga:017368",
-      "amiga:01736C",
-      "amiga:01736E",
-      "amiga:017370",
-      "amiga:017372",
-      "amiga:017376",
-      "amiga:01737C",
-      "amiga:017382",
-      "amiga:017388",
-      "amiga:01738E",
-      "amiga:017390",
-      "amiga:017392",
-      "amiga:017394",
-      "amiga:017398",
-      "amiga:01739E",
-      "amiga:0173A0",
-      "amiga:0173A2",
-      "amiga:0173A4",
-      "amiga:0173A6",
-      "amiga:0173A8",
-      "amiga:0173B0",
-      "amiga:0173B6",
-      "amiga:0173C0",
-      "amiga:0173C4",
-      "amiga:0173C8",
-      "amiga:0173CA",
-      "amiga:0173CC",
-      "amiga:0173D4",
-      "amiga:0173DC",
-      "amiga:0173DE",
-      "amiga:0173E2",
-      "amiga:0173E4",
-      "amiga:0173E6",
-      "amiga:0173F0",
-      "amiga:0173F2",
-      "amiga:0173F4"
-    ],
-    "callees": [
-      "amiga:01615E",
-      "amiga:0173F6",
-      "amiga:017430"
-    ],
-    "callers": [],
-    "entry": "amiga:0170BE",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:017068",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:0170BE",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 234,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:0173F6",
-      "amiga:0173FA",
-      "amiga:0173FC",
-      "amiga:017400",
-      "amiga:017402",
-      "amiga:017404",
-      "amiga:017408",
-      "amiga:01740E",
-      "amiga:017410",
-      "amiga:017412",
-      "amiga:017414",
-      "amiga:017418",
-      "amiga:01741C",
-      "amiga:01741E",
-      "amiga:017422",
-      "amiga:017424",
-      "amiga:017426",
-      "amiga:017428",
-      "amiga:01742A",
-      "amiga:01742C",
-      "amiga:01742E"
-    ],
-    "callees": [
-      "amiga:017074"
-    ],
-    "callers": [
-      "amiga:0170BE"
-    ],
-    "entry": "amiga:0173F6",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:0171A0",
-      "fact: decoded direct call at amiga:017270",
-      "fact: decoded direct call at amiga:0173A0",
-      "observed: call,call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:0173F6",
-    "replay_call_kinds": [
-      "call",
-      "call-indirect"
-    ],
-    "replay_calls": 474,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:017430",
-      "amiga:017434",
-      "amiga:017438",
-      "amiga:01743C",
-      "amiga:01743E",
-      "amiga:017440",
-      "amiga:017444",
-      "amiga:017446",
-      "amiga:017448",
-      "amiga:01744C",
-      "amiga:01744E",
-      "amiga:017450",
-      "amiga:017452",
-      "amiga:017456",
-      "amiga:017458",
-      "amiga:01745C",
-      "amiga:01745E",
-      "amiga:017460",
-      "amiga:017464",
-      "amiga:017466",
-      "amiga:017468",
-      "amiga:017472",
-      "amiga:017476",
-      "amiga:017478",
-      "amiga:01747C",
-      "amiga:017480",
-      "amiga:017484",
-      "amiga:017486",
-      "amiga:017488",
-      "amiga:01748A",
-      "amiga:01748C",
-      "amiga:017490",
-      "amiga:017492",
-      "amiga:017494",
-      "amiga:017496",
-      "amiga:017498",
-      "amiga:01749C",
-      "amiga:0174A0",
-      "amiga:0174A2",
-      "amiga:0174A4",
-      "amiga:0174A6",
-      "amiga:0174A8",
-      "amiga:0174AE",
-      "amiga:0174B0",
-      "amiga:0174B6",
-      "amiga:0174BC",
-      "amiga:0174C2",
-      "amiga:0174C6",
-      "amiga:0174CA",
-      "amiga:0174CC",
-      "amiga:0174CE",
-      "amiga:0174D0",
-      "amiga:0174D4",
-      "amiga:0174D6",
-      "amiga:0174DA",
-      "amiga:0174DE",
-      "amiga:0174E2",
-      "amiga:0174E4",
-      "amiga:0174E8",
-      "amiga:0174EC",
-      "amiga:0174F0",
-      "amiga:0174F2",
-      "amiga:0174F4",
-      "amiga:0174F8",
-      "amiga:0174FA",
-      "amiga:0174FE",
-      "amiga:017500",
-      "amiga:017504",
-      "amiga:017506",
-      "amiga:017514",
-      "amiga:017518",
-      "amiga:01751C",
-      "amiga:01751E"
-    ],
-    "callees": [
-      "amiga:01615E",
-      "amiga:017074"
-    ],
-    "callers": [
-      "amiga:0170BE"
-    ],
-    "entry": "amiga:017430",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:0171C8",
-      "observed: call-indirect in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:017430",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 354,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
       "amiga:017664",
       "amiga:01766A"
     ],
@@ -3883,7 +1275,7 @@
     "entry": "amiga:017664",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0175F2",
-      "observed: call in 0551ceab3ac00a8c"
+      "observed: call in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -3983,7 +1375,7 @@
     "entry": "amiga:01766C",
     "entry_evidence": [
       "fact: decoded direct call at amiga:017650",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
@@ -4068,6 +1460,7 @@
       "amiga:017868",
       "amiga:01786C",
       "amiga:01786E",
+      "amiga:017870",
       "amiga:017872",
       "amiga:017876",
       "amiga:017878",
@@ -4137,7 +1530,7 @@
     "entry": "amiga:0177A4",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0176F4",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
@@ -4170,7 +1563,7 @@
     "entry": "amiga:017956",
     "entry_evidence": [
       "fact: decoded direct call at amiga:017806",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -4217,14 +1610,12 @@
       "amiga:017A50",
       "amiga:017A5E"
     ],
-    "callees": [
-      "amiga:01615E"
-    ],
+    "callees": [],
     "callers": [],
     "entry": "amiga:017A02",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0179B2",
-      "observed: call in 0551ceab3ac00a8c"
+      "observed: call in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
@@ -4232,22 +1623,16 @@
     "replay_call_kinds": [
       "call"
     ],
-    "replay_calls": 13,
+    "replay_calls": 2,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:017A6C",
-      "amiga:017A72",
-      "amiga:017A74",
-      "amiga:017A78",
-      "amiga:017A7A",
       "amiga:017A7C",
       "amiga:017A7E",
       "amiga:017A80",
-      "amiga:017A82",
-      "amiga:017A84",
       "amiga:017A86",
       "amiga:017A88",
       "amiga:017A8C",
@@ -4261,16 +1646,13 @@
     ],
     "entry": "amiga:017A6C",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:012F98",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:012F98"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:017A6C",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 72,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -4297,7 +1679,7 @@
     "entry": "amiga:017A9C",
     "entry_evidence": [
       "fact: decoded direct call at amiga:017826",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -4312,18 +1694,11 @@
   {
     "blocks": [
       "amiga:017AC0",
-      "amiga:017AC4",
       "amiga:017ACA",
-      "amiga:017ACC",
       "amiga:017ACE",
-      "amiga:017AD2",
       "amiga:017AD6",
-      "amiga:017AD8",
       "amiga:017ADA",
-      "amiga:017ADC",
-      "amiga:017ADE",
       "amiga:017AE2",
-      "amiga:017AE4",
       "amiga:017AE6",
       "amiga:017AE8",
       "amiga:017AEC"
@@ -4334,16 +1709,13 @@
     ],
     "entry": "amiga:017AC0",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:013042",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:013042"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
     "id": "amiga:017AC0",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 36,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -4389,285 +1761,6 @@
   },
   {
     "blocks": [
-      "amiga:017BD8",
-      "amiga:017BEC"
-    ],
-    "callees": [
-      "amiga:017C82"
-    ],
-    "callers": [],
-    "entry": "amiga:017BD8",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:012CBE"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:017BD8",
-    "replay_call_kinds": [],
-    "replay_calls": 0,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:017BF4",
-      "amiga:017C08",
-      "amiga:017C10",
-      "amiga:017C16",
-      "amiga:017C22",
-      "amiga:017C2C",
-      "amiga:017C36",
-      "amiga:017C3E",
-      "amiga:017C46",
-      "amiga:017C52",
-      "amiga:017C68",
-      "amiga:017C6C",
-      "amiga:017C72",
-      "amiga:017C78"
-    ],
-    "callees": [
-      "amiga:017FDE",
-      "amiga:017FEA"
-    ],
-    "callers": [
-      "amiga:017C82"
-    ],
-    "entry": "amiga:017BF4",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:017E0E"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:017BF4",
-    "replay_call_kinds": [],
-    "replay_calls": 0,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:017C82",
-      "amiga:017C9C",
-      "amiga:017CAA",
-      "amiga:017CB2",
-      "amiga:017CD8",
-      "amiga:017CE6",
-      "amiga:017CEC",
-      "amiga:017CFC",
-      "amiga:017D02",
-      "amiga:017D1A",
-      "amiga:017D20",
-      "amiga:017D3C",
-      "amiga:017D4C",
-      "amiga:017D52",
-      "amiga:017D62",
-      "amiga:017D7A",
-      "amiga:017D80",
-      "amiga:017D9C",
-      "amiga:017DAC",
-      "amiga:017DB8",
-      "amiga:017DCA",
-      "amiga:017DD0",
-      "amiga:017DDA",
-      "amiga:017DE0",
-      "amiga:017DE8",
-      "amiga:017DF0",
-      "amiga:017DF8",
-      "amiga:017DFE",
-      "amiga:017E12",
-      "amiga:017E26",
-      "amiga:017E3A",
-      "amiga:017E42",
-      "amiga:017E4C",
-      "amiga:017E58",
-      "amiga:017E60",
-      "amiga:017E64",
-      "amiga:017E6E",
-      "amiga:017E72",
-      "amiga:017E78",
-      "amiga:017E7E",
-      "amiga:017E80",
-      "amiga:017E8C",
-      "amiga:017E96",
-      "amiga:017E9C",
-      "amiga:017EA2",
-      "amiga:017EAC",
-      "amiga:017EB6",
-      "amiga:017EBE",
-      "amiga:017ED2",
-      "amiga:017EDA",
-      "amiga:017EDC",
-      "amiga:017EE4",
-      "amiga:017EE6",
-      "amiga:017EEC",
-      "amiga:017EF4",
-      "amiga:017EF8",
-      "amiga:017EFC",
-      "amiga:017F0A",
-      "amiga:017F10",
-      "amiga:017F20",
-      "amiga:017F28",
-      "amiga:017F2C",
-      "amiga:017F30",
-      "amiga:017F38",
-      "amiga:017F42",
-      "amiga:017F50",
-      "amiga:017F52",
-      "amiga:017F58",
-      "amiga:017F60",
-      "amiga:017F66",
-      "amiga:017F6A",
-      "amiga:017F78",
-      "amiga:017F7A",
-      "amiga:017F7E",
-      "amiga:017F86",
-      "amiga:017F8C",
-      "amiga:017F90",
-      "amiga:017F94"
-    ],
-    "callees": [
-      "amiga:017BF4"
-    ],
-    "callers": [
-      "amiga:017BD8"
-    ],
-    "entry": "amiga:017C82",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:017BE8"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:017C82",
-    "replay_call_kinds": [],
-    "replay_calls": 0,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:017FDE",
-      "amiga:017FE2"
-    ],
-    "callees": [
-      "amiga:017FF4"
-    ],
-    "callers": [
-      "amiga:017BF4"
-    ],
-    "entry": "amiga:017FDE",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:017C4E"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:017FDE",
-    "replay_call_kinds": [],
-    "replay_calls": 0,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:017FEA",
-      "amiga:017FEE"
-    ],
-    "callees": [
-      "amiga:017FF4"
-    ],
-    "callers": [
-      "amiga:017BF4"
-    ],
-    "entry": "amiga:017FEA",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:017C64"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:017FEA",
-    "replay_call_kinds": [],
-    "replay_calls": 0,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:017FF4",
-      "amiga:017FF8",
-      "amiga:017FFA",
-      "amiga:017FFC",
-      "amiga:017FFE",
-      "amiga:018000",
-      "amiga:018002",
-      "amiga:018004",
-      "amiga:018006",
-      "amiga:018008",
-      "amiga:01800A",
-      "amiga:01800C",
-      "amiga:01800E",
-      "amiga:018010",
-      "amiga:018012",
-      "amiga:018014",
-      "amiga:018016",
-      "amiga:018018",
-      "amiga:01801C",
-      "amiga:01801E",
-      "amiga:01802E",
-      "amiga:018036",
-      "amiga:01803A",
-      "amiga:01803E"
-    ],
-    "callees": [
-      "amiga:0155D6",
-      "amiga:0156B6"
-    ],
-    "callers": [
-      "amiga:017FDE",
-      "amiga:017FEA"
-    ],
-    "entry": "amiga:017FF4",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:017FB4",
-      "fact: decoded direct call at amiga:017FD8",
-      "fact: decoded direct call at amiga:017FE0",
-      "fact: decoded direct call at amiga:017FEC",
-      "observed: call in 0551ceab3ac00a8c"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": false,
-    "id": "amiga:017FF4",
-    "replay_call_kinds": [
-      "call"
-    ],
-    "replay_calls": 15436,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:01850A",
-      "amiga:01851A",
-      "amiga:018520",
-      "amiga:018528"
-    ],
-    "callees": [
-      "amiga:0186EE",
-      "amiga:01871A"
-    ],
-    "callers": [],
-    "entry": "amiga:01850A",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:018D62"
-    ],
-    "has_indirect_calls": true,
-    "has_indirect_jumps": false,
-    "id": "amiga:01850A",
-    "replay_call_kinds": [],
-    "replay_calls": 0,
-    "returns": true,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
       "amiga:01869C"
     ],
     "callees": [],
@@ -4698,7 +1791,7 @@
     "entry": "amiga:0186C0",
     "entry_evidence": [
       "fact: decoded direct call at amiga:01775A",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -4726,7 +1819,7 @@
       "fact: decoded direct call at amiga:01777A",
       "fact: decoded direct call at amiga:017B7C",
       "fact: decoded direct call at amiga:017BA0",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -4745,15 +1838,12 @@
     ],
     "callees": [],
     "callers": [
-      "amiga:01766C",
-      "amiga:01850A"
+      "amiga:01766C"
     ],
     "entry": "amiga:0186EE",
     "entry_evidence": [
       "fact: decoded direct call at amiga:017764",
-      "fact: decoded direct call at amiga:018516",
-      "fact: decoded direct call at amiga:018D58",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -4768,51 +1858,34 @@
   {
     "blocks": [
       "amiga:0186F6",
-      "amiga:0186FA",
-      "amiga:018700",
-      "amiga:018704"
+      "amiga:0186FA"
     ],
-    "callees": [
-      "amiga:01615E"
-    ],
+    "callees": [],
     "callers": [
       "amiga:012D66",
       "amiga:012DBA",
-      "amiga:013C4C",
-      "amiga:013E9C",
-      "amiga:01411E",
       "amiga:0149A0"
     ],
     "entry": "amiga:0186F6",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:012B1A",
-      "fact: decoded direct call at amiga:012CAC",
       "fact: decoded direct call at amiga:012D76",
       "fact: decoded direct call at amiga:012DCA",
-      "fact: decoded direct call at amiga:013CB2",
-      "fact: decoded direct call at amiga:013F7E",
-      "fact: decoded direct call at amiga:014142",
       "fact: decoded direct call at amiga:014A2A",
       "fact: decoded direct call at amiga:014A6C",
-      "fact: decoded direct call at amiga:014ACA",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:014ACA"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
     "id": "amiga:0186F6",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 3869,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
   {
     "blocks": [
       "amiga:018708",
-      "amiga:01870C",
-      "amiga:018712",
-      "amiga:018716"
+      "amiga:01870C"
     ],
     "callees": [],
     "callers": [
@@ -4820,36 +1893,11 @@
     ],
     "entry": "amiga:018708",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:012824",
-      "fact: decoded direct call at amiga:0128A0",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:0128A0"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
     "id": "amiga:018708",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 257,
-    "returns": false,
-    "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
-  },
-  {
-    "blocks": [
-      "amiga:01871A"
-    ],
-    "callees": [],
-    "callers": [
-      "amiga:01850A"
-    ],
-    "entry": "amiga:01871A",
-    "entry_evidence": [
-      "fact: decoded direct call at amiga:01851C",
-      "fact: decoded direct call at amiga:018D5E"
-    ],
-    "has_indirect_calls": false,
-    "has_indirect_jumps": true,
-    "id": "amiga:01871A",
     "replay_call_kinds": [],
     "replay_calls": 0,
     "returns": false,
@@ -4866,7 +1914,7 @@
     "entry": "amiga:018728",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0152E4",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -4880,9 +1928,7 @@
   },
   {
     "blocks": [
-      "amiga:018736",
-      "amiga:01873C",
-      "amiga:018740"
+      "amiga:018736"
     ],
     "callees": [],
     "callers": [
@@ -4890,16 +1936,13 @@
     ],
     "entry": "amiga:018736",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:012FC4",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:012FC4"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
     "id": "amiga:018736",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 72,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -4938,7 +1981,7 @@
     "entry": "amiga:01875C",
     "entry_evidence": [
       "fact: decoded direct call at amiga:01387C",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -4946,7 +1989,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 20381,
+    "replay_calls": 7,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5002,7 +2045,7 @@
     "entry": "amiga:018794",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0150FC",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
@@ -5073,7 +2116,7 @@
     "entry": "amiga:018872",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0187A0",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -5102,7 +2145,7 @@
     "entry": "amiga:01887E",
     "entry_evidence": [
       "fact: decoded direct call at amiga:015116",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -5145,7 +2188,7 @@
     "entry": "amiga:0188A6",
     "entry_evidence": [
       "fact: decoded direct call at amiga:01888A",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
@@ -5173,7 +2216,7 @@
       "fact: decoded direct call at amiga:017682",
       "fact: decoded direct call at amiga:0177E0",
       "fact: decoded direct call at amiga:017902",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -5193,13 +2236,11 @@
       "amiga:018946"
     ],
     "callees": [],
-    "callers": [
-      "amiga:013930"
-    ],
+    "callers": [],
     "entry": "amiga:018938",
     "entry_evidence": [
       "fact: decoded direct call at amiga:013986",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -5207,7 +2248,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 20358,
+    "replay_calls": 1,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5227,7 +2268,7 @@
     "entry": "amiga:01894A",
     "entry_evidence": [
       "fact: decoded direct call at amiga:01519E",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
@@ -5252,7 +2293,7 @@
     "entry": "amiga:018964",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0176DC",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -5279,7 +2320,7 @@
     "entry_evidence": [
       "fact: decoded direct call at amiga:012F46",
       "fact: decoded direct call at amiga:01507A",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -5287,7 +2328,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 46,
+    "replay_calls": 330675,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5342,7 +2383,9 @@
       "amiga:0189B4",
       "amiga:0189B8"
     ],
-    "callees": [],
+    "callees": [
+      "amiga:01615E"
+    ],
     "callers": [
       "amiga:013008",
       "amiga:018794"
@@ -5351,7 +2394,7 @@
     "entry_evidence": [
       "fact: decoded direct call at amiga:013014",
       "fact: decoded direct call at amiga:018816",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": false,
@@ -5359,7 +2402,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 37,
+    "replay_calls": 330660,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5376,7 +2419,7 @@
     "entry": "amiga:0189BA",
     "entry_evidence": [
       "fact: decoded direct call at amiga:015166",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -5401,17 +2444,13 @@
     ],
     "entry": "amiga:0189D4",
     "entry_evidence": [
-      "fact: decoded direct call at amiga:017B36",
-      "fact: decoded direct call at amiga:018D42",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "fact: decoded direct call at amiga:017B36"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
     "id": "amiga:0189D4",
-    "replay_call_kinds": [
-      "call-indirect"
-    ],
-    "replay_calls": 1,
+    "replay_call_kinds": [],
+    "replay_calls": 0,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5429,7 +2468,7 @@
     "entry_evidence": [
       "fact: decoded direct call at amiga:012FD6",
       "fact: decoded direct call at amiga:0150BC",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -5437,7 +2476,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 46,
+    "replay_calls": 330675,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5474,7 +2513,7 @@
     "entry": "amiga:018A06",
     "entry_evidence": [
       "fact: decoded direct call at amiga:012FEC",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -5482,7 +2521,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 108,
+    "replay_calls": 330659,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5500,7 +2539,7 @@
       "fact: decoded direct call at amiga:015226",
       "fact: decoded direct call at amiga:015264",
       "fact: decoded direct call at amiga:0152A2",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -5544,7 +2583,7 @@
     "entry": "amiga:018B98",
     "entry_evidence": [
       "fact: decoded direct call at amiga:013602",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -5552,7 +2591,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 11949,
+    "replay_calls": 3,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5572,7 +2611,7 @@
     "entry": "amiga:018BEA",
     "entry_evidence": [
       "fact: decoded direct call at amiga:013668",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": true,
     "has_indirect_jumps": false,
@@ -5580,7 +2619,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 11949,
+    "replay_calls": 3,
     "returns": true,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },
@@ -5595,7 +2634,7 @@
     "entry": "amiga:018C04",
     "entry_evidence": [
       "fact: decoded direct call at amiga:0130DA",
-      "observed: call-indirect in 0551ceab3ac00a8c"
+      "observed: call-indirect in fe7e1b7456cb7865"
     ],
     "has_indirect_calls": false,
     "has_indirect_jumps": true,
@@ -5603,7 +2642,7 @@
     "replay_call_kinds": [
       "call-indirect"
     ],
-    "replay_calls": 4565,
+    "replay_calls": 3,
     "returns": false,
     "status": "machine-function evidence: boundary and non-call CFG derived without semantic claims"
   },

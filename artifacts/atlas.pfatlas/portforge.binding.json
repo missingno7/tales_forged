@@ -8,19 +8,23 @@
   },
   "atlas": {
     "hash_scheme": "portforge-tree-sha256-v1",
-    "sha256": "3288276e37f26574678e98c33c917b66dc91c47803f204676d7d1bee476fb59b"
+    "sha256": "c846df753f6c2282190cd30d0ac6e6adb3691ec0483ebf2f1e7fe2adbc385b24"
   },
   "replays": [
     {
-      "path": "artifacts/replays/cold5.pfreplay.json",
-      "sha256": "0551ceab3ac00a8c7a05fcf41d98b12ae033f4cdac9ac5b7960cd809be7a2c42",
+      "path": "artifacts/replays/cold5-v3.pfreplay.json",
+      "sha256": "fd2a0c922540d7e2bdb5a8e35de3dd3bd5c3f06620f1f2fe9a22291ee826c143",
       "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
       "oracle_verified": true,
       "bootstrap": {
         "format": "portforge-amiga-direct-hunk-bootstrap-v2",
         "machine_profile": "a500-ocs-pal",
-        "machine_model": "pf-amiga-a500-ocs-pal-v1",
+        "machine_model": "pf-amiga-a500-ocs-pal-v3",
         "executable": "DuckTales",
+        "launch": {
+          "mode": "cli",
+          "arguments": ""
+        },
         "program": {
           "path": "assets/Duck Tales - The Quest for Gold (1989)(Disney Software)(Disk 1 of 2).adf",
           "kind": "file",
@@ -41,6 +45,7 @@
             }
           }
         ],
+        "launch_sha256": "be27583cd3c5f6b875a54fbb8871a07bd9976b9b90c424df4e57f174fcac6fed",
         "extensions": {
           "org.portforge.amiga.execution-image": {
             "format": "pf-amiga-execution-image-v1",
@@ -49,6 +54,34 @@
             "hunk_sha256": "00ad5a2860110701d5fe2acd6834d0a9c819d6659a8af9bdbc1a9e1a99aea481",
             "load_base": 65536,
             "module_entry": 65536
+          },
+          "org.portforge.amiga.launch": {
+            "format": "pf-amiga-launch-v3",
+            "identity_model": "ordered-media+machine+program+hunk+layout+prelude-layout+prelude-policy+cli-argument-tails+vblank-signals",
+            "mounted_media_sha256": [
+              "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
+              "7514f17734463e78ba16b39e454075f83d919bcace431c081570de88faf8259d"
+            ],
+            "machine_model": "pf-amiga-a500-ocs-pal-v3",
+            "program": "DuckTales",
+            "hunk_sha256": "00ad5a2860110701d5fe2acd6834d0a9c819d6659a8af9bdbc1a9e1a99aea481",
+            "load_base": 65536,
+            "module_entry": 65536,
+            "prelude_program": "",
+            "prelude_hunk_sha256": "",
+            "prelude_load_base": 0,
+            "prelude_module_entry": 0,
+            "prelude_instruction_budget": 0,
+            "prelude_required_exit": "",
+            "vblank_signals": [
+              147774
+            ],
+            "launch_mode": "cli",
+            "cli_argument_bytes": 1,
+            "cli_arguments_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+            "prelude_launch_mode": "",
+            "prelude_cli_argument_bytes": 0,
+            "prelude_cli_arguments_sha256": ""
           }
         }
       }
@@ -57,14 +90,14 @@
   "imports": [],
   "evidence": [
     {
-      "id": "evidence-amiga-oracle-0551ceab3ac00a8c",
+      "id": "evidence-amiga-oracle-fe7e1b7456cb7865",
       "kind": "replay-evidence",
       "origin": "portforge",
-      "sha256": "0296ab12f8449a1391a0f331e06fd3bb08e92c4f994cb1e6ae187be2b1e589a5"
+      "sha256": "27481a8b5a032217ca7e9783e9c1cbd31ca8a149c02b293cb85c9514c6651f2c"
     }
   ],
   "portforge": {
-    "revision": "8c23f079e79b5a2c9c67c3bd8a257ac6458a3c2a",
+    "revision": "49fca6ede51d900a6e2d83e33dd63b4ba5da494b",
     "dirty": false
   }
 }

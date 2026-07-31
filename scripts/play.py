@@ -161,7 +161,7 @@ def verify_generated_runtime() -> dict:
             ROOT
             / "artifacts"
             / "replays"
-            / "cold5.pfreplay.json"
+            / "cold5-v3.pfreplay.json"
         ),
         "lift_plan": (
             ROOT

@@ -23,7 +23,7 @@ ATLAS = ROOT / "artifacts" / "atlas.pfatlas"
 EVIDENCE = ROOT / "artifacts" / "amiga" / "ducktales-evidence.json"
 BLOCKS = ROOT / "artifacts" / "generated" / "amiga" / "blocks.json"
 RUN_REPORT = ROOT / "artifacts" / "amiga" / "ducktales-run.json"
-REPLAY = ROOT / "artifacts" / "replays" / "cold5.pfreplay.json"
+REPLAY = ROOT / "artifacts" / "replays" / "cold5-v3.pfreplay.json"
 
 
 def command(values: list[str], *, cwd: Path) -> None:
@@ -143,7 +143,7 @@ def verify_existing_profile() -> None:
         or evidence.get("program_sha256")
         != game["program"]["sha256"]
         or evidence.get("machine_model")
-        != "pf-amiga-a500-ocs-pal-v1"
+        != "pf-amiga-a500-ocs-pal-v3"
         or run.get("format") != "pf-amiga-run-v1"
         or run.get("execution_mode") != "amiga-oracle"
         or run.get("deterministic_rerun") is not True
@@ -211,7 +211,7 @@ def rebuild(steps: int, *, reuse_evidence: bool = False) -> None:
                 "--steps",
                 str(steps),
                 "--replay-inputs",
-                "cold5",
+                "cold5-v3",
             ],
             cwd=ROOT,
         )

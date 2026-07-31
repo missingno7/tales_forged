@@ -1,7 +1,7 @@
 // PortForge machine-function CFG dossier.
 // This is not decompiled semantics or a source-port implementation.
 // boundary: amiga:01892A
-// evidence: fact: decoded direct call at amiga:017682; fact: decoded direct call at amiga:0177E0; fact: decoded direct call at amiga:017902; observed: call-indirect in 0551ceab3ac00a8c
+// evidence: fact: decoded direct call at amiga:017682; fact: decoded direct call at amiga:0177E0; fact: decoded direct call at amiga:017902; observed: call-indirect in fe7e1b7456cb7865
 // recovered blocks: 3
 // replay calls: 3
 // derived return form: unknown in recovered CFG
