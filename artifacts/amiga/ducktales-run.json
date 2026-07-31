@@ -855,6 +855,6 @@
     90490,
     70190
   ],
-  "unsupported": "Cycle-exact Copper/bus contention, mid-scanline palette and bitplane-pointer changes, sprite composition, blitter line-mode DMA, and headless live host input remain beyond this bootstrap",
+  "unsupported": "Cycle-exact Copper/bus contention, mid-scanline bitplane-pointer changes, sprite composition, blitter line-mode DMA, and headless live host input remain beyond this bootstrap",
   "visible_output": true
 }

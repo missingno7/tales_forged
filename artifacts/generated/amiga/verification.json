@@ -11,11 +11,11 @@
     "disk2": "7514f17734463e78ba16b39e454075f83d919bcace431c081570de88faf8259d",
     "game": "bce79522140409f55c634cb1de7847fcd6e177a2df19cd30ddd3d104d783d4ac",
     "generated_header": "27c3c9639883dfa769081701ff3097150d88f322d5d1285b5ea14a803371d802",
-    "headless_runner": "7a950a777f3e72a7ff30e4594f66edc6999bd4210887120733e332b344e531ea",
+    "headless_runner": "6fd725d65bf80fc2d27090bc90dbf000bb3528256a27c4f0c6824c0e29cea3fe",
     "lift_plan": "ab3881b34e7379131d7d7a5369555ab576a883e2e0c39aa562c60d9c5004494b",
     "profile": "9e4d981e60aa1472d3ba6c1777d27670bc7814801659e4f772fce224bd9a6cec",
     "replay": "fd2a0c922540d7e2bdb5a8e35de3dd3bd5c3f06620f1f2fe9a22291ee826c143",
-    "viewer_runner": "5e4cca355e2e4efc96c684d9453305815c5097cc8a407e8fd1459c53c3c92684"
+    "viewer_runner": "5edc4f383bfb0c001613c1bb356a3bd24e4ac6eb94d07d3057d9661200b03039"
   },
   "instruction_budget": 50000000,
   "interpreter_fallback_steps": 43277871,
@@ -25,7 +25,7 @@
   "producer": {
     "compiler": "C:\\msys64\\mingw64\\bin\\g++.EXE",
     "portforge_dirty": false,
-    "portforge_revision": "49fca6ede51d900a6e2d83e33dd63b4ba5da494b"
+    "portforge_revision": "9b98ef60e0e32b6d7338e86491626ffa6203a4f4"
   },
   "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
   "replay": "artifacts/replays/cold5-v3.pfreplay.json",
