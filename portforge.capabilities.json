@@ -187,8 +187,8 @@
         {
           "kind": "conformance-report",
           "path": "artifacts/atlas.pfatlas/portforge.binding.json",
-          "sha256": "518686479881efba6da311cf8d5fda5ca1b8eb62890324adc3b0349f2d615c74",
-          "detail": "Atlas tree and source identities are bound to clean PortForge revision 44a57b3e."
+          "sha256": "e490e0fcba324676edcc8266e458a7554d370d950527b4601665d047f0908471",
+          "detail": "Atlas tree and source identities are bound to clean PortForge revision ce9f4e93."
         }
       ],
       "blockers": []
