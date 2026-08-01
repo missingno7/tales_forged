@@ -20,6 +20,35 @@ def dry_run(*arguments: str) -> subprocess.CompletedProcess[str]:
 
 
 class PlayAdapterTests(unittest.TestCase):
+    def test_help_exposes_complete_development_workflows(self) -> None:
+        result = subprocess.run(
+            [sys.executable, str(PLAY), "--help"],
+            cwd=ROOT,
+            text=True,
+            capture_output=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        for capability in (
+            "--record-replay NAME",
+            "--play-replay NAME",
+            "--verify-replay NAME",
+            "--inspect-replay NAME",
+            "--snapshot NAME|PATH",
+            "--snapshot-out NAME|PATH",
+            "--inspect-snapshot NAME|PATH",
+            "--verify-snapshot NAME|PATH",
+            "--live-atlas [PATH]",
+            "--update-atlas",
+            "--headless",
+            "--input-schedule PATH",
+            "--capture-audio PATH",
+            "F10",
+            "F11",
+            "F12",
+            "--                      forward",
+        ):
+            self.assertIn(capability, result.stdout)
+
     def test_plain_launch_is_interactive_oracle_viewer(self) -> None:
         result = dry_run("--runtime", "oracle")
         self.assertEqual(result.returncode, 0, result.stderr)
@@ -146,11 +175,73 @@ class PlayAdapterTests(unittest.TestCase):
         self.assertIn("from-save.pfreplay.json", command)
         self.assertIn("checkpoint.pfamigasnapshot", command)
 
-    def test_legacy_replay_flags_are_unknown(self) -> None:
-        for flag in ("--replay-inputs", "--record-replay"):
+    def test_compatibility_replay_names_map_only_to_artifact_v2(self) -> None:
+        for flag in ("--replay-inputs", "--play-replay"):
             with self.subTest(flag=flag):
                 result = dry_run("--headless", flag, "cold5")
-                self.assertNotEqual(result.returncode, 0)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                command = result.stdout.splitlines()[-1]
+                self.assertIn(" --replay-artifact ", command)
+                self.assertNotIn(" --replay-inputs ", command)
+                self.assertNotIn(" --play-replay ", command)
+        recorded = dry_run("--record-replay", "human")
+        self.assertEqual(recorded.returncode, 0, recorded.stderr)
+        command = recorded.stdout.splitlines()[-1]
+        self.assertIn(" --record-artifact ", command)
+        self.assertNotIn(" --record-replay ", command)
+
+    def test_strict_replay_verification_is_headless(self) -> None:
+        result = dry_run("--verify-replay", "cold5")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        command = result.stdout.splitlines()[-1]
+        self.assertIn("pf_amiga_run.exe", command)
+        self.assertIn(" --replay-artifact ", command)
+        self.assertIn(" --strict", command)
+
+    def test_common_replay_and_snapshot_inspection_tools(self) -> None:
+        replay = dry_run("--inspect-replay", "cold5", "--", "--json")
+        self.assertEqual(replay.returncode, 0, replay.stderr)
+        command = replay.stdout.splitlines()[-1]
+        self.assertIn("pf_artifact.exe inspect", command)
+        self.assertIn("cold5.pfreplay.json", command)
+        self.assertTrue(command.endswith("--json"), command)
+
+        snapshot = dry_run("--inspect-snapshot", "checkpoint")
+        self.assertEqual(snapshot.returncode, 0, snapshot.stderr)
+        self.assertIn(
+            "pf_artifact.exe inspect-session",
+            snapshot.stdout.splitlines()[-1],
+        )
+        self.assertIn(
+            "checkpoint.pfamigasnapshot.pfsession.json",
+            snapshot.stdout.splitlines()[-1],
+        )
+        verified = dry_run("--verify-snapshot", "checkpoint")
+        self.assertEqual(verified.returncode, 0, verified.stderr)
+        self.assertIn(
+            "pf_artifact.exe verify-session",
+            verified.stdout.splitlines()[-1],
+        )
+
+    def test_headless_snapshot_publication_and_audio_capture(self) -> None:
+        result = dry_run(
+            "--verify-replay", "cold5",
+            "--snapshot-out", "verified",
+            "--capture-audio", "verified",
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        command = result.stdout.splitlines()[-1]
+        self.assertIn(" --snapshot-out ", command)
+        self.assertIn("verified.pfamigasnapshot", command)
+        self.assertIn(" --audio-wav ", command)
+        self.assertIn("verified.wav", command)
+
+        rejected = dry_run("--snapshot-out", "machine-only")
+        self.assertNotEqual(rejected.returncode, 0)
+        self.assertIn(
+            "requires ArtifactV2 playback or recording",
+            rejected.stderr,
+        )
 
     def test_live_atlas_is_interactive_and_uses_project_artifact(self) -> None:
         result = dry_run(

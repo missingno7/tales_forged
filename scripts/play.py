@@ -1,10 +1,52 @@
 #!/usr/bin/env python3
-"""Run DuckTales through the current PortForge Amiga architecture.
+"""Run and inspect DuckTales through the shared PortForge architecture.
 
-Interactive play and human-authored ArtifactV2 recording use the viewer's
-shared semantic live session. Headless recording remains available for fixed
-test schedules; playback and verification are deterministic headless modes.
-Anything after ``--`` is forwarded to the selected runner.
+Plain invocation selects ``oracle``. Use ``--runtime generated`` for the
+faster replay-derived AOT backend used on instruction-heavy 3D screens.
+
+Interactive controls:
+  F10                     save the currently published frame as a screenshot
+  F11                     start/finish an ArtifactV2 recording
+  F12                     publish a resumable machine + replay-session snapshot
+
+Play and recording:
+  --record-replay NAME    record ArtifactV2 under artifacts/replays/
+  --play-replay NAME      play ArtifactV2 interactively
+  --verify-replay NAME    replay twice headlessly with strict verification
+  --headless              use the deterministic non-interactive runner
+  --input-schedule PATH   fixed semantic input source for headless recording
+  --steps N               headless guest instruction budget (default: 50000000)
+
+Snapshots and output:
+  --snapshot NAME|PATH    resume a machine/session snapshot
+  --snapshot-out NAME|PATH
+                          publish a verified headless snapshot and session state
+  --inspect-snapshot NAME|PATH
+                          inspect and content-verify a session publication
+  --verify-snapshot NAME|PATH
+                          content-verify a session publication
+  --capture-audio PATH    write canonical headless PCM as WAV
+
+Atlas and replay operations:
+  --live-atlas [PATH]     attach the project's Live Execution Atlas
+  --atlas-interval N      publish an Atlas update every N frames
+  --update-atlas          ingest this verified headless run's EvidenceV3
+  --inspect-replay NAME   validate and summarize an ArtifactV2
+
+Compatibility names ``--record-artifact`` and ``--replay-artifact`` are
+accepted. ``--record-replay``, ``--play-replay``, and ``--replay-inputs`` map
+only to ArtifactV2; no retired journal or legacy replay reader is restored.
+
+Diagnostics:
+  --no-verify             skip pinned ADF size and SHA-256 checks
+
+Advanced arguments after ``--`` include viewer ``--mute`` and runner
+``--peek``, ``--find-address``, ``--break-pc``, ``--fire0-at``,
+``--fire0-release-at``, and ``--canonical-projections`` where that runner mode
+supports them. Runner validation remains authoritative for combinations.
+
+Anything after ``--`` is forwarded verbatim to the selected runner or shared
+artifact tool.
 """
 
 from __future__ import annotations
@@ -51,15 +93,84 @@ def named_path(value: str, directory: Path, suffix: str) -> Path:
     return path.resolve()
 
 
+def run_artifact_operation(
+    selection: player_runtime.PlayerSelection,
+    options: argparse.Namespace,
+) -> int | None:
+    command_name: str | None = None
+    artifact: Path | None = None
+    if options.inspect_replay:
+        command_name = "inspect"
+        artifact = named_path(
+            options.inspect_replay,
+            ROOT / "artifacts/replays",
+            ".pfreplay.json",
+        )
+    elif options.inspect_snapshot or options.verify_snapshot:
+        command_name = (
+            "inspect-session" if options.inspect_snapshot
+            else "verify-session"
+        )
+        snapshot = named_path(
+            options.inspect_snapshot or options.verify_snapshot,
+            ROOT / "artifacts/snapshots",
+            ".pfamigasnapshot",
+        )
+        artifact = Path(str(snapshot) + ".pfsession.json")
+    if command_name is None or artifact is None:
+        return None
+
+    tool = PORT_FORGE / "build" / "pf_artifact.exe"
+    if not selection.dry_run:
+        player_runtime.require_artifact(artifact, selection)
+        if selection.no_build:
+            player_runtime.require_artifact(tool, selection)
+        else:
+            subprocess.run(
+                [
+                    sys.executable,
+                    "build.py",
+                    "--no-tests",
+                    "--targets",
+                    "pf_artifact",
+                ],
+                check=True,
+                cwd=PORT_FORGE,
+            )
+    return player_runtime.run_selected(
+        selection,
+        [str(tool), command_name, str(artifact), *selection.runner_args],
+        cwd=ROOT,
+        identity=[
+            "operation: shared ArtifactV2/session publication "
+            + command_name,
+            f"artifact: {artifact}",
+            "authority: common PortForge replay contracts",
+        ],
+    )
+
+
 def target_options(selection: player_runtime.PlayerSelection) -> argparse.Namespace:
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument("--steps", type=int, default=50_000_000)
     parser.add_argument("--no-verify", action="store_true")
     parser.add_argument("--headless", action="store_true")
-    parser.add_argument("--replay-artifact")
-    parser.add_argument("--record-artifact")
+    parser.add_argument(
+        "--play-replay", "--replay-artifact", "--replay-inputs",
+        dest="replay_artifact",
+    )
+    parser.add_argument(
+        "--record-replay", "--record-artifact",
+        dest="record_artifact",
+    )
+    parser.add_argument("--verify-replay")
+    parser.add_argument("--inspect-replay")
     parser.add_argument("--input-schedule")
     parser.add_argument("--snapshot")
+    parser.add_argument("--snapshot-out")
+    parser.add_argument("--inspect-snapshot")
+    parser.add_argument("--verify-snapshot")
+    parser.add_argument("--capture-audio")
     parser.add_argument("--update-atlas", action="store_true")
     parser.add_argument("--live-atlas", nargs="?", const="__project_atlas__")
     parser.add_argument("--atlas-interval", type=int, default=1)
@@ -75,6 +186,40 @@ def target_options(selection: player_runtime.PlayerSelection) -> argparse.Namesp
         raise player_runtime.PlayerConfigError(
             "--atlas-interval must be positive"
         )
+    replay_modes = sum(bool(value) for value in (
+        options.replay_artifact,
+        options.verify_replay,
+        options.inspect_replay,
+    ))
+    if replay_modes > 1:
+        raise player_runtime.PlayerConfigError(
+            "playback, verification, and inspection are mutually exclusive"
+        )
+    operations = sum(bool(value) for value in (
+        options.inspect_replay,
+        options.inspect_snapshot,
+        options.verify_snapshot,
+    ))
+    if operations > 1:
+        raise player_runtime.PlayerConfigError(
+            "only one inspection operation may be selected"
+        )
+    if operations and any((
+        options.record_artifact,
+        options.replay_artifact,
+        options.verify_replay,
+        options.snapshot,
+        options.snapshot_out,
+        options.input_schedule,
+        options.update_atlas,
+        options.live_atlas,
+    )):
+        raise player_runtime.PlayerConfigError(
+            "inspection operations cannot be combined with execution"
+        )
+    if options.verify_replay:
+        options.replay_artifact = options.verify_replay
+        options.headless = True
     if options.replay_artifact and options.record_artifact:
         raise player_runtime.PlayerConfigError(
             "playback and recording are mutually exclusive"
@@ -83,6 +228,15 @@ def target_options(selection: player_runtime.PlayerSelection) -> argparse.Namesp
         raise player_runtime.PlayerConfigError(
             "--input-schedule requires --record-artifact"
         )
+    if options.snapshot_out:
+        options.headless = True
+        if not (options.replay_artifact or options.record_artifact):
+            raise player_runtime.PlayerConfigError(
+                "--snapshot-out requires ArtifactV2 playback or recording "
+                "so replay-session state can be published"
+            )
+    if options.capture_audio:
+        options.headless = True
     return options
 
 
@@ -131,6 +285,9 @@ def main(argv: list[str] | None = None) -> int:
             f"unsupported DuckTales runtime: {selection.runtime}"
         )
     options = target_options(selection)
+    operation_result = run_artifact_operation(selection, options)
+    if operation_result is not None:
+        return operation_result
     cfg = load_json(ROOT / "game.json")
     program = cfg["program"]
     companion = cfg["companion_assets"]["disk2"]
@@ -211,6 +368,20 @@ def main(argv: list[str] | None = None) -> int:
             ".pfamigasnapshot",
         )
         runner_options += ["--snapshot", str(snapshot)]
+    if options.snapshot_out:
+        snapshot_out = named_path(
+            options.snapshot_out,
+            ROOT / "artifacts/snapshots",
+            ".pfamigasnapshot",
+        )
+        runner_options += ["--snapshot-out", str(snapshot_out)]
+    if options.capture_audio:
+        audio = named_path(
+            options.capture_audio,
+            ROOT / "artifacts/audio",
+            ".wav",
+        )
+        runner_options += ["--audio-wav", str(audio)]
     if options.live_atlas:
         atlas = (
             ROOT / "artifacts/atlas.pfatlas"

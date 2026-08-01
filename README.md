@@ -9,12 +9,28 @@ python scripts\play.py
 ```
 
 Interactive play uses the oracle viewer. Press Space or Enter at the title,
-use the arrow keys for the joystick, Enter or Ctrl for fire, F11 to start or
-finish an ArtifactV2 recording, F12 for a continuation-bound snapshot, and
-Escape to quit. The verified path covers the title,
+use the arrow keys for the joystick, Enter or Ctrl for fire, F10 for a
+screenshot, F11 to start or finish an ArtifactV2 recording, F12 for a
+continuation-bound snapshot, and Escape to quit. The verified path covers the title,
 difficulty menu, story, map selection, and entry into the Launchpad travel
 sequence. Later minigames, disk-2 progression, mid-scanline display changes,
 sprite composition, and blitter line mode remain open verification work.
+
+## Complete player interface
+
+`python scripts\play.py --help` is the authoritative workflow inventory. The
+launcher exposes interactive and headless ArtifactV2 recording/playback,
+strict replay verification, replay/session inspection, snapshot resume and
+publication, Live Atlas, evidence ingestion, canonical audio capture, runtime
+selection, build control, and asset verification. Arguments after `--` are
+forwarded unchanged to the selected viewer, runner, or shared artifact tool.
+This retains low-level `--mute`, memory peek/address search, PC breakpoint,
+synthetic fire-event, and canonical-projection diagnostics without making the
+launcher reinterpret them.
+
+The preferred replay names are `--record-replay` and `--play-replay`.
+`--record-artifact`, `--replay-artifact`, and historical `--replay-inputs` are
+clean aliases for ArtifactV2 only; no journal or retired replay loader exists.
 
 ## Replay authority
 
@@ -25,11 +41,12 @@ ordinals, event/checkpoint cursors, continuation state, and terminal policy.
 Artifact mode always requires a content-bound execution plan.
 
 ```powershell
-python scripts\play.py --replay-artifact cold5
-python scripts\play.py --headless --replay-artifact cold5
-python scripts\play.py --record-artifact my-playthrough
-python scripts\play.py --headless --record-artifact session `
+python scripts\play.py --play-replay cold5
+python scripts\play.py --verify-replay cold5
+python scripts\play.py --record-replay my-playthrough
+python scripts\play.py --headless --record-replay session `
   --input-schedule recovery/migration/cold5-input-schedule-v1.json
+python scripts\play.py --inspect-replay cold5
 ```
 
 Interactive recording commits human input only when it becomes guest-visible
@@ -47,10 +64,25 @@ PCM already produced by the shared Amiga adapter and wall-clock throttles that
 presentation. ReplaySession/live-session state owns committed input and replay
 cursors. Snapshot safety means an exact, serializable continuation at a
 declared semantic point, not global device inactivity; F12 writes the gameplay
-snapshot together with an identity-bound `.pfsession.json` continuation.
-That continuation resumes ordinary interactive gameplay at the same next
-semantic point. In-progress ArtifactV2 recorder/playback drafts are not yet
-serializable; F12 reports that missing capability immediately in those modes.
+snapshot together with an identity-bound `.pfsession.json` publication.
+F12 works during ordinary play, recording, and playback. Recording
+publications include the content-bound ArtifactV2 builder/session draft and
+original base snapshot; playback publications content-bind the immutable
+artifact attachment and exact playback continuation.
+
+Snapshot and diagnostic workflows use the same launcher:
+
+```powershell
+python scripts\play.py --snapshot amigasnap_YYYYMMDD_HHMMSS_fFRAME
+python scripts\play.py --verify-replay cold5 --snapshot-out verified-cold5
+python scripts\play.py --inspect-snapshot verified-cold5
+python scripts\play.py --verify-snapshot verified-cold5
+python scripts\play.py --verify-replay cold5 --capture-audio cold5
+```
+
+`--snapshot-out` is published only after the headless deterministic rerun and
+snapshot roundtrip pass. Session inspection validates all attachment hashes;
+it does not execute or mutate a replay.
 
 ## Recovery and generated execution
 
@@ -73,6 +105,9 @@ requires the complete ArtifactV2 terminal canonical state.
 
 ```powershell
 python scripts\rebuild_atlas.py
+python scripts\play.py --live-atlas
+python scripts\play.py --live-atlas --atlas-interval 3
+python scripts\play.py --verify-replay cold5 --update-atlas
 python port_forge\tools\pf_project.py validate .
 python port_forge\tools\pf_project.py platform conformance .
 ```
