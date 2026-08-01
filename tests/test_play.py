@@ -45,6 +45,17 @@ class PlayAdapterTests(unittest.TestCase):
         self.assertIn("cold5.pfreplay.json", command)
         self.assertIn("oracle-interpreter.json", command)
 
+    def test_replay_can_use_interactive_semantic_viewer(self) -> None:
+        result = dry_run(
+            "--runtime", "oracle", "--replay-artifact", "cold5"
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        command = result.stdout.splitlines()[-1]
+        self.assertIn("pf_amiga_view.exe", command)
+        self.assertNotIn(" --steps ", command)
+        self.assertIn(" --replay-artifact ", command)
+        self.assertIn("cold5.pfreplay.json", command)
+
     def test_forwarded_viewer_option_does_not_force_headless(self) -> None:
         result = dry_run("--runtime", "oracle", "--", "--mute")
         self.assertEqual(result.returncode, 0, result.stderr)
@@ -105,6 +116,35 @@ class PlayAdapterTests(unittest.TestCase):
         self.assertIn(" --input-schedule ", command)
         self.assertNotIn("--record-replay", command)
         self.assertNotIn("--replay-inputs", command)
+
+    def test_human_recording_uses_interactive_semantic_session(self) -> None:
+        result = dry_run(
+            "--runtime",
+            "oracle",
+            "--record-artifact",
+            "human-session",
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        command = result.stdout.splitlines()[-1]
+        self.assertIn("pf_amiga_view.exe", command)
+        self.assertNotIn(" --steps ", command)
+        self.assertIn(" --record-artifact ", command)
+        self.assertIn("human-session.pfreplay.json", command)
+        self.assertIn(" --boundary-profile ", command)
+        self.assertIn("oracle-interpreter.json", command)
+
+    def test_interactive_recording_can_start_from_snapshot(self) -> None:
+        result = dry_run(
+            "--record-artifact",
+            "from-save",
+            "--snapshot",
+            "checkpoint",
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        command = result.stdout.splitlines()[-1]
+        self.assertIn("pf_amiga_view.exe", command)
+        self.assertIn("from-save.pfreplay.json", command)
+        self.assertIn("checkpoint.pfamigasnapshot", command)
 
     def test_legacy_replay_flags_are_unknown(self) -> None:
         for flag in ("--replay-inputs", "--record-replay"):

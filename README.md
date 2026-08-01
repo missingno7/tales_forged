@@ -9,8 +9,9 @@ python scripts\play.py
 ```
 
 Interactive play uses the oracle viewer. Press Space or Enter at the title,
-use the arrow keys for the joystick, Enter or Ctrl for fire, F12 for a local
-continuation snapshot, and Escape to quit. The verified path covers the title,
+use the arrow keys for the joystick, Enter or Ctrl for fire, F11 to start or
+finish an ArtifactV2 recording, F12 for a continuation-bound snapshot, and
+Escape to quit. The verified path covers the title,
 difficulty menu, story, map selection, and entry into the Launchpad travel
 sequence. Later minigames, disk-2 progression, mid-scanline display changes,
 sprite composition, and blitter line mode remain open verification work.
@@ -24,18 +25,32 @@ ordinals, event/checkpoint cursors, continuation state, and terminal policy.
 Artifact mode always requires a content-bound execution plan.
 
 ```powershell
+python scripts\play.py --replay-artifact cold5
 python scripts\play.py --headless --replay-artifact cold5
+python scripts\play.py --record-artifact my-playthrough
 python scripts\play.py --headless --record-artifact session `
   --input-schedule recovery/migration/cold5-input-schedule-v1.json
 ```
 
-Recording consumes the neutral, absolute-time input schedule only as a one-way
-source and emits semantic replay events. Playback rejects stale media, launch,
+Interactive recording commits human input only when it becomes guest-visible
+at the adapter's semantic input point. Headless recording consumes the neutral,
+absolute-time input schedule only as a one-way test source and emits the same
+semantic replay events. Playback rejects stale media, launch,
 machine, boundary-profile, channel, plan, checkpoint, or continuation
 identities. A passing run consumes all events and proves deterministic rerun,
 machine/session snapshot roundtrip, canonical checkpoint equality, and
 canonical-audio equality. Headless reports and EvidenceV3 are written beneath
 `artifacts/amiga`.
+
+The viewer is a host frontend, not a machine scheduler: it presents frames and
+PCM already produced by the shared Amiga adapter and wall-clock throttles that
+presentation. ReplaySession/live-session state owns committed input and replay
+cursors. Snapshot safety means an exact, serializable continuation at a
+declared semantic point, not global device inactivity; F12 writes the gameplay
+snapshot together with an identity-bound `.pfsession.json` continuation.
+That continuation resumes ordinary interactive gameplay at the same next
+semantic point. In-progress ArtifactV2 recorder/playback drafts are not yet
+serializable; F12 reports that missing capability immediately in those modes.
 
 ## Recovery and generated execution
 

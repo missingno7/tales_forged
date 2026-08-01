@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Run DuckTales through the current PortForge Amiga architecture.
 
-Interactive play uses the viewer. Recording and playback are headless and use
-ReplayArtifactV2 through the shared ReplaySession driver. Anything after ``--``
-is forwarded to the selected runner.
+Interactive play and human-authored ArtifactV2 recording use the viewer's
+shared semantic live session. Headless recording remains available for fixed
+test schedules; playback and verification are deterministic headless modes.
+Anything after ``--`` is forwarded to the selected runner.
 """
 
 from __future__ import annotations
@@ -140,14 +141,20 @@ def main(argv: list[str] | None = None) -> int:
         for item in selection.adapter_args
     )
     artifact_mode = bool(options.replay_artifact or options.record_artifact)
+    scheduled_recording = bool(
+        options.record_artifact and options.input_schedule
+    )
     interactive = not (
-        options.headless or options.update_atlas or explicit_steps or artifact_mode
+        options.headless
+        or options.update_atlas
+        or explicit_steps
+        or scheduled_recording
     )
     if options.live_atlas and not interactive:
         raise player_runtime.PlayerConfigError(
             "--live-atlas requires interactive play"
         )
-    if options.snapshot and artifact_mode:
+    if options.snapshot and options.replay_artifact:
         raise player_runtime.PlayerConfigError(
             "ReplayArtifactV2 supplies its own exact base snapshot"
         )
@@ -214,6 +221,12 @@ def main(argv: list[str] | None = None) -> int:
             "--live-atlas", str(atlas),
             "--atlas-interval", str(options.atlas_interval),
         ]
+    if interactive and not artifact_mode:
+        runner_options += [
+            "--boundary-profile",
+            str(ROOT / "profiles/replay-boundaries-v1.json"),
+            "--implementation-plan", str(plan),
+        ]
 
     if not selection.dry_run:
         if options.no_verify:
@@ -222,7 +235,7 @@ def main(argv: list[str] | None = None) -> int:
         else:
             disk1 = verify_asset(program)
             disk2 = verify_asset(companion)
-        if artifact_mode:
+        if artifact_mode or interactive:
             player_runtime.require_artifact(plan, selection)
         if selection.runtime == "generated":
             if not selection.no_build:
@@ -270,9 +283,9 @@ def main(argv: list[str] | None = None) -> int:
             f"HUNK identity: sha256:{program['hunk_sha256']}",
             f"companion identity: sha256:{companion['sha256']}",
             f"execution plan: {role}",
-            "replay authority: ReplayArtifactV2 + ReplaySession"
+            "replay authority: ReplayArtifactV2 + shared live session"
             if artifact_mode
-            else "presentation: interactive viewer",
+            else "presentation: interactive semantic-session viewer",
         ],
     )
     if code == 0 and options.update_atlas and not selection.dry_run:
