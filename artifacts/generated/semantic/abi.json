@@ -23,52 +23,6 @@
     "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
   },
   {
-    "entry": "amiga:01033E",
-    "id": "amiga:01033E",
-    "not_derived_on_this_target": [
-      "clobbered_caller_visible",
-      "exit_flags",
-      "register_arguments",
-      "saved_and_restored",
-      "stack_arguments",
-      "stack_frame"
-    ],
-    "return_form": "rts",
-    "return_forms": [
-      "rts"
-    ],
-    "return_sites": [
-      {
-        "at": "amiga:0104FC",
-        "form": "rts"
-      }
-    ],
-    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
-  },
-  {
-    "entry": "amiga:0104FE",
-    "id": "amiga:0104FE",
-    "not_derived_on_this_target": [
-      "clobbered_caller_visible",
-      "exit_flags",
-      "register_arguments",
-      "saved_and_restored",
-      "stack_arguments",
-      "stack_frame"
-    ],
-    "return_form": "rts",
-    "return_forms": [
-      "rts"
-    ],
-    "return_sites": [
-      {
-        "at": "amiga:010630",
-        "form": "rts"
-      }
-    ],
-    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
-  },
-  {
     "entry": "amiga:010A44",
     "id": "amiga:010A44",
     "not_derived_on_this_target": [
@@ -1372,33 +1326,6 @@
     "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
   },
   {
-    "entry": "amiga:0161A0",
-    "id": "amiga:0161A0",
-    "not_derived_on_this_target": [
-      "clobbered_caller_visible",
-      "exit_flags",
-      "register_arguments",
-      "saved_and_restored",
-      "stack_arguments",
-      "stack_frame"
-    ],
-    "return_form": "rts",
-    "return_forms": [
-      "rts"
-    ],
-    "return_sites": [
-      {
-        "at": "amiga:0161AE",
-        "form": "rts"
-      },
-      {
-        "at": "amiga:0161FE",
-        "form": "rts"
-      }
-    ],
-    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
-  },
-  {
     "entry": "amiga:01701A",
     "id": "amiga:01701A",
     "not_derived_on_this_target": [
@@ -1627,29 +1554,6 @@
     "return_sites": [
       {
         "at": "amiga:017976",
-        "form": "rts"
-      }
-    ],
-    "status": "partial: return sites are byte-derived; the current M68000 static decoder has no register read/write IR"
-  },
-  {
-    "entry": "amiga:017978",
-    "id": "amiga:017978",
-    "not_derived_on_this_target": [
-      "clobbered_caller_visible",
-      "exit_flags",
-      "register_arguments",
-      "saved_and_restored",
-      "stack_arguments",
-      "stack_frame"
-    ],
-    "return_form": "rts",
-    "return_forms": [
-      "rts"
-    ],
-    "return_sites": [
-      {
-        "at": "amiga:017A00",
         "form": "rts"
       }
     ],

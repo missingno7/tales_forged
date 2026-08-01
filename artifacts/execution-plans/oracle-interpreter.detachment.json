@@ -1,0 +1,95 @@
+{
+  "$schema": "port_forge/schemas/portforge-detachment-report-v1.schema.json",
+  "format": "portforge-detachment-report-v1",
+  "plan_sha256": "d71d197590c7b15e7ee6baf3c54e4800faf36154533e64e1533d105fee6b5b44",
+  "platform": "amiga",
+  "project": "ducktales_amiga",
+  "properties": {
+    "cpu-model": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.devices",
+        "portforge.amiga.timing"
+      ]
+    },
+    "diagnostics": {
+      "detached": true,
+      "required_by": []
+    },
+    "guest-memory": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.devices",
+        "portforge.amiga.replay-session"
+      ]
+    },
+    "interpreter": {
+      "detached": false,
+      "required_by": [
+        "ducktales.oracle-interpreter"
+      ]
+    },
+    "oracle": {
+      "detached": false,
+      "required_by": [
+        "ducktales.oracle-interpreter"
+      ]
+    },
+    "original-code": {
+      "detached": false,
+      "required_by": [
+        "ducktales.oracle-interpreter"
+      ]
+    },
+    "original-executable": {
+      "detached": false,
+      "required_by": [
+        "ducktales.oracle-interpreter",
+        "portforge.amiga.bootstrap"
+      ]
+    },
+    "platform-services": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.bootstrap",
+        "portforge.amiga.devices",
+        "portforge.amiga.replay-session",
+        "portforge.amiga.timing"
+      ]
+    },
+    "portforge-runtime": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.bootstrap",
+        "portforge.amiga.devices",
+        "portforge.amiga.replay-session",
+        "portforge.amiga.timing"
+      ]
+    },
+    "replay": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.replay-session"
+      ]
+    },
+    "snapshots": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.replay-session"
+      ]
+    }
+  },
+  "remaining_dependencies": [
+    "cpu-model",
+    "guest-memory",
+    "interpreter",
+    "oracle",
+    "original-code",
+    "original-executable",
+    "platform-services",
+    "portforge-runtime",
+    "replay",
+    "snapshots"
+  ],
+  "role": "oracle-interpreter"
+}

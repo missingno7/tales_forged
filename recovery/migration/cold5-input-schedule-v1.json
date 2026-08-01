@@ -1,0 +1,861 @@
+{
+  "events": [
+    {
+      "at": 337783184,
+      "channel": "amiga.joystick1.fire",
+      "payload": true
+    },
+    {
+      "at": 349254158,
+      "channel": "amiga.joystick1.fire",
+      "payload": false
+    },
+    {
+      "at": 417088599,
+      "channel": "amiga.keyboard.raw",
+      "payload": 64
+    },
+    {
+      "at": 426874691,
+      "channel": "amiga.keyboard.raw",
+      "payload": 192
+    },
+    {
+      "at": 441785784,
+      "channel": "amiga.joystick1.fire",
+      "payload": true
+    },
+    {
+      "at": 461446925,
+      "channel": "amiga.joystick1.fire",
+      "payload": false
+    },
+    {
+      "at": 694673738,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 698048241,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 704843896,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 708244646,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 708244646,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 711644629,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 711644629,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 715044181,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 725288273,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 728647769,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 735441429,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 738840614,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 738840614,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 742240597,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 742240597,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 745640149,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 861229036,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 864626289,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 878233948,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 881624049,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 888419704,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 891820454,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 891820454,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 895220437,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 895220437,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 898619989,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 908848467,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 912223577,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 925825201,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 929220906,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 936016386,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 939414182,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 939414182,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 942814165,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 956427843,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 959816874,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 966616457,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 970010150,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 970010150,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 973410133,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1021003701,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 1024402982,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1034635531,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 1038007001,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1044800661,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 1048199846,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1048199846,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 1051599829,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1051599829,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 1054999381,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1065228210,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 1068602969,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1075396629,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 1078795814,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1078795814,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 1082195797,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1082195797,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 1085595349,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1112797512,
+      "channel": "amiga.joystick1.direction",
+      "payload": 256
+    },
+    {
+      "at": 1116190886,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1282790422,
+      "channel": "amiga.joystick1.fire",
+      "payload": true
+    },
+    {
+      "at": 1286170449,
+      "channel": "amiga.joystick1.fire",
+      "payload": false
+    },
+    {
+      "at": 1315296040,
+      "channel": "amiga.keyboard.raw",
+      "payload": 64
+    },
+    {
+      "at": 1322470717,
+      "channel": "amiga.keyboard.raw",
+      "payload": 192
+    },
+    {
+      "at": 1507533202,
+      "channel": "amiga.joystick1.fire",
+      "payload": true
+    },
+    {
+      "at": 1544240445,
+      "channel": "amiga.joystick1.fire",
+      "payload": false
+    },
+    {
+      "at": 1581448409,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1584778147,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1589857184,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1593256736,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1593256736,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1596656288,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1596656288,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1600055840,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1600055840,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1603455392,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1603455392,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1606854944,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1606854944,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1610254496,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1610254496,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1613654048,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1613654048,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1617053600,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1617053600,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1619932938,
+      "channel": "amiga.keyboard.raw",
+      "payload": 64
+    },
+    {
+      "at": 1620453152,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1620453152,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1623852688,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1623852688,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 1627853524,
+      "channel": "amiga.keyboard.raw",
+      "payload": 192
+    },
+    {
+      "at": 1726998487,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1960448088,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 1963824507,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 1973308498,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 1976288989,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2037904232,
+      "channel": "amiga.joystick1.fire",
+      "payload": true
+    },
+    {
+      "at": 2042215775,
+      "channel": "amiga.joystick1.fire",
+      "payload": false
+    },
+    {
+      "at": 2158141105,
+      "channel": "amiga.keyboard.raw",
+      "payload": 64
+    },
+    {
+      "at": 2166946494,
+      "channel": "amiga.keyboard.raw",
+      "payload": 192
+    },
+    {
+      "at": 2248952376,
+      "channel": "amiga.joystick1.direction",
+      "payload": 768
+    },
+    {
+      "at": 2254728901,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 2311101181,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2345210131,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 2348527288,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2352036790,
+      "channel": "amiga.joystick1.direction",
+      "payload": 259
+    },
+    {
+      "at": 2355326392,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2360425720,
+      "channel": "amiga.joystick1.direction",
+      "payload": 259
+    },
+    {
+      "at": 2363825272,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2363825272,
+      "channel": "amiga.joystick1.direction",
+      "payload": 259
+    },
+    {
+      "at": 2367224824,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2367224824,
+      "channel": "amiga.joystick1.direction",
+      "payload": 259
+    },
+    {
+      "at": 2370624376,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2370624376,
+      "channel": "amiga.joystick1.direction",
+      "payload": 259
+    },
+    {
+      "at": 2374023928,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2374023928,
+      "channel": "amiga.joystick1.direction",
+      "payload": 259
+    },
+    {
+      "at": 2377423480,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2377423480,
+      "channel": "amiga.joystick1.direction",
+      "payload": 259
+    },
+    {
+      "at": 2380823032,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2380823032,
+      "channel": "amiga.joystick1.direction",
+      "payload": 259
+    },
+    {
+      "at": 2384222584,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2387646515,
+      "channel": "amiga.joystick1.direction",
+      "payload": 768
+    },
+    {
+      "at": 2391021688,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2396121016,
+      "channel": "amiga.joystick1.direction",
+      "payload": 768
+    },
+    {
+      "at": 2396433895,
+      "channel": "amiga.joystick1.direction",
+      "payload": 769
+    },
+    {
+      "at": 2399520568,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2403317820,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 2406319672,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2411472099,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 2414818552,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2416809974,
+      "channel": "amiga.joystick1.direction",
+      "payload": 769
+    },
+    {
+      "at": 2419917880,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2425017208,
+      "channel": "amiga.joystick1.direction",
+      "payload": 769
+    },
+    {
+      "at": 2428416760,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2428416760,
+      "channel": "amiga.joystick1.direction",
+      "payload": 769
+    },
+    {
+      "at": 2431816312,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2433739245,
+      "channel": "amiga.joystick1.direction",
+      "payload": 1
+    },
+    {
+      "at": 2435619934,
+      "channel": "amiga.joystick1.direction",
+      "payload": 769
+    },
+    {
+      "at": 2438615416,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2438760361,
+      "channel": "amiga.joystick1.direction",
+      "payload": 768
+    },
+    {
+      "at": 2442014968,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2452272726,
+      "channel": "amiga.joystick1.fire",
+      "payload": true
+    },
+    {
+      "at": 2455985556,
+      "channel": "amiga.joystick1.fire",
+      "payload": false
+    },
+    {
+      "at": 2537857829,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 2541818305,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2546275081,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 2549664032,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2549664032,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 2553160187,
+      "channel": "amiga.joystick1.direction",
+      "payload": 0
+    },
+    {
+      "at": 2581404631,
+      "channel": "amiga.joystick1.fire",
+      "payload": true
+    },
+    {
+      "at": 2637982107,
+      "channel": "amiga.joystick1.fire",
+      "payload": false
+    },
+    {
+      "at": 2658260672,
+      "channel": "amiga.keyboard.raw",
+      "payload": 64
+    },
+    {
+      "at": 2671490524,
+      "channel": "amiga.keyboard.raw",
+      "payload": 192
+    },
+    {
+      "at": 2688000047,
+      "channel": "amiga.joystick1.direction",
+      "payload": 768
+    },
+    {
+      "at": 2702012590,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 2713502291,
+      "channel": "amiga.joystick1.direction",
+      "payload": 768
+    },
+    {
+      "at": 2743394832,
+      "channel": "amiga.joystick1.direction",
+      "payload": 3
+    },
+    {
+      "at": 2761761800,
+      "channel": "amiga.joystick1.direction",
+      "payload": 768
+    },
+    {
+      "at": 3467274783,
+      "channel": "amiga.joystick1.fire",
+      "payload": true
+    },
+    {
+      "at": 3497924329,
+      "channel": "amiga.keyboard.raw",
+      "payload": 64
+    },
+    {
+      "at": 3504826789,
+      "channel": "amiga.keyboard.raw",
+      "payload": 192
+    },
+    {
+      "at": 3509243716,
+      "channel": "amiga.keyboard.raw",
+      "payload": 64
+    },
+    {
+      "at": 3516421650,
+      "channel": "amiga.keyboard.raw",
+      "payload": 192
+    },
+    {
+      "at": 3520010880,
+      "channel": "amiga.keyboard.raw",
+      "payload": 64
+    },
+    {
+      "at": 3572471903,
+      "channel": "amiga.keyboard.raw",
+      "payload": 192
+    }
+  ],
+  "format": "portforge-amiga-input-schedule-v1",
+  "time_domain": "amiga.master-tick"
+}

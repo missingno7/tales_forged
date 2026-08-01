@@ -1,904 +1,855 @@
 {
   "excluded_boundary_candidates": [
     {
-      "identity": "amiga:018DA8",
-      "reason": "observed-call-target-not-a-recovered-block",
-      "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
-      ]
-    },
-    {
       "identity": "amiga:018DAE",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DB4",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DBA",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DC0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DC6",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
-      ]
-    },
-    {
-      "identity": "amiga:018DCC",
-      "reason": "observed-call-target-not-a-recovered-block",
-      "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DD2",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DD8",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DDE",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DE4",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DEA",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DF0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DF6",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018DFC",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E02",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E0E",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E1A",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E20",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E26",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E2C",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E32",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E3E",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E44",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E4A",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E50",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E56",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E5C",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E62",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E68",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E74",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E7A",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E80",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E86",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E98",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018E9E",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EA4",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EAA",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EB0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EBC",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EC2",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EC8",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018ECE",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018ED4",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EDA",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EE0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EE6",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EEC",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EF2",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018EFE",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F0A",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F1C",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F28",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F2E",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F34",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F3A",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F40",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F46",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F4C",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F52",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F58",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F64",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F6A",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F70",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F76",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F7C",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F88",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F8E",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018F9A",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FA0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FB2",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FB8",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FBE",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FCA",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FD0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FD6",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FDC",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FE2",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FE8",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FF0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:018FF8",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:019000",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:019008",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:019010",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:019018",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:019040",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:019050",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:019068",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
-      ]
-    },
-    {
-      "identity": "amiga:019080",
-      "reason": "observed-call-target-not-a-recovered-block",
-      "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:019098",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0190A0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0190A8",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
+      ]
+    },
+    {
+      "identity": "amiga:0190B0",
+      "reason": "observed-call-target-not-a-recovered-block",
+      "sources": [
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0190B8",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0190C0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call in fe7e1b7456cb7865"
+        "observed: call in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0241B4",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0256E6",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0258E0",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0258EC",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:025968",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0259A4",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0259C6",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0259E4",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:025A0E",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:025C5E",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0260AA",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:026190",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:026360",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0264F2",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:026724",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:026D08",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:027102",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:027696",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0723A4",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0728E8",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:072F84",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
-      ]
-    },
-    {
-      "identity": "amiga:073066",
-      "reason": "observed-call-target-not-a-recovered-block",
-      "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
-      ]
-    },
-    {
-      "identity": "amiga:0731E8",
-      "reason": "observed-call-target-not-a-recovered-block",
-      "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
-      ]
-    },
-    {
-      "identity": "amiga:073C52",
-      "reason": "observed-call-target-not-a-recovered-block",
-      "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:073D5C",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
-      ]
-    },
-    {
-      "identity": "amiga:074176",
-      "reason": "observed-call-target-not-a-recovered-block",
-      "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:074216",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:0748BE",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
-      ]
-    },
-    {
-      "identity": "amiga:074B26",
-      "reason": "observed-call-target-not-a-recovered-block",
-      "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:074BF4",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:07536E",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:075706",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:076C44",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call,call-indirect in fe7e1b7456cb7865"
+        "observed: call,call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     },
     {
       "identity": "amiga:076C90",
       "reason": "observed-call-target-not-a-recovered-block",
       "sources": [
-        "observed: call-indirect in fe7e1b7456cb7865"
+        "observed: call-indirect in artifact 3259043dac461e7b, execution cf9131cdca959d68"
       ]
     }
   ],
   "format": "portforge-amiga-function-frontier-v1",
-  "function_boundaries": 121,
+  "function_boundaries": 117,
   "limitations": [
     "boundaries are addresses, not semantic names or types",
     "jump targets and relocations are not function boundaries",
@@ -908,57 +859,9 @@
   ],
   "machine_model": "pf-amiga-a500-ocs-pal-v3",
   "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
-  "recovered_blocks": 5011,
+  "recovered_blocks": 4730,
   "shared_blocks": [],
   "unowned_blocks": [
-    "amiga:0101BA",
-    "amiga:0101BE",
-    "amiga:0101C2",
-    "amiga:0101C6",
-    "amiga:0101CA",
-    "amiga:0101CC",
-    "amiga:0101D0",
-    "amiga:0101D8",
-    "amiga:0101DC",
-    "amiga:0101E0",
-    "amiga:0101E4",
-    "amiga:0101E6",
-    "amiga:0101E8",
-    "amiga:0101EA",
-    "amiga:010282",
-    "amiga:010286",
-    "amiga:01028A",
-    "amiga:01028C",
-    "amiga:010290",
-    "amiga:010294",
-    "amiga:010296",
-    "amiga:01029C",
-    "amiga:0102A0",
-    "amiga:0102A8",
-    "amiga:0102AC",
-    "amiga:0102B0",
-    "amiga:0102B2",
-    "amiga:0102B4",
-    "amiga:0102B8",
-    "amiga:0102C6",
-    "amiga:010310",
-    "amiga:010324",
-    "amiga:01032A",
-    "amiga:01032C",
-    "amiga:01032E",
-    "amiga:010332",
-    "amiga:010336",
-    "amiga:01044C",
-    "amiga:01044E",
-    "amiga:010450",
-    "amiga:010454",
-    "amiga:010458",
-    "amiga:01045C",
-    "amiga:010460",
-    "amiga:010464",
-    "amiga:010468",
-    "amiga:01046C",
-    "amiga:01046E",
     "amiga:010640",
     "amiga:010644",
     "amiga:010648",
@@ -1011,24 +914,24 @@
     "amiga:0106E2",
     "amiga:0106E6",
     "amiga:0106EA",
-    "amiga:0106EE",
-    "amiga:0106F2",
-    "amiga:0106F6",
-    "amiga:0106FA",
-    "amiga:0106FC",
-    "amiga:0106FE",
-    "amiga:010702",
-    "amiga:010706",
-    "amiga:01070A",
-    "amiga:01070E",
-    "amiga:010710",
-    "amiga:010712",
-    "amiga:010716",
-    "amiga:010718",
-    "amiga:01071A",
-    "amiga:01071E",
-    "amiga:010722",
-    "amiga:010726",
+    "amiga:01073C",
+    "amiga:010740",
+    "amiga:010744",
+    "amiga:010748",
+    "amiga:01074A",
+    "amiga:01074C",
+    "amiga:010750",
+    "amiga:010754",
+    "amiga:010758",
+    "amiga:01075C",
+    "amiga:01075E",
+    "amiga:010760",
+    "amiga:010764",
+    "amiga:010766",
+    "amiga:010768",
+    "amiga:01076C",
+    "amiga:010770",
+    "amiga:010774",
     "amiga:0108BE",
     "amiga:0108C2",
     "amiga:0108E2",
@@ -1140,27 +1043,6 @@
     "amiga:010A3C",
     "amiga:010A40",
     "amiga:010A42",
-    "amiga:01134C",
-    "amiga:011350",
-    "amiga:011354",
-    "amiga:011358",
-    "amiga:01135C",
-    "amiga:01135E",
-    "amiga:011362",
-    "amiga:011366",
-    "amiga:011368",
-    "amiga:01136C",
-    "amiga:011370",
-    "amiga:011372",
-    "amiga:011378",
-    "amiga:01137A",
-    "amiga:011382",
-    "amiga:011388",
-    "amiga:01138C",
-    "amiga:011390",
-    "amiga:011392",
-    "amiga:011396",
-    "amiga:011398",
     "amiga:012816",
     "amiga:01281A",
     "amiga:01281E",
@@ -2339,9 +2221,6 @@
     "amiga:015BB2",
     "amiga:015BB4",
     "amiga:015BB8",
-    "amiga:015BBC",
-    "amiga:015BC0",
-    "amiga:015BC2",
     "amiga:015BE6",
     "amiga:015BE8",
     "amiga:015BEA",
@@ -2584,6 +2463,44 @@
     "amiga:017992",
     "amiga:017994",
     "amiga:017996",
+    "amiga:01799A",
+    "amiga:01799C",
+    "amiga:01799E",
+    "amiga:0179A4",
+    "amiga:0179A8",
+    "amiga:0179AA",
+    "amiga:0179AC",
+    "amiga:0179AE",
+    "amiga:0179B0",
+    "amiga:0179B2",
+    "amiga:0179B4",
+    "amiga:0179BA",
+    "amiga:0179BE",
+    "amiga:0179C2",
+    "amiga:0179C4",
+    "amiga:0179C6",
+    "amiga:0179C8",
+    "amiga:0179CA",
+    "amiga:0179CE",
+    "amiga:0179D0",
+    "amiga:0179D2",
+    "amiga:0179D4",
+    "amiga:0179D6",
+    "amiga:0179DA",
+    "amiga:0179DC",
+    "amiga:0179DE",
+    "amiga:0179E0",
+    "amiga:0179E4",
+    "amiga:0179E8",
+    "amiga:0179EC",
+    "amiga:0179EE",
+    "amiga:0179F2",
+    "amiga:0179F4",
+    "amiga:0179F6",
+    "amiga:0179F8",
+    "amiga:0179FA",
+    "amiga:0179FC",
+    "amiga:017A00",
     "amiga:017AF0",
     "amiga:017AF4",
     "amiga:017AF6",
@@ -2790,269 +2707,6 @@
   "unresolved_successors": [],
   "unresolved_transfers": [
     {
-      "from": "amiga:0101C6",
-      "owners": [],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0102B4",
-      "owners": [],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0102C2",
-      "owners": [],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010332",
-      "owners": [],
-      "reason": "indirect-jump-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:01034A",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010354",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:01035A",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010364",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:01036E",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:01037C",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010386",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010394",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:01039C",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0103A6",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0103AE",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0103B4",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0103DA",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0103F2",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:01045C",
-      "owners": [],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0104B2",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-jump-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0104B6",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0104C6",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0104DE",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0104EC",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0104F4",
-      "owners": [
-        "amiga:01033E"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010502",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010526",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010534",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010542",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010554",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:01058E",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0105AA",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0105BA",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0105D6",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:0105E6",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010602",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:01060E",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010618",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:010628",
-      "owners": [
-        "amiga:0104FE"
-      ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
       "from": "amiga:01064E",
       "owners": [],
       "reason": "indirect-call-requires-runtime-evidence"
@@ -3088,12 +2742,12 @@
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
-      "from": "amiga:0106F6",
+      "from": "amiga:010744",
       "owners": [],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {
-      "from": "amiga:01071E",
+      "from": "amiga:01076C",
       "owners": [],
       "reason": "indirect-call-requires-runtime-evidence"
     },
@@ -3786,21 +3440,6 @@
       "owners": [
         "amiga:010FDE"
       ],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:011354",
-      "owners": [],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:01135E",
-      "owners": [],
-      "reason": "indirect-call-requires-runtime-evidence"
-    },
-    {
-      "from": "amiga:01137E",
-      "owners": [],
       "reason": "indirect-call-requires-runtime-evidence"
     },
     {

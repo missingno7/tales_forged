@@ -6,6 +6,9 @@
   "assets": "assets",
   "default_profile": "ducktales_a500_ocs_pal",
   "artifacts": {
+    "replay_boundaries": "profiles/replay-boundaries-v1.json",
+    "platform_capabilities": "portforge.capabilities.json",
+    "implementation_catalog": "recovery/implementation-catalog.json",
     "runs": "artifacts/amiga",
     "replays": "artifacts/replays",
     "snapshots": "artifacts/snapshots",
@@ -17,10 +20,10 @@
   },
   "corpora": {
     "recovery": [
-      "cold5-v3.pfreplay.json"
+      "cold5.pfreplay.json"
     ],
     "generated-baseline": [
-      "cold5-v3.pfreplay.json"
+      "cold5.pfreplay.json"
     ]
   },
   "known_gaps": [
@@ -93,24 +96,24 @@
     "play": {
       "command": ["python", "scripts/play.py"],
       "scope": "interactive",
-      "description": "Open the default oracle player, or explicitly select the verified generated+fallback runtime; both support deterministic input, snapshots, recording, audio, and Live Atlas."
+      "description": "Open the default oracle player, or explicitly select the verified generated+fallback runtime; headless execution uses explicit role plans and the shared Amiga replay adapter."
     },
     "replay": {
-      "command": ["python", "scripts/play.py", "--headless", "--replay-inputs"],
+      "command": ["python", "scripts/play.py", "--headless", "--replay-artifact", "cold5"],
       "scope": "whole-program",
-      "description": "Replay a timestamped, asset-bound Amiga input journal and require matching canonical state across a deterministic rerun and snapshot restore.",
+      "description": "Replay the bound ArtifactV2 corpus through ReplaySession and require exact semantic-boundary checkpoints, continuation restore, canonical audio, and complete event consumption.",
       "gate": true,
       "requires": ["replay"]
     },
     "analyze": {
       "command": ["python", "scripts/analyze.py"],
       "scope": "resident-static-recovery",
-      "description": "Verify the pinned ADF set and curated execution evidence, recover resident M68000 instructions and blocks, and materialize a deterministic pf-recovered-blocks-v1 source for the Execution Atlas."
+      "description": "Verify the pinned ADF set and bound EvidenceV3, recover resident M68000 instructions and blocks, and materialize a deterministic pf-recovered-blocks-v1 Atlas source."
     },
     "build-generated": {
       "command": ["python", "scripts/build_generated.py"],
       "scope": "generated-baseline",
-      "description": "Regenerate byte-guarded M68000 hooks, build both generated runners, and require canonical oracle equality through the complete curated replay timeline.",
+      "description": "Regenerate byte-guarded M68000 hooks, build both generated runners, and require ArtifactV2 terminal equality under explicit oracle and generated execution plans.",
       "gate": true
     },
     "play-generated": {
@@ -120,14 +123,14 @@
     },
     "atlas": {
       "command": ["python", "scripts/rebuild_atlas.py"],
-      "scope": "dynamic-and-static-execution-evidence",
-      "description": "Recollect the full oracle replay, regenerate recovered blocks, and atomically rebuild the evidence-bound Execution Atlas.",
+      "scope": "regeneratable-evidence-projection",
+      "description": "Recollect bound EvidenceV3, regenerate recovered blocks, and atomically rebuild disposable Atlas v2 indexes without executing or verifying replay inside Atlas.",
       "gate": true
     },
     "semantic": {
       "command": ["python", "port_forge/tools/pf_project.py", "semantic", "."],
       "scope": "machine-function-and-measured-cost-evidence",
-      "description": "Regenerate resident Amiga machine-function boundaries, partial ABI cards, sampled instruction-cost profiles, and provenance-bound context dossiers from the curated replay.",
+      "description": "Regenerate resident Amiga machine-function boundaries, partial ABI cards, sampled instruction-cost profiles, and provenance-bound context dossiers from EvidenceV3.",
       "gate": true
     },
     "frontier": {

@@ -27,21 +27,23 @@ class PlayAdapterTests(unittest.TestCase):
         self.assertIn("pf_amiga_view.exe", command)
         self.assertNotIn(" --steps ", command)
 
-    def test_headless_oracle_is_explicit_and_uses_standard_replay(self) -> None:
+    def test_headless_oracle_uses_artifact_and_explicit_plan(self) -> None:
         result = dry_run(
             "--runtime",
             "oracle",
             "--headless",
             "--steps",
             "100",
-            "--replay-inputs",
-            "cold5-v3",
+            "--replay-artifact",
+            "cold5",
         )
         self.assertEqual(result.returncode, 0, result.stderr)
         command = result.stdout.splitlines()[-1]
         self.assertIn("pf_amiga_run.exe", command)
         self.assertIn(" --oracle ", command)
-        self.assertIn("cold5-v3.pfreplay.json", command)
+        self.assertIn(" --replay-artifact ", command)
+        self.assertIn("cold5.pfreplay.json", command)
+        self.assertIn("oracle-interpreter.json", command)
 
     def test_forwarded_viewer_option_does_not_force_headless(self) -> None:
         result = dry_run("--runtime", "oracle", "--", "--mute")
@@ -50,14 +52,13 @@ class PlayAdapterTests(unittest.TestCase):
         self.assertIn("pf_amiga_view.exe", command)
         self.assertTrue(command.endswith("--mute"), command)
 
-    def test_headless_snapshot_uses_runner_and_legacy_vector_evidence(self) -> None:
+    def test_headless_snapshot_uses_runner(self) -> None:
         result = dry_run("--headless", "--snapshot", "checkpoint")
         self.assertEqual(result.returncode, 0, result.stderr)
         command = result.stdout.splitlines()[-1]
         self.assertIn("pf_amiga_run.exe", command)
         self.assertIn("checkpoint.pfamigasnapshot", command)
-        self.assertIn("--recover-int-vector 7:0x240e6:1", command)
-        self.assertIn("--recover-int-vector 10:0x24128:4", command)
+        self.assertNotIn("recover-int-vector", command)
 
     def test_generated_runtime_has_distinct_guarded_runners(self) -> None:
         interactive = dry_run("--runtime", "generated")
@@ -78,8 +79,8 @@ class PlayAdapterTests(unittest.TestCase):
             "--headless",
             "--steps",
             "100",
-            "--replay-inputs",
-            "cold5-v3",
+            "--replay-artifact",
+            "cold5",
         )
         self.assertEqual(headless.returncode, 0, headless.stderr)
         command = headless.stdout.splitlines()[-1]
@@ -88,6 +89,28 @@ class PlayAdapterTests(unittest.TestCase):
         )
         self.assertIn(" --native ", command)
         self.assertNotIn(" --oracle ", command)
+        self.assertIn("generated-plus-fallback.json", command)
+
+    def test_recording_uses_neutral_schedule_and_artifact_contract(self) -> None:
+        result = dry_run(
+            "--headless",
+            "--record-artifact",
+            "fresh",
+            "--input-schedule",
+            "recovery/migration/cold5-input-schedule-v1.json",
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        command = result.stdout.splitlines()[-1]
+        self.assertIn(" --record-artifact ", command)
+        self.assertIn(" --input-schedule ", command)
+        self.assertNotIn("--record-replay", command)
+        self.assertNotIn("--replay-inputs", command)
+
+    def test_legacy_replay_flags_are_unknown(self) -> None:
+        for flag in ("--replay-inputs", "--record-replay"):
+            with self.subTest(flag=flag):
+                result = dry_run("--headless", flag, "cold5")
+                self.assertNotEqual(result.returncode, 0)
 
     def test_live_atlas_is_interactive_and_uses_project_artifact(self) -> None:
         result = dry_run(

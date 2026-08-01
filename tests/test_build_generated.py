@@ -71,7 +71,7 @@ class GeneratedBuildContractTests(unittest.TestCase):
                     json.dumps(
                         {
                             "format": (
-                                "portforge-amiga-generated-verification-v1"
+                                "portforge-amiga-generated-verification-v2"
                             ),
                             "equivalent": True,
                             "inputs": inputs,
@@ -103,35 +103,56 @@ class GeneratedBuildContractTests(unittest.TestCase):
             finally:
                 build_generated.VERIFICATION = old
 
-    def test_replay_gate_uses_latest_timeline_tick(self) -> None:
+    def test_replay_gate_uses_artifact_terminal(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             replay = Path(temporary) / "replay.json"
             replay.write_text(
                 json.dumps(
-                    {
+                    {"format": "portforge-replay-v2",
                         "events": [
-                            {"master_tick": 12},
-                            {"master_tick": 9},
-                            {"master_tick": 40},
-                        ]
+                            {"sequence": 0},
+                            {"sequence": 1},
+                            {"sequence": 2},
+                        ],
+                        "terminal": {
+                            "schema": "pf-replay-terminal-v3",
+                            "stamp": {
+                                "schema": "pf-boundary-stamp-v1",
+                                "global_ordinal": 40,
+                                "outcome": "terminal",
+                            },
+                            "canonical_sha256": "a" * 64,
+                        },
                     }
                 ),
                 encoding="utf-8",
             )
             self.assertEqual(
-                build_generated.replay_last_tick(replay), 40
+                build_generated.replay_terminal(replay), (40, "a" * 64)
             )
             self.assertEqual(
                 build_generated.replay_event_count(replay), 3
             )
             replay.write_text(
-                json.dumps({"events": [{"master_tick": "40"}]}),
+                json.dumps({
+                    "format": "portforge-replay-v2",
+                    "events": [{}],
+                    "terminal": {
+                        "schema": "pf-replay-terminal-v3",
+                        "stamp": {
+                            "schema": "pf-boundary-stamp-v1",
+                            "global_ordinal": "40",
+                            "outcome": "terminal",
+                        },
+                        "canonical_sha256": "a" * 64,
+                    },
+                }),
                 encoding="utf-8",
             )
             with self.assertRaisesRegex(
-                RuntimeError, "invalid Amiga replay"
+                RuntimeError, "invalid ReplayArtifactV2 terminal"
             ):
-                build_generated.replay_last_tick(replay)
+                build_generated.replay_terminal(replay)
 
 
 if __name__ == "__main__":

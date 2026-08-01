@@ -1,0 +1,67 @@
+{
+  "format": "portforge-boundary-profile-v1",
+  "id": "ducktales-amiga.replay-boundaries.v1",
+  "version": 1,
+  "game_id": "ducktales_amiga",
+  "machine_model": "pf-amiga-a500-ocs-pal-v3",
+  "points": [
+    {
+      "id": "amiga.input.dispatch",
+      "phases": ["before", "after"],
+      "channels": [
+        {
+          "channel": "amiga.joystick0.direction",
+          "semantics": "hold",
+          "phases": ["before"],
+          "visibility": "at-boundary"
+        },
+        {
+          "channel": "amiga.joystick1.direction",
+          "semantics": "hold",
+          "phases": ["before"],
+          "visibility": "at-boundary"
+        },
+        {
+          "channel": "amiga.joystick0.fire",
+          "semantics": "hold",
+          "phases": ["before"],
+          "visibility": "at-boundary"
+        },
+        {
+          "channel": "amiga.joystick1.fire",
+          "semantics": "hold",
+          "phases": ["before"],
+          "visibility": "at-boundary"
+        },
+        {
+          "channel": "amiga.keyboard.raw",
+          "semantics": "edge",
+          "phases": ["before"],
+          "visibility": "at-boundary"
+        }
+      ],
+      "game_states": ["title", "difficulty", "story", "map", "launchpad"],
+      "occurrence_policy": "point-local",
+      "terminal": false,
+      "recognition": {
+        "runtime_event": "a due deterministic input is dispatched to the Amiga device and callback queues",
+        "legacy_clock": "PAL master ticks",
+        "legacy_event_kinds": ["joystick0", "joystick1", "fire0", "fire1", "key-raw"],
+        "clock_rule": "master tick is an explicit machine-time coordinate, not the semantic point identity"
+      }
+    },
+    {
+      "id": "amiga.frame.vblank",
+      "phases": ["before", "after"],
+      "channels": [],
+      "game_states": ["title", "difficulty", "story", "map", "launchpad"],
+      "occurrence_policy": "point-local",
+      "terminal": false,
+      "recognition": {
+        "runtime_event": "the PAL frame-boundary emitter crosses a VBlank frame boundary",
+        "hardware_evidence": "frame_boundary.hpp and the configured VBlank signal at amiga:02413E"
+      }
+    }
+  ],
+  "sha256": "2460aa3f8426803ba33af7f75d1d087f8ef7de89ba9b90734be2d64ff0c3825d"
+}

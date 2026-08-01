@@ -44,7 +44,7 @@ def sample_plan(
             {
                 "path": "artifacts/amiga/ducktales-evidence.json",
                 "sha256": profile_sha256,
-                "format": "pf-atlas-evidence-v2",
+                "format": "pf-replay-evidence-v3",
             }
         ],
         "instructions": [
@@ -152,10 +152,18 @@ class AnalysisWorkflowTests(unittest.TestCase):
         (self.root / "assets/disk2.adf").write_bytes(self.disk2)
         self.program_sha256 = digest(self.disk1)
         self.evidence = {
-            "format": "pf-atlas-evidence-v2",
-            "program_sha256": self.program_sha256,
-            "machine_model": "pf-amiga-a500-ocs-pal-v3",
-            "replay": {"fingerprint": "d" * 64},
+            "format": "pf-replay-evidence-v3",
+            "bindings": {
+                "replay_artifact": {
+                    "format": "portforge-replay-v2",
+                    "sha256": "d" * 64,
+                    "replay_identity_sha256": "e" * 64,
+                    "replay_identity": {
+                        "program_sha256": self.program_sha256,
+                        "machine_model": "pf-amiga-a500-ocs-pal-v3",
+                    },
+                }
+            },
             "extensions": {
                 "org.portforge.amiga.execution-image": {
                     "format": "pf-amiga-execution-image-v1",

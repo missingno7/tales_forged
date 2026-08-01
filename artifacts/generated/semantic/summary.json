@@ -7,17 +7,21 @@
     "functions": "semantic/functions.json",
     "pseudocode": "pseudocode"
   },
-  "evidence_replays": [
-    "fe7e1b7456cb7865e1c9db0f49a59c757d46fa8163da65bc20f023dbdf629e9b"
+  "evidence_execution_identities": [
+    "cf9131cdca959d687070844e676839907a5dc751ea4c9ea4f7b0cbc3e90ad8a8"
+  ],
+  "evidence_profiles": 1,
+  "evidence_replay_artifacts": [
+    "3259043dac461e7be9af9fc4d87a1295d72a7d4abdf4a7d75bc6106e1bee599b"
   ],
   "format": "portforge-amiga-semantic-summary-v1",
   "machine_model": "pf-amiga-a500-ocs-pal-v3",
   "metrics": {
-    "cost_profiles": 68,
-    "function_boundaries": 121,
-    "recovered_blocks": 5011,
+    "cost_profiles": 66,
+    "function_boundaries": 117,
+    "recovered_blocks": 4730,
     "shared_blocks": 0,
-    "unowned_blocks": 1875
+    "unowned_blocks": 1841
   },
   "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968"
 }

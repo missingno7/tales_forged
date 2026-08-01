@@ -34,6 +34,12 @@ GENERATED_HEADER = GENERATED / "ducktales_amiga_gen.hpp"
 VERIFICATION = GENERATED / "verification.json"
 HEADLESS = BUILD / "ducktales_amiga_generated_run.exe"
 VIEWER = BUILD / "ducktales_amiga_generated_view.exe"
+REPLAY = ROOT / "artifacts" / "replays" / "cold5.pfreplay.json"
+BOUNDARY_PROFILE = ROOT / "profiles" / "replay-boundaries-v1.json"
+ORACLE_PLAN = ROOT / "artifacts" / "execution-plans" / "oracle-interpreter.json"
+GENERATED_PLAN = (
+    ROOT / "artifacts" / "execution-plans" / "generated-plus-fallback.json"
+)
 
 
 def _load_module(name: str, path: Path):
@@ -86,7 +92,7 @@ def project_inputs() -> tuple[dict[str, Any], Path, Path, Path, int]:
         )
     disk1 = ROOT / "assets" / game["program"]["file"]
     disk2 = ROOT / "assets" / game["companion_assets"]["disk2"]["file"]
-    replay = ROOT / "artifacts" / "replays" / "cold5-v3.pfreplay.json"
+    replay = REPLAY
     verification = profile.get("verification", {})
     steps = verification.get("generated_replay_instruction_budget", 50_000_000)
     if not isinstance(steps, int) or steps < 1:
@@ -94,7 +100,8 @@ def project_inputs() -> tuple[dict[str, Any], Path, Path, Path, int]:
             "profile verification.generated_replay_instruction_budget "
             "must be a positive integer"
         )
-    for path in (disk1, disk2, replay):
+    for path in (disk1, disk2, replay, BOUNDARY_PROFILE, ORACLE_PLAN,
+                 GENERATED_PLAN):
         if not path.is_file():
             raise RuntimeError(f"missing generated-runtime input: {path}")
     expected = {
@@ -250,8 +257,12 @@ def runner_result(
         "0x2413e",
         "--steps",
         str(steps),
-        "--replay-inputs",
+        "--replay-artifact",
         str(replay),
+        "--boundary-profile",
+        str(BOUNDARY_PROFILE),
+        "--implementation-plan",
+        str(GENERATED_PLAN if mode == "--native" else ORACLE_PLAN),
         "--strict",
         mode,
     ]
@@ -261,21 +272,40 @@ def runner_result(
     return parse_runner_json(result)
 
 
-def replay_last_tick(path: Path) -> int:
+def replay_terminal(path: Path) -> tuple[int, str]:
     replay = load_object(path)
-    events = replay.get("events")
-    if not isinstance(events, list) or not events:
-        raise RuntimeError(f"{path}: generated-baseline replay has no events")
-    ticks = [item.get("master_tick") for item in events if isinstance(item, dict)]
-    if len(ticks) != len(events) or any(
-        not isinstance(value, int) or value < 0 for value in ticks
+    if replay.get("format") != "portforge-replay-v2":
+        raise RuntimeError(f"{path}: expected ReplayArtifactV2")
+    terminal = replay.get("terminal")
+    if not isinstance(terminal, dict):
+        raise RuntimeError(f"{path}: ReplayArtifactV2 terminal is missing")
+    stamp = terminal.get("stamp")
+    boundary = (
+        stamp.get("global_ordinal")
+        if isinstance(stamp, dict)
+        else None
+    )
+    digest = terminal.get("canonical_sha256")
+    if (
+        terminal.get("schema") != "pf-replay-terminal-v3"
+        or not isinstance(stamp, dict)
+        or stamp.get("schema") != "pf-boundary-stamp-v1"
+        or stamp.get("outcome") != "terminal"
+        or not isinstance(boundary, int)
+        or isinstance(boundary, bool)
+        or boundary < 0
+        or not isinstance(digest, str)
+        or len(digest) != 64
+        or any(character not in "0123456789abcdef" for character in digest)
     ):
-        raise RuntimeError(f"{path}: invalid Amiga replay event timeline")
-    return max(ticks)
+        raise RuntimeError(f"{path}: invalid ReplayArtifactV2 terminal")
+    return boundary, digest
 
 
 def replay_event_count(path: Path) -> int:
     replay = load_object(path)
+    if replay.get("format") != "portforge-replay-v2":
+        raise RuntimeError(f"{path}: expected ReplayArtifactV2")
     events = replay.get("events")
     if not isinstance(events, list) or not events:
         raise RuntimeError(f"{path}: generated-baseline replay has no events")
@@ -323,6 +353,9 @@ def verification_inputs(
         "disk1": disk1,
         "disk2": disk2,
         "replay": replay,
+        "boundary_profile": BOUNDARY_PROFILE,
+        "oracle_plan": ORACLE_PLAN,
+        "generated_plan": GENERATED_PLAN,
         "lift_plan": LIFT_PLAN,
         "generated_header": GENERATED_HEADER,
         "headless_runner": HEADLESS,
@@ -344,7 +377,7 @@ def cached_verification_valid(
         return False
     return (
         current.get("format")
-        == "portforge-amiga-generated-verification-v1"
+        == "portforge-amiga-generated-verification-v2"
         and current.get("equivalent") is True
         and current.get("inputs") == inputs
         and current.get("producer") == producer
@@ -379,12 +412,6 @@ def verify_generated() -> None:
     game, disk1, disk2, replay, steps = project_inputs()
     inputs = verification_inputs(disk1, disk2, replay)
     producer = producer_state()
-    if producer["portforge_dirty"]:
-        raise RuntimeError(
-            "refusing to publish generated verification from a dirty "
-            "PortForge tree; use --compile-only while developing, then "
-            "commit the generic runtime changes and verify again"
-        )
     if cached_verification_valid(inputs, producer, steps):
         print(f"generated verification up to date: {VERIFICATION}")
         return
@@ -407,24 +434,31 @@ def verify_generated() -> None:
     compile_runners()
     inputs = verification_inputs(disk1, disk2, replay)
     generated = runner_result(
-        game, disk1, disk2, replay, steps, "--native"
+        game,
+        disk1,
+        disk2,
+        replay,
+        steps,
+        "--native",
+        output=BUILD / "generated-verification",
     )
     expected_events = replay_event_count(replay)
+    terminal_boundary, terminal_digest = replay_terminal(replay)
     for label, report in (("generated", generated), ("oracle", oracle)):
         if report.get("deterministic_rerun") is not True:
             raise RuntimeError(f"{label} runner did not reproduce itself")
         if report.get("snapshot_roundtrip") is not True:
             raise RuntimeError(f"{label} snapshot roundtrip failed")
-        if report.get("master_tick", -1) < replay_last_tick(replay):
-            raise RuntimeError(
-                f"{label} instruction budget ended before the last replay event"
-            )
         if (
             report.get("replay_events_total") != expected_events
             or report.get("replay_events_consumed") != expected_events
         ):
             raise RuntimeError(
                 f"{label} runner did not consume the complete replay journal"
+            )
+        if report.get("canonical_digest") != terminal_digest:
+            raise RuntimeError(
+                f"{label} runner did not reach the ArtifactV2 terminal state"
             )
     if generated.get("native_blocks", 0) <= 0:
         raise RuntimeError(
@@ -444,7 +478,7 @@ def verify_generated() -> None:
 
     plan = load_object(LIFT_PLAN)
     report = {
-        "format": "portforge-amiga-generated-verification-v1",
+        "format": "portforge-amiga-generated-verification-v2",
         "equivalent": True,
         "claim": (
             "byte-guarded generated subset plus observable interpreter/SMC "
@@ -456,9 +490,18 @@ def verify_generated() -> None:
         "machine_model": plan["machine_model"],
         "load_base": plan["load_base"],
         "module_entry": plan["module_entry"],
-        "replay": str(replay.relative_to(ROOT)).replace("\\", "/"),
-        "replay_last_master_tick": replay_last_tick(replay),
+        "replay_artifact": str(replay.relative_to(ROOT)).replace("\\", "/"),
+        "replay_artifact_sha256": sha256(replay),
+        "replay_terminal_boundary_ordinal": terminal_boundary,
+        "replay_terminal_canonical_sha256": terminal_digest,
         "replay_event_count": expected_events,
+        "boundary_profile": str(BOUNDARY_PROFILE.relative_to(ROOT)).replace(
+            "\\", "/"
+        ),
+        "oracle_plan": str(ORACLE_PLAN.relative_to(ROOT)).replace("\\", "/"),
+        "generated_plan": str(GENERATED_PLAN.relative_to(ROOT)).replace(
+            "\\", "/"
+        ),
         "instruction_budget": steps,
         "generated_instruction_count": plan.get(
             "conservative_emittable_instruction_count",

@@ -1,0 +1,92 @@
+{
+  "$schema": "port_forge/schemas/portforge-detachment-report-v1.schema.json",
+  "format": "portforge-detachment-report-v1",
+  "plan_sha256": "54e09ecbc3da3b4d161973cea6bd18951b6969fa29a0fea349c1129f43e445f1",
+  "platform": "amiga",
+  "project": "ducktales_amiga",
+  "properties": {
+    "cpu-model": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.devices",
+        "portforge.amiga.timing"
+      ]
+    },
+    "diagnostics": {
+      "detached": true,
+      "required_by": []
+    },
+    "guest-memory": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.devices",
+        "portforge.amiga.replay-session"
+      ]
+    },
+    "interpreter": {
+      "detached": false,
+      "required_by": [
+        "ducktales.generated-plus-fallback"
+      ]
+    },
+    "oracle": {
+      "detached": true,
+      "required_by": []
+    },
+    "original-code": {
+      "detached": false,
+      "required_by": [
+        "ducktales.generated-plus-fallback"
+      ]
+    },
+    "original-executable": {
+      "detached": false,
+      "required_by": [
+        "ducktales.generated-plus-fallback",
+        "portforge.amiga.bootstrap"
+      ]
+    },
+    "platform-services": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.bootstrap",
+        "portforge.amiga.devices",
+        "portforge.amiga.replay-session",
+        "portforge.amiga.timing"
+      ]
+    },
+    "portforge-runtime": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.bootstrap",
+        "portforge.amiga.devices",
+        "portforge.amiga.replay-session",
+        "portforge.amiga.timing"
+      ]
+    },
+    "replay": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.replay-session"
+      ]
+    },
+    "snapshots": {
+      "detached": false,
+      "required_by": [
+        "portforge.amiga.replay-session"
+      ]
+    }
+  },
+  "remaining_dependencies": [
+    "cpu-model",
+    "guest-memory",
+    "interpreter",
+    "original-code",
+    "original-executable",
+    "platform-services",
+    "portforge-runtime",
+    "replay",
+    "snapshots"
+  ],
+  "role": "generated-plus-fallback"
+}

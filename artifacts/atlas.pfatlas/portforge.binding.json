@@ -8,96 +8,20 @@
   },
   "atlas": {
     "hash_scheme": "portforge-tree-sha256-v1",
-    "sha256": "925c385719e781e66ec34dd8d2296e50dfadb7f810d5e96eb0dde617f08d5346"
+    "sha256": "6bc4a8f72c74e5741720fdee6ceccc7264c5b92d8301373565e47e1cfbbe20b3"
   },
-  "replays": [
-    {
-      "path": "artifacts/replays/cold5-v3.pfreplay.json",
-      "sha256": "fd2a0c922540d7e2bdb5a8e35de3dd3bd5c3f06620f1f2fe9a22291ee826c143",
-      "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
-      "oracle_verified": true,
-      "bootstrap": {
-        "format": "portforge-amiga-direct-hunk-bootstrap-v2",
-        "machine_profile": "a500-ocs-pal",
-        "machine_model": "pf-amiga-a500-ocs-pal-v3",
-        "executable": "DuckTales",
-        "launch": {
-          "mode": "cli",
-          "arguments": ""
-        },
-        "program": {
-          "path": "assets/Duck Tales - The Quest for Gold (1989)(Disney Software)(Disk 1 of 2).adf",
-          "kind": "file",
-          "hash_scheme": "sha256-file-bytes",
-          "sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
-          "size": 901120
-        },
-        "companion_disks": [
-          {
-            "id": "disk2",
-            "role": "AmigaDOS DT2 companion data volume",
-            "asset": {
-              "path": "assets/Duck Tales - The Quest for Gold (1989)(Disney Software)(Disk 2 of 2).adf",
-              "kind": "file",
-              "hash_scheme": "sha256-file-bytes",
-              "sha256": "7514f17734463e78ba16b39e454075f83d919bcace431c081570de88faf8259d",
-              "size": 901120
-            }
-          }
-        ],
-        "launch_sha256": "be27583cd3c5f6b875a54fbb8871a07bd9976b9b90c424df4e57f174fcac6fed",
-        "extensions": {
-          "org.portforge.amiga.execution-image": {
-            "format": "pf-amiga-execution-image-v1",
-            "identity_model": "adf-sha256+program+hunk-sha256+load-base+module-entry",
-            "program": "DuckTales",
-            "hunk_sha256": "00ad5a2860110701d5fe2acd6834d0a9c819d6659a8af9bdbc1a9e1a99aea481",
-            "load_base": 65536,
-            "module_entry": 65536
-          },
-          "org.portforge.amiga.launch": {
-            "format": "pf-amiga-launch-v3",
-            "identity_model": "ordered-media+machine+program+hunk+layout+prelude-layout+prelude-policy+cli-argument-tails+vblank-signals",
-            "mounted_media_sha256": [
-              "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
-              "7514f17734463e78ba16b39e454075f83d919bcace431c081570de88faf8259d"
-            ],
-            "machine_model": "pf-amiga-a500-ocs-pal-v3",
-            "program": "DuckTales",
-            "hunk_sha256": "00ad5a2860110701d5fe2acd6834d0a9c819d6659a8af9bdbc1a9e1a99aea481",
-            "load_base": 65536,
-            "module_entry": 65536,
-            "prelude_program": "",
-            "prelude_hunk_sha256": "",
-            "prelude_load_base": 0,
-            "prelude_module_entry": 0,
-            "prelude_instruction_budget": 0,
-            "prelude_required_exit": "",
-            "vblank_signals": [
-              147774
-            ],
-            "launch_mode": "cli",
-            "cli_argument_bytes": 1,
-            "cli_arguments_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-            "prelude_launch_mode": "",
-            "prelude_cli_argument_bytes": 0,
-            "prelude_cli_arguments_sha256": ""
-          }
-        }
-      }
-    }
-  ],
+  "replays": [],
   "imports": [],
   "evidence": [
     {
-      "id": "evidence-amiga-oracle-fe7e1b7456cb7865",
+      "id": "evidence-amiga-oracle-3259043dac46-cf9131cdca95",
       "kind": "replay-evidence",
       "origin": "portforge",
-      "sha256": "1993e9dc7d5666d1705a1916de0c2247a8e55491f84b0197cd44002547b7d8e9"
+      "sha256": "476c847241ca5554e33173c15e596336db964eced3040c1bed2ef365c1932855"
     }
   ],
   "portforge": {
-    "revision": "b39ac19e58b2cf2ef2cc199a9012ec35dee5b99f",
+    "revision": "44a57b3e9ade5be03aeaa19fb9d4c1f4ad22c731",
     "dirty": false
   }
 }

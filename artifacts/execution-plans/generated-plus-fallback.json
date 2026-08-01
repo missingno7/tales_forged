@@ -1,0 +1,100 @@
+{
+  "$schema": "port_forge/schemas/portforge-execution-plan-v1.schema.json",
+  "catalog_sha256": "c9243f62038a3c7aa94c25e55b54bb56d59ba4d227da441e66df2fcbf779386a",
+  "descriptors": [
+    {
+      "descriptor_sha256": "482b545195cfd262118a3187df26b03f51a536e8e2557d8bdedd2d1e17a09a53",
+      "id": "portforge.amiga.bootstrap",
+      "kind": "bootstrap-provider",
+      "runtime_dependencies": [
+        "original-executable",
+        "platform-services",
+        "portforge-runtime"
+      ]
+    },
+    {
+      "descriptor_sha256": "ea656f6bd576a703de1e8ec891a31d468c5d12165cb107ca8149d4fba45bb4f1",
+      "id": "portforge.amiga.devices",
+      "kind": "runtime-service",
+      "runtime_dependencies": [
+        "cpu-model",
+        "guest-memory",
+        "platform-services",
+        "portforge-runtime"
+      ]
+    },
+    {
+      "descriptor_sha256": "c223a6d5fb868057b8a4fa8c993256a4a1c217f074621c4a8ee69e08d84afb7d",
+      "id": "portforge.amiga.timing",
+      "kind": "runtime-service",
+      "runtime_dependencies": [
+        "cpu-model",
+        "platform-services",
+        "portforge-runtime"
+      ]
+    },
+    {
+      "descriptor_sha256": "eeca133448b5b98b61a18a7427ef2afcf14a68ec7de5111d7fad93d20089a934",
+      "id": "portforge.amiga.replay-session",
+      "kind": "runtime-service",
+      "runtime_dependencies": [
+        "guest-memory",
+        "platform-services",
+        "portforge-runtime",
+        "replay",
+        "snapshots"
+      ]
+    },
+    {
+      "descriptor_sha256": "c1a17ad196683e316b1a1284cbc64efe8cdbb04e06d76ee9682328995d649ade",
+      "id": "ducktales.generated-plus-fallback",
+      "kind": "implementation",
+      "runtime_dependencies": [
+        "interpreter",
+        "original-code",
+        "original-executable"
+      ]
+    }
+  ],
+  "format": "portforge-execution-plan-v1",
+  "order": [
+    "portforge.amiga.bootstrap",
+    "portforge.amiga.devices",
+    "portforge.amiga.timing",
+    "portforge.amiga.replay-session",
+    "ducktales.generated-plus-fallback"
+  ],
+  "owns": [
+    "amiga.bootstrap",
+    "amiga.devices",
+    "amiga.replay-runtime",
+    "amiga.timeline",
+    "ducktales.execution"
+  ],
+  "plan_sha256": "54e09ecbc3da3b4d161973cea6bd18951b6969fa29a0fea349c1129f43e445f1",
+  "platform": "amiga",
+  "project": "ducktales_amiga",
+  "provides": [
+    "amiga-a500-ocs-device-composition",
+    "amiga-direct-hunk-launch-v1",
+    "amiga-pal-master-scheduler-v1",
+    "amiga-replay-session-adapter-v1",
+    "ducktales-generated-plus-fallback"
+  ],
+  "required_capabilities": [],
+  "role": "generated-plus-fallback",
+  "roots": [
+    "ducktales.generated-plus-fallback"
+  ],
+  "runtime_dependencies": [
+    "cpu-model",
+    "guest-memory",
+    "interpreter",
+    "original-code",
+    "original-executable",
+    "platform-services",
+    "portforge-runtime",
+    "replay",
+    "snapshots"
+  ]
+}

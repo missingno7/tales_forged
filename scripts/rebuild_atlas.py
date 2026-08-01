@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Rebuild DuckTales dynamic and static Execution Atlas evidence atomically.
+"""Regenerate the disposable DuckTales Atlas v2 evidence projection.
 
-The command records a complete oracle profile for the curated replay,
-regenerates resident-HUNK recovery, creates a fresh evidence-bound Atlas, and
-adds the recovered blocks through PortForge's Amiga control plane. The prior
-Atlas is retained under ``build/atlas-backups`` and restored on failure.
+ReplayArtifactV2 playback is the authority. This command recollects bound
+EvidenceV3, regenerates resident-HUNK recovery, and projects both sources into
+Atlas v2 through PortForge's control plane. The prior projection is retained
+under ``build/atlas-backups`` and restored on failure.
 """
 
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import shutil
 import subprocess
@@ -23,7 +24,7 @@ ATLAS = ROOT / "artifacts" / "atlas.pfatlas"
 EVIDENCE = ROOT / "artifacts" / "amiga" / "ducktales-evidence.json"
 BLOCKS = ROOT / "artifacts" / "generated" / "amiga" / "blocks.json"
 RUN_REPORT = ROOT / "artifacts" / "amiga" / "ducktales-run.json"
-REPLAY = ROOT / "artifacts" / "replays" / "cold5-v3.pfreplay.json"
+REPLAY = ROOT / "artifacts" / "replays" / "cold5.pfreplay.json"
 
 
 def command(values: list[str], *, cwd: Path) -> None:
@@ -78,6 +79,14 @@ def load_object(path: Path) -> dict:
     return value
 
 
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as source:
+        for chunk in iter(lambda: source.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
 def amiga_address(value, label: str) -> int:
     try:
         address = (
@@ -102,15 +111,27 @@ def verify_existing_profile() -> None:
     events = replay.get("events")
     if not isinstance(events, list) or not events:
         raise RuntimeError("curated replay has no input timeline")
-    ticks = [
-        event["master_tick"]
-        for event in events
-        if isinstance(event, dict)
-        and isinstance(event.get("master_tick"), int)
-    ]
-    if len(ticks) != len(events):
-        raise RuntimeError("curated replay has an invalid input timeline")
-    last_tick = max(ticks)
+    if replay.get("format") != "portforge-replay-v2":
+        raise RuntimeError("curated replay is not ReplayArtifactV2")
+    terminal = replay.get("terminal")
+    if not isinstance(terminal, dict):
+        raise RuntimeError("curated replay terminal is missing")
+    bindings = evidence.get("bindings")
+    replay_binding = (
+        bindings.get("replay_artifact")
+        if isinstance(bindings, dict)
+        else None
+    )
+    replay_identity = (
+        replay_binding.get("replay_identity")
+        if isinstance(replay_binding, dict)
+        else None
+    )
+    boundary_binding = (
+        bindings.get("boundary_profile")
+        if isinstance(bindings, dict)
+        else None
+    )
     extensions = evidence.get("extensions")
     identity = (
         extensions.get("org.portforge.amiga.execution-image")
@@ -139,19 +160,26 @@ def verify_existing_profile() -> None:
         and identity.get("module_entry") == module_entry
     )
     if (
-        evidence.get("format") != "pf-atlas-evidence-v2"
-        or evidence.get("program_sha256")
+        evidence.get("format") != "pf-replay-evidence-v3"
+        or not isinstance(replay_binding, dict)
+        or replay_binding.get("format") != "portforge-replay-v2"
+        or replay_binding.get("sha256") != sha256(REPLAY)
+        or not isinstance(replay_identity, dict)
+        or replay_identity.get("program_sha256")
         != game["program"]["sha256"]
-        or evidence.get("machine_model")
+        or replay_identity.get("machine_model")
         != "pf-amiga-a500-ocs-pal-v3"
+        or not isinstance(boundary_binding, dict)
+        or boundary_binding.get("format")
+        != "portforge-boundary-profile-v1"
         or run.get("format") != "pf-amiga-run-v1"
         or run.get("execution_mode") != "amiga-oracle"
         or run.get("deterministic_rerun") is not True
         or run.get("snapshot_roundtrip") is not True
         or run.get("replay_events_total") != len(events)
         or run.get("replay_events_consumed") != len(events)
-        or not isinstance(run.get("master_tick"), int)
-        or run["master_tick"] < last_tick
+        or run.get("canonical_digest")
+        != terminal.get("canonical_sha256")
         or not exact_hunk_identity
     ):
         raise RuntimeError(
@@ -210,8 +238,8 @@ def rebuild(steps: int, *, reuse_evidence: bool = False) -> None:
                 "--headless",
                 "--steps",
                 str(steps),
-                "--replay-inputs",
-                "cold5-v3",
+                "--replay-artifact",
+                "cold5",
             ],
             cwd=ROOT,
         )

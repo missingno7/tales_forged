@@ -238,18 +238,43 @@ def verify_inputs(config: AnalysisConfig) -> str:
     for companion in config.companions:
         _verify_asset(companion)
     evidence = _load_object(config.evidence)
-    if evidence.get("format") != "pf-atlas-evidence-v2":
+    if evidence.get("format") != "pf-replay-evidence-v3":
         raise RuntimeError(
-            f"{config.evidence}: expected pf-atlas-evidence-v2"
+            f"{config.evidence}: expected pf-replay-evidence-v3"
         )
-    if evidence.get("program_sha256") != config.image.sha256:
+    bindings = evidence.get("bindings")
+    replay_binding = (
+        bindings.get("replay_artifact")
+        if isinstance(bindings, dict)
+        else None
+    )
+    replay_identity = (
+        replay_binding.get("replay_identity")
+        if isinstance(replay_binding, dict)
+        else None
+    )
+    if (
+        not isinstance(replay_binding, dict)
+        or replay_binding.get("format") != "portforge-replay-v2"
+        or not isinstance(replay_identity, dict)
+    ):
+        raise RuntimeError(
+            f"{config.evidence}: ReplayArtifactV2 binding is missing"
+        )
+    if replay_identity.get("program_sha256") != config.image.sha256:
         raise RuntimeError(
             f"{config.evidence}: evidence belongs to another disk image"
         )
-    if evidence.get("machine_model") != config.machine_model:
+    if replay_identity.get("machine_model") != config.machine_model:
         raise RuntimeError(
             f"{config.evidence}: evidence belongs to another machine model"
         )
+    for name in ("sha256", "replay_identity_sha256"):
+        value = replay_binding.get(name)
+        if not isinstance(value, str) or not SHA256_PATTERN.fullmatch(value):
+            raise RuntimeError(
+                f"{config.evidence}: replay binding {name} is invalid"
+            )
     extensions = evidence.get("extensions")
     identity = (
         extensions.get("org.portforge.amiga.execution-image")
@@ -270,15 +295,6 @@ def verify_inputs(config: AnalysisConfig) -> str:
             f"{config.evidence}: exact direct-HUNK identity is missing or "
             "does not match the project"
         )
-    replay = evidence.get("replay")
-    fingerprint = (
-        replay.get("fingerprint") if isinstance(replay, dict) else None
-    )
-    if (
-        not isinstance(fingerprint, str)
-        or not SHA256_PATTERN.fullmatch(fingerprint)
-    ):
-        raise RuntimeError(f"{config.evidence}: replay fingerprint is invalid")
     return _sha256(config.evidence)
 
 

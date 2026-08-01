@@ -6,6 +6,16 @@ artifacts/amiga/*
 !artifacts/replays/
 artifacts/replays/*
 !artifacts/replays/cold5.pfreplay.json
+!artifacts/replays/cold5.pfreplay.json.base.pfsnapshot
+!artifacts/execution-plans/
+artifacts/execution-plans/*
+!artifacts/execution-plans/oracle-interpreter.json
+!artifacts/execution-plans/oracle-interpreter.detachment.json
+!artifacts/execution-plans/generated-plus-fallback.json
+!artifacts/execution-plans/generated-plus-fallback.detachment.json
+!artifacts/conformance/
+artifacts/conformance/*
+!artifacts/conformance/amiga.json
 !artifacts/atlas.pfatlas/
 !artifacts/atlas.pfatlas/**
 !artifacts/generated/
