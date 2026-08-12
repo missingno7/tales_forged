@@ -23,13 +23,10 @@
   "machine": {
     "profile": "a500-ocs-pal",
     "direct_hunk_bootstrap": true,
-    "load_base": "0x10000",
-    "module_entry": "0x10000",
+    "load_base": "0x10008",
+    "module_entry": "0x10008",
     "companion_disks": [
       "disk2"
-    ],
-    "vblank_signals": [
-      "0x2413e"
     ],
     "legacy_snapshot_interrupt_vectors": [
       {"number": 7, "node": "0x240e6", "after_set_vector_call": 1},

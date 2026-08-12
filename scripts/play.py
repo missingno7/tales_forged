@@ -10,7 +10,8 @@ Interactive controls:
   F12                     publish a resumable machine + replay-session snapshot
 
 Play and recording:
-  --record-replay NAME    record ArtifactV2 under artifacts/replays/
+  --record-replay [NAME]  record ArtifactV2 under artifacts/replays/;
+                          omit NAME for a timestamped interactive recording
   --play-replay NAME      play ArtifactV2 interactively
   --verify-replay NAME    replay twice headlessly with strict verification
   --headless              use the deterministic non-interactive runner
@@ -63,6 +64,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PORT_FORGE = ROOT / "port_forge"
 sys.path.insert(0, str(PORT_FORGE / "scripts"))
 import player_runtime  # noqa: E402
+from player_util import timestamp  # noqa: E402
 
 
 def load_json(path: Path) -> dict:
@@ -162,6 +164,8 @@ def target_options(selection: player_runtime.PlayerSelection) -> argparse.Namesp
     parser.add_argument(
         "--record-replay", "--record-artifact",
         dest="record_artifact",
+        nargs="?",
+        const="",
     )
     parser.add_argument("--verify-replay")
     parser.add_argument("--inspect-replay")
@@ -180,6 +184,8 @@ def target_options(selection: player_runtime.PlayerSelection) -> argparse.Namesp
         raise player_runtime.PlayerConfigError(
             "invalid DuckTales player options; use --help"
         ) from error
+    if options.record_artifact == "":
+        options.record_artifact = f"rec_{timestamp()}"
     if options.steps < 1:
         raise player_runtime.PlayerConfigError("--steps must be positive")
     if options.atlas_interval < 1:
@@ -243,7 +249,10 @@ def target_options(selection: player_runtime.PlayerSelection) -> argparse.Namesp
 def require_generated_verification() -> None:
     path = ROOT / "artifacts/generated/amiga/verification.json"
     value = load_json(path)
-    replay = ROOT / "artifacts/replays/cold5.pfreplay.json"
+    replay = (
+        ROOT
+        / "artifacts/replays/shared-amiga-calibration.pfreplay.json"
+    )
     boundary = ROOT / "profiles/replay-boundaries-v1.json"
     plan = ROOT / "artifacts/execution-plans/generated-plus-fallback.json"
     header = ROOT / "artifacts/generated/amiga/ducktales_amiga_gen.hpp"
@@ -253,7 +262,7 @@ def require_generated_verification() -> None:
         value.get("format") != "portforge-amiga-generated-verification-v2"
         or value.get("equivalent") is not True
         or value.get("replay_artifact")
-        != "artifacts/replays/cold5.pfreplay.json"
+        != "artifacts/replays/shared-amiga-calibration.pfreplay.json"
         or value.get("replay_artifact_sha256")
         != hashlib.sha256(replay.read_bytes()).hexdigest()
         or value.get("replay_terminal_canonical_sha256")
@@ -435,7 +444,6 @@ def main(argv: list[str] | None = None) -> int:
     command = [
         str(runner), str(disk1), program["executable"],
         "--disk", str(disk2),
-        "--vblank-signal", "0x2413e",
     ]
     if not interactive:
         command += [

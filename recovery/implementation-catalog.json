@@ -14,7 +14,7 @@
       "requires_capabilities": [],
       "runtime_dependencies": ["original-executable", "platform-services", "portforge-runtime"],
       "content": [
-        {"path": "game.json", "sha256": "bce79522140409f55c634cb1de7847fcd6e177a2df19cd30ddd3d104d783d4ac", "role": "launch-and-media-identity"}
+        {"path": "game.json", "sha256": "2b4fcba3be24198bb84bbadef8a2ca8244e83aebd58d190178919a67c9b5c855", "role": "launch-and-media-identity"}
       ],
       "notes": "Pinned direct-HUNK bootstrap and ordered companion-media launch identity."
     },
@@ -28,7 +28,7 @@
       "requires_capabilities": [],
       "runtime_dependencies": ["cpu-model", "guest-memory", "platform-services", "portforge-runtime"],
       "content": [
-        {"path": "game.json", "sha256": "bce79522140409f55c634cb1de7847fcd6e177a2df19cd30ddd3d104d783d4ac", "role": "machine-and-media-profile"}
+        {"path": "game.json", "sha256": "2b4fcba3be24198bb84bbadef8a2ca8244e83aebd58d190178919a67c9b5c855", "role": "machine-and-media-profile"}
       ],
       "notes": "A500 OCS device composition, guest memory, services, and mounted media."
     },
@@ -42,7 +42,7 @@
       "requires_capabilities": [],
       "runtime_dependencies": ["cpu-model", "platform-services", "portforge-runtime"],
       "content": [
-        {"path": "profiles/replay-boundaries-v1.json", "sha256": "d30347a8806fe127eea089cfddd6999e5c6d1880bccd31a6a17e4db73fb413c3", "role": "semantic-boundary-profile"}
+        {"path": "profiles/replay-boundaries-v1.json", "sha256": "dd25f9c4d2035a8a0ff9f72b819811753504e54c63873d95cab7ccad7af3b3f9", "role": "semantic-boundary-profile"}
       ],
       "notes": "PAL master timeline exposed through stable input-dispatch and VBlank points."
     },
@@ -56,8 +56,8 @@
       "requires_capabilities": [],
       "runtime_dependencies": ["guest-memory", "platform-services", "portforge-runtime", "replay", "snapshots"],
       "content": [
-        {"path": "profiles/replay-boundaries-v1.json", "sha256": "d30347a8806fe127eea089cfddd6999e5c6d1880bccd31a6a17e4db73fb413c3", "role": "replay-boundary-contract"},
-        {"path": "scripts/play.py", "sha256": "488cf9c828a5fe503c83cd63f94bf56e3ec319db30b3c45b762573730ae6ad72", "role": "project-replay-adapter"}
+        {"path": "profiles/replay-boundaries-v1.json", "sha256": "dd25f9c4d2035a8a0ff9f72b819811753504e54c63873d95cab7ccad7af3b3f9", "role": "replay-boundary-contract"},
+        {"path": "scripts/play.py", "sha256": "b672fd6a25483669126ae13f54d27baad0945e93a5a5ef311cd41ac89407e26a", "role": "project-replay-adapter"}
       ],
       "notes": "Project adapter for shared ArtifactV2 recording, playback, continuation, and canonical output."
     },
@@ -71,8 +71,8 @@
       "requires_capabilities": [],
       "runtime_dependencies": ["interpreter", "oracle", "original-code", "original-executable"],
       "content": [
-        {"path": "game.json", "sha256": "bce79522140409f55c634cb1de7847fcd6e177a2df19cd30ddd3d104d783d4ac", "role": "game-identity"},
-        {"path": "scripts/play.py", "sha256": "488cf9c828a5fe503c83cd63f94bf56e3ec319db30b3c45b762573730ae6ad72", "role": "oracle-entrypoint"}
+        {"path": "game.json", "sha256": "2b4fcba3be24198bb84bbadef8a2ca8244e83aebd58d190178919a67c9b5c855", "role": "game-identity"},
+        {"path": "scripts/play.py", "sha256": "b672fd6a25483669126ae13f54d27baad0945e93a5a5ef311cd41ac89407e26a", "role": "oracle-entrypoint"}
       ],
       "notes": "Exact M68000 oracle composition used to record and verify ArtifactV2 evidence."
     },
@@ -86,8 +86,8 @@
       "requires_capabilities": [],
       "runtime_dependencies": ["interpreter", "original-code", "original-executable"],
       "content": [
-        {"path": "scripts/build_generated.py", "sha256": "1bcb5ba102fcc3b9ce58467d336338ac11c1d06d692dfa3a9ef90f0f7b0e43d5", "role": "generated-build-contract"},
-        {"path": "scripts/play.py", "sha256": "488cf9c828a5fe503c83cd63f94bf56e3ec319db30b3c45b762573730ae6ad72", "role": "generated-entrypoint"}
+        {"path": "scripts/build_generated.py", "sha256": "5417befeb81e818c6a9e51900116a7bfaa81f3c36cce31194c99146705d058a4", "role": "generated-build-contract"},
+        {"path": "scripts/play.py", "sha256": "b672fd6a25483669126ae13f54d27baad0945e93a5a5ef311cd41ac89407e26a", "role": "generated-entrypoint"}
       ],
       "notes": "Byte-guarded generated M68000 subset with explicit interpreter and self-modifying-code fallback."
     }

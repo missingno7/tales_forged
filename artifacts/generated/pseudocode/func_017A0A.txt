@@ -1,0 +1,43 @@
+// PortForge machine-function CFG dossier.
+// This is not decompiled semantics or a source-port implementation.
+// boundary: amiga:017A0A
+// evidence: fact: decoded direct call at amiga:0179BA; observed: call in artifact b854a2c427fb5516, execution 60cf25012db17ab9
+// recovered blocks: 32
+// replay calls: 12
+// derived return form: rts
+// measured completed calls: 12 (few-valued inclusive cost)
+// ABI unknowns: clobbered_caller_visible, exit_flags, register_arguments, saved_and_restored, stack_arguments, stack_frame
+
+blocks:
+  amiga:017A0A
+  amiga:017A0E
+  amiga:017A12
+  amiga:017A14
+  amiga:017A18
+  amiga:017A1C
+  amiga:017A1E
+  amiga:017A20
+  amiga:017A22
+  amiga:017A24
+  amiga:017A26
+  amiga:017A28
+  amiga:017A2C
+  amiga:017A2E
+  amiga:017A30
+  amiga:017A32
+  amiga:017A36
+  amiga:017A38
+  amiga:017A3C
+  amiga:017A3E
+  amiga:017A40
+  amiga:017A44
+  amiga:017A46
+  amiga:017A48
+  amiga:017A4A
+  amiga:017A4C
+  amiga:017A4E
+  amiga:017A50
+  amiga:017A52
+  amiga:017A56
+  amiga:017A58
+  amiga:017A66

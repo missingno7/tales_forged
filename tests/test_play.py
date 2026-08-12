@@ -29,7 +29,7 @@ class PlayAdapterTests(unittest.TestCase):
         )
         self.assertEqual(result.returncode, 0, result.stderr)
         for capability in (
-            "--record-replay NAME",
+            "--record-replay [NAME]",
             "--play-replay NAME",
             "--verify-replay NAME",
             "--inspect-replay NAME",
@@ -64,26 +64,26 @@ class PlayAdapterTests(unittest.TestCase):
             "--steps",
             "100",
             "--replay-artifact",
-            "cold5",
+            "shared-amiga-calibration",
         )
         self.assertEqual(result.returncode, 0, result.stderr)
         command = result.stdout.splitlines()[-1]
         self.assertIn("pf_amiga_run.exe", command)
         self.assertIn(" --oracle ", command)
         self.assertIn(" --replay-artifact ", command)
-        self.assertIn("cold5.pfreplay.json", command)
+        self.assertIn("shared-amiga-calibration.pfreplay.json", command)
         self.assertIn("oracle-interpreter.json", command)
 
     def test_replay_can_use_interactive_semantic_viewer(self) -> None:
         result = dry_run(
-            "--runtime", "oracle", "--replay-artifact", "cold5"
+            "--runtime", "oracle", "--replay-artifact", "shared-amiga-calibration"
         )
         self.assertEqual(result.returncode, 0, result.stderr)
         command = result.stdout.splitlines()[-1]
         self.assertIn("pf_amiga_view.exe", command)
         self.assertNotIn(" --steps ", command)
         self.assertIn(" --replay-artifact ", command)
-        self.assertIn("cold5.pfreplay.json", command)
+        self.assertIn("shared-amiga-calibration.pfreplay.json", command)
 
     def test_forwarded_viewer_option_does_not_force_headless(self) -> None:
         result = dry_run("--runtime", "oracle", "--", "--mute")
@@ -120,7 +120,7 @@ class PlayAdapterTests(unittest.TestCase):
             "--steps",
             "100",
             "--replay-artifact",
-            "cold5",
+            "shared-amiga-calibration",
         )
         self.assertEqual(headless.returncode, 0, headless.stderr)
         command = headless.stdout.splitlines()[-1]
@@ -162,6 +162,17 @@ class PlayAdapterTests(unittest.TestCase):
         self.assertIn(" --boundary-profile ", command)
         self.assertIn("oracle-interpreter.json", command)
 
+    def test_unnamed_human_recording_uses_a_timestamped_artifact(self) -> None:
+        result = dry_run("--runtime", "oracle", "--record-replay")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        command = result.stdout.splitlines()[-1]
+        self.assertIn("pf_amiga_view.exe", command)
+        self.assertIn(" --record-artifact ", command)
+        self.assertRegex(
+            command,
+            r"artifacts[\\/]replays[\\/]rec_\d{8}_\d{6}\.pfreplay\.json",
+        )
+
     def test_interactive_recording_can_start_from_snapshot(self) -> None:
         result = dry_run(
             "--record-artifact",
@@ -178,7 +189,9 @@ class PlayAdapterTests(unittest.TestCase):
     def test_compatibility_replay_names_map_only_to_artifact_v2(self) -> None:
         for flag in ("--replay-inputs", "--play-replay"):
             with self.subTest(flag=flag):
-                result = dry_run("--headless", flag, "cold5")
+                result = dry_run(
+                    "--headless", flag, "shared-amiga-calibration"
+                )
                 self.assertEqual(result.returncode, 0, result.stderr)
                 command = result.stdout.splitlines()[-1]
                 self.assertIn(" --replay-artifact ", command)
@@ -191,7 +204,7 @@ class PlayAdapterTests(unittest.TestCase):
         self.assertNotIn(" --record-replay ", command)
 
     def test_strict_replay_verification_is_headless(self) -> None:
-        result = dry_run("--verify-replay", "cold5")
+        result = dry_run("--verify-replay", "shared-amiga-calibration")
         self.assertEqual(result.returncode, 0, result.stderr)
         command = result.stdout.splitlines()[-1]
         self.assertIn("pf_amiga_run.exe", command)
@@ -199,11 +212,13 @@ class PlayAdapterTests(unittest.TestCase):
         self.assertIn(" --strict", command)
 
     def test_common_replay_and_snapshot_inspection_tools(self) -> None:
-        replay = dry_run("--inspect-replay", "cold5", "--", "--json")
+        replay = dry_run(
+            "--inspect-replay", "shared-amiga-calibration", "--", "--json"
+        )
         self.assertEqual(replay.returncode, 0, replay.stderr)
         command = replay.stdout.splitlines()[-1]
         self.assertIn("pf_artifact.exe inspect", command)
-        self.assertIn("cold5.pfreplay.json", command)
+        self.assertIn("shared-amiga-calibration.pfreplay.json", command)
         self.assertTrue(command.endswith("--json"), command)
 
         snapshot = dry_run("--inspect-snapshot", "checkpoint")
@@ -225,7 +240,7 @@ class PlayAdapterTests(unittest.TestCase):
 
     def test_headless_snapshot_publication_and_audio_capture(self) -> None:
         result = dry_run(
-            "--verify-replay", "cold5",
+            "--verify-replay", "shared-amiga-calibration",
             "--snapshot-out", "verified",
             "--capture-audio", "verified",
         )

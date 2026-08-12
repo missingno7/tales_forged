@@ -1,9 +1,9 @@
 {
   "$schema": "port_forge/schemas/portforge-execution-plan-v1.schema.json",
-  "catalog_sha256": "c9243f62038a3c7aa94c25e55b54bb56d59ba4d227da441e66df2fcbf779386a",
+  "catalog_sha256": "80e2e742dc9f6ae659fd3cc9ca9bcaca7dafd409ac2c8624f37d47ff4672b49a",
   "descriptors": [
     {
-      "descriptor_sha256": "482b545195cfd262118a3187df26b03f51a536e8e2557d8bdedd2d1e17a09a53",
+      "descriptor_sha256": "21bb658400b55749468941ef4d2b15cb939bc2511b1a74ff667aca8209bd2c01",
       "id": "portforge.amiga.bootstrap",
       "kind": "bootstrap-provider",
       "runtime_dependencies": [
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "descriptor_sha256": "ea656f6bd576a703de1e8ec891a31d468c5d12165cb107ca8149d4fba45bb4f1",
+      "descriptor_sha256": "7cc5c4093a89b04db689b072404f6b5c3c660df84b329ed536d2429ff83ea38d",
       "id": "portforge.amiga.devices",
       "kind": "runtime-service",
       "runtime_dependencies": [
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "descriptor_sha256": "c223a6d5fb868057b8a4fa8c993256a4a1c217f074621c4a8ee69e08d84afb7d",
+      "descriptor_sha256": "f1c47fc0adfb0c3a32f2aa97a3460c06e77913f2eba3fed1674f885026f26fe9",
       "id": "portforge.amiga.timing",
       "kind": "runtime-service",
       "runtime_dependencies": [
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "descriptor_sha256": "eeca133448b5b98b61a18a7427ef2afcf14a68ec7de5111d7fad93d20089a934",
+      "descriptor_sha256": "c1268af61d6eec5152dc77eb06ce9b63ae981dd6a5de7022acf4b96c5ca644fa",
       "id": "portforge.amiga.replay-session",
       "kind": "runtime-service",
       "runtime_dependencies": [
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "descriptor_sha256": "da290bc3093f92311ab7b56a18b8b21466b6b336eee130fc0094223c2a7f1a55",
+      "descriptor_sha256": "10f23f9cfccc99ae9b140911ee26a858613d749c079056a6f1dc2e61e609d252",
       "id": "ducktales.oracle-interpreter",
       "kind": "implementation",
       "runtime_dependencies": [
@@ -72,7 +72,7 @@
     "amiga.timeline",
     "ducktales.execution"
   ],
-  "plan_sha256": "d71d197590c7b15e7ee6baf3c54e4800faf36154533e64e1533d105fee6b5b44",
+  "plan_sha256": "91729a6de4958f496026feb1b82cf4d324a1b9bdf41ab6509c83f9fcdad7eb3b",
   "platform": "amiga",
   "project": "ducktales_amiga",
   "provides": [

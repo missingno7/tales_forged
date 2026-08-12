@@ -20,10 +20,10 @@
   },
   "corpora": {
     "recovery": [
-      "cold5.pfreplay.json"
+      "shared-amiga-calibration.pfreplay.json"
     ],
     "generated-baseline": [
-      "cold5.pfreplay.json"
+      "shared-amiga-calibration.pfreplay.json"
     ]
   },
   "known_gaps": [
@@ -36,7 +36,7 @@
     {
       "severity": "risk",
       "scope": "gameplay",
-      "summary": "Title, difficulty selection, story progression, map selection, and entry into the Launchpad travel sequence are verified with deterministic input journals; later minigames and disk-2 progression remain unverified.",
+      "summary": "The corrected 171-event corpus reaches menus and substantive gameplay through 9,112 PAL frames, but it remains one observed path; additional map, minigame, disk-2, and timing-stress scenarios require independent semantic recordings.",
       "evidence": "artifacts/amiga/ducktales-run.json"
     },
     {
@@ -69,12 +69,22 @@
       "oracle": {
         "supported": true,
         "adapter": "scripts/play.py:amiga-direct-hunk-oracle",
-        "build_hint": "python port_forge/build.py --no-tests --targets pf_amiga_view,pf_amiga_run"
+        "build_hint": "python port_forge/build.py --no-tests --targets pf_amiga_view,pf_amiga_run",
+        "replay": {
+          "supported": true,
+          "boundary_profile": "profiles/replay-boundaries-v1.json",
+          "implementation_plan": "artifacts/execution-plans/oracle-interpreter.json"
+        }
       },
       "generated": {
         "supported": true,
         "adapter": "scripts/play.py:amiga-guarded-generated",
         "build_hint": "python scripts/build_generated.py",
+        "replay": {
+          "supported": true,
+          "boundary_profile": "profiles/replay-boundaries-v1.json",
+          "implementation_plan": "artifacts/execution-plans/generated-plus-fallback.json"
+        },
         "fallback": {
           "mode": "interpreter-and-smc",
           "coverage": "partial",
@@ -99,7 +109,7 @@
       "description": "Open the default oracle player, or explicitly select the verified generated+fallback runtime; headless execution uses explicit role plans and the shared Amiga replay adapter."
     },
     "replay": {
-      "command": ["python", "scripts/play.py", "--headless", "--replay-artifact", "cold5"],
+      "command": ["python", "scripts/play.py", "--headless", "--replay-artifact", "shared-amiga-calibration"],
       "scope": "whole-program",
       "description": "Replay the bound ArtifactV2 corpus through ReplaySession and require exact semantic-boundary checkpoints, continuation restore, canonical audio, and complete event consumption.",
       "gate": true,

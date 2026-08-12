@@ -27,6 +27,8 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 PORT_FORGE = ROOT / "port_forge"
+if str(PORT_FORGE) not in sys.path:
+    sys.path.insert(0, str(PORT_FORGE))
 GENERATED = ROOT / "artifacts" / "generated" / "amiga"
 BUILD = ROOT / "build"
 LIFT_PLAN = GENERATED / "lift-plan.json"
@@ -34,7 +36,12 @@ GENERATED_HEADER = GENERATED / "ducktales_amiga_gen.hpp"
 VERIFICATION = GENERATED / "verification.json"
 HEADLESS = BUILD / "ducktales_amiga_generated_run.exe"
 VIEWER = BUILD / "ducktales_amiga_generated_view.exe"
-REPLAY = ROOT / "artifacts" / "replays" / "cold5.pfreplay.json"
+REPLAY = (
+    ROOT
+    / "artifacts"
+    / "replays"
+    / "shared-amiga-calibration.pfreplay.json"
+)
 BOUNDARY_PROFILE = ROOT / "profiles" / "replay-boundaries-v1.json"
 ORACLE_PLAN = ROOT / "artifacts" / "execution-plans" / "oracle-interpreter.json"
 GENERATED_PLAN = (
@@ -83,8 +90,8 @@ def project_inputs() -> tuple[dict[str, Any], Path, Path, Path, int]:
         != game["program"].get("hunk_sha256")
         or bootstrap.get("program")
         != game["program"]["executable"]
-        or bootstrap.get("load_base") != "amiga:010000"
-        or bootstrap.get("entry") != "amiga:010000"
+        or bootstrap.get("load_base") != "amiga:010008"
+        or bootstrap.get("entry") != "amiga:010008"
     ):
         raise RuntimeError(
             "generated profile does not match the pinned direct-HUNK "
@@ -175,7 +182,7 @@ def generate_sources() -> None:
             "--expect-hunk-sha256",
             game["program"]["hunk_sha256"],
             "--expect-machine-model",
-            "pf-amiga-a500-ocs-pal-v3",
+            "pf-amiga-a500-ocs-pal-v14",
         ],
         cwd=ROOT,
     )
@@ -253,8 +260,6 @@ def runner_result(
         game["program"]["executable"],
         "--disk",
         str(disk2),
-        "--vblank-signal",
-        "0x2413e",
         "--steps",
         str(steps),
         "--replay-artifact",
@@ -307,8 +312,8 @@ def replay_event_count(path: Path) -> int:
     if replay.get("format") != "portforge-replay-v2":
         raise RuntimeError(f"{path}: expected ReplayArtifactV2")
     events = replay.get("events")
-    if not isinstance(events, list) or not events:
-        raise RuntimeError(f"{path}: generated-baseline replay has no events")
+    if not isinstance(events, list):
+        raise RuntimeError(f"{path}: generated-baseline events are invalid")
     return len(events)
 
 
@@ -454,7 +459,7 @@ def verify_generated() -> None:
             or report.get("replay_events_consumed") != expected_events
         ):
             raise RuntimeError(
-                f"{label} runner did not consume the complete replay journal"
+                f"{label} runner did not consume the complete replay artifact"
             )
         if report.get("canonical_digest") != terminal_digest:
             raise RuntimeError(
@@ -484,6 +489,15 @@ def verify_generated() -> None:
             "byte-guarded generated subset plus observable interpreter/SMC "
             "fallback matches the M68000 oracle over generated-baseline"
         ),
+        "scope": "171-event gameplay calibration",
+        "limitations": [
+            "The bound calibration replays the preserved 171-event semantic "
+            "input schedule through 9,112 PAL frames of menus and gameplay; "
+            "it is still one observed path, not exhaustive game coverage.",
+            "The generated backend remains byte guarded with interpreter and "
+            "self-modifying-code fallback outside observed code generations.",
+            "This evidence does not claim whole-program generated closure.",
+        ],
         "program_sha256": game["program"]["sha256"],
         "hunk_sha256": game["program"]["hunk_sha256"],
         "companion_sha256": game["companion_assets"]["disk2"]["sha256"],

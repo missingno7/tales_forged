@@ -3,6 +3,8 @@
 DuckTales runs through PortForge's A500 OCS PAL runtime with both pinned ADFs,
 direct-HUNK bootstrap, deterministic Paula audio, AmigaDOS services, MANX
 overlays, Copper/blitter execution, and an explicit Port 2 input model.
+The current machine identity is `pf-amiga-a500-ocs-pal-v13`; DuckTales' first
+HUNK is CHIP-flagged and LoadSeg places its executable data at `amiga:010008`.
 
 ```powershell
 python scripts\play.py
@@ -34,19 +36,26 @@ clean aliases for ArtifactV2 only; no journal or retired replay loader exists.
 
 ## Replay authority
 
-The curated corpus is `artifacts/replays/cold5.pfreplay.json`, a bound
+The curated corpus is `artifacts/replays/shared-amiga-calibration.pfreplay.json`, a bound
 ReplayArtifactV2. The Amiga adapter exposes stable input-dispatch and VBlank
 points from `profiles/replay-boundaries-v1.json`; ReplaySession owns boundary
 ordinals, event/checkpoint cursors, continuation state, and terminal policy.
 Artifact mode always requires a content-bound execution plan.
 
+The historical `cold5` replay binds the retired machine timeline and remains
+migration evidence only. Its separately preserved 171-event absolute-time
+schedule is a neutral recording source: the current
+`shared-amiga-calibration` artifact was freshly recorded from a v13 launch,
+then translated to semantic boundary events. No retired snapshot, checkpoint,
+or terminal digest is accepted as authority.
+
 ```powershell
-python scripts\play.py --play-replay cold5
-python scripts\play.py --verify-replay cold5
+python scripts\play.py --play-replay shared-amiga-calibration
+python scripts\play.py --verify-replay shared-amiga-calibration
 python scripts\play.py --record-replay my-playthrough
 python scripts\play.py --headless --record-replay session `
   --input-schedule recovery/migration/cold5-input-schedule-v1.json
-python scripts\play.py --inspect-replay cold5
+python scripts\play.py --inspect-replay shared-amiga-calibration
 ```
 
 Interactive recording commits human input only when it becomes guest-visible
@@ -74,10 +83,10 @@ Snapshot and diagnostic workflows use the same launcher:
 
 ```powershell
 python scripts\play.py --snapshot amigasnap_YYYYMMDD_HHMMSS_fFRAME
-python scripts\play.py --verify-replay cold5 --snapshot-out verified-cold5
-python scripts\play.py --inspect-snapshot verified-cold5
-python scripts\play.py --verify-snapshot verified-cold5
-python scripts\play.py --verify-replay cold5 --capture-audio cold5
+python scripts\play.py --verify-replay shared-amiga-calibration --snapshot-out verified-amiga
+python scripts\play.py --inspect-snapshot verified-amiga
+python scripts\play.py --verify-snapshot verified-amiga
+python scripts\play.py --verify-replay shared-amiga-calibration --capture-audio shared-amiga
 ```
 
 `--snapshot-out` is published only after the headless deterministic rerun and
@@ -107,7 +116,7 @@ requires the complete ArtifactV2 terminal canonical state.
 python scripts\rebuild_atlas.py
 python scripts\play.py --live-atlas
 python scripts\play.py --live-atlas --atlas-interval 3
-python scripts\play.py --verify-replay cold5 --update-atlas
+python scripts\play.py --verify-replay shared-amiga-calibration --update-atlas
 python port_forge\tools\pf_project.py validate .
 python port_forge\tools\pf_project.py platform conformance .
 ```

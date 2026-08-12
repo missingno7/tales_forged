@@ -1,0 +1,125 @@
+// PortForge machine-function CFG dossier.
+// This is not decompiled semantics or a source-port implementation.
+// boundary: amiga:013C54
+// evidence: fact: decoded direct call at amiga:012BB0; observed: call-indirect in artifact b854a2c427fb5516, execution 60cf25012db17ab9
+// recovered blocks: 114
+// replay calls: 93
+// derived return form: rts
+// measured completed calls: 14 (variable inclusive cost)
+// ABI unknowns: clobbered_caller_visible, exit_flags, register_arguments, saved_and_restored, stack_arguments, stack_frame
+
+blocks:
+  amiga:013C54
+  amiga:013C58
+  amiga:013C60
+  amiga:013C68
+  amiga:013C70
+  amiga:013C78
+  amiga:013C80
+  amiga:013C86
+  amiga:013C8E
+  amiga:013C94
+  amiga:013C9C
+  amiga:013CA4
+  amiga:013CAA
+  amiga:013CAE
+  amiga:013CB4
+  amiga:013CBA
+  amiga:013CBE
+  amiga:013CC2
+  amiga:013CC6
+  amiga:013CCC
+  amiga:013CD0
+  amiga:013CD4
+  amiga:013CDC
+  amiga:013CDE
+  amiga:013CE6
+  amiga:013CEE
+  amiga:013CF6
+  amiga:013CFA
+  amiga:013D00
+  amiga:013D0A
+  amiga:013D14
+  amiga:013D1E
+  amiga:013D20
+  amiga:013D26
+  amiga:013D28
+  amiga:013D2C
+  amiga:013D2E
+  amiga:013D30
+  amiga:013D3A
+  amiga:013D44
+  amiga:013D4A
+  amiga:013D50
+  amiga:013D52
+  amiga:013D5C
+  amiga:013D62
+  amiga:013D68
+  amiga:013D6A
+  amiga:013D6C
+  amiga:013D72
+  amiga:013D7A
+  amiga:013D82
+  amiga:013D84
+  amiga:013D86
+  amiga:013D8C
+  amiga:013D8E
+  amiga:013D90
+  amiga:013D96
+  amiga:013D9C
+  amiga:013DA2
+  amiga:013DA4
+  amiga:013DA6
+  amiga:013DAC
+  amiga:013DB2
+  amiga:013DB4
+  amiga:013DBA
+  amiga:013DBC
+  amiga:013DC2
+  amiga:013DCA
+  amiga:013DCC
+  amiga:013DD6
+  amiga:013DDC
+  amiga:013DE2
+  amiga:013DE4
+  amiga:013DE6
+  amiga:013DEC
+  amiga:013DF4
+  amiga:013DFA
+  amiga:013DFC
+  amiga:013E02
+  amiga:013E04
+  amiga:013E0A
+  amiga:013E10
+  amiga:013E12
+  amiga:013E16
+  amiga:013E18
+  amiga:013E1C
+  amiga:013E1E
+  amiga:013E20
+  amiga:013E22
+  amiga:013E28
+  amiga:013E2A
+  amiga:013E2C
+  amiga:013E32
+  amiga:013E3A
+  amiga:013E3C
+  amiga:013E42
+  amiga:013E44
+  amiga:013E4A
+  amiga:013E52
+  amiga:013E58
+  amiga:013E62
+  amiga:013E68
+  amiga:013E6E
+  amiga:013E70
+  amiga:013E78
+  amiga:013E7A
+  amiga:013E80
+  amiga:013E86
+  amiga:013E8A
+  amiga:013E90
+  amiga:013E94
+  amiga:013E9A
+  amiga:013EA0
+  amiga:013EA2

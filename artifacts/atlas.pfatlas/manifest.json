@@ -2,9 +2,9 @@
   "authoritative": false,
   "format": "pf-atlas-v2",
   "projection_identity": {
-    "boundary_profile_sha256": "2460aa3f8426803ba33af7f75d1d087f8ef7de89ba9b90734be2d64ff0c3825d",
-    "canonical_projection_sha256": "4a080c8daab117c2cfe9bd337e664088be62073bfafe468ba6f97636e3c80024",
-    "canonical_schema": "pf-canonical-amiga-ocs-v7",
+    "boundary_profile_sha256": "ee5eb4f5f219db4963d0fd26f1715e2ac61787e7cc106f8a1e3ae56c6e8d4778",
+    "canonical_projection_sha256": "fa0edf981d6b3f304b35e98d61c4824e479f44ad9e40bc44d6764d88482366f7",
+    "canonical_schema": "pf-canonical-amiga-ocs-v21",
     "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968"
   },
   "regeneration": {
@@ -14,15 +14,15 @@
   },
   "role": "regeneratable-evidence-projection",
   "sources": {
-    "evidence-amiga-oracle-3259043dac46-cf9131cdca95": {
+    "evidence-amiga-oracle-b854a2c427fb-60cf25012db1": {
       "kind": "replay-evidence",
       "origin": "portforge",
-      "sha256": "476c847241ca5554e33173c15e596336db964eced3040c1bed2ef365c1932855"
+      "sha256": "60f83672530776279d830eef7bf53a85312e9a8831a87b7d6aad411a41b18f82"
     },
     "recovery-blocks": {
       "kind": "recovered-blocks",
       "origin": "recovery",
-      "sha256": "c8a7ff47831ef1cb59e5b0b4cf9e5c1c1b637aa0d6816dd574f5293cbdb04a0d"
+      "sha256": "da602e6f98e5ef8cb982b7c5ec100004fa3a8131baca5c6248d35e1ced1a6053"
     }
   }
 }
