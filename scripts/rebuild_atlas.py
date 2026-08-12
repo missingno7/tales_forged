@@ -24,7 +24,12 @@ ATLAS = ROOT / "artifacts" / "atlas.pfatlas"
 EVIDENCE = ROOT / "artifacts" / "amiga" / "ducktales-evidence.json"
 BLOCKS = ROOT / "artifacts" / "generated" / "amiga" / "blocks.json"
 RUN_REPORT = ROOT / "artifacts" / "amiga" / "ducktales-run.json"
-REPLAY = ROOT / "artifacts" / "replays" / "cold5.pfreplay.json"
+REPLAY = (
+    ROOT
+    / "artifacts"
+    / "replays"
+    / "shared-amiga-calibration.pfreplay.json"
+)
 
 
 def command(values: list[str], *, cwd: Path) -> None:
@@ -87,6 +92,76 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def replay_artifact_digest(path: Path) -> str:
+    """Return ReplayArtifactV2's canonical JSON digest, not file bytes.
+
+    EvidenceV3 binds ``ReplayArtifactV2::digest()``. That digest uses
+    PortForge's lossless JSON serialization and is intentionally distinct
+    from the compact on-disk file hash. Ask the shared artifact reader for
+    the authoritative value instead of conflating the two hash domains.
+    """
+    tool = PORT_FORGE / "build" / "pf_artifact.exe"
+    if not tool.is_file():
+        command(
+            [
+                sys.executable,
+                "build.py",
+                "--no-tests",
+                "--targets",
+                "pf_artifact",
+            ],
+            cwd=PORT_FORGE,
+        )
+    result = subprocess.run(
+        [str(tool), "inspect", str(path), "--json"],
+        cwd=ROOT,
+        check=True,
+        text=True,
+        stdout=subprocess.PIPE,
+    )
+    report = json.loads(result.stdout)
+    value = report.get("artifact_sha256")
+    if not isinstance(value, str) or len(value) != 64:
+        raise RuntimeError("pf_artifact returned no canonical replay digest")
+    return value
+
+
+def refresh_capability_evidence_hashes() -> None:
+    """Refresh declarative file-byte hashes after atomic regeneration.
+
+    The capability graph is source-controlled, while its evidence hashes bind
+    generated artifacts. Updating these hashes is part of this project-level
+    regeneration transaction; conformance validation still checks every path
+    and dependency after the refresh.
+    """
+    path = ROOT / "portforge.capabilities.json"
+    document = load_object(path)
+    claims = document.get("claims")
+    if not isinstance(claims, dict):
+        raise RuntimeError("platform capability claims are invalid")
+    for claim in claims.values():
+        evidence = claim.get("evidence") if isinstance(claim, dict) else None
+        if not isinstance(evidence, list):
+            continue
+        for record in evidence:
+            if not isinstance(record, dict):
+                continue
+            raw = record.get("path")
+            if not isinstance(raw, str) or not raw:
+                continue
+            artifact = (ROOT / raw).resolve()
+            if not inside(ROOT, artifact) or not artifact.is_file():
+                raise RuntimeError(
+                    f"capability evidence is absent or unsafe: {raw}"
+                )
+            record["sha256"] = sha256(artifact)
+    path.write_text(
+        json.dumps(document, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+
+
 def amiga_address(value, label: str) -> int:
     try:
         address = (
@@ -109,8 +184,8 @@ def verify_existing_profile() -> None:
     replay = load_object(REPLAY)
     game = load_object(ROOT / "game.json")
     events = replay.get("events")
-    if not isinstance(events, list) or not events:
-        raise RuntimeError("curated replay has no input timeline")
+    if not isinstance(events, list):
+        raise RuntimeError("curated replay input timeline is invalid")
     if replay.get("format") != "portforge-replay-v2":
         raise RuntimeError("curated replay is not ReplayArtifactV2")
     terminal = replay.get("terminal")
@@ -163,12 +238,12 @@ def verify_existing_profile() -> None:
         evidence.get("format") != "pf-replay-evidence-v3"
         or not isinstance(replay_binding, dict)
         or replay_binding.get("format") != "portforge-replay-v2"
-        or replay_binding.get("sha256") != sha256(REPLAY)
+        or replay_binding.get("sha256") != replay_artifact_digest(REPLAY)
         or not isinstance(replay_identity, dict)
         or replay_identity.get("program_sha256")
         != game["program"]["sha256"]
         or replay_identity.get("machine_model")
-        != "pf-amiga-a500-ocs-pal-v3"
+        != "pf-amiga-a500-ocs-pal-v13"
         or not isinstance(boundary_binding, dict)
         or boundary_binding.get("format")
         != "portforge-boundary-profile-v1"
@@ -239,7 +314,7 @@ def rebuild(steps: int, *, reuse_evidence: bool = False) -> None:
                 "--steps",
                 str(steps),
                 "--replay-artifact",
-                "cold5",
+                "shared-amiga-calibration",
             ],
             cwd=ROOT,
         )
@@ -250,8 +325,17 @@ def rebuild(steps: int, *, reuse_evidence: bool = False) -> None:
     if not BLOCKS.is_file():
         raise RuntimeError(f"analysis produced no Atlas blocks: {BLOCKS}")
 
-    backup = move_existing_atlas()
+    # Analysis regenerates the Amiga evidence and lift plan, both of which are
+    # declared producer inputs of the semantic projection.  Refresh semantic
+    # output before validating the new Atlas so its provenance cannot remain
+    # bound to the previous analysis run.
     project_tool = PORT_FORGE / "tools" / "pf_project.py"
+    command(
+        [sys.executable, str(project_tool), "semantic", str(ROOT)],
+        cwd=ROOT,
+    )
+
+    backup = move_existing_atlas()
     try:
         command(
             [
@@ -274,6 +358,7 @@ def rebuild(steps: int, *, reuse_evidence: bool = False) -> None:
             ],
             cwd=ROOT,
         )
+        refresh_capability_evidence_hashes()
         command(
             [
                 sys.executable,
