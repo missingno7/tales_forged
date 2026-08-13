@@ -42,7 +42,7 @@
       "requires_capabilities": [],
       "runtime_dependencies": ["cpu-model", "platform-services", "portforge-runtime"],
       "content": [
-        {"path": "profiles/replay-boundaries-v1.json", "sha256": "dd25f9c4d2035a8a0ff9f72b819811753504e54c63873d95cab7ccad7af3b3f9", "role": "semantic-boundary-profile"}
+        {"path": "profiles/replay-boundaries-v1.json", "sha256": "d0cd5e14d8b6a5fa072169f824585ed21d330561dc215b08a99c8cb43677d985", "role": "semantic-boundary-profile"}
       ],
       "notes": "PAL master timeline exposed through stable input-dispatch and VBlank points."
     },
@@ -56,7 +56,7 @@
       "requires_capabilities": [],
       "runtime_dependencies": ["guest-memory", "platform-services", "portforge-runtime", "replay", "snapshots"],
       "content": [
-        {"path": "profiles/replay-boundaries-v1.json", "sha256": "dd25f9c4d2035a8a0ff9f72b819811753504e54c63873d95cab7ccad7af3b3f9", "role": "replay-boundary-contract"},
+        {"path": "profiles/replay-boundaries-v1.json", "sha256": "d0cd5e14d8b6a5fa072169f824585ed21d330561dc215b08a99c8cb43677d985", "role": "replay-boundary-contract"},
         {"path": "scripts/play.py", "sha256": "b672fd6a25483669126ae13f54d27baad0945e93a5a5ef311cd41ac89407e26a", "role": "project-replay-adapter"}
       ],
       "notes": "Project adapter for shared ArtifactV2 recording, playback, continuation, and canonical output."
@@ -86,7 +86,7 @@
       "requires_capabilities": [],
       "runtime_dependencies": ["interpreter", "original-code", "original-executable"],
       "content": [
-        {"path": "scripts/build_generated.py", "sha256": "5417befeb81e818c6a9e51900116a7bfaa81f3c36cce31194c99146705d058a4", "role": "generated-build-contract"},
+        {"path": "scripts/build_generated.py", "sha256": "5b96f1d0a43bd3e78c622f589f25518c1c1f44dcd22ca89f3cca09f91a79b400", "role": "generated-build-contract"},
         {"path": "scripts/play.py", "sha256": "b672fd6a25483669126ae13f54d27baad0945e93a5a5ef311cd41ac89407e26a", "role": "generated-entrypoint"}
       ],
       "notes": "Byte-guarded generated M68000 subset with explicit interpreter and self-modifying-code fallback."

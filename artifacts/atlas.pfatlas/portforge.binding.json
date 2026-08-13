@@ -8,15 +8,15 @@
   },
   "atlas": {
     "hash_scheme": "portforge-tree-sha256-v1",
-    "sha256": "f547e7a41b90c407fa3123fed7091a859dd55418c823ff40944b84598c5eeee7"
+    "sha256": "468460ce38dbbcf79361c646f50e16fc87db497a9fac8ccea9bd0a6650e415f8"
   },
   "replays": [],
   "evidence": [
     {
-      "id": "evidence-amiga-oracle-b854a2c427fb-60cf25012db1",
+      "id": "evidence-amiga-oracle-1d08e9bf1428-528c69a0ad03",
       "kind": "replay-evidence",
       "origin": "portforge",
-      "sha256": "60f83672530776279d830eef7bf53a85312e9a8831a87b7d6aad411a41b18f82"
+      "sha256": "490fe1d92b4a7402a9e89f966b9da482f3568830fe301077b32c99af84f11983"
     }
   ],
   "producer": {
@@ -30,7 +30,7 @@
     "files": {
       "scripts/compiler_profile.py": "628acab37b8a124aa904ac1ce180bd9d3e2067de21a995734dcab40eb937c8d2",
       "scripts/project_contracts.py": "cae651e80744bbf6443ebc46646abe6409de84c02dfcea72ab63cdc62a40e560",
-      "scripts/project_workspace.py": "2d6ffd697f75522aa17035ff8c836b98b4323931bd9435c6194fb2788488a308",
+      "scripts/project_workspace.py": "3818dc8e789fdcdc82f224c7c7473022eac48bdd88e5e6f19e60c91f744c510b",
       "src/arch/x86_16/cpu.hpp": "e49eb184c7aa8ecf071e450d24f1ee5f1f8e92013a35ed23c9f019561b02d63f",
       "src/arch/x86_16/protected_memory.hpp": "d6fdd49d5921e3911d37ca15f7e3fdb98327b079ad3dca6b106c736330ac39b0",
       "src/core/authority_codec.hpp": "5787f1c2bb036a4d36c679402987e667f685375c0424feba3624c267dbe11f64",
@@ -57,6 +57,6 @@
       "src/replay/verification.hpp": "7bedf3540d35e2b9c43ce623523eb065158f993d2b95d372638484295228eec5",
       "tools/pf_atlas.cpp": "296eafe26af92f2a28ed96715ada594e3f127813ab7d6946e9142d7174431e50"
     },
-    "sha256": "c105b0a8a6e5c7c1f40a18a7a528e5a1b560fe4ecd0222a21f81fadd46220ff2"
+    "sha256": "50b0076774bfc77308b9f90bb02cb06b589f7826ba06c9a0255fb5030dd1f8b9"
   }
 }

@@ -2,9 +2,9 @@
   "authoritative": false,
   "format": "pf-atlas-v2",
   "projection_identity": {
-    "boundary_profile_sha256": "ee5eb4f5f219db4963d0fd26f1715e2ac61787e7cc106f8a1e3ae56c6e8d4778",
-    "canonical_projection_sha256": "fa0edf981d6b3f304b35e98d61c4824e479f44ad9e40bc44d6764d88482366f7",
-    "canonical_schema": "pf-canonical-amiga-ocs-v21",
+    "boundary_profile_sha256": "ec10ca9414cb950b5d80625311ec45549a6d60547d930af4f11ce72fa21cab2a",
+    "canonical_projection_sha256": "f95118aa3c786a2572f5a335f925eac9bcb8dc433b3ef826e0baee08c13d33c0",
+    "canonical_schema": "pf-canonical-amiga-ocs-v23",
     "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968"
   },
   "regeneration": {
@@ -14,10 +14,10 @@
   },
   "role": "regeneratable-evidence-projection",
   "sources": {
-    "evidence-amiga-oracle-b854a2c427fb-60cf25012db1": {
+    "evidence-amiga-oracle-1d08e9bf1428-528c69a0ad03": {
       "kind": "replay-evidence",
       "origin": "portforge",
-      "sha256": "60f83672530776279d830eef7bf53a85312e9a8831a87b7d6aad411a41b18f82"
+      "sha256": "490fe1d92b4a7402a9e89f966b9da482f3568830fe301077b32c99af84f11983"
     },
     "recovery-blocks": {
       "kind": "recovered-blocks",

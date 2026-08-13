@@ -45,7 +45,7 @@ Artifact mode always requires a content-bound execution plan.
 The historical `cold5` replay binds the retired machine timeline and remains
 migration evidence only. Its separately preserved 171-event absolute-time
 schedule is a neutral recording source: the current
-`shared-amiga-calibration` artifact was freshly recorded from a v13 launch,
+`shared-amiga-calibration` artifact was freshly recorded from a v15 launch,
 then translated to semantic boundary events. No retired snapshot, checkpoint,
 or terminal digest is accepted as authority.
 

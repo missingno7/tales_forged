@@ -8,14 +8,14 @@
     "pseudocode": "pseudocode"
   },
   "evidence_execution_identities": [
-    "60cf25012db17ab944ae69f8b9143d9517fd4f8d2d3d61cb9ee861a0496711fb"
+    "528c69a0ad0377c90adff58eef0137fc1594291af1a04632389e91a5c008eb1f"
   ],
   "evidence_profiles": 1,
   "evidence_replay_artifacts": [
-    "b854a2c427fb55169bb63ea035cca1ac5505ce4389bcb9c9ca6ec907d694bc76"
+    "1d08e9bf1428b906bcc52fc430b40fc7c0ea518eade813f80e8f21e58cf5d237"
   ],
   "format": "portforge-amiga-semantic-summary-v1",
-  "machine_model": "pf-amiga-a500-ocs-pal-v14",
+  "machine_model": "pf-amiga-a500-ocs-pal-v15",
   "metrics": {
     "cost_profiles": 68,
     "function_boundaries": 122,

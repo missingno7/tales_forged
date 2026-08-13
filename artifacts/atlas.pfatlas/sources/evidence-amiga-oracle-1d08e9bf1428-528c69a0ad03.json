@@ -3,27 +3,27 @@
     "boundary_profile": {
       "format": "portforge-boundary-profile-v1",
       "id": "ducktales-amiga.replay-boundaries.v1",
-      "sha256": "ee5eb4f5f219db4963d0fd26f1715e2ac61787e7cc106f8a1e3ae56c6e8d4778"
+      "sha256": "ec10ca9414cb950b5d80625311ec45549a6d60547d930af4f11ce72fa21cab2a"
     },
     "canonical_projection": {
-      "projection_sha256": "fa0edf981d6b3f304b35e98d61c4824e479f44ad9e40bc44d6764d88482366f7",
-      "schema": "pf-canonical-amiga-ocs-v21"
+      "projection_sha256": "f95118aa3c786a2572f5a335f925eac9bcb8dc433b3ef826e0baee08c13d33c0",
+      "schema": "pf-canonical-amiga-ocs-v23"
     },
     "execution_identity": {
-      "sha256": "60cf25012db17ab944ae69f8b9143d9517fd4f8d2d3d61cb9ee861a0496711fb",
+      "sha256": "528c69a0ad0377c90adff58eef0137fc1594291af1a04632389e91a5c008eb1f",
       "value": {
-        "boundary_profile_sha256": "ee5eb4f5f219db4963d0fd26f1715e2ac61787e7cc106f8a1e3ae56c6e8d4778",
-        "canonical_schema": "pf-canonical-amiga-ocs-v21",
-        "continuation_schema": "pf-amiga-replay-continuation-v8",
+        "boundary_profile_sha256": "ec10ca9414cb950b5d80625311ec45549a6d60547d930af4f11ce72fa21cab2a",
+        "canonical_schema": "pf-canonical-amiga-ocs-v23",
+        "continuation_schema": "pf-amiga-replay-continuation-v10",
         "devices_sha256": "b35c2daa57985f444ef2ee1a174f556f2e1846647226a6b96b9b461525dc00dd",
         "effects_abi_sha256": "68d53ae095ee147177c49414ce36285c6c6def1dc4cd2e82ce3850f4da4bc167",
-        "executable_sha256": "e3af06d41456e203e39ec83d4c877c4f924c5649d9ef37056657025285d3180d",
-        "implementation_plan_sha256": "91729a6de4958f496026feb1b82cf4d324a1b9bdf41ab6509c83f9fcdad7eb3b",
-        "platform_runtime_sha256": "9be9947fb4ff9b925e899e41545cddaf935b887a26e2d4eeb26c441b12859ed6",
-        "replay_identity_sha256": "d6e64f9272ec9e522c1d32b7128b40ecd34a46dbfa54284c5fc89a41dafe7d9d",
+        "executable_sha256": "a90b52b53a587f72a99c02b671168859e834fb8d9063bf4592d84615f8181737",
+        "implementation_plan_sha256": "c1ce7c0f0452f9214dc9946e6198aea01d0e8faa3e16fe8b2e67f6036983c508",
+        "platform_runtime_sha256": "45cb1e25f763cf5fe7365e33fd74b4e80a8e34dee90f9521775855e9d23c05e0",
+        "replay_identity_sha256": "5acc1c2416a6301b2ed9d620023e184056a6450eba17771f43056d1eb77f36cf",
         "role": "oracle-interpreter",
         "schema": "pf-replay-execution-identity-v1",
-        "services_sha256": "49874b1eee1dd69cfb9201561606015c95c38062464d9aece00a29afd15c9727",
+        "services_sha256": "e1a85d11ff7eb1f5f7c323b4b383c41bc231a18a17279cdbd57a23ba7feda060",
         "timing_sha256": "fa8c7ddb13cbaa35eedc8fbd6cb863762314e9048fb18686754bfcebc0971e45"
       }
     },
@@ -31,17 +31,17 @@
       "format": "portforge-replay-v2",
       "replay_identity": {
         "assets_sha256": "c98a9ba3b963b870bb437cf086094f2760330fc1da2870fec07fdc572813ebf2",
-        "boundary_profile_sha256": "ee5eb4f5f219db4963d0fd26f1715e2ac61787e7cc106f8a1e3ae56c6e8d4778",
-        "environment_sha256": "052462b833c0a4ad3d2b6d554a55ac7081f93442d822e3f67aa562e40abddd5e",
+        "boundary_profile_sha256": "ec10ca9414cb950b5d80625311ec45549a6d60547d930af4f11ce72fa21cab2a",
+        "environment_sha256": "609c0b0fcbae23a00c4c947ae21b77cc383310ebac2b46f4c0e5a103ea7d2c81",
         "game_id": "ducktales_amiga",
-        "launch_sha256": "44d4e44922c7dd03c1f06e07e1155a81c458dc61e8c01b5e56b5ecaea31534f7",
-        "machine_model": "pf-amiga-a500-ocs-pal-v14",
-        "machine_profile_sha256": "053b133386c484c0ebf84fc2f7602a2fefe56f769841014d22b06c8d30fc4a48",
+        "launch_sha256": "6f959c22e374d8ca29e78a4f690050681c6254c45848d70a99b0eac36174158e",
+        "machine_model": "pf-amiga-a500-ocs-pal-v15",
+        "machine_profile_sha256": "f697ae6fa54a7662acedd4f825e4968fda45062a7d7dd4a3dc959fcc034cc6b6",
         "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
         "schema": "pf-replay-identity-v1"
       },
-      "replay_identity_sha256": "d6e64f9272ec9e522c1d32b7128b40ecd34a46dbfa54284c5fc89a41dafe7d9d",
-      "sha256": "b854a2c427fb55169bb63ea035cca1ac5505ce4389bcb9c9ca6ec907d694bc76"
+      "replay_identity_sha256": "5acc1c2416a6301b2ed9d620023e184056a6450eba17771f43056d1eb77f36cf",
+      "sha256": "1d08e9bf1428b906bcc52fc430b40fc7c0ea518eade813f80e8f21e58cf5d237"
     }
   },
   "completeness": {
@@ -78,7 +78,7 @@
       "identity_model": "ordered-media+machine+program+hunk+layout+prelude-layout+prelude-policy+prelude-input+cli-argument-tails+vblank-signals",
       "launch_mode": "cli",
       "load_base": 65544,
-      "machine_model": "pf-amiga-a500-ocs-pal-v14",
+      "machine_model": "pf-amiga-a500-ocs-pal-v15",
       "module_entry": 65544,
       "mounted_media_sha256": [
         "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
@@ -231724,10 +231724,10 @@
     "source": "m68k-interpreter"
   },
   "runtime_variant": {
-    "executable_sha256": "e3af06d41456e203e39ec83d4c877c4f924c5649d9ef37056657025285d3180d",
-    "implementation_plan_sha256": "91729a6de4958f496026feb1b82cf4d324a1b9bdf41ab6509c83f9fcdad7eb3b",
+    "executable_sha256": "a90b52b53a587f72a99c02b671168859e834fb8d9063bf4592d84615f8181737",
+    "implementation_plan_sha256": "c1ce7c0f0452f9214dc9946e6198aea01d0e8faa3e16fe8b2e67f6036983c508",
     "mode": "amiga-oracle",
-    "platform_runtime_sha256": "9be9947fb4ff9b925e899e41545cddaf935b887a26e2d4eeb26c441b12859ed6",
+    "platform_runtime_sha256": "45cb1e25f763cf5fe7365e33fd74b4e80a8e34dee90f9521775855e9d23c05e0",
     "role": "oracle-interpreter"
   },
   "scope": {
@@ -415530,11 +415530,11 @@
   "verification": {
     "claim": "semantic-boundary-equivalence",
     "divergence": {
-      "actual_execution_identity_sha256": "60cf25012db17ab944ae69f8b9143d9517fd4f8d2d3d61cb9ee861a0496711fb",
+      "actual_execution_identity_sha256": "528c69a0ad0377c90adff58eef0137fc1594291af1a04632389e91a5c008eb1f",
       "claim": "semantic-boundary-equivalence",
       "differences": [],
       "equivalent": true,
-      "expected_execution_identity_sha256": "60cf25012db17ab944ae69f8b9143d9517fd4f8d2d3d61cb9ee861a0496711fb",
+      "expected_execution_identity_sha256": "528c69a0ad0377c90adff58eef0137fc1594291af1a04632389e91a5c008eb1f",
       "kind": "none",
       "schema": "pf-divergence-report-v1"
     },

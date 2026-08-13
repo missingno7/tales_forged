@@ -1,7 +1,7 @@
 {
   "$schema": "port_forge/schemas/portforge-detachment-report-v1.schema.json",
   "format": "portforge-detachment-report-v1",
-  "plan_sha256": "91729a6de4958f496026feb1b82cf4d324a1b9bdf41ab6509c83f9fcdad7eb3b",
+  "plan_sha256": "c1ce7c0f0452f9214dc9946e6198aea01d0e8faa3e16fe8b2e67f6036983c508",
   "platform": "amiga",
   "project": "ducktales_amiga",
   "properties": {
