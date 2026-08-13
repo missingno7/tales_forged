@@ -3,7 +3,7 @@
 DuckTales runs through PortForge's A500 OCS PAL runtime with both pinned ADFs,
 direct-HUNK bootstrap, deterministic Paula audio, AmigaDOS services, MANX
 overlays, Copper/blitter execution, and an explicit Port 2 input model.
-The current machine identity is `pf-amiga-a500-ocs-pal-v13`; DuckTales' first
+The current machine identity is `pf-amiga-a500-ocs-pal-v16`; DuckTales' first
 HUNK is CHIP-flagged and LoadSeg places its executable data at `amiga:010008`.
 
 ```powershell
@@ -45,7 +45,7 @@ Artifact mode always requires a content-bound execution plan.
 The historical `cold5` replay binds the retired machine timeline and remains
 migration evidence only. Its separately preserved 171-event absolute-time
 schedule is a neutral recording source: the current
-`shared-amiga-calibration` artifact was freshly recorded from a v15 launch,
+`shared-amiga-calibration` artifact was freshly recorded from a v16 launch,
 then translated to semantic boundary events. No retired snapshot, checkpoint,
 or terminal digest is accepted as authority.
 

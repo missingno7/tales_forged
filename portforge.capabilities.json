@@ -8,13 +8,13 @@
           "detail": "Non-authoritative Atlas v2 projection with content-addressed EvidenceV3 and recovered-block sources.",
           "kind": "artifact",
           "path": "artifacts/atlas.pfatlas/manifest.json",
-          "sha256": "d91616e6fa5f3314c7021305ddf8b0dc90558f317bc8fcf8ba216d0f1bce3dc6"
+          "sha256": "e7ee666ad0e20e8e431cc9cf8d4a9529f2eb5ff9a73a67d65cfb90bc7bafd2c0"
         },
         {
           "detail": "Atlas tree and source identities are bound to the current content-addressed PortForge source closure.",
           "kind": "conformance-report",
           "path": "artifacts/atlas.pfatlas/portforge.binding.json",
-          "sha256": "56b7a043629ec1e5901bd6363405b21e7983bf95c004aa873fe44ce4e7694b10"
+          "sha256": "6a25dd466e98e86628ba8e1f825657e48d7618fc2b3ee1f7df3e276a9827937e"
         }
       ],
       "state": "conformant"
@@ -26,7 +26,7 @@
           "detail": "Final direct-HUNK cold bootstrap reaches the declared deterministic execution slice.",
           "kind": "workflow-report",
           "path": "artifacts/amiga/ducktales-run.json",
-          "sha256": "e89b5eaffff4f0510b999269ed27f0ceab06805d61335be38ef315addf486655"
+          "sha256": "53f50a403cce2ab15fa0c8087d95cdf438b8401824abe801ef0041b4bd193826"
         }
       ],
       "state": "conformant"
@@ -38,7 +38,7 @@
           "detail": "Canonical audio is deterministic with matching sample count and no timeline discontinuities.",
           "kind": "workflow-report",
           "path": "artifacts/amiga/ducktales-run.json",
-          "sha256": "e89b5eaffff4f0510b999269ed27f0ceab06805d61335be38ef315addf486655"
+          "sha256": "53f50a403cce2ab15fa0c8087d95cdf438b8401824abe801ef0041b4bd193826"
         }
       ],
       "state": "conformant"
@@ -52,7 +52,7 @@
           "detail": "Visible output is deterministic, but the adapter explicitly declares no stable canonical video commit.",
           "kind": "workflow-report",
           "path": "artifacts/amiga/ducktales-run.json",
-          "sha256": "e89b5eaffff4f0510b999269ed27f0ceab06805d61335be38ef315addf486655"
+          "sha256": "53f50a403cce2ab15fa0c8087d95cdf438b8401824abe801ef0041b4bd193826"
         }
       ],
       "state": "partial"
@@ -64,13 +64,13 @@
           "detail": "Strict replay completes without a missed semantic deadline, timeline discontinuity, or continuation mismatch.",
           "kind": "workflow-report",
           "path": "artifacts/amiga/ducktales-run.json",
-          "sha256": "e89b5eaffff4f0510b999269ed27f0ceab06805d61335be38ef315addf486655"
+          "sha256": "53f50a403cce2ab15fa0c8087d95cdf438b8401824abe801ef0041b4bd193826"
         },
         {
           "detail": "EvidenceV3 preserves ordered boundary and execution-effect observations.",
           "kind": "artifact",
           "path": "artifacts/amiga/ducktales-evidence.json",
-          "sha256": "490fe1d92b4a7402a9e89f966b9da482f3568830fe301077b32c99af84f11983"
+          "sha256": "bbb29e5cfb2ec703f50b358a23806aba5a73e580b1dbf10be8052d539024a2a1"
         }
       ],
       "state": "conformant"
@@ -82,7 +82,7 @@
           "detail": "Fail-closed M68000 recovery preserves physical identities and unresolved transfer frontiers.",
           "kind": "artifact",
           "path": "artifacts/generated/amiga/lift-plan.json",
-          "sha256": "4eccbd5d10bff88943f600ed7d10d15417705d0a780d60efcc33fd9f0e1f7276"
+          "sha256": "78f785b17604f17362238ba2dc9c7466fffca65f11fffd0a69c8c40d8a735bf4"
         }
       ],
       "state": "conformant"
@@ -96,7 +96,7 @@
           "detail": "The generated composition truthfully reports its remaining PortForge, original-code, and interpreter dependencies.",
           "kind": "conformance-report",
           "path": "artifacts/execution-plans/generated-plus-fallback.detachment.json",
-          "sha256": "e082a42f86382b1f774841c40282371b438c46c11292fcd11b147706f5610728"
+          "sha256": "b9df6b5413e971138f8a50dc5fdf34a53c338d55a80e87f7265cde8971724479"
         }
       ],
       "state": "unsupported"
@@ -108,13 +108,13 @@
           "detail": "Oracle plan reports every retained runtime dependency.",
           "kind": "conformance-report",
           "path": "artifacts/execution-plans/oracle-interpreter.detachment.json",
-          "sha256": "e13d9584f9db521f105f16d895efea1a0f56a5b680cb7e0d526b28d878d784b0"
+          "sha256": "e30c51f7db7028f0b4ee22366a6d12d938d226f5d2d777ac21e43151833ad156"
         },
         {
           "detail": "Generated plan reports interpreter, original-code, executable, services, replay, and snapshot dependencies.",
           "kind": "conformance-report",
           "path": "artifacts/execution-plans/generated-plus-fallback.detachment.json",
-          "sha256": "e082a42f86382b1f774841c40282371b438c46c11292fcd11b147706f5610728"
+          "sha256": "b9df6b5413e971138f8a50dc5fdf34a53c338d55a80e87f7265cde8971724479"
         }
       ],
       "state": "conformant"
@@ -126,7 +126,7 @@
           "detail": "Deterministic rerun reaches the same PAL master tick, frame, CPU state, and canonical digest.",
           "kind": "workflow-report",
           "path": "artifacts/amiga/ducktales-run.json",
-          "sha256": "e89b5eaffff4f0510b999269ed27f0ceab06805d61335be38ef315addf486655"
+          "sha256": "53f50a403cce2ab15fa0c8087d95cdf438b8401824abe801ef0041b4bd193826"
         }
       ],
       "state": "conformant"
@@ -138,7 +138,7 @@
           "detail": "8,291,025 generated instructions plus 41,712,236 explicit fallback steps exactly match the oracle over the 171-event gameplay calibration.",
           "kind": "conformance-report",
           "path": "artifacts/generated/amiga/verification.json",
-          "sha256": "69bd661b1ee2a95f8920a29b859707c53c0e34ab0b6c71f858524adb58efbad2"
+          "sha256": "a03c2712cecc89d950ef3bc3329a6cdd0f870079ba2ee39078e222701d25f431"
         }
       ],
       "state": "conformant"
@@ -152,7 +152,7 @@
           "detail": "Replay-safe input and VBlank points are proven over the curated corpus.",
           "kind": "artifact",
           "path": "artifacts/replays/shared-amiga-calibration.pfreplay.json",
-          "sha256": "ad5dc85142b1ff43a40b576452e458b1bc2c28ee493fa1ce06574e91da7195f4"
+          "sha256": "f882b2cad421f502657dfc590239982db1c04b04a1352383381fbdb2ae3dcb11"
         }
       ],
       "state": "partial"
@@ -164,19 +164,19 @@
           "detail": "Content-bound implementation catalog with exclusive oracle and generated execution roles.",
           "kind": "source",
           "path": "recovery/implementation-catalog.json",
-          "sha256": "d8e8ad5da67a9cff2cc555b6e5417bad6d4be4e5323f635db995d06ef4b55dcd"
+          "sha256": "54f61e7fea672889c5e7bb587aca6faf52c3eb9d93e9767ec7274698cf617ec6"
         },
         {
           "detail": "Immutable closed oracle execution plan.",
           "kind": "artifact",
           "path": "artifacts/execution-plans/oracle-interpreter.json",
-          "sha256": "b6ac6ec2844369cbe0cb3bd90fc2a3039401b90d275b25a54b66b8e9c2cb643b"
+          "sha256": "a97a638b91cd287d59561cfb902da2009269c16537cfd8768cbf4e9f37a88ca9"
         },
         {
           "detail": "Immutable closed generated-plus-fallback execution plan.",
           "kind": "artifact",
           "path": "artifacts/execution-plans/generated-plus-fallback.json",
-          "sha256": "b6ba031fcf8fc8bce6f4c9bd1d62796b8c872abd9bb29b36a007a64f7cd27594"
+          "sha256": "3e7bb661d665fdfd66e81d68ae4f8ba2898a603e4d208626508a6282f741b96f"
         }
       ],
       "state": "conformant"
@@ -188,7 +188,7 @@
           "detail": "Versioned resident and generation-scoped overlay recovery records explicit unresolved semantics.",
           "kind": "artifact",
           "path": "artifacts/generated/amiga/lift-plan.json",
-          "sha256": "4eccbd5d10bff88943f600ed7d10d15417705d0a780d60efcc33fd9f0e1f7276"
+          "sha256": "78f785b17604f17362238ba2dc9c7466fffca65f11fffd0a69c8c40d8a735bf4"
         },
         {
           "detail": "Deterministic recovered-block projection for Atlas ingestion.",
@@ -206,13 +206,13 @@
           "detail": "Generated byte-guarded M68000 subset tied to the exact lift inputs.",
           "kind": "source",
           "path": "artifacts/generated/amiga/ducktales_amiga_gen.hpp",
-          "sha256": "25a147c0e36213a4d4bd016b6ea14c5133c1038be77ed2345f1d2dce44cff31d"
+          "sha256": "3bbde52a925b53dcb5ea411fc676b0eb50e15a7a39ac057ec3ccc3912d1b7874"
         },
         {
           "detail": "Generated execution rejects stale inputs and matches the oracle terminal state.",
           "kind": "conformance-report",
           "path": "artifacts/generated/amiga/verification.json",
-          "sha256": "69bd661b1ee2a95f8920a29b859707c53c0e34ab0b6c71f858524adb58efbad2"
+          "sha256": "a03c2712cecc89d950ef3bc3329a6cdd0f870079ba2ee39078e222701d25f431"
         }
       ],
       "state": "conformant"
@@ -224,13 +224,13 @@
           "detail": "Exact Amiga snapshot v17 bound to the complete v13 launch descriptor by the ReplayArtifactV2 environment.",
           "kind": "artifact",
           "path": "artifacts/replays/shared-amiga-calibration.pfreplay.json.base.pfsnapshot",
-          "sha256": "8d682e17635923b67bc93b0647b03e72b25dd3cf55bad90b65256323013cd271"
+          "sha256": "ff9989ff69529f8224d8bb281b5d8f4668c755e8dd57c59f380d53375cfd7ae8"
         },
         {
           "detail": "Snapshot roundtrip passes over the complete replay.",
           "kind": "workflow-report",
           "path": "artifacts/amiga/ducktales-run.json",
-          "sha256": "e89b5eaffff4f0510b999269ed27f0ceab06805d61335be38ef315addf486655"
+          "sha256": "53f50a403cce2ab15fa0c8087d95cdf438b8401824abe801ef0041b4bd193826"
         }
       ],
       "state": "conformant"
@@ -244,7 +244,7 @@
           "detail": "A verified generated subset exists, but it retains interpreter and self-modifying-code fallback.",
           "kind": "conformance-report",
           "path": "artifacts/generated/amiga/verification.json",
-          "sha256": "69bd661b1ee2a95f8920a29b859707c53c0e34ab0b6c71f858524adb58efbad2"
+          "sha256": "a03c2712cecc89d950ef3bc3329a6cdd0f870079ba2ee39078e222701d25f431"
         }
       ],
       "state": "partial"
@@ -256,7 +256,7 @@
           "detail": "EvidenceV3 exports shared function visits, transfers, services, semantic regions, and execution layers.",
           "kind": "artifact",
           "path": "artifacts/amiga/ducktales-evidence.json",
-          "sha256": "490fe1d92b4a7402a9e89f966b9da482f3568830fe301077b32c99af84f11983"
+          "sha256": "bbb29e5cfb2ec703f50b358a23806aba5a73e580b1dbf10be8052d539024a2a1"
         }
       ],
       "state": "conformant"
@@ -268,13 +268,13 @@
           "detail": "Strict playback consumes all 171 events and reaches the declared terminal digest.",
           "kind": "workflow-report",
           "path": "artifacts/amiga/ducktales-run.json",
-          "sha256": "e89b5eaffff4f0510b999269ed27f0ceab06805d61335be38ef315addf486655"
+          "sha256": "53f50a403cce2ab15fa0c8087d95cdf438b8401824abe801ef0041b4bd193826"
         },
         {
           "detail": "Fail-closed replay authority with exact section hashes and terminal closure.",
           "kind": "artifact",
           "path": "artifacts/replays/shared-amiga-calibration.pfreplay.json",
-          "sha256": "ad5dc85142b1ff43a40b576452e458b1bc2c28ee493fa1ce06574e91da7195f4"
+          "sha256": "f882b2cad421f502657dfc590239982db1c04b04a1352383381fbdb2ae3dcb11"
         }
       ],
       "state": "conformant"
@@ -286,13 +286,13 @@
           "detail": "Fresh ReplayArtifactV2 recording with boundary v3, terminal v3, 171 normalized events, and exact identities.",
           "kind": "artifact",
           "path": "artifacts/replays/shared-amiga-calibration.pfreplay.json",
-          "sha256": "ad5dc85142b1ff43a40b576452e458b1bc2c28ee493fa1ce06574e91da7195f4"
+          "sha256": "f882b2cad421f502657dfc590239982db1c04b04a1352383381fbdb2ae3dcb11"
         },
         {
           "detail": "Versioned Amiga semantic boundary profile used for recording.",
           "kind": "source",
           "path": "profiles/replay-boundaries-v1.json",
-          "sha256": "d0cd5e14d8b6a5fa072169f824585ed21d330561dc215b08a99c8cb43677d985"
+          "sha256": "0bbf3a4dbd0dd5c1c94e4c0953940c210e665bd1a0f4a13a11edfc93230fd7b0"
         }
       ],
       "state": "conformant"
@@ -304,13 +304,13 @@
           "detail": "ReplaySession continuation restore reproduces the uninterrupted terminal state.",
           "kind": "workflow-report",
           "path": "artifacts/amiga/ducktales-run.json",
-          "sha256": "e89b5eaffff4f0510b999269ed27f0ceab06805d61335be38ef315addf486655"
+          "sha256": "53f50a403cce2ab15fa0c8087d95cdf438b8401824abe801ef0041b4bd193826"
         },
         {
           "detail": "Execution-specific EvidenceV3 binds replay, continuation, canonical projection, and role identity.",
           "kind": "artifact",
           "path": "artifacts/amiga/ducktales-evidence.json",
-          "sha256": "490fe1d92b4a7402a9e89f966b9da482f3568830fe301077b32c99af84f11983"
+          "sha256": "bbb29e5cfb2ec703f50b358a23806aba5a73e580b1dbf10be8052d539024a2a1"
         }
       ],
       "state": "conformant"
@@ -322,13 +322,13 @@
           "detail": "Stable input-dispatch and VBlank before/after points with point-local occurrences.",
           "kind": "source",
           "path": "profiles/replay-boundaries-v1.json",
-          "sha256": "d0cd5e14d8b6a5fa072169f824585ed21d330561dc215b08a99c8cb43677d985"
+          "sha256": "0bbf3a4dbd0dd5c1c94e4c0953940c210e665bd1a0f4a13a11edfc93230fd7b0"
         },
         {
           "detail": "34,048 globally ordered boundary-v3 stamps.",
           "kind": "artifact",
           "path": "artifacts/replays/shared-amiga-calibration.pfreplay.json",
-          "sha256": "ad5dc85142b1ff43a40b576452e458b1bc2c28ee493fa1ce06574e91da7195f4"
+          "sha256": "f882b2cad421f502657dfc590239982db1c04b04a1352383381fbdb2ae3dcb11"
         }
       ],
       "state": "conformant"

@@ -1,99 +1,207 @@
 {
   "$schema": "port_forge/schemas/portforge-implementation-catalog-v1.schema.json",
-  "format": "portforge-implementation-catalog-v1",
-  "project": "ducktales_amiga",
-  "platform": "amiga",
   "descriptors": [
     {
+      "conflicts": [],
+      "content": [
+        {
+          "path": "game.json",
+          "role": "launch-and-media-identity",
+          "sha256": "2b4fcba3be24198bb84bbadef8a2ca8244e83aebd58d190178919a67c9b5c855"
+        }
+      ],
       "id": "portforge.amiga.bootstrap",
       "kind": "bootstrap-provider",
-      "owns": ["amiga.bootstrap"],
-      "provides": ["amiga-direct-hunk-launch-v1"],
-      "requires": [],
-      "conflicts": [],
-      "requires_capabilities": [],
-      "runtime_dependencies": ["original-executable", "platform-services", "portforge-runtime"],
-      "content": [
-        {"path": "game.json", "sha256": "2b4fcba3be24198bb84bbadef8a2ca8244e83aebd58d190178919a67c9b5c855", "role": "launch-and-media-identity"}
+      "notes": "Pinned direct-HUNK bootstrap and ordered companion-media launch identity.",
+      "owns": [
+        "amiga.bootstrap"
       ],
-      "notes": "Pinned direct-HUNK bootstrap and ordered companion-media launch identity."
+      "provides": [
+        "amiga-direct-hunk-launch-v1"
+      ],
+      "requires": [],
+      "requires_capabilities": [],
+      "runtime_dependencies": [
+        "original-executable",
+        "platform-services",
+        "portforge-runtime"
+      ]
     },
     {
+      "conflicts": [],
+      "content": [
+        {
+          "path": "game.json",
+          "role": "machine-and-media-profile",
+          "sha256": "2b4fcba3be24198bb84bbadef8a2ca8244e83aebd58d190178919a67c9b5c855"
+        }
+      ],
       "id": "portforge.amiga.devices",
       "kind": "runtime-service",
-      "owns": ["amiga.devices"],
-      "provides": ["amiga-a500-ocs-device-composition"],
-      "requires": ["portforge.amiga.bootstrap"],
-      "conflicts": [],
-      "requires_capabilities": [],
-      "runtime_dependencies": ["cpu-model", "guest-memory", "platform-services", "portforge-runtime"],
-      "content": [
-        {"path": "game.json", "sha256": "2b4fcba3be24198bb84bbadef8a2ca8244e83aebd58d190178919a67c9b5c855", "role": "machine-and-media-profile"}
+      "notes": "A500 OCS device composition, guest memory, services, and mounted media.",
+      "owns": [
+        "amiga.devices"
       ],
-      "notes": "A500 OCS device composition, guest memory, services, and mounted media."
+      "provides": [
+        "amiga-a500-ocs-device-composition"
+      ],
+      "requires": [
+        "portforge.amiga.bootstrap"
+      ],
+      "requires_capabilities": [],
+      "runtime_dependencies": [
+        "cpu-model",
+        "guest-memory",
+        "platform-services",
+        "portforge-runtime"
+      ]
     },
     {
+      "conflicts": [],
+      "content": [
+        {
+          "path": "profiles/replay-boundaries-v1.json",
+          "role": "semantic-boundary-profile",
+          "sha256": "0bbf3a4dbd0dd5c1c94e4c0953940c210e665bd1a0f4a13a11edfc93230fd7b0"
+        }
+      ],
       "id": "portforge.amiga.timing",
       "kind": "runtime-service",
-      "owns": ["amiga.timeline"],
-      "provides": ["amiga-pal-master-scheduler-v1"],
-      "requires": ["portforge.amiga.devices"],
-      "conflicts": [],
-      "requires_capabilities": [],
-      "runtime_dependencies": ["cpu-model", "platform-services", "portforge-runtime"],
-      "content": [
-        {"path": "profiles/replay-boundaries-v1.json", "sha256": "d0cd5e14d8b6a5fa072169f824585ed21d330561dc215b08a99c8cb43677d985", "role": "semantic-boundary-profile"}
+      "notes": "PAL master timeline exposed through stable input-dispatch and VBlank points.",
+      "owns": [
+        "amiga.timeline"
       ],
-      "notes": "PAL master timeline exposed through stable input-dispatch and VBlank points."
+      "provides": [
+        "amiga-pal-master-scheduler-v1"
+      ],
+      "requires": [
+        "portforge.amiga.devices"
+      ],
+      "requires_capabilities": [],
+      "runtime_dependencies": [
+        "cpu-model",
+        "platform-services",
+        "portforge-runtime"
+      ]
     },
     {
+      "conflicts": [],
+      "content": [
+        {
+          "path": "profiles/replay-boundaries-v1.json",
+          "role": "replay-boundary-contract",
+          "sha256": "0bbf3a4dbd0dd5c1c94e4c0953940c210e665bd1a0f4a13a11edfc93230fd7b0"
+        },
+        {
+          "path": "scripts/play.py",
+          "role": "project-replay-adapter",
+          "sha256": "b672fd6a25483669126ae13f54d27baad0945e93a5a5ef311cd41ac89407e26a"
+        }
+      ],
       "id": "portforge.amiga.replay-session",
       "kind": "runtime-service",
-      "owns": ["amiga.replay-runtime"],
-      "provides": ["amiga-replay-session-adapter-v1"],
-      "requires": ["portforge.amiga.bootstrap", "portforge.amiga.devices", "portforge.amiga.timing"],
-      "conflicts": [],
-      "requires_capabilities": [],
-      "runtime_dependencies": ["guest-memory", "platform-services", "portforge-runtime", "replay", "snapshots"],
-      "content": [
-        {"path": "profiles/replay-boundaries-v1.json", "sha256": "d0cd5e14d8b6a5fa072169f824585ed21d330561dc215b08a99c8cb43677d985", "role": "replay-boundary-contract"},
-        {"path": "scripts/play.py", "sha256": "b672fd6a25483669126ae13f54d27baad0945e93a5a5ef311cd41ac89407e26a", "role": "project-replay-adapter"}
+      "notes": "Project adapter for shared ArtifactV2 recording, playback, continuation, and canonical output.",
+      "owns": [
+        "amiga.replay-runtime"
       ],
-      "notes": "Project adapter for shared ArtifactV2 recording, playback, continuation, and canonical output."
+      "provides": [
+        "amiga-replay-session-adapter-v1"
+      ],
+      "requires": [
+        "portforge.amiga.bootstrap",
+        "portforge.amiga.devices",
+        "portforge.amiga.timing"
+      ],
+      "requires_capabilities": [],
+      "runtime_dependencies": [
+        "guest-memory",
+        "platform-services",
+        "portforge-runtime",
+        "replay",
+        "snapshots"
+      ]
     },
     {
+      "conflicts": [
+        "ducktales.generated-plus-fallback"
+      ],
+      "content": [
+        {
+          "path": "game.json",
+          "role": "game-identity",
+          "sha256": "2b4fcba3be24198bb84bbadef8a2ca8244e83aebd58d190178919a67c9b5c855"
+        },
+        {
+          "path": "scripts/play.py",
+          "role": "oracle-entrypoint",
+          "sha256": "b672fd6a25483669126ae13f54d27baad0945e93a5a5ef311cd41ac89407e26a"
+        }
+      ],
       "id": "ducktales.oracle-interpreter",
       "kind": "implementation",
-      "owns": ["ducktales.execution"],
-      "provides": ["ducktales-oracle-interpreter"],
-      "requires": ["portforge.amiga.replay-session"],
-      "conflicts": ["ducktales.generated-plus-fallback"],
-      "requires_capabilities": [],
-      "runtime_dependencies": ["interpreter", "oracle", "original-code", "original-executable"],
-      "content": [
-        {"path": "game.json", "sha256": "2b4fcba3be24198bb84bbadef8a2ca8244e83aebd58d190178919a67c9b5c855", "role": "game-identity"},
-        {"path": "scripts/play.py", "sha256": "b672fd6a25483669126ae13f54d27baad0945e93a5a5ef311cd41ac89407e26a", "role": "oracle-entrypoint"}
+      "notes": "Exact M68000 oracle composition used to record and verify ArtifactV2 evidence.",
+      "owns": [
+        "ducktales.execution"
       ],
-      "notes": "Exact M68000 oracle composition used to record and verify ArtifactV2 evidence."
+      "provides": [
+        "ducktales-oracle-interpreter"
+      ],
+      "requires": [
+        "portforge.amiga.replay-session"
+      ],
+      "requires_capabilities": [],
+      "runtime_dependencies": [
+        "interpreter",
+        "oracle",
+        "original-code",
+        "original-executable"
+      ]
     },
     {
+      "conflicts": [
+        "ducktales.oracle-interpreter"
+      ],
+      "content": [
+        {
+          "path": "scripts/build_generated.py",
+          "role": "generated-build-contract",
+          "sha256": "98052044abd87cfb8fddd08ca4afd6fb2aa05241887380a457b3347badc3590d"
+        },
+        {
+          "path": "scripts/play.py",
+          "role": "generated-entrypoint",
+          "sha256": "b672fd6a25483669126ae13f54d27baad0945e93a5a5ef311cd41ac89407e26a"
+        }
+      ],
       "id": "ducktales.generated-plus-fallback",
       "kind": "implementation",
-      "owns": ["ducktales.execution"],
-      "provides": ["ducktales-generated-plus-fallback"],
-      "requires": ["portforge.amiga.replay-session"],
-      "conflicts": ["ducktales.oracle-interpreter"],
-      "requires_capabilities": [],
-      "runtime_dependencies": ["interpreter", "original-code", "original-executable"],
-      "content": [
-        {"path": "scripts/build_generated.py", "sha256": "5b96f1d0a43bd3e78c622f589f25518c1c1f44dcd22ca89f3cca09f91a79b400", "role": "generated-build-contract"},
-        {"path": "scripts/play.py", "sha256": "b672fd6a25483669126ae13f54d27baad0945e93a5a5ef311cd41ac89407e26a", "role": "generated-entrypoint"}
+      "notes": "Byte-guarded generated M68000 subset with explicit interpreter and self-modifying-code fallback.",
+      "owns": [
+        "ducktales.execution"
       ],
-      "notes": "Byte-guarded generated M68000 subset with explicit interpreter and self-modifying-code fallback."
+      "provides": [
+        "ducktales-generated-plus-fallback"
+      ],
+      "requires": [
+        "portforge.amiga.replay-session"
+      ],
+      "requires_capabilities": [],
+      "runtime_dependencies": [
+        "interpreter",
+        "original-code",
+        "original-executable"
+      ]
     }
   ],
+  "format": "portforge-implementation-catalog-v1",
+  "platform": "amiga",
+  "project": "ducktales_amiga",
   "roles": {
-    "generated-plus-fallback": ["ducktales.generated-plus-fallback"],
-    "oracle-interpreter": ["ducktales.oracle-interpreter"]
+    "generated-plus-fallback": [
+      "ducktales.generated-plus-fallback"
+    ],
+    "oracle-interpreter": [
+      "ducktales.oracle-interpreter"
+    ]
   }
 }

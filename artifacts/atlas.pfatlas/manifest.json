@@ -2,7 +2,7 @@
   "authoritative": false,
   "format": "pf-atlas-v2",
   "projection_identity": {
-    "boundary_profile_sha256": "ec10ca9414cb950b5d80625311ec45549a6d60547d930af4f11ce72fa21cab2a",
+    "boundary_profile_sha256": "f2cd43920af59a43d9ae3d7abdbed70502b6b30f136b67a9367e43a1c6d1ba6d",
     "canonical_projection_sha256": "f95118aa3c786a2572f5a335f925eac9bcb8dc433b3ef826e0baee08c13d33c0",
     "canonical_schema": "pf-canonical-amiga-ocs-v23",
     "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968"
@@ -14,10 +14,10 @@
   },
   "role": "regeneratable-evidence-projection",
   "sources": {
-    "evidence-amiga-oracle-1d08e9bf1428-528c69a0ad03": {
+    "evidence-amiga-oracle-c6b99db69b6b-aad4f0321e9f": {
       "kind": "replay-evidence",
       "origin": "portforge",
-      "sha256": "490fe1d92b4a7402a9e89f966b9da482f3568830fe301077b32c99af84f11983"
+      "sha256": "bbb29e5cfb2ec703f50b358a23806aba5a73e580b1dbf10be8052d539024a2a1"
     },
     "recovery-blocks": {
       "kind": "recovered-blocks",
