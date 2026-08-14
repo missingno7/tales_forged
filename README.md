@@ -3,7 +3,7 @@
 DuckTales runs through PortForge's A500 OCS PAL runtime with both pinned ADFs,
 direct-HUNK bootstrap, deterministic Paula audio, AmigaDOS services, MANX
 overlays, Copper/blitter execution, and an explicit Port 2 input model.
-The current machine identity is `pf-amiga-a500-ocs-pal-v19`; DuckTales' first
+The current machine identity is `pf-amiga-a500-ocs-pal-v20`; DuckTales' first
 HUNK is CHIP-flagged and LoadSeg places its executable data at `amiga:010008`.
 
 ```powershell
