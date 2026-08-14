@@ -182,7 +182,7 @@ def generate_sources() -> None:
             "--expect-hunk-sha256",
             game["program"]["hunk_sha256"],
             "--expect-machine-model",
-            "pf-amiga-a500-ocs-pal-v22",
+            "pf-amiga-a500-ocs-pal-v23",
         ],
         cwd=ROOT,
     )
