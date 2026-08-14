@@ -62,7 +62,7 @@
         {
           "path": "profiles/replay-boundaries-v1.json",
           "role": "semantic-boundary-profile",
-          "sha256": "0bbf3a4dbd0dd5c1c94e4c0953940c210e665bd1a0f4a13a11edfc93230fd7b0"
+          "sha256": "e0c8c23c5fd3d6ec8b6b62995333818b22377480b4d902dfdc2e31aaedb956a5"
         }
       ],
       "id": "portforge.amiga.timing",
@@ -90,7 +90,7 @@
         {
           "path": "profiles/replay-boundaries-v1.json",
           "role": "replay-boundary-contract",
-          "sha256": "0bbf3a4dbd0dd5c1c94e4c0953940c210e665bd1a0f4a13a11edfc93230fd7b0"
+          "sha256": "e0c8c23c5fd3d6ec8b6b62995333818b22377480b4d902dfdc2e31aaedb956a5"
         },
         {
           "path": "scripts/play.py",
@@ -165,7 +165,7 @@
         {
           "path": "scripts/build_generated.py",
           "role": "generated-build-contract",
-          "sha256": "98052044abd87cfb8fddd08ca4afd6fb2aa05241887380a457b3347badc3590d"
+          "sha256": "03d9068cc9493187686b11bf3e22ab22342b6a01124f7f9faf9909fddf5672ea"
         },
         {
           "path": "scripts/play.py",
