@@ -164,7 +164,7 @@ def load_configuration(root: Path = PROJECT_ROOT) -> AnalysisConfig:
         raise RuntimeError("static recovery requires profile a500-ocs-pal")
     if machine.get("direct_hunk_bootstrap") is not True:
         raise RuntimeError("static recovery requires direct-HUNK bootstrap")
-    machine_model = "pf-amiga-a500-ocs-pal-v23"
+    machine_model = "pf-amiga-a500-ocs-pal-v24"
     load_base = _amiga_address(
         machine.get("load_base"), "game.json machine.load_base"
     )

@@ -37,7 +37,7 @@ def sample_plan(
         "program": "Fixture",
         "program_sha256": program_sha256,
         "hunk_sha256": "c" * 64,
-        "machine_model": "pf-amiga-a500-ocs-pal-v23",
+        "machine_model": "pf-amiga-a500-ocs-pal-v24",
         "address_model": "amiga-24-bit-linear",
         "module_entry": "010000",
         "profiles": [
@@ -83,7 +83,7 @@ class LiftConversionTests(unittest.TestCase):
         result = analyze.lift_plan_to_atlas_blocks(
             sample_plan(program_sha256),
             program_sha256=program_sha256,
-            machine_model="pf-amiga-a500-ocs-pal-v23",
+            machine_model="pf-amiga-a500-ocs-pal-v24",
         )
         self.assertEqual(
             result,
@@ -113,7 +113,7 @@ class LiftConversionTests(unittest.TestCase):
                 analyze.lift_plan_to_atlas_blocks(
                     sample_plan(program_sha256),
                     program_sha256=program_sha256,
-                    machine_model="pf-amiga-a500-ocs-pal-v23",
+                    machine_model="pf-amiga-a500-ocs-pal-v24",
                 )
             ),
         )
@@ -125,7 +125,7 @@ class LiftConversionTests(unittest.TestCase):
             analyze.lift_plan_to_atlas_blocks(
                 plan,
                 program_sha256="a" * 64,
-                machine_model="pf-amiga-a500-ocs-pal-v23",
+                machine_model="pf-amiga-a500-ocs-pal-v24",
             )
 
     def test_conversion_rejects_generated_execution_claim(self):
@@ -135,7 +135,7 @@ class LiftConversionTests(unittest.TestCase):
             analyze.lift_plan_to_atlas_blocks(
                 plan,
                 program_sha256="a" * 64,
-                machine_model="pf-amiga-a500-ocs-pal-v23",
+                machine_model="pf-amiga-a500-ocs-pal-v24",
             )
 
 
@@ -160,7 +160,7 @@ class AnalysisWorkflowTests(unittest.TestCase):
                     "replay_identity_sha256": "e" * 64,
                     "replay_identity": {
                         "program_sha256": self.program_sha256,
-                        "machine_model": "pf-amiga-a500-ocs-pal-v23",
+                        "machine_model": "pf-amiga-a500-ocs-pal-v24",
                     },
                 }
             },
