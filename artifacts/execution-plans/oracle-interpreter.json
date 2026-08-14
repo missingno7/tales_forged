@@ -1,6 +1,6 @@
 {
   "$schema": "port_forge/schemas/portforge-execution-plan-v1.schema.json",
-  "catalog_sha256": "9a300f69e3a9093a3d68ab7ae86d88d92d1bf4091a8b78da85be431935c0f4b4",
+  "catalog_sha256": "f22def553d7fe35e66f8587c71fb52ac0034c88b96095dbafec931b1fc9929d8",
   "descriptors": [
     {
       "descriptor_sha256": "21bb658400b55749468941ef4d2b15cb939bc2511b1a74ff667aca8209bd2c01",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "descriptor_sha256": "7fc6915f5aa63863532a3711ba926b1ab0b1b5016583e1938b7adb3cebc6ab01",
+      "descriptor_sha256": "46f85358118f46da44152a7478c3b0ed00c9d749a9f474e35b7661fcc62ed397",
       "id": "portforge.amiga.timing",
       "kind": "runtime-service",
       "runtime_dependencies": [
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "descriptor_sha256": "7af50d5470739c9773a859c08e53390d37533979737f3337274e1bd4a82038ea",
+      "descriptor_sha256": "47e1f8c4c61cf6e649c1276d7d989cf04641c311492e5550fbb155de5f2f84ed",
       "id": "portforge.amiga.replay-session",
       "kind": "runtime-service",
       "runtime_dependencies": [
@@ -72,7 +72,7 @@
     "amiga.timeline",
     "ducktales.execution"
   ],
-  "plan_sha256": "e78e5acc809772daaf97e8d9a077ede782c92c23c4e20e90d8aebe9fe4a185c4",
+  "plan_sha256": "ab91149d95cc572fe39ac310cc3085cac1f819c0010d51bc08137d0a0e679ce2",
   "platform": "amiga",
   "project": "ducktales_amiga",
   "provides": [

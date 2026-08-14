@@ -4,7 +4,7 @@
   "plugins": [],
   "program_sha256": "8de0c89b541ca88c5c6754a2fd5b143231725041cd685d2efae1a2d629e2d968",
   "hunk_sha256": "00ad5a2860110701d5fe2acd6834d0a9c819d6659a8af9bdbc1a9e1a99aea481",
-  "machine_model": "pf-amiga-a500-ocs-pal-v24",
+  "machine_model": "pf-amiga-a500-ocs-pal-v25",
   "bootstrap": {
     "mode": "direct-hunk",
     "program": "DuckTales",
