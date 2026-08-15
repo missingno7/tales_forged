@@ -3,7 +3,7 @@
   "id": "ducktales-amiga.replay-boundaries.v1",
   "version": 1,
   "game_id": "ducktales_amiga",
-  "machine_model": "pf-amiga-a500-ocs-pal-v30",
+  "machine_model": "pf-amiga-a500-ocs-pal-v31",
   "points": [
     {
       "id": "amiga.input.dispatch",
@@ -63,5 +63,5 @@
       }
     }
   ],
-  "sha256": "379f27ff2c04da278351a40492833b0817c7e7041267910de7e86bdda1f41b83"
+  "sha256": "aea23abd657482986b6a3d4314d5f0efef7acf51e16095e250ad0a1fe30fa3dc"
 }
