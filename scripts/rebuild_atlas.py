@@ -243,7 +243,7 @@ def verify_existing_profile() -> None:
         or replay_identity.get("program_sha256")
         != game["program"]["sha256"]
         or replay_identity.get("machine_model")
-        != "pf-amiga-a500-ocs-pal-v31"
+        != "pf-amiga-a500-ocs-pal-v33"
         or not isinstance(boundary_binding, dict)
         or boundary_binding.get("format")
         != "portforge-boundary-profile-v1"
